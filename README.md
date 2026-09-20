@@ -13,6 +13,14 @@
 
 > 免责声明：本仓库仅归档公开资料，不构成法律意见。具体案件应以当地法律、政策、仲裁机构要求和专业法律意见为准。
 
+## 归档进度
+
+- 北京市：已完成第一轮批量抓取（文书模板、操作手册、办事指南、典型案例、管辖规定、机构名录、地方规范性文件）。
+  - 全量清单：`indexes/documents.csv` / `indexes/documents.json`，主题视图：`indexes/by-topic/`
+  - 抓取与核验结论：`regions/municipalities/beijing/official-index.md`
+  - 抓取流程（可复现）：`tools/beijing_crawl/README.md`
+- 其他省市区县：目录已就位，尚未开始归档。
+
 ## 北京资料入口
 
 - 北京市劳动人事争议调解仲裁网上服务平台

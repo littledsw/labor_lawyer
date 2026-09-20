@@ -1,0 +1,8 @@
+# 抓取缓存与虚拟环境（不入库）
+.cache/
+.venv/
+__pycache__/
+*.pyc
+
+# 系统文件
+.DS_Store

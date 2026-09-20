@@ -1,0 +1,15 @@
+title: 北京市劳动人事争议调解仲裁机构名录（查询接口原始数据）
+region: municipalities/beijing
+level: municipality
+topic: institutions
+authority: 北京市人力资源和社会保障局
+published_at: null
+source_url: https://banshi.beijing.gov.cn/zwfwapi/cycx/shbz/ldrszytjzcjg/query.html
+download_url: https://banshi.beijing.gov.cn/zwfwapi/bjmap/query?page=0&size=50&categoryId=ldrszytjzcjg&text=
+retrieved_at: '2026-09-20T23:12:38+08:00'
+status: active
+content_hash: 0be8c618034f0206283906f40c223cb5a39d22bff06da549c2abc97caa42f6cb
+local_path: regions/municipalities/beijing/institutions/arbitration-institutions.json
+file: arbitration-institutions.json
+original_filename: arbitration-institutions.json
+notes: 北京市政务服务网「劳动人事争议调解仲裁机构查询」接口返回的公开名录数据（JSON）
