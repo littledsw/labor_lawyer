@@ -34,6 +34,7 @@ python -m venv .venv && . .venv/bin/activate && pip install markdownify beautifu
 | 6 | `stage7_national.py` | 国家层面：法律、行政法规、司法解释、部门规章（含页面附带的 DOCX/PDF 原件） |
 | 7 | `stage6_indexes.py` | 由 `manifest.json` 生成 `indexes/`、各主题 README 清单、`SOURCES.yaml`、`CHANGELOG.md` |
 | — | `verify.py` | 校验 frontmatter 完整性、附件类型、索引与实际文件一致性 |
+| — | `extract_cases.py` | 派生抽取：法条引用、主题标签、年度合集切片 → `indexes/derived/`（纯脚本，无 LLM 成本） |
 
 ```bash
 cd tools/crawl
