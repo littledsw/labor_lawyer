@@ -1,6 +1,8 @@
 # 派生数据（indexes/derived）
 
-由 `tools/crawl/extract_cases.py` 从归档原文脚本化生成，**不含 LLM 输出**，可随时重跑覆盖。
+由 `tools/crawl/extract_cases.py`（脚本化，零 LLM 成本）与 `tools/crawl/merge_llm_extract.py`（合并模型抽取结果）生成，可随时重跑覆盖。
+
+## 脚本派生（无 LLM）
 
 | 文件 | 内容 |
 | --- | --- |
@@ -9,6 +11,25 @@
 | `cases-citations.md` | 法条引用频次与对应案例清单 |
 | `cases-topics.md` | 主题标签统计与对应案例清单 |
 
-再生成：`cd tools/crawl && LABOR_LAWYER_REPO=<repo> python extract_cases.py`
+## 模型抽取（方案 A，供 RAG 检索）
 
-说明：切片一律保留 `parent` 与 `source_url`，检索命中后可回溯到官方原文；正式用于 RAG 前建议先跑 `cases-meta.json` 检查章节完整度。
+| 文件 | 内容 |
+| --- | --- |
+| `llm-extract/<年度>.json` | 各批次子代理的原始抽取结果（8 个年度合集 × 10 条） |
+| `cases-structured.json` | 合并后的结构化记录：争议焦点、仲裁请求、处理结果、裁决要旨、法条依据、金额口径、关键词、主体类型 |
+| `cases-structured.md` | 上述记录的人工可读版本 |
+
+`legal_basis_check` 字段记录每条法条引用的回文核验等级：`exact` 与原文逐字一致、`short-form` 系简称写法、`anaphoric` 为原文承接上文的写法、`manual-confirmed` 为人工比对确认。
+
+## 再生成
+
+```bash
+cd tools/crawl
+LABOR_LAWYER_REPO=<repo> python extract_cases.py        # 脚本派生
+LABOR_LAWYER_REPO=<repo> python merge_llm_extract.py    # 合并 + 校验模型抽取
+```
+
+## 使用注意
+
+- 切片一律保留 `parent` 与 `source_url`，检索命中后可回溯到官方原文。
+- 模型抽取的争议焦点/要旨属归纳性内容；法条依据保留原文写法并经回文核验，但正式用于出具意见或文书前仍需对照官方原文复核。
