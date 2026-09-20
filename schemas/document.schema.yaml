@@ -1,0 +1,3 @@
+# 文件元数据规范
+
+每个归档文件建议记录：title、region、level、topic、authority、published_at、source_url、download_url、retrieved_at、status、content_hash。
