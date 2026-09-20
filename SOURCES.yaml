@@ -1,5 +1,5 @@
 # 来源站点索引（由抓取流程生成，保留原始 URL 与 SHA-256 追溯信息）
-updated_at: '2026-09-20T23:13:57+08:00'
+updated_at: '2026-09-20T23:44:16+08:00'
 region: municipalities/beijing
 authority: 北京市人力资源和社会保障局
 sources:
@@ -62,8 +62,41 @@ sources:
   topics:
   - jurisdiction
   note: 该域名当前无法解析（DNS 失败），原 README 中「东城区政务服务中心仲裁指南」链接已失效；东城区内容改由政务服务事项办事指南页面替代归档。
+- id: national-mohrss-laws
+  region: national
+  authority: 人力资源和社会保障部（转载全国人大及其常委会法律）
+  homepage: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/
+  status: active
+  topics:
+  - regulations
+  note: 国家层面法律栏目，已归档 7 部（劳动法、劳动合同法、劳动争议调解仲裁法、社会保险法、就业促进法、工会法、渐进式延迟退休决定）。
+- id: national-mohrss-administrative-regulations
+  region: national
+  authority: 人力资源和社会保障部（转载国务院行政法规）
+  homepage: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/
+  status: active
+  topics:
+  - regulations
+  note: 行政法规栏目，已归档 12 部；司法部国家行政法规库（xzfg.moj.gov.cn）亦提供官方 PDF/DOCX 原件。
+- id: national-mohrss-department-rules
+  region: national
+  authority: 人力资源和社会保障部·国家规章库
+  homepage: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/
+  status: active
+  topics:
+  - regulations
+  note: 国家规章库 5 个分页共 75 条，已按劳动仲裁相关性归档 9 部；页面附带官方 DOCX/PDF 原件。
+- id: national-court-interpretations
+  region: national
+  authority: 最高人民法院
+  homepage: https://www.court.gov.cn/
+  status: active
+  topics:
+  - regulations
+  note: 劳动争议司法解释（一）（法释〔2020〕26 号）取自最高法官网，（二）（法释〔2025〕12 号）取自最高人民法院公报。
 documents:
-- local_path: regions/municipalities/beijing/cases/2017-07-19-2017年北京市十大劳动争议仲裁典型案例.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2017-07-19-2017年北京市十大劳动争议仲裁典型案例.md
   title: 2017年北京市十大劳动争议仲裁典型案例
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880159.html
@@ -72,7 +105,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 1d1ccda4dc1e4b269750fa77c799106ba3c7f534e208780d6fa2e33f1be46bf5
-- local_path: regions/municipalities/beijing/cases/2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例.md
   title: 2018年北京市劳动人事争议仲裁十大典型案例
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880146.html
@@ -81,7 +115,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: d9568c61c70da7d93ce09a4f8e2cc6b35ab528c4fd2484e5dc0d793cb3d0f675
-- local_path: regions/municipalities/beijing/cases/2019-11-05-2019年北京市劳动人事争议仲裁十大典型案例.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2019-11-05-2019年北京市劳动人事争议仲裁十大典型案例.md
   title: 2019年北京市劳动人事争议仲裁十大典型案例
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880144.html
@@ -90,7 +125,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 664258a22d83b6bad449590c51bd10b447577574027851b558783e219518e344
-- local_path: regions/municipalities/beijing/cases/2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例.md
   title: 2021年北京市劳动人事争议仲裁十大典型案例
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202111/t20211105_2529673.html
@@ -99,7 +135,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: c7f759b019e7388198f30f2397e83d21cb25946a1030779e4ec1020620c1a894
-- local_path: regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md
   title: 2022年北京市劳动人事争议仲裁典型案例
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202212/t20221222_2882841.html
@@ -108,7 +145,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 742a1b1716d1451e8e82ec06a89dc669ffb87ffe4b0830943ba2da9a9dfd44d4
-- local_path: regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md
   title: 2023年北京市劳动人事争议仲裁典型案例
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202312/t20231229_3518105.html
@@ -117,7 +155,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 2bad39f06539191abd3eff1da27779e9e612b38566c0700a3fd55e70a4366b46
-- local_path: regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md
   title: 2024年北京市劳动人事争议仲裁十大典型案例
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241217_3968004.html
@@ -126,7 +165,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 597032ba9b817e80d3150f82b3bac4b01f6f731d97fe09e983741819867bbe13
-- local_path: regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md
   title: 2025年北京市劳动人事争议仲裁十大典型案例
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202512/t20251226_4366546.html
@@ -135,7 +175,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 3b50e5c58ed27228fb0112e8fc22925948d5d8c7529b67d277e9407739d81422
-- local_path: regions/municipalities/beijing/cases/2017-01-19-“干一样的活，给的钱不一样”能不能要差额？.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2017-01-19-“干一样的活，给的钱不一样”能不能要差额？.md
   title: “干一样的活，给的钱不一样”能不能要差额？
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880167.html
@@ -144,7 +185,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 02657ec6c8b9b3b02b82bec9d0ec2bc555b0b68ba80f275d353e6daddae189ee
-- local_path: regions/municipalities/beijing/cases/2016-09-18-一裁终局审结快，劳动者维权周期短.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-09-18-一裁终局审结快，劳动者维权周期短.md
   title: 一裁终局审结快，劳动者维权周期短
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880170.html
@@ -153,7 +195,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 80153fa660758c44ce3a2a371f8093d69d281580fd2b7967ac97c9d66b754008
-- local_path: regions/municipalities/beijing/cases/2017-09-29-不同意用人单位调岗，个人应及时表达意见.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2017-09-29-不同意用人单位调岗，个人应及时表达意见.md
   title: 不同意用人单位调岗，个人应及时表达意见
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880157.html
@@ -162,7 +205,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 9cd76154aacb7f3347de20b167625caf72196f93b48d3252c2ca1dcb8dd8db53
-- local_path: regions/municipalities/beijing/cases/2020-08-12-不属于受案范围-仲裁申请未受理.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2020-08-12-不属于受案范围-仲裁申请未受理.md
   title: 不属于受案范围 仲裁申请未受理
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202008/t20200811_1979939.html
@@ -171,7 +215,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 58ba5f0ae787ae3f92d166c285e84c1b6db0e6a0212328512cd4f9bb0f1bea10
-- local_path: regions/municipalities/beijing/cases/2015-11-24-不胜任工作解除劳动合同需具备法定条件.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2015-11-24-不胜任工作解除劳动合同需具备法定条件.md
   title: 不胜任工作解除劳动合同需具备法定条件
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880191.html
@@ -180,7 +225,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: e7ec93b24eb570de800321d7116d98dcc5346be0f0c8c9e032df0ebdf0ff344e
-- local_path: regions/municipalities/beijing/cases/2023-08-30-临时培训是否等同于变更工作地点？.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2023-08-30-临时培训是否等同于变更工作地点？.md
   title: 临时培训是否等同于变更工作地点？
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202308/t20230830_3237417.html
@@ -189,7 +235,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: ea20d9cf1fd1a451b322460ec186b990ce1c63731eeb53edf694a710462be868
-- local_path: regions/municipalities/beijing/cases/2020-10-23-事业单位工作人员对考核结果有异议，-不属于仲裁受案范围.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2020-10-23-事业单位工作人员对考核结果有异议，-不属于仲裁受案范围.md
   title: 事业单位工作人员对考核结果有异议， 不属于仲裁受案范围
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202010/t20201023_2118922.html
@@ -198,7 +245,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 796feb8ae4135c7febe26ec96d4b3b0ba62c995397f5e9f90c743b4b948bf126
-- local_path: regions/municipalities/beijing/cases/2017-07-07-人事争议当事人应当在仲裁时效内维权.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2017-07-07-人事争议当事人应当在仲裁时效内维权.md
   title: 人事争议当事人应当在仲裁时效内维权
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880160.html
@@ -207,7 +255,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 29d314ba134b18facf8edf11ab937769cf11a38e6e52087d5b094ca8a40267be
-- local_path: regions/municipalities/beijing/cases/2023-01-06-以完成一定工作任务为期限的劳动合同期满终止应支付终止劳动关系经济补偿.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2023-01-06-以完成一定工作任务为期限的劳动合同期满终止应支付终止劳动关系经济补偿.md
   title: 以完成一定工作任务为期限的劳动合同期满终止应支付终止劳动关系经济补偿
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202301/t20230106_2892818.html
@@ -216,7 +265,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 788cf7053fd9252d35a062e5bf9318e199bced32a8239233fd85b2d6ca6b3a8c
-- local_path: regions/municipalities/beijing/cases/2016-08-12-以客观情况发生重大变化为由解除劳动合同的认定.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-08-12-以客观情况发生重大变化为由解除劳动合同的认定.md
   title: 以客观情况发生重大变化为由解除劳动合同的认定
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880182.html
@@ -225,7 +275,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 615ea7fb2da78e314e2dc09b3bfb251ee1a97cb7fcccc264beab13948364e46f
-- local_path: regions/municipalities/beijing/cases/2016-09-18-企业内部调整不属订立劳动合同时的客观情况发生重大变化.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-09-18-企业内部调整不属订立劳动合同时的客观情况发生重大变化.md
   title: 企业内部调整不属订立劳动合同时的客观情况发生重大变化
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880181.html
@@ -234,7 +285,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: f5f66e73124c705591634841e0b8b2de7e839c8b17560131f3f2374168f6972e
-- local_path: regions/municipalities/beijing/cases/2020-08-27-休带薪年休假是否需获得批准.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2020-08-27-休带薪年休假是否需获得批准.md
   title: 休带薪年休假是否需获得批准
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202008/t20200827_1992482.html
@@ -243,7 +295,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 98077b7918188c7d263c079cdf859a539475fc4fa74f116914f5fcad12b6e1d6
-- local_path: regions/municipalities/beijing/cases/2024-05-30-入职不满2个月迟到15次-辞退合情合理！.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2024-05-30-入职不满2个月迟到15次-辞退合情合理！.md
   title: 入职不满2个月迟到15次 辞退合情合理！
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977632.html
@@ -252,7 +305,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 3c0134b622888f034a10bc9b7a9dd5227b6cfdb57830a678cce897a6804ab668
-- local_path: regions/municipalities/beijing/cases/2022-06-02-入职培训应计入劳动关系存续期间.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2022-06-02-入职培训应计入劳动关系存续期间.md
   title: 入职培训应计入劳动关系存续期间
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202206/t20220602_2727677.html
@@ -261,7 +315,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: f90cfc954f239541a2d24f2a0990036f1e50e974d2bdc6beec21ee68da0cdd6e
-- local_path: regions/municipalities/beijing/cases/2023-06-13-劳动合同经历“空窗期”，违法终止劳动合同不可取.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2023-06-13-劳动合同经历“空窗期”，违法终止劳动合同不可取.md
   title: 劳动合同经历“空窗期”，违法终止劳动合同不可取
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202306/t20230613_3133062.html
@@ -270,7 +325,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 121a5856a5347823f9db6dbb4d09f0c351bcf7c03e6d872da3aa29ace6d99821
-- local_path: regions/municipalities/beijing/cases/2023-09-22-劳动者医疗期满无法从事原岗位工作，用人单位可否直接解除劳动合同？.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2023-09-22-劳动者医疗期满无法从事原岗位工作，用人单位可否直接解除劳动合同？.md
   title: 劳动者医疗期满无法从事原岗位工作，用人单位可否直接解除劳动合同？
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202309/t20230922_3264068.html
@@ -279,7 +335,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: de9f9ffc7c9105ef0cee7a4f3b31d2573bbd0d937ccc6207f520a4006ee7cfb9
-- local_path: regions/municipalities/beijing/cases/2021-09-08-劳动者因公出差可视为加班.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2021-09-08-劳动者因公出差可视为加班.md
   title: 劳动者因公出差可视为加班
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202109/t20210908_2487626.html
@@ -288,7 +345,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 811ec5992da899e29414ba0f4d3354d6504e753cffeca78762a0da0afe01e1f6
-- local_path: regions/municipalities/beijing/cases/2022-08-24-劳动者应如实提供与工作相关的个人信息.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2022-08-24-劳动者应如实提供与工作相关的个人信息.md
   title: 劳动者应如实提供与工作相关的个人信息
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202208/t20220824_2799804.html
@@ -297,7 +355,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: ec0fc29e27bc9698fde3a65286804d86d51664a5d683fc77b8e07ac556c55395
-- local_path: regions/municipalities/beijing/cases/2021-07-05-劳动者提出，后与用人单位协商一致，劳动合同可以解除.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2021-07-05-劳动者提出，后与用人单位协商一致，劳动合同可以解除.md
   title: 劳动者提出，后与用人单位协商一致，劳动合同可以解除
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202107/t20210705_2429336.html
@@ -306,7 +365,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: f6f196ed9aa6bedaa0b04cd3b2db5a202a92dc9dd4f29a08ac9dd896e4173579
-- local_path: regions/municipalities/beijing/cases/2017-12-29-劳动者未完成离职交接，用人单位无权扣发工资.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2017-12-29-劳动者未完成离职交接，用人单位无权扣发工资.md
   title: 劳动者未完成离职交接，用人单位无权扣发工资
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880155.html
@@ -315,7 +375,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: a0c2e43f7dad202100f369b57a9df3af5f23948fa1abf869582d02d3be03cd34
-- local_path: regions/municipalities/beijing/cases/2016-09-18-劳动者离职后即设立同类业务公司，违反竞业限制义务.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-09-18-劳动者离职后即设立同类业务公司，违反竞业限制义务.md
   title: 劳动者离职后即设立同类业务公司，违反竞业限制义务
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880177.html
@@ -324,7 +385,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 5ea04b2f1214c91e9e87afa8a8120ac40d06783e65a0212c0d1f1c33e118ec9e
-- local_path: regions/municipalities/beijing/cases/2022-09-09-劳动者需服从用人单位的合理调岗安排.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2022-09-09-劳动者需服从用人单位的合理调岗安排.md
   title: 劳动者需服从用人单位的合理调岗安排
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202211/t20221117_2860674.html
@@ -333,7 +395,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: e92dce68b9026b1b1d99dd2482d888be57bf4fe15130864437869b094d19326f
-- local_path: regions/municipalities/beijing/cases/2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例.md
   title: 北京市发布2023年度十大劳动人事争议仲裁典型案例
   topic: cases
   source_url: https://www.beijing.gov.cn/ywdt/gzdt/202312/t20231229_3521081.html
@@ -342,7 +405,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:21+08:00'
   status: active
   content_hash: 158709813d9e455d1d1f5688ad1b07b48720333f98ee3bd4391df0827f1f2dfc
-- local_path: regions/municipalities/beijing/cases/files/2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例-P020231229644595394397.docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/files/2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例-P020231229644595394397.docx
   title: 北京市发布2023年度十大劳动人事争议仲裁典型案例 · 原文附件 P020231229644595394397.docx
   topic: cases
   source_url: https://www.beijing.gov.cn/ywdt/gzdt/202312/t20231229_3521081.html
@@ -351,7 +415,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:21+08:00'
   status: active
   content_hash: 5bfcd48677dbd5f593b0d18ae695adeeb360e98a6ffa5ecee02dd8e21ca85a49
-- local_path: regions/municipalities/beijing/cases/2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例.md
   title: 北京市发布2024年度十大劳动人事争议仲裁典型案例
   topic: cases
   source_url: https://www.beijing.gov.cn/ywdt/gzdt/202412/t20241217_3967825.html
@@ -360,7 +425,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:21+08:00'
   status: active
   content_hash: d918b00bf16c35e2cc43b30c2bc4a3c3220801859417a7a1a85f0c2c75a466fa
-- local_path: regions/municipalities/beijing/cases/2020-11-20-北京市涉新冠肺炎疫情劳动争议仲裁十大典型案例.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2020-11-20-北京市涉新冠肺炎疫情劳动争议仲裁十大典型案例.md
   title: 北京市涉新冠肺炎疫情劳动争议仲裁十大典型案例
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202011/t20201120_2141627.html
@@ -369,7 +435,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: ddf11edbd8467ec033ba95c6ad9422bae25e3e2883e80fc4eabe5f21c9dda7d7
-- local_path: regions/municipalities/beijing/cases/2015-10-28-医疗期内严重违规可解除劳动合同.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2015-10-28-医疗期内严重违规可解除劳动合同.md
   title: 医疗期内严重违规可解除劳动合同
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880193.html
@@ -378,7 +445,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 0b12bb2416a044165750cb382bf0d6b119b17438705c05bf1d001cb45a50d262
-- local_path: regions/municipalities/beijing/cases/2016-09-18-医疗期内终止劳动合同不合法.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-09-18-医疗期内终止劳动合同不合法.md
   title: 医疗期内终止劳动合同不合法
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880172.html
@@ -387,7 +455,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 7d3d518dcb767b90bcf83a101a06f9d905f7f07649490fb6e96b7c82e063814f
-- local_path: regions/municipalities/beijing/cases/2016-09-18-台、港、澳人员在内地就业需符合就业许可相关规定.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-09-18-台、港、澳人员在内地就业需符合就业许可相关规定.md
   title: 台、港、澳人员在内地就业需符合就业许可相关规定
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880173.html
@@ -396,7 +465,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: bb82647073acf82870e8332ba5082bb30461db456769b93a514ebfd37e9c18b3
-- local_path: regions/municipalities/beijing/cases/2016-06-28-合同已签,为何劳动关系未建立？.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-06-28-合同已签,为何劳动关系未建立？.md
   title: 合同已签,为何劳动关系未建立？
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880184.html
@@ -405,7 +475,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: b3a06e9fe0a16c22d314077adfccad7fe7b9cdf106333ac314ce6db378c0d9cc
-- local_path: regions/municipalities/beijing/cases/2016-02-23-外籍人士在华就业的劳动合同期限与就业证期限应一致.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-02-23-外籍人士在华就业的劳动合同期限与就业证期限应一致.md
   title: 外籍人士在华就业的劳动合同期限与就业证期限应一致
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880188.html
@@ -414,7 +485,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 88a9d531d1b191312b23d0003b754410d8a83201a1666d7b08e125d7a9fe8c14
-- local_path: regions/municipalities/beijing/cases/2018-08-13-女工“三期”内，用人单位不得擅自调岗降薪.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2018-08-13-女工“三期”内，用人单位不得擅自调岗降薪.md
   title: 女工“三期”内，用人单位不得擅自调岗降薪
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880147.html
@@ -423,7 +495,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: d68df7d8476902b04a988a47901cc65a9684c919ce62ad8c0db4fec72e76bf82
-- local_path: regions/municipalities/beijing/cases/2017-07-07-女职工的生育津贴应作为月工资计入补偿金计算基数.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2017-07-07-女职工的生育津贴应作为月工资计入补偿金计算基数.md
   title: 女职工的生育津贴应作为月工资计入补偿金计算基数
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880161.html
@@ -432,7 +505,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 2cbd09fa74c9173e8c3c2c9143fb12cb324438c84adc5f48ce9626a44728ad42
-- local_path: regions/municipalities/beijing/cases/2024-03-29-对工资有异议必须3天内提出？约定无效！.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2024-03-29-对工资有异议必须3天内提出？约定无效！.md
   title: 对工资有异议必须3天内提出？约定无效！
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977502.html
@@ -441,7 +515,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 932b14608d07daa0eb23cc34c7001ae6a4abf34d4330300251f95fe6d5d3115c
-- local_path: regions/municipalities/beijing/cases/2021-07-02-工伤职工停工留薪期未满返岗上班，-工资如何支付？.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2021-07-02-工伤职工停工留薪期未满返岗上班，-工资如何支付？.md
   title: 工伤职工停工留薪期未满返岗上班， 工资如何支付？
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202107/t20210702_2427410.html
@@ -450,7 +525,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: ea99668d23768e6c0c31a1b6285801e7b1e66c9d30bd80a914b8c417b1f02a30
-- local_path: regions/municipalities/beijing/cases/2016-09-18-带薪年休假应由用人单位统筹安排.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-09-18-带薪年休假应由用人单位统筹安排.md
   title: 带薪年休假应由用人单位统筹安排
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880171.html
@@ -459,7 +535,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 70e23c6030cbf449ab141845c8686b829ef255d3d54af4639174ec9c2eb900a3
-- local_path: regions/municipalities/beijing/cases/2024-07-08-年休假休完后，出现当年不享受年休假的情形应如何处理？.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2024-07-08-年休假休完后，出现当年不享受年休假的情形应如何处理？.md
   title: 年休假休完后，出现当年不享受年休假的情形应如何处理？
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202407/t20240708_3740151.html
@@ -468,7 +545,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 8ca860365698f7a7b203e9cb1b4b08f325c552c49147bf9394a864220607a228
-- local_path: regions/municipalities/beijing/cases/2022-03-18-应聘登记表是否能视为劳动合同.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2022-03-18-应聘登记表是否能视为劳动合同.md
   title: 应聘登记表是否能视为劳动合同
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202204/t20220419_2681320.html
@@ -477,7 +555,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 7bb62d4556ef8bc03518587772dfffede92e28f9035c155d4edea8177f284dee
-- local_path: regions/municipalities/beijing/cases/2016-04-26-我的工资到底是多少？.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-04-26-我的工资到底是多少？.md
   title: 我的工资到底是多少？
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880186.html
@@ -486,7 +565,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 004b6db96b5c0a34a431b564a4c55693e02b3d910b2b3dd01fc8dcb1e06ecd74
-- local_path: regions/municipalities/beijing/cases/2023-04-13-房产销售人员离职后，是否能获得在职期间的提成？.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2023-04-13-房产销售人员离职后，是否能获得在职期间的提成？.md
   title: 房产销售人员离职后，是否能获得在职期间的提成？
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202304/t20230413_3031840.html
@@ -495,7 +575,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: c46c601bb6f69849b6f5b5a896052982a85a9f033093a59a6a4c377faaef6e7e
-- local_path: regions/municipalities/beijing/cases/2024-11-29-把怀孕女职工调岗到外地？不合法！.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2024-11-29-把怀孕女职工调岗到外地？不合法！.md
   title: 把怀孕女职工调岗到外地？不合法！
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977650.html
@@ -504,7 +585,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 28d59d911dfd7d819d8ca625df56fa9e64ef266f8e63dfabf0d643cf795081a7
-- local_path: regions/municipalities/beijing/cases/2024-09-27-故意不签合同-索要双倍工资-“劳动碰瓷”要不得.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2024-09-27-故意不签合同-索要双倍工资-“劳动碰瓷”要不得.md
   title: 故意不签合同 索要双倍工资 “劳动碰瓷”要不得
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977640.html
@@ -513,7 +595,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: ade3ef2b16b385bd883077c3915c3d15835b76e7e36b38e9c349c9bc8c724d42
-- local_path: regions/municipalities/beijing/cases/2018-07-03-服务期及相关违约金不得随意约定.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2018-07-03-服务期及相关违约金不得随意约定.md
   title: 服务期及相关违约金不得随意约定
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880149.html
@@ -522,7 +605,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 76b915a8a71f33c493df7da58fa16b67cb68450b655cbab1541bfe68f782f721
-- local_path: regions/municipalities/beijing/cases/2016-03-30-服务期约定须合法有据.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-03-30-服务期约定须合法有据.md
   title: 服务期约定须合法有据
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880187.html
@@ -531,7 +615,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 7f7584769b76ab8286c1316f4fa652030758a6265c58a0897b055e47e65a17b6
-- local_path: regions/municipalities/beijing/cases/2016-09-18-服务期超劳动合同期限，用人单位可终止劳动合同.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-09-18-服务期超劳动合同期限，用人单位可终止劳动合同.md
   title: 服务期超劳动合同期限，用人单位可终止劳动合同
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880178.html
@@ -540,7 +625,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 6ff8f1089896e93d90c73c620113fef712542c317e9c608141c53f657d5f87f2
-- local_path: regions/municipalities/beijing/cases/2016-05-27-未休年假工资时效适用.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-05-27-未休年假工资时效适用.md
   title: 未休年假工资时效适用
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880185.html
@@ -549,7 +635,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 1dc70ce58061114cf51be10f1e8052f6be54a214e5500e54be5bc45468fe84b6
-- local_path: regions/municipalities/beijing/cases/2015-07-10-案例一-离职手续未办完，劳动者工资应照发.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2015-07-10-案例一-离职手续未办完，劳动者工资应照发.md
   title: 案例一  离职手续未办完，劳动者工资应照发
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880204.html
@@ -558,7 +645,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: d730899eb3de3e3d53b4b9050a6eba9e2fce1a280aedca394c95ee55ffd741af
-- local_path: regions/municipalities/beijing/cases/2015-07-10-案例七-因劳动者违纪而解除劳动合同，用人单位五项证据缺一不可.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2015-07-10-案例七-因劳动者违纪而解除劳动合同，用人单位五项证据缺一不可.md
   title: 案例七 因劳动者违纪而解除劳动合同，用人单位五项证据缺一不可
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880198.html
@@ -567,7 +655,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 43a453b8445544d1fa5b4773cfe1d8780aa003109f9c9e9330bbb8591a47685c
-- local_path: regions/municipalities/beijing/cases/2015-07-10-案例三-客观情况发生重大改变，双方协商不一致的，企业可解除劳动合同.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2015-07-10-案例三-客观情况发生重大改变，双方协商不一致的，企业可解除劳动合同.md
   title: 案例三 客观情况发生重大改变，双方协商不一致的，企业可解除劳动合同
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880202.html
@@ -576,7 +665,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: c1ce7e46df5faff205dab0bf982a86a21373b8d2825964ecd7a5e39a9162c56c
-- local_path: regions/municipalities/beijing/cases/2015-07-10-案例九-女职工产检、产假期间的工资应照发.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2015-07-10-案例九-女职工产检、产假期间的工资应照发.md
   title: 案例九 女职工产检、产假期间的工资应照发
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880196.html
@@ -585,7 +675,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: a235716dab377d2058b49c37fea43e44a8f6a12afca4e9303a6a9dafb119131e
-- local_path: regions/municipalities/beijing/cases/2015-07-10-案例二-不缴社保，劳动者虽自愿企业仍违法.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2015-07-10-案例二-不缴社保，劳动者虽自愿企业仍违法.md
   title: 案例二 不缴社保，劳动者虽自愿企业仍违法
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880203.html
@@ -594,7 +685,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: cd494ba7e02e5ff8409660229bf53efe6d24968fad57b811602e4487ca651594
-- local_path: regions/municipalities/beijing/cases/2015-07-10-案例五-劳动者与用人单位就解除或终止劳动合同达成一致意见，双方就应履行.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2015-07-10-案例五-劳动者与用人单位就解除或终止劳动合同达成一致意见，双方就应履行.md
   title: 案例五 劳动者与用人单位就解除或终止劳动合同达成一致意见，双方就应履行
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880200.html
@@ -603,7 +695,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 483a011945eff8ee997df33484c8bd807b25f959f571587f70c7ad770fcc2acd
-- local_path: regions/municipalities/beijing/cases/2015-07-10-案例八-劳务派遣职工遭遇工伤，用人单位和用工单位都有赔偿责任.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2015-07-10-案例八-劳务派遣职工遭遇工伤，用人单位和用工单位都有赔偿责任.md
   title: 案例八 劳务派遣职工遭遇工伤，用人单位和用工单位都有赔偿责任
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880197.html
@@ -612,7 +705,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 30c2c4502cec45456c19b25c245d701466c35855bc2c4407060d2830edce9a7c
-- local_path: regions/municipalities/beijing/cases/2015-07-10-案例十-劳动者加班应注意保留证据.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2015-07-10-案例十-劳动者加班应注意保留证据.md
   title: 案例十 劳动者加班应注意保留证据
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880194.html
@@ -621,7 +715,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: d9103eb6a2475301214adeb5daea1a61da079b07d0b58f96cb0f339a9f58224f
-- local_path: regions/municipalities/beijing/cases/2015-07-10-案例四-试用期内用人单位也不能让劳动者随便走人.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2015-07-10-案例四-试用期内用人单位也不能让劳动者随便走人.md
   title: 案例四 试用期内用人单位也不能让劳动者随便走人
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880201.html
@@ -630,7 +725,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 7bdaa509c6e494e547967664da33ce18b0bf2fa3d5280907d21a1ff71e480866
-- local_path: regions/municipalities/beijing/cases/2022-11-17-用人单位不得以任何理由收取劳动者财物.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2022-11-17-用人单位不得以任何理由收取劳动者财物.md
   title: 用人单位不得以任何理由收取劳动者财物
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202211/t20221117_2861158.html
@@ -639,7 +735,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 6a2685bd59c2261b4d1a34824b617dbc5fd86fedcc3f5f59718be6b034003d78
-- local_path: regions/municipalities/beijing/cases/2022-01-21-用人单位不得任意降低劳动者的加班费计算基数.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2022-01-21-用人单位不得任意降低劳动者的加班费计算基数.md
   title: 用人单位不得任意降低劳动者的加班费计算基数
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202204/t20220413_2676179.html
@@ -648,7 +745,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 8ff062d7491d85a6e6f06c8fa8b88a4f41314f3916b4622e0c66dfbd1a95b30b
-- local_path: regions/municipalities/beijing/cases/2016-11-24-用人单位不得协议降低工伤职工停工留薪期待遇.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-11-24-用人单位不得协议降低工伤职工停工留薪期待遇.md
   title: 用人单位不得协议降低工伤职工停工留薪期待遇
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880168.html
@@ -657,7 +755,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: ba9a2665fc541f427d4475fc1b937439fef47cd58479f1a8871765f5eee7f547
-- local_path: regions/municipalities/beijing/cases/2016-09-18-用人单位与劳动者不能约定解除条件.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-09-18-用人单位与劳动者不能约定解除条件.md
   title: 用人单位与劳动者不能约定解除条件
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880180.html
@@ -666,7 +765,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 6899921d3ba662b62a53d5b0cd82d67bf9318fc08be21ca507de64b6ba489108
-- local_path: regions/municipalities/beijing/cases/2023-02-27-用人单位以员工拒绝调岗终止劳动合同，需要支付经济补偿吗？.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2023-02-27-用人单位以员工拒绝调岗终止劳动合同，需要支付经济补偿吗？.md
   title: 用人单位以员工拒绝调岗终止劳动合同，需要支付经济补偿吗？
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202302/t20230227_2924693.html
@@ -675,7 +775,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: cac52c2d25d61a5ffb25081423947e97c30e057b60d9d74b21a0dd36b1aa6e87
-- local_path: regions/municipalities/beijing/cases/2018-03-01-用人单位能否单方面变更劳动者工作地点？.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2018-03-01-用人单位能否单方面变更劳动者工作地点？.md
   title: 用人单位能否单方面变更劳动者工作地点？
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880153.html
@@ -684,7 +785,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: d372bb1cbc3efcb0a91f37a720d0f8efbed04b769d69373d6d81b0c6101d889f
-- local_path: regions/municipalities/beijing/cases/2017-04-06-用人单位要求劳动者支付培训费是否合法.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2017-04-06-用人单位要求劳动者支付培训费是否合法.md
   title: 用人单位要求劳动者支付培训费是否合法
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880165.html
@@ -693,7 +795,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 03449da954b3a1823af86d82bc3f4143a18ea98a53c37dacbdb9ef757db5a662
-- local_path: regions/municipalities/beijing/cases/2018-05-31-用人单位违法约定试用期需担责.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2018-05-31-用人单位违法约定试用期需担责.md
   title: 用人单位违法约定试用期需担责
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880150.html
@@ -702,7 +805,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 7031d4f5e5f425bd6494b7743e3c26c9ce9b06f40e9b51a002e28435b54c470b
-- local_path: regions/municipalities/beijing/cases/2020-09-27-病假期间不得从事第二职业.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2020-09-27-病假期间不得从事第二职业.md
   title: 病假期间不得从事第二职业
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202009/t20200927_2099906.html
@@ -711,7 +815,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: aa348bcabb228b9e021d14c30cafcd04c281375c4581f979dd3323493c52b1ed
-- local_path: regions/municipalities/beijing/cases/2021-07-02-确认劳动关系，用人单位与劳动者均负有举证责任.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2021-07-02-确认劳动关系，用人单位与劳动者均负有举证责任.md
   title: 确认劳动关系，用人单位与劳动者均负有举证责任
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202107/t20210702_2427423.html
@@ -720,7 +825,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 7c1ecaa97b272ef6685ab60c7f2b63fb4a4ec73e7f351d14face83c23764a45e
-- local_path: regions/municipalities/beijing/cases/2017-05-15-签署《离职申请》需谨慎.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2017-05-15-签署《离职申请》需谨慎.md
   title: 签署《离职申请》需谨慎
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880164.html
@@ -729,7 +835,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: c64375d64cfd87032e41e15612e35ee3835a1176862d7ec1cd22aaf7c6652498
-- local_path: regions/municipalities/beijing/cases/2016-09-18-签署解除劳动合同协议书后，劳动者另行主张权利未获支持.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-09-18-签署解除劳动合同协议书后，劳动者另行主张权利未获支持.md
   title: 签署解除劳动合同协议书后，劳动者另行主张权利未获支持
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880175.html
@@ -738,7 +845,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 71f21704b1aaf5325da1434c587147e7c96ceda26f57c0717d4bcc029eb720c6
-- local_path: regions/municipalities/beijing/cases/2016-09-18-约定加班工资基数需合规.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-09-18-约定加班工资基数需合规.md
   title: 约定加班工资基数需合规
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880179.html
@@ -747,7 +855,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: e3137dce814a290d296f4a7ba6fc27f829c1c0bdd83a40d2345bc15c5ef15421
-- local_path: regions/municipalities/beijing/cases/2016-07-21-约定劳动合同解除条件是否有效？.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-07-21-约定劳动合同解除条件是否有效？.md
   title: 约定劳动合同解除条件是否有效？
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880183.html
@@ -756,7 +865,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 856fe4ac15cf0ec520ddc0c6e3d37be5c86dc18de21c3b4018fa15a72089f544
-- local_path: regions/municipalities/beijing/cases/2017-11-27-经济补偿金低于我市上年度职工平均工资三倍的，无需缴税.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2017-11-27-经济补偿金低于我市上年度职工平均工资三倍的，无需缴税.md
   title: 经济补偿金低于我市上年度职工平均工资三倍的，无需缴税
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880156.html
@@ -765,7 +875,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 3562be6438a09391647279933560d9bb83f2d8f73ff0b2c189adf18ecca97b42
-- local_path: regions/municipalities/beijing/cases/2017-03-03-经济补偿金计算应以应得工资为标准.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2017-03-03-经济补偿金计算应以应得工资为标准.md
   title: 经济补偿金计算应以应得工资为标准
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880166.html
@@ -774,7 +885,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 1e07ea77d0c3e0950ac2adc73016801bbb885269aafce1f8f0f71601244c8ffa
-- local_path: regions/municipalities/beijing/cases/2018-01-31-职工未申请年休假，用人单位亦应支付未休年休假工资.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2018-01-31-职工未申请年休假，用人单位亦应支付未休年休假工资.md
   title: 职工未申请年休假，用人单位亦应支付未休年休假工资
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880154.html
@@ -783,7 +895,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 8e66d70ec66ccf406ff78e75b846a53f06af621a6af602ed70b72de75916537b
-- local_path: regions/municipalities/beijing/cases/2018-04-28-聘用合同到期终止能否获得经济补偿金.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2018-04-28-聘用合同到期终止能否获得经济补偿金.md
   title: 聘用合同到期终止能否获得经济补偿金
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880151.html
@@ -792,7 +905,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 3173545845229f58ddeb52bd158c4d0667675167f50e4761af24c952b5284fab
-- local_path: regions/municipalities/beijing/cases/2015-12-23-补签劳动合同是否可以索要双倍工资.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2015-12-23-补签劳动合同是否可以索要双倍工资.md
   title: 补签劳动合同是否可以索要双倍工资
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880190.html
@@ -801,7 +915,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 57309c4a76052e9401f504245436f38df8dc55e8c0d4f941ee3ce82666955727
-- local_path: regions/municipalities/beijing/cases/2019-05-22-规章制度不严谨-解除劳动关系系违法.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2019-05-22-规章制度不严谨-解除劳动关系系违法.md
   title: 规章制度不严谨 解除劳动关系系违法
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880145.html
@@ -810,7 +925,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 659a1a30a6fd26c4236ea818ca7ed6bdb9ed92a3a9ce61703a0bb14ae3c24480
-- local_path: regions/municipalities/beijing/cases/2018-04-03-解除劳动合同，“不胜任工作”理由不可滥用.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2018-04-03-解除劳动合同，“不胜任工作”理由不可滥用.md
   title: 解除劳动合同，“不胜任工作”理由不可滥用
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880152.html
@@ -819,7 +935,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 4f443b939b0a6588272b1f2c5ecf4d315d2be35ea568c5fea4645e9462e3ef3c
-- local_path: regions/municipalities/beijing/cases/2020-06-11-证人无故未出庭-证言未被采纳.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2020-06-11-证人无故未出庭-证言未被采纳.md
   title: 证人无故未出庭 证言未被采纳
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202008/t20200811_1979932.html
@@ -828,7 +945,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 5b6ba4e4851da1e8d9386822010e7d6f5155b7ede88a0f2b9321b3fcf28a1fcc
-- local_path: regions/municipalities/beijing/cases/2018-07-30-试用期内解除聘用合同需谨慎.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2018-07-30-试用期内解除聘用合同需谨慎.md
   title: 试用期内解除聘用合同需谨慎
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880148.html
@@ -837,7 +955,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: a1cc1d7d07fb77501e089a6586d70d1745976dcca372d05c5e9481e0635bc2ee
-- local_path: regions/municipalities/beijing/cases/2022-04-19-调整工作地点需在合理范围之内.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2022-04-19-调整工作地点需在合理范围之内.md
   title: 调整工作地点需在合理范围之内
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202204/t20220419_2681323.html
@@ -846,7 +965,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 55dde51e42f1b7a8e57b879b2309e9acbf71533faa27169062bf04dbd58c88ca
-- local_path: regions/municipalities/beijing/cases/2020-07-13-赔偿金与代通知金不会同时获支持.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2020-07-13-赔偿金与代通知金不会同时获支持.md
   title: 赔偿金与代通知金不会同时获支持
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202008/t20200811_1979935.html
@@ -855,7 +975,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: f9443ae2d55c300123b15282e415479d945e3fd2d9eda76f75ccac2eb202154b
-- local_path: regions/municipalities/beijing/cases/2017-09-29-违反公序良俗，单位有权将员工辞退.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2017-09-29-违反公序良俗，单位有权将员工辞退.md
   title: 违反公序良俗，单位有权将员工辞退
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880158.html
@@ -864,7 +985,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: fb6d5f9e80b43c7b0731e14f024cf51ae34f3a03415f25aa6de1a4d5a01b353b
-- local_path: regions/municipalities/beijing/cases/2016-02-01-违法解除劳动合同的赔偿金与代通知金不能同时适用.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-02-01-违法解除劳动合同的赔偿金与代通知金不能同时适用.md
   title: 违法解除劳动合同的赔偿金与代通知金不能同时适用
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880189.html
@@ -873,7 +995,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 84dac38207743f6d808019df61efcab7c06d2fdf145fd758714033f3d8d93585
-- local_path: regions/municipalities/beijing/cases/2017-05-27-连续工作满十年，单位无权选择终止劳动合同.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2017-05-27-连续工作满十年，单位无权选择终止劳动合同.md
   title: 连续工作满十年，单位无权选择终止劳动合同
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880163.html
@@ -882,7 +1005,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 2fa7ebd4af60eba4987cf0b3cf8bd9ecc6b223b2d9c178738d939b7bfe64630a
-- local_path: regions/municipalities/beijing/cases/2022-10-10-连续订立二次固定期限劳动合同，劳动者有权要求订立无固定期限劳动合同.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2022-10-10-连续订立二次固定期限劳动合同，劳动者有权要求订立无固定期限劳动合同.md
   title: 连续订立二次固定期限劳动合同，劳动者有权要求订立无固定期限劳动合同
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202211/t20221117_2861157.html
@@ -891,7 +1015,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 7aad34b392044f4ccc77542441479521f08a59d90658f57b53985e2f39c05bcd
-- local_path: regions/municipalities/beijing/cases/2024-07-05-非全日制用工时间可否计入累计工作年限？.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2024-07-05-非全日制用工时间可否计入累计工作年限？.md
   title: 非全日制用工时间可否计入累计工作年限？
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202407/t20240705_3739032.html
@@ -900,7 +1025,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 34ab526c8893429ca3e29584f2107b23fcc4bcdb2836f72c9efc81450e9b2ed8
-- local_path: regions/municipalities/beijing/cases/2016-10-25-非全日制用工需严格界定.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/cases/2016-10-25-非全日制用工需严格界定.md
   title: 非全日制用工需严格界定
   topic: cases
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/201912/t20191206_880169.html
@@ -909,7 +1035,8 @@ documents:
   retrieved_at: '2026-09-20T22:56:21+08:00'
   status: active
   content_hash: 462053c9c138f8975293725459a8c350a907ea7006c3321d8767d20eb16c4f53
-- local_path: regions/municipalities/beijing/guidance/guides/东城区-劳动人事争议仲裁申请办事指南.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/guides/东城区-劳动人事争议仲裁申请办事指南.md
   title: 东城区·劳动人事争议仲裁申请办事指南
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110101000000/63fb2f78-f61a-434e-a834-ac398cd29417.html
@@ -918,7 +1045,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: 64d9685e656d9c765017cb2c99a5ec4d15450daf42f767e7b06385fafe3eeff0
-- local_path: regions/municipalities/beijing/guidance/guides/丰台区-劳动人事争议仲裁申请办事指南.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/guides/丰台区-劳动人事争议仲裁申请办事指南.md
   title: 丰台区·劳动人事争议仲裁申请办事指南
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110106000000/92dc114c-c1d4-45c7-b2ec-f7bab0fcdfbd.html
@@ -927,7 +1055,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: 1ce58d696338aaa14f97e747fab2f2963c22bcaaff09c3aee582363be3cc7333
-- local_path: regions/municipalities/beijing/guidance/files/cd9f9b5c-仲裁申请书(样表).docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/files/cd9f9b5c-仲裁申请书(样表).docx
   title: 仲裁申请书(样表).docx
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/1f742ee9-db1e-46f0-b009-0a71220d2f08.html
@@ -936,7 +1065,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: ba10414a8d5e8dddaf8fd5c3a9477200c308a44a606a15ef0363e829978aa06d
-- local_path: regions/municipalities/beijing/guidance/files/cd9f9b5c-仲裁申请书（样式）.docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/files/cd9f9b5c-仲裁申请书（样式）.docx
   title: 仲裁申请书（样式）.docx
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/1f742ee9-db1e-46f0-b009-0a71220d2f08.html
@@ -945,7 +1075,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: ba10414a8d5e8dddaf8fd5c3a9477200c308a44a606a15ef0363e829978aa06d
-- local_path: regions/municipalities/beijing/guidance/files/13893f2c-劳动人事争议仲裁申请.docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/files/13893f2c-劳动人事争议仲裁申请.docx
   title: 劳动人事争议仲裁申请.docx
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110116000000/3b7543c6-4e1b-473a-bbef-4dcf3f9426b4.html
@@ -954,7 +1085,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: 941397355c11f49655e45369073fe6c21abd3acdc74b2c0a74d7950b776a9c39
-- local_path: regions/municipalities/beijing/guidance/platform-online-arbitration-notice.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/platform-online-arbitration-notice.md
   title: 北京市劳动人事争议调解仲裁网上服务平台 · 在线申请仲裁须知
   topic: guidance
   source_url: https://fuwu.rsj.beijing.gov.cn/zhrs/api4/arbitration/html/sqzc/sqzc_ydxz
@@ -963,7 +1095,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: 7571a628dcd4b21047dec4d9e140145d504941cefe4f99c100ed100bf4ae2294
-- local_path: regions/municipalities/beijing/guidance/platform-online-mediation-notice.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/platform-online-mediation-notice.md
   title: 北京市劳动人事争议调解仲裁网上服务平台 · 在线申请调解须知
   topic: guidance
   source_url: https://fuwu.rsj.beijing.gov.cn/zhrs/api4/arbitration/html/sqtj/sqtj_ydxz
@@ -972,7 +1105,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: 59ee780bd9ab6f59eaed2597eabe2e24680cbdd11bcb5471fb847e9d7cc917f9
-- local_path: regions/municipalities/beijing/guidance/platform-death-case-notice.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/platform-death-case-notice.md
   title: 北京市劳动人事争议调解仲裁网上服务平台 · 工（非工）亡案件申请须知
   topic: guidance
   source_url: https://fuwu.rsj.beijing.gov.cn/zhrs/api4/arbitration/html/gwaj/gwaj_ydxz
@@ -981,7 +1115,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: 94cdfa87ed1bd3020f278e9e7dba47706b60b1bb013632066e71ae8b12472bf6
-- local_path: regions/municipalities/beijing/guidance/platform-counter-claim-notice.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/platform-counter-claim-notice.md
   title: 北京市劳动人事争议调解仲裁网上服务平台 · 提出反申请须知
   topic: guidance
   source_url: https://fuwu.rsj.beijing.gov.cn/zhrs/api4/arbitration/html/fsq/fsq_ydxz
@@ -990,7 +1125,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: 47b8b0aa761b06d343cbbd286461f5ab0f9159090f1b57ca36e346127300dbe6
-- local_path: regions/municipalities/beijing/guidance/platform-review-confirm-notice.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/platform-review-confirm-notice.md
   title: 北京市劳动人事争议调解仲裁网上服务平台 · 申请审查确认须知
   topic: guidance
   source_url: https://fuwu.rsj.beijing.gov.cn/zhrs/api4/arbitration/html/scqr/scqr_ydxz
@@ -999,7 +1135,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: ab0cb67053e6bd2cca818a96693f3bb9d9ab7c6ebbebb451ee244805b00d2911
-- local_path: regions/municipalities/beijing/guidance/guides/密云区-劳动人事争议仲裁申请办事指南.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/guides/密云区-劳动人事争议仲裁申请办事指南.md
   title: 密云区·劳动人事争议仲裁申请办事指南
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110118000000/2d5f7972-303f-47f0-8f52-79fd28ce2be6.html
@@ -1008,7 +1145,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: 5aca754801bf6d17205b5879e0b9bc345229e6804343a608f52627d9b87f4495
-- local_path: regions/municipalities/beijing/guidance/guides/市级-劳动人事争议仲裁申请办事指南.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/guides/市级-劳动人事争议仲裁申请办事指南.md
   title: 市级·劳动人事争议仲裁申请办事指南
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/1f742ee9-db1e-46f0-b009-0a71220d2f08.html
@@ -1017,7 +1155,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: 6945addf39ee05f54c06ab34c341e9b821fe5e79867c3eb2ea58873a255afd90
-- local_path: regions/municipalities/beijing/guidance/guides/平谷区-劳动人事争议仲裁申请办事指南.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/guides/平谷区-劳动人事争议仲裁申请办事指南.md
   title: 平谷区·劳动人事争议仲裁申请办事指南
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110117000000/49882054-d4d2-422c-88f9-a51b79a7575e.html
@@ -1026,7 +1165,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: a71fb4ed52d20324a4080b63beaa774bf865a864e40eeed474077a4953789cc3
-- local_path: regions/municipalities/beijing/guidance/guides/延庆区-劳动人事争议仲裁申请办事指南.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/guides/延庆区-劳动人事争议仲裁申请办事指南.md
   title: 延庆区·劳动人事争议仲裁申请办事指南
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110119000000/4f81697c-d36e-4a5c-b79d-7030a0913c9b.html
@@ -1035,7 +1175,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: 84f7cf766e24e2dae780e7b1984dab04a8288c7216f7e71a909d3bc9459cf9d0
-- local_path: regions/municipalities/beijing/guidance/guides/怀柔区-劳动人事争议仲裁申请办事指南.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/guides/怀柔区-劳动人事争议仲裁申请办事指南.md
   title: 怀柔区·劳动人事争议仲裁申请办事指南
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110116000000/3b7543c6-4e1b-473a-bbef-4dcf3f9426b4.html
@@ -1044,7 +1185,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: 75eb6e25a4f82702b0dc108defefcb3ce4a5c6c00561fe0677c5dda1a04707a2
-- local_path: regions/municipalities/beijing/guidance/files/705e848d-授权委托书(样表).docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/files/705e848d-授权委托书(样表).docx
   title: 授权委托书(样表).docx
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/1f742ee9-db1e-46f0-b009-0a71220d2f08.html
@@ -1053,7 +1195,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: b399473613078d7f1045ade4f1d10f70d1a2a48182d1e77c02e2db01bab5ffdf
-- local_path: regions/municipalities/beijing/guidance/files/705e848d-授权委托书、法定代表人身份证明.docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/files/705e848d-授权委托书、法定代表人身份证明.docx
   title: 授权委托书、法定代表人身份证明.docx
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/1f742ee9-db1e-46f0-b009-0a71220d2f08.html
@@ -1062,7 +1205,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: b399473613078d7f1045ade4f1d10f70d1a2a48182d1e77c02e2db01bab5ffdf
-- local_path: regions/municipalities/beijing/guidance/guides/昌平区-劳动人事争议仲裁申请办事指南.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/guides/昌平区-劳动人事争议仲裁申请办事指南.md
   title: 昌平区·劳动人事争议仲裁申请办事指南
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110114000000/412074e4-44d0-46a4-8a72-6573663c49af.html
@@ -1071,7 +1215,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: efba3f3073f547229958b68977e57c8f56cd88241dadaef69d4f9761bc7086bc
-- local_path: regions/municipalities/beijing/guidance/guides/朝阳区-劳动人事争议仲裁申请办事指南.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/guides/朝阳区-劳动人事争议仲裁申请办事指南.md
   title: 朝阳区·劳动人事争议仲裁申请办事指南
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110105000000/75d01c1c-dc66-49fe-93a1-7003eaaedd8a.html
@@ -1080,7 +1225,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: 7da6e3f9a45d128c070edf2d486bbf17e9be00120542b04fb3a16cb82c89b8a2
-- local_path: regions/municipalities/beijing/guidance/guides/海淀区-劳动人事争议仲裁申请办事指南.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/guides/海淀区-劳动人事争议仲裁申请办事指南.md
   title: 海淀区·劳动人事争议仲裁申请办事指南
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110108000000/8221a886-d916-46ae-9df7-4ab53a973809.html
@@ -1089,7 +1235,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: 5694b1ec61596bdc6032adc08ddee5dd0460bf13876c438158686e9c18eae83b
-- local_path: regions/municipalities/beijing/guidance/guides/西城区-劳动人事争议仲裁申请办事指南.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/guides/西城区-劳动人事争议仲裁申请办事指南.md
   title: 西城区·劳动人事争议仲裁申请办事指南
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110102000000/a6d7e5fb-24f3-4c61-8f38-58422a04b3a0.html
@@ -1098,7 +1245,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: a982ec5c77c2e7bef07ed833c800e337b160b365294d4971e0b807c67edc2bfc
-- local_path: regions/municipalities/beijing/guidance/files/f08a123f-身份证件(样表).docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/files/f08a123f-身份证件(样表).docx
   title: 身份证件(样表).docx
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/1f742ee9-db1e-46f0-b009-0a71220d2f08.html
@@ -1107,7 +1255,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: ce430936de3c25292538980bc1b6bb53f91dd030298954cedf1e63a6e12e2800
-- local_path: regions/municipalities/beijing/guidance/files/f08a123f-身份证件.docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/files/f08a123f-身份证件.docx
   title: 身份证件.docx
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/1f742ee9-db1e-46f0-b009-0a71220d2f08.html
@@ -1116,7 +1265,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: ce430936de3c25292538980bc1b6bb53f91dd030298954cedf1e63a6e12e2800
-- local_path: regions/municipalities/beijing/guidance/guides/通州区-劳动人事争议仲裁申请办事指南.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/guides/通州区-劳动人事争议仲裁申请办事指南.md
   title: 通州区·劳动人事争议仲裁申请办事指南
   topic: guidance
   source_url: https://banshi.beijing.gov.cn/pubtask/task/1/110112000000/c692cfd3-1a9d-4734-8f16-86b3a0dbafee.html
@@ -1125,7 +1275,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:02+08:00'
   status: active
   content_hash: ee1ae99df856cd82092124c50c5259826dd96f4ee5e1a8c8f8cff5b9a61ee865
-- local_path: regions/municipalities/beijing/institutions/arbitration-institutions.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/institutions/arbitration-institutions.md
   title: 北京市劳动人事争议调解仲裁机构名录
   topic: institutions
   source_url: https://banshi.beijing.gov.cn/zwfwapi/cycx/shbz/ldrszytjzcjg/query.html
@@ -1134,7 +1285,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:38+08:00'
   status: active
   content_hash: 1d79c8d55257446babc1eba2bf0f68d373ffe61a640462d2195dd1a1c4b32897
-- local_path: regions/municipalities/beijing/institutions/arbitration-institutions.json
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/institutions/arbitration-institutions.json
   title: 北京市劳动人事争议调解仲裁机构名录（查询接口原始数据）
   topic: institutions
   source_url: https://banshi.beijing.gov.cn/zwfwapi/cycx/shbz/ldrszytjzcjg/query.html
@@ -1143,7 +1295,8 @@ documents:
   retrieved_at: '2026-09-20T23:12:38+08:00'
   status: active
   content_hash: 0be8c618034f0206283906f40c223cb5a39d22bff06da549c2abc97caa42f6cb
-- local_path: regions/municipalities/beijing/jurisdiction/2022-04-01-北京市人力资源和社会保障局关于调整我市劳动人事争议仲裁案件管辖的通知.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/jurisdiction/2022-04-01-北京市人力资源和社会保障局关于调整我市劳动人事争议仲裁案件管辖的通知.md
   title: 北京市人力资源和社会保障局关于调整我市劳动人事争议仲裁案件管辖的通知
   topic: jurisdiction
   source_url: https://www.beijing.gov.cn/zhengce/gfxwj/202207/t20220714_2771636.html
@@ -1152,7 +1305,8 @@ documents:
   retrieved_at: '2026-09-20T22:59:36+08:00'
   status: active
   content_hash: a0aa286dd4a6304dcc0b3668cdab78c852cad068556b1e74c569d95d9a0441d3
-- local_path: regions/municipalities/beijing/jurisdiction/files/2022-04-01-北京市人力资源和社会保障局关于调整我市劳动人事争议仲裁案件管辖的通知-W020220802491095522860.pdf
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/jurisdiction/files/2022-04-01-北京市人力资源和社会保障局关于调整我市劳动人事争议仲裁案件管辖的通知-W020220802491095522860.pdf
   title: 北京市人力资源和社会保障局关于调整我市劳动人事争议仲裁案件管辖的通知 · 附件 W020220802491095522860.pdf
   topic: jurisdiction
   source_url: https://www.beijing.gov.cn/zhengce/gfxwj/202207/t20220714_2771636.html
@@ -1161,7 +1315,8 @@ documents:
   retrieved_at: '2026-09-20T22:59:36+08:00'
   status: active
   content_hash: 18d9f245135919068a57234f3010a79f055f257a1662f7d072f66358d59f079a
-- local_path: regions/municipalities/beijing/manuals/files/代理人操作手册.pdf
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/manuals/files/代理人操作手册.pdf
   title: 代理人操作手册
   topic: manuals
   source_url: https://fuwu.rsj.beijing.gov.cn/zhrs/api4/arbitration/html/home/index
@@ -1170,7 +1325,8 @@ documents:
   retrieved_at: '2026-09-20T22:55:23+08:00'
   status: active
   content_hash: e51ff2143ddd223f70557e99955e6d3ff463213da4f1c19e8a3a97acc4a3e1a0
-- local_path: regions/municipalities/beijing/manuals/files/劳动者操作手册.pdf
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/manuals/files/劳动者操作手册.pdf
   title: 劳动者操作手册
   topic: manuals
   source_url: https://fuwu.rsj.beijing.gov.cn/zhrs/api4/arbitration/html/home/index
@@ -1179,7 +1335,8 @@ documents:
   retrieved_at: '2026-09-20T22:55:23+08:00'
   status: active
   content_hash: eac94c116aee8590b36632fb8119fc73fa6a9c708acd66f487f8333c8a54ee0a
-- local_path: regions/municipalities/beijing/manuals/files/用人单位操作手册.pdf
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/manuals/files/用人单位操作手册.pdf
   title: 用人单位操作手册
   topic: manuals
   source_url: https://fuwu.rsj.beijing.gov.cn/zhrs/api4/arbitration/html/home/index
@@ -1188,7 +1345,178 @@ documents:
   retrieved_at: '2026-09-20T22:55:23+08:00'
   status: active
   content_hash: 8293e025df8bbab6f7174a0ac73fdfddb7eff9fe1cffb6c0c7d35595a8c69de2
-- local_path: regions/municipalities/beijing/regulations/2020-01-06-关于严格落实“护薪”行动全力做好拖欠 农民工工资争议处理工作的通知.md
+- region: national
+  local_path: regions/national/regulations/laws/中华人民共和国劳动争议调解仲裁法.md
+  title: 中华人民共和国劳动争议调解仲裁法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394628.html
+  download_url: null
+  published_at: '2007-12-29'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 878a2b8059a4b4bb7fd7dcc9e9d7c9a8f4c011134427841551eb971329a21803
+- region: national
+  local_path: regions/national/regulations/laws/中华人民共和国劳动合同法.md
+  title: 中华人民共和国劳动合同法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394622.html
+  download_url: null
+  published_at: '2012-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: b6e438794aff1db89ff4272ccc86d39e92b5ae2f1126cce058ed36a202fa071f
+- region: national
+  local_path: regions/national/regulations/administrative-regulations/中华人民共和国劳动合同法实施条例.md
+  title: 中华人民共和国劳动合同法实施条例
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394939.html
+  download_url: null
+  published_at: '2008-09-18'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 9c3112f59bb2b1d86f0f5534c55a1562f05982ea1c0fde5ffe88d71418096fc2
+- region: national
+  local_path: regions/national/regulations/laws/中华人民共和国劳动法.md
+  title: 中华人民共和国劳动法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394625.html
+  download_url: null
+  published_at: '2018-12-29'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: b50e0466555293ee806feab41721448138962cdc66bd3b1d3f24c6dcd4f2fbea
+- region: national
+  local_path: regions/national/regulations/laws/中华人民共和国就业促进法.md
+  title: 中华人民共和国就业促进法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394626.html
+  download_url: null
+  published_at: '2015-04-24'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: a873c0e9501c97ae261711d1b499eee343a188f91c82b38017a174d232e3981c
+- region: national
+  local_path: regions/national/regulations/laws/中华人民共和国工会法.md
+  title: 中华人民共和国工会法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394624.html
+  download_url: null
+  published_at: '2021-12-24'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: d51a4de48e21724c0b348daf8960e218627d3f8d95a820a7b5b67c1279903b1f
+- region: national
+  local_path: regions/national/regulations/laws/中华人民共和国社会保险法.md
+  title: 中华人民共和国社会保险法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394629.html
+  download_url: null
+  published_at: '2018-12-29'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 9c3780a74f05d825667ae9720fd23f37bdb829d45d94269fb8f9b600c336f392
+- region: national
+  local_path: regions/national/regulations/administrative-regulations/事业单位人事管理条例.md
+  title: 事业单位人事管理条例
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394930.html
+  download_url: null
+  published_at: '2014-04-25'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 4c775e744e2906b54ea8a7f18d9c03ad7e107a22ca5f3285b29b4976a2349083
+- region: national
+  local_path: regions/national/regulations/department-rules/企业劳动争议协商调解规定.md
+  title: 企业劳动争议协商调解规定
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431626.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 1f30417900eeb2081825427b566b82e1fc81cddae0e526d2e030ece967b74e3f
+- region: national
+  local_path: regions/national/regulations/files/企业劳动争议协商调解规定-P020211229558188756558.pdf
+  title: 企业劳动争议协商调解规定 · 附件 P020211229558188756558.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431626.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229558188756558.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: ac534e6bf64aff9dab664243f551011d5c3a845f577f8378ebd6312c627091b4
+- region: national
+  local_path: regions/national/regulations/files/企业劳动争议协商调解规定-P020211229558188758399.docx
+  title: 企业劳动争议协商调解规定 · 附件 P020211229558188758399.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431626.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229558188758399.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 2daed097ad2def1d66dea682ce180554ff2667920794f4008caa047633abd0f0
+- region: national
+  local_path: regions/national/regulations/department-rules/企业职工带薪年休假实施办法.md
+  title: 企业职工带薪年休假实施办法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431596.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 7c48c49f9f7888a34874644eb1cdf7a920aa6078fded366b73d3a0b346c88f61
+- region: national
+  local_path: regions/national/regulations/files/企业职工带薪年休假实施办法-P020211229590352861833.docx
+  title: 企业职工带薪年休假实施办法 · 附件 P020211229590352861833.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431596.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229590352861833.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 2f28b62e2ff3b673e16964fdc2113103289217f45865a3b0336308e8cf3a7d9c
+- region: national
+  local_path: regions/national/regulations/files/企业职工带薪年休假实施办法-P020211229590352867273.pdf
+  title: 企业职工带薪年休假实施办法 · 附件 P020211229590352867273.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431596.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229590352867273.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 94380076b87fa4ef551d51c5b6229e684d7b51798ca7a02a29a393f4f369dcd9
+- region: national
+  local_path: regions/national/regulations/administrative-regulations/保障农民工工资支付条例.md
+  title: 保障农民工工资支付条例
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394928.html
+  download_url: null
+  published_at: '2019-12-30'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 67a4f7636f1e41d538789f39d469ffa65d00e8f9efc12b58a0bbba71e7fb5829
+- region: national
+  local_path: regions/national/regulations/laws/全国人民代表大会常务委员会关于实施渐进式延迟法定退休年龄的决定.md
+  title: 全国人民代表大会常务委员会关于实施渐进式延迟法定退休年龄的决定
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202411/t20241125_530761.html
+  download_url: null
+  published_at: '2024-09-13'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 6e9ebc88638771dc253bbaaadcef272531eec8308e51d5df93e6cd66a5b6ae74
+- region: national
+  local_path: regions/national/regulations/administrative-regulations/全国年节及纪念日放假办法.md
+  title: 全国年节及纪念日放假办法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394937.html
+  download_url: null
+  published_at: '2024-11-10'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 88754b124e08393db76b7bfb76b018dde2721f9c4a87055d3e6a7bbe3f7c4daf
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/regulations/2020-01-06-关于严格落实“护薪”行动全力做好拖欠 农民工工资争议处理工作的通知.md
   title: 关于严格落实“护薪”行动全力做好拖欠 农民工工资争议处理工作的通知
   topic: regulations
   source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202001/t20200106_1556675.html
@@ -1197,7 +1525,8 @@ documents:
   retrieved_at: '2026-09-20T22:59:36+08:00'
   status: active
   content_hash: 3597510b81d0b54df69623a141992053643b75a3683b59c8cac7b7e64e9c2983
-- local_path: regions/municipalities/beijing/regulations/files/2020-01-06-关于严格落实“护薪”行动全力做好拖欠 农民工工资争议处理工作的通知-P020200106345077191726.docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/regulations/files/2020-01-06-关于严格落实“护薪”行动全力做好拖欠 农民工工资争议处理工作的通知-P020200106345077191726.docx
   title: 关于严格落实“护薪”行动全力做好拖欠 农民工工资争议处理工作的通知 · 附件 P020200106345077191726.docx
   topic: regulations
   source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202001/t20200106_1556675.html
@@ -1206,7 +1535,8 @@ documents:
   retrieved_at: '2026-09-20T22:59:36+08:00'
   status: active
   content_hash: 784f02c97cb9358a33e9b6a3042f03bc84656f28b7298e42b7ea7ee644c27645
-- local_path: regions/municipalities/beijing/regulations/files/2020-01-06-关于严格落实“护薪”行动全力做好拖欠 农民工工资争议处理工作的通知-P020260506506389270003.docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/regulations/files/2020-01-06-关于严格落实“护薪”行动全力做好拖欠 农民工工资争议处理工作的通知-P020260506506389270003.docx
   title: 关于严格落实“护薪”行动全力做好拖欠 农民工工资争议处理工作的通知 · 附件 P020260506506389270003.docx
   topic: regulations
   source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202001/t20200106_1556675.html
@@ -1215,7 +1545,8 @@ documents:
   retrieved_at: '2026-09-20T22:59:36+08:00'
   status: active
   content_hash: 3656b11a475f56cd7d6aa2908d8d6085e083b505edfd771f92a367012c6d2700
-- local_path: regions/municipalities/beijing/regulations/2025-01-22-关于加强本市新就业形态劳动纠纷一站式调解工作的通知.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/regulations/2025-01-22-关于加强本市新就业形态劳动纠纷一站式调解工作的通知.md
   title: 关于加强本市新就业形态劳动纠纷一站式调解工作的通知
   topic: regulations
   source_url: https://rsj.beijing.gov.cn/xxgk/2024zcwj/202501/t20250122_3996364.html
@@ -1224,7 +1555,8 @@ documents:
   retrieved_at: '2026-09-20T22:59:36+08:00'
   status: active
   content_hash: b35f4f3a9b1532ef276b8f2d4ec7de2a55556380124206b94182cdac517f54b6
-- local_path: regions/municipalities/beijing/regulations/2024-04-30-关于印发《北京市高级人民法院、北京市劳动人事争议仲裁委员会关于审理劳动争议案件解答（一）》的通知.md
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/regulations/2024-04-30-关于印发《北京市高级人民法院、北京市劳动人事争议仲裁委员会关于审理劳动争议案件解答（一）》的通知.md
   title: 关于印发《北京市高级人民法院、北京市劳动人事争议仲裁委员会关于审理劳动争议案件解答（一）》的通知
   topic: regulations
   source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202404/t20240430_3648905.html
@@ -1233,7 +1565,308 @@ documents:
   retrieved_at: '2026-09-20T22:59:36+08:00'
   status: active
   content_hash: 9e5d48ac0e5cc974b1148a83afc27679891b4bce95a671bcd1d1335b93225652
-- local_path: regions/municipalities/beijing/regulations/2024-06-17-解读《北京市高级人民法院、北京市劳动人事争议仲裁委员会关于审理劳动争议案件法律适用问题的解答》.md
+- region: national
+  local_path: regions/national/regulations/department-rules/劳务派遣暂行规定.md
+  title: 劳务派遣暂行规定
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431639.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: a94cb4043c1d4d4125d812a1d39d6556a456515b1f133c90de6cf6c915b0d799
+- region: national
+  local_path: regions/national/regulations/files/劳务派遣暂行规定-P020211229555505968083.docx
+  title: 劳务派遣暂行规定 · 附件 P020211229555505968083.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431639.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229555505968083.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: ba0542e649f1b8e6ed7b0ad823651b5572767006eec5a96c90c45a3bf27effe1
+- region: national
+  local_path: regions/national/regulations/files/劳务派遣暂行规定-P020211229555505969637.pdf
+  title: 劳务派遣暂行规定 · 附件 P020211229555505969637.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431639.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229555505969637.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: c9fff5198f9c4c106ff1296e4a87bc5298562a2ec01338dd25b947bd54978b08
+- region: national
+  local_path: regions/national/regulations/department-rules/劳动人事争议仲裁办案规则.md
+  title: 劳动人事争议仲裁办案规则
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431661.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 65a2f7c9a312731e80b52abb182b51921e0b3a581cdc971f69083665f5691d28
+- region: national
+  local_path: regions/national/regulations/files/劳动人事争议仲裁办案规则-P020211229545889171726.docx
+  title: 劳动人事争议仲裁办案规则 · 附件 P020211229545889171726.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431661.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229545889171726.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 690c90c8208f66fe35030a9ca45393ff35d3da1c6f2418248c481619c8f1f9a6
+- region: national
+  local_path: regions/national/regulations/files/劳动人事争议仲裁办案规则-P020211229545889175624.pdf
+  title: 劳动人事争议仲裁办案规则 · 附件 P020211229545889175624.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431661.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229545889175624.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: a80c81e89d6b47d2ad1c43481820a2661aecefbf3f402aad1018fed8984e08bc
+- region: national
+  local_path: regions/national/regulations/department-rules/劳动人事争议仲裁组织规则.md
+  title: 劳动人事争议仲裁组织规则
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431665.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 88edf06b2ae4b2d07a4366f130c295aaa4b8f42a0aa91dd1ed0f5b3a6264189c
+- region: national
+  local_path: regions/national/regulations/files/劳动人事争议仲裁组织规则-P020211229545165850632.pdf
+  title: 劳动人事争议仲裁组织规则 · 附件 P020211229545165850632.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431665.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229545165850632.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: efc8fad72ed261843aecb29d1fb790a42fabbb60da6a4c1c173d892521a44597
+- region: national
+  local_path: regions/national/regulations/files/劳动人事争议仲裁组织规则-P020211229545165853212.docx
+  title: 劳动人事争议仲裁组织规则 · 附件 P020211229545165853212.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431665.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229545165853212.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: c01875e2fa0f0bcc9f50a5a3689049ec0945c29bc26df1753badd6cbb8adcc47
+- region: national
+  local_path: regions/national/regulations/administrative-regulations/劳动保障监察条例.md
+  title: 劳动保障监察条例
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394944.html
+  download_url: null
+  published_at: '2004-11-01'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: e10290092d65281183d7b28c9f0d4f1bee7dc7875a4b292181f4d177fc402766
+- region: national
+  local_path: regions/national/regulations/department-rules/劳动能力鉴定管理办法.md
+  title: 劳动能力鉴定管理办法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/t20250523_542492.html
+  download_url: null
+  published_at: '2025-05-23'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: d3b542d2f488711af4fb8e1c82a7960a116d4d3bda88990773ab1e98aaefe0f9
+- region: national
+  local_path: regions/national/regulations/files/劳动能力鉴定管理办法-P020250523339314479699.doc
+  title: 劳动能力鉴定管理办法 · 附件 P020250523339314479699.doc
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/t20250523_542492.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/P020250523339314479699.doc
+  published_at: '2025-05-23'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 9a32ab79622d6d058202c608edf80f26c93006dabc8cdb0af294c9a57de7a9a8
+- region: national
+  local_path: regions/national/regulations/files/劳动能力鉴定管理办法-P020250523339314659253.pdf
+  title: 劳动能力鉴定管理办法 · 附件 P020250523339314659253.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/t20250523_542492.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/P020250523339314659253.pdf
+  published_at: '2025-05-23'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 5b54c481c0f9236e911820120f67d0ea3a605d728963d701223958f7ac144d4d
+- region: national
+  local_path: regions/national/regulations/files/劳动能力鉴定管理办法-P020250523414800663832.doc
+  title: 劳动能力鉴定管理办法 · 附件 P020250523414800663832.doc
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/t20250523_542492.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/P020250523414800663832.doc
+  published_at: '2025-05-23'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 1c4f125c7662fa03e7508246c302d7ff7cbc72766fbfeb2ec719331f529fd494
+- region: national
+  local_path: regions/national/regulations/files/劳动能力鉴定管理办法-P020250523414800768128.doc
+  title: 劳动能力鉴定管理办法 · 附件 P020250523414800768128.doc
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/t20250523_542492.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/P020250523414800768128.doc
+  published_at: '2025-05-23'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 3f06c5ba3ad0e79c1af109c3132ae6b034fe6a95fce0422752c5b80f3089303f
+- region: national
+  local_path: regions/national/regulations/administrative-regulations/国务院关于职工工作时间的规定.md
+  title: 国务院关于职工工作时间的规定
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394935.html
+  download_url: null
+  published_at: '2020-11-03'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 6ddaa6753a6ae7ae8c7c1faf5e88f3de0824ba5f5859fa47e396ace373bfbcba
+- region: national
+  local_path: regions/national/regulations/administrative-regulations/失业保险条例.md
+  title: 失业保险条例
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394936.html
+  download_url: null
+  published_at: '2020-11-03'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: c98778d8bf7e92a3dff195f4d3defd40130705387eb34cc9f04f58455003ba6a
+- region: national
+  local_path: regions/national/regulations/administrative-regulations/女职工劳动保护特别规定.md
+  title: 女职工劳动保护特别规定
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394947.html
+  download_url: null
+  published_at: '2012-04-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: a07c6c17637810ae9282243d19177e7f6108853db5e9c5e67001fc62b5453bae
+- region: national
+  local_path: regions/national/regulations/administrative-regulations/工伤保险条例.md
+  title: 工伤保险条例
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394950.html
+  download_url: null
+  published_at: '2010-12-20'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 963f0d10a5f7b1aba8dd2c46ecebbf8a08cb692d1d06bb4bc116230dd9fd2e19
+- region: national
+  local_path: regions/national/regulations/department-rules/工资支付暂行规定.md
+  title: 工资支付暂行规定
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431557.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 088709d070900938b2193f1865acbc31d67583058cf7502bf02256fc7b0412b6
+- region: national
+  local_path: regions/national/regulations/files/工资支付暂行规定-P020220105606656151693.pdf
+  title: 工资支付暂行规定 · 附件 P020220105606656151693.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431557.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020220105606656151693.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: f9a3da3755d290cd62fa59bca3549e8c534348a94a247cbb99bcf3f9d5b3ce61
+- region: national
+  local_path: regions/national/regulations/files/工资支付暂行规定-P020220105606656152177.docx
+  title: 工资支付暂行规定 · 附件 P020220105606656152177.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431557.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020220105606656152177.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 18556ac6f65ffeaac9fc2b0862fc36ccbaf61aedda95a0d48a64befe8e09b35e
+- region: national
+  local_path: regions/national/regulations/department-rules/最低工资规定.md
+  title: 最低工资规定
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431587.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 0564dd605c99875e059859f0763bad296c459bfd22e4e43fa62068892b8ad62a
+- region: national
+  local_path: regions/national/regulations/files/最低工资规定-P020211230630480093629.docx
+  title: 最低工资规定 · 附件 P020211230630480093629.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431587.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211230630480093629.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 4a81a8831dd49effe0d54ab64f81305e7cbd2a5bf161202a166c82f23cb48a7a
+- region: national
+  local_path: regions/national/regulations/files/最低工资规定-P020211230630480094696.pdf
+  title: 最低工资规定 · 附件 P020211230630480094696.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431587.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211230630480094696.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 5a3f427ebfe31d089796e6ac5726e3f4d3610f9a03ec7ea5bb5ddba160972993
+- region: national
+  local_path: regions/national/regulations/judicial-interpretations/最高人民法院关于审理劳动争议案件适用法律问题的解释（一）.md
+  title: 最高人民法院关于审理劳动争议案件适用法律问题的解释（一）
+  topic: regulations
+  source_url: https://www.court.gov.cn/fabu/xiangqing/282121.html
+  download_url: null
+  published_at: '2020-12-30'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: a23ddf4fe7a604f9b6b907e9a58f2290bd30a2d1fc735d5ef94fcb244badda57
+- region: national
+  local_path: regions/national/regulations/judicial-interpretations/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）.md
+  title: 最高人民法院关于审理劳动争议案件适用法律问题的解释（二）
+  topic: regulations
+  source_url: http://gongbao.court.gov.cn/Details/bb72019c45453f84d920bd6375573e.html
+  download_url: null
+  published_at: '2025-02-17'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: c009dfe33ea75f5c5a6f746d2ec1fbc920de7d63db343cd3f8c23f058355765e
+- region: national
+  local_path: regions/national/regulations/administrative-regulations/社会保险经办条例.md
+  title: 社会保险经办条例
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202312/t20231201_509829.html
+  download_url: null
+  published_at: '2023-08-16'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 107ec4fbdc46b5d7b0b201b9c315d92ed5f7eb4d3aba31d09dda23357c6b62bc
+- region: national
+  local_path: regions/national/regulations/administrative-regulations/社会保险费征缴暂行条例.md
+  title: 社会保险费征缴暂行条例
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394934.html
+  download_url: null
+  published_at: '2020-11-03'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 7735b81b8172fba57bc443c8221ba374a972079e1709843fd485a9f72c73c797
+- region: national
+  local_path: regions/national/regulations/administrative-regulations/职工带薪年休假条例.md
+  title: 职工带薪年休假条例
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394938.html
+  download_url: null
+  published_at: '2007-12-14'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: a51895899668fb76cc24426bb2b7230e21116d70649a94b5a552dfe88d9fc50b
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/regulations/2024-06-17-解读《北京市高级人民法院、北京市劳动人事争议仲裁委员会关于审理劳动争议案件法律适用问题的解答》.md
   title: 解读《北京市高级人民法院、北京市劳动人事争议仲裁委员会关于审理劳动争议案件法律适用问题的解答》
   topic: regulations
   source_url: https://rsj.beijing.gov.cn/xxgk/2024zcjd/202406/t20240617_3717660.html
@@ -1242,7 +1875,38 @@ documents:
   retrieved_at: '2026-09-20T22:59:36+08:00'
   status: active
   content_hash: 38beb3db4ab5a59dd5ebc42e096bde1a67bcb4849a6fd643e1c7c6354be44152
-- local_path: regions/municipalities/beijing/templates/files/劳动人事争议仲裁申请书.docx
+- region: national
+  local_path: regions/national/regulations/department-rules/超龄劳动者基本权益保障暂行规定.md
+  title: 超龄劳动者基本权益保障暂行规定
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202605/t20260525_576849.html
+  download_url: null
+  published_at: '2026-05-25'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: cbf2440a4ddb5e57a8611e9345dcd516b09d25409f1a057879aea13b0702efea
+- region: national
+  local_path: regions/national/regulations/files/超龄劳动者基本权益保障暂行规定-P020260525542709813349.doc
+  title: 超龄劳动者基本权益保障暂行规定 · 附件 P020260525542709813349.doc
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202605/t20260525_576849.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202605/P020260525542709813349.doc
+  published_at: '2026-05-25'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: 88a515b26b084210d3c958a66e9267e6b5a633ce33b4d0ad612bbc6e3c031c3c
+- region: national
+  local_path: regions/national/regulations/files/超龄劳动者基本权益保障暂行规定-P020260525542709827577.pdf
+  title: 超龄劳动者基本权益保障暂行规定 · 附件 P020260525542709827577.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202605/t20260525_576849.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202605/P020260525542709827577.pdf
+  published_at: '2026-05-25'
+  retrieved_at: '2026-09-20T23:41:31+08:00'
+  status: active
+  content_hash: d26043da520ef315063c8e738b2514dd7eb71d68d1250748ca8e0cc0730598e3
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/templates/files/劳动人事争议仲裁申请书.docx
   title: 劳动人事争议仲裁申请书
   topic: templates
   source_url: https://fuwu.rsj.beijing.gov.cn/zhrs/api4/arbitration/html/home/newsList?items=10
@@ -1251,7 +1915,8 @@ documents:
   retrieved_at: '2026-09-20T22:55:23+08:00'
   status: active
   content_hash: c36b91e4532b2d3af1428cd7495dae404e5cee0f8e7a37bf831a146c66943ce5
-- local_path: regions/municipalities/beijing/templates/files/劳动人事争议调解申请书.docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/templates/files/劳动人事争议调解申请书.docx
   title: 劳动人事争议调解申请书
   topic: templates
   source_url: https://fuwu.rsj.beijing.gov.cn/zhrs/api4/arbitration/html/home/newsList?items=10
@@ -1260,7 +1925,8 @@ documents:
   retrieved_at: '2026-09-20T22:55:23+08:00'
   status: active
   content_hash: 0de474a60e8c4d13a7fa63675c2dd7de26bdf787e8eb000b805d21703e86cd58
-- local_path: regions/municipalities/beijing/templates/files/授权委托书（申请仲裁）.docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/templates/files/授权委托书（申请仲裁）.docx
   title: 授权委托书（申请仲裁）
   topic: templates
   source_url: https://fuwu.rsj.beijing.gov.cn/zhrs/api4/arbitration/html/home/newsList?items=10
@@ -1269,7 +1935,8 @@ documents:
   retrieved_at: '2026-09-20T22:55:23+08:00'
   status: active
   content_hash: 66163b6ba3da60b1f809c3e2a1d9028cb3fa12c85ed8c72409639adf2cfcc691
-- local_path: regions/municipalities/beijing/templates/files/授权委托书（申请调解）.docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/templates/files/授权委托书（申请调解）.docx
   title: 授权委托书（申请调解）
   topic: templates
   source_url: https://fuwu.rsj.beijing.gov.cn/zhrs/api4/arbitration/html/home/newsList?items=10
@@ -1278,7 +1945,8 @@ documents:
   retrieved_at: '2026-09-20T22:55:23+08:00'
   status: active
   content_hash: 5c797e5c30c8d999f3eb7faf0b03101bdea125382fa30d40f5a6e26bc798e4ff
-- local_path: regions/municipalities/beijing/templates/files/法定代表人身份证明书（通用）.docx
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/templates/files/法定代表人身份证明书（通用）.docx
   title: 法定代表人身份证明书（通用）
   topic: templates
   source_url: https://fuwu.rsj.beijing.gov.cn/zhrs/api4/arbitration/html/home/newsList?items=10

@@ -17,7 +17,7 @@ TOPIC_CN = {
     "regulations": "地方法规与政策文件",
 }
 CSV_FIELDS = [
-    "local_path", "topic", "title", "authority", "published_at", "source_url",
+    "region", "level", "topic", "local_path", "title", "authority", "published_at", "source_url",
     "download_url", "retrieved_at", "status", "content_hash", "file_type", "bytes",
 ]
 START, END = "<!-- inventory:start -->", "<!-- inventory:end -->"
@@ -39,7 +39,8 @@ def load() -> list[dict]:
 def write_indexes(records: list[dict]) -> None:
     idx = REPO / "indexes"
     (idx / "by-topic").mkdir(parents=True, exist_ok=True)
-    rows = sorted(records, key=lambda r: (r.get("topic", ""), r.get("published_at") or "", r.get("title", "")))
+    rows = sorted(records, key=lambda r: (r.get("region", ""), r.get("topic", ""),
+                                          r.get("published_at") or "", r.get("title", "")))
     with (idx / "documents.csv").open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=CSV_FIELDS, extrasaction="ignore")
         w.writeheader()
@@ -49,17 +50,18 @@ def write_indexes(records: list[dict]) -> None:
         json.dumps([{k: r.get(k) for k in CSV_FIELDS} for r in rows], ensure_ascii=False, indent=1),
         encoding="utf-8",
     )
-    for topic in TOPICS:
+    topics = sorted({r.get("topic", "") for r in rows})
+    for topic in topics:
         items = [r for r in rows if r.get("topic") == topic]
         lines = [
-            f"# {TOPIC_CN[topic]}（{topic}）资料索引", "",
+            f"# {TOPIC_CN.get(topic, topic)}（{topic}）资料索引", "",
             f"共 {len(items)} 项，抓取时间 {RETRIEVED_AT}。", "",
-            "| 标题 | 发布日期 | 类型 | 本地路径 | 来源 |", "| --- | --- | --- | --- | --- |",
+            "| 地区 | 标题 | 发布日期 | 类型 | 本地路径 | 来源 |", "| --- | --- | --- | --- | --- | --- |",
         ]
         for r in items:
             lines.append(
-                f"| {r.get('title')} | {r.get('published_at') or '—'} | {r.get('file_type')} | "
-                f"[{r.get('local_path')}](../{r.get('local_path').replace('regions/municipalities/beijing/', '')}) | "
+                f"| {r.get('region')} | {r.get('title')} | {r.get('published_at') or '—'} | {r.get('file_type')} | "
+                f"[{r.get('local_path')}](../../{r.get('local_path')}) | "
                 f"[来源]({r.get('source_url')}) |"
             )
         (idx / "by-topic" / f"{topic}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
@@ -137,9 +139,48 @@ def write_sources(records: list[dict]) -> None:
                 "note": "该域名当前无法解析（DNS 失败），原 README 中「东城区政务服务中心仲裁指南」链接已失效；"
                         "东城区内容改由政务服务事项办事指南页面替代归档。",
             },
+            {
+                "id": "national-mohrss-laws",
+                "region": "national",
+                "authority": "人力资源和社会保障部（转载全国人大及其常委会法律）",
+                "homepage": "https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/",
+                "status": "active",
+                "topics": ["regulations"],
+                "note": "国家层面法律栏目，已归档 7 部（劳动法、劳动合同法、劳动争议调解仲裁法、社会保险法、"
+                        "就业促进法、工会法、渐进式延迟退休决定）。",
+            },
+            {
+                "id": "national-mohrss-administrative-regulations",
+                "region": "national",
+                "authority": "人力资源和社会保障部（转载国务院行政法规）",
+                "homepage": "https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/",
+                "status": "active",
+                "topics": ["regulations"],
+                "note": "行政法规栏目，已归档 12 部；司法部国家行政法规库（xzfg.moj.gov.cn）亦提供官方 PDF/DOCX 原件。",
+            },
+            {
+                "id": "national-mohrss-department-rules",
+                "region": "national",
+                "authority": "人力资源和社会保障部·国家规章库",
+                "homepage": "https://www.mohrss.gov.cn/xxgk2020/gzk/gz/",
+                "status": "active",
+                "topics": ["regulations"],
+                "note": "国家规章库 5 个分页共 75 条，已按劳动仲裁相关性归档 9 部；页面附带官方 DOCX/PDF 原件。",
+            },
+            {
+                "id": "national-court-interpretations",
+                "region": "national",
+                "authority": "最高人民法院",
+                "homepage": "https://www.court.gov.cn/",
+                "status": "active",
+                "topics": ["regulations"],
+                "note": "劳动争议司法解释（一）（法释〔2020〕26 号）取自最高法官网，"
+                        "（二）（法释〔2025〕12 号）取自最高人民法院公报。",
+            },
         ],
         "documents": [
             {
+                "region": r.get("region"),
                 "local_path": r.get("local_path"),
                 "title": r.get("title"),
                 "topic": r.get("topic"),
@@ -163,14 +204,18 @@ def write_sources(records: list[dict]) -> None:
 
 
 def write_topic_readmes(records: list[dict]) -> None:
-    for topic in TOPICS:
-        items = [r for r in records if r.get("topic") == topic]
-        readme = BEIJING / topic / "README.md"
+    """按 (地区, 主题) 生成/刷新各自 README 的「已归档资料」小节。"""
+    groups: dict[tuple[str, str], list[dict]] = {}
+    for r in records:
+        groups.setdefault((r.get("region", ""), r.get("topic", "")), []).append(r)
+    for (region, topic), items in sorted(groups.items()):
+        readme = REPO / "regions" / region / topic / "README.md"
+        readme.parent.mkdir(parents=True, exist_ok=True)
         block = [START, f"## 已归档资料（{len(items)} 项，抓取时间 {RETRIEVED_AT}）", ""]
         if items:
             block += ["| 标题 | 发布日期 | 类型 | 文件名 |", "| --- | --- | --- | --- |"]
             for r in sorted(items, key=lambda r: (r.get("published_at") or "", r.get("title", ""))):
-                local = r["local_path"].replace(f"regions/municipalities/beijing/{topic}/", "")
+                local = r["local_path"].replace(f"regions/{region}/{topic}/", "")
                 block.append(
                     f"| {r.get('title')} | {r.get('published_at') or '—'} | {r.get('file_type')} | `{local}` |"
                 )
@@ -187,40 +232,73 @@ def write_topic_readmes(records: list[dict]) -> None:
             else:
                 readme.write_text(text.rstrip() + "\n\n" + new_block + "\n", encoding="utf-8")
         else:
-            readme.write_text(f"# {TOPIC_CN[topic]}\n\n" + new_block + "\n", encoding="utf-8")
-    print("topic READMEs updated")
+            readme.write_text(f"# {TOPIC_CN.get(topic, topic)}\n\n" + new_block + "\n", encoding="utf-8")
+    print("topic READMEs updated:", len(groups), "组")
 
 
-def write_changelog(records: list[dict]) -> None:
-    counts = {t: len([r for r in records if r.get("topic") == t]) for t in TOPICS}
-    changelog = REPO / "CHANGELOG.md"
-    text = changelog.read_text(encoding="utf-8").rstrip()
-    heading = f"## {datetime.date.today().isoformat()} · 北京资料首次批量抓取"
-    # 幂等：同日同标题的旧条目先移除，避免重复追加
+def _upsert_changelog_section(text: str, heading: str, body_lines: list[str]) -> str:
+    """同日同标题的旧条目先移除，避免重复追加。"""
     if heading in text:
         head, _, rest = text.partition(heading)
         nxt = rest.find("\n## ")
         text = (head.rstrip() + ("\n\n" + rest[nxt + 1:] if nxt != -1 else "")).rstrip()
-    entry = [
-        "",
-        f"## {datetime.date.today().isoformat()} · 北京资料首次批量抓取",
-        "",
-        "抓取并归档北京地区公开仲裁资料，新增内容：",
-        "",
-        f"- 模板与文书 {counts['templates']} 份（docx 原始文件）",
-        f"- 系统操作手册 {counts['manuals']} 份（PDF 原始文件）",
-        f"- 办事指南 {counts['guidance']} 份（政务服务事项指南 + 平台在线申请须知）",
-        f"- 典型案例 {counts['cases']} 篇（北京市人社局专题页全部文章 + 年度十大案例）",
-        f"- 管辖规定 {counts['jurisdiction']} 份（含官方 PDF 附件）",
-        f"- 仲裁机构名录 {counts['institutions']} 份（官方查询接口数据 + 整理名录）",
-        f"- 地方法规与政策文件 {counts['regulations']} 份",
-        f"- 新增 `indexes/documents.csv`、`indexes/documents.json`、`indexes/by-topic/`，"
-        f"并为每个二进制附件生成同名 `.meta.yaml` 来源记录（来源页、下载地址、发布时间、抓取时间、SHA-256）",
-        "- `SOURCES.yaml` 更新为来源台账（含各来源状态与逐份文件索引）",
-        "- 已知失效来源：`zwfw.beijing.gov.cn`（DNS 不可解析），原 README 中东城区指南链接失效",
-        "",
-    ]
-    changelog.write_text(text + "\n" + "\n".join(entry), encoding="utf-8")
+    return text + "\n" + "\n".join(["", heading, "", *body_lines, ""])
+
+
+def write_changelog(records: list[dict]) -> None:
+    today = datetime.date.today().isoformat()
+
+    def n(region: str, topic: str) -> int:
+        return len([r for r in records if r.get("region") == region and r.get("topic") == topic])
+
+    def cnt(region: str) -> int:
+        return len([r for r in records if r.get("region") == region])
+
+    files = len([r for r in records if r.get("region") == "national" and r.get("file_type") != "markdown"])
+    changelog = REPO / "CHANGELOG.md"
+    text = changelog.read_text(encoding="utf-8").rstrip()
+
+    text = _upsert_changelog_section(
+        text, f"## {today} · 国家层面劳动法律法规首轮归档",
+        [
+            f"抓取并归档国家层面公开劳动法律法规，共 {cnt('national')} 份记录（含官方原件 {files} 份）：",
+            "",
+            "- 法律 7 部：劳动法、劳动合同法、劳动争议调解仲裁法、社会保险法、"
+            "就业促进法、工会法、关于实施渐进式延迟法定退休年龄的决定",
+            "- 行政法规 12 部：劳动合同法实施条例、工伤保险条例、职工带薪年休假条例、女职工劳动保护特别规定、"
+            "失业保险条例、保障农民工工资支付条例、国务院关于职工工作时间的规定、事业单位人事管理条例、"
+            "社会保险费征缴暂行条例、劳动保障监察条例、全国年节及纪念日放假办法、社会保险经办条例",
+            "- 司法解释 2 部：审理劳动争议案件适用法律问题的解释（一）（法释〔2020〕26 号）、"
+            "（二）（法释〔2025〕12 号）",
+            "- 部门规章 9 部：仲裁办案规则、仲裁组织规则、企业劳动争议协商调解规定、企业职工带薪年休假实施办法、"
+            "最低工资规定、工资支付暂行规定、劳务派遣暂行规定、劳动能力鉴定管理办法、超龄劳动者基本权益保障暂行规定",
+            "- 来源：人社部政策法规（法律/行政法规栏目）与国家规章库、最高人民法院公报；"
+            "部门规章页面附带的官方 DOCX/PDF 原件一并归档到 `regions/national/regulations/files/`",
+            "- 新增 `regions/national/README.md`、`official-index.md`、`SOURCE.md`；`indexes/` 增加 `region` 列并覆盖国家层面资料",
+            "",
+        ],
+    )
+
+    text = _upsert_changelog_section(
+        text, f"## {today} · 北京资料首次批量抓取",
+        [
+            "抓取并归档北京地区公开仲裁资料，新增内容：",
+            "",
+            f"- 模板与文书 {n('municipalities/beijing', 'templates')} 份（docx 原始文件）",
+            f"- 系统操作手册 {n('municipalities/beijing', 'manuals')} 份（PDF 原始文件）",
+            f"- 办事指南 {n('municipalities/beijing', 'guidance')} 份（政务服务事项指南 + 平台在线申请须知）",
+            f"- 典型案例 {n('municipalities/beijing', 'cases')} 篇（北京市人社局专题页全部文章 + 年度十大案例）",
+            f"- 管辖规定 {n('municipalities/beijing', 'jurisdiction')} 份（含官方 PDF 附件）",
+            f"- 仲裁机构名录 {n('municipalities/beijing', 'institutions')} 份（官方查询接口数据 + 整理名录）",
+            f"- 地方法规与政策文件 {n('municipalities/beijing', 'regulations')} 份",
+            "- 新增 `indexes/documents.csv`、`indexes/documents.json`、`indexes/by-topic/`，"
+            "并为每个二进制附件生成同名 `.meta.yaml` 来源记录（来源页、下载地址、发布时间、抓取时间、SHA-256）",
+            "- `SOURCES.yaml` 更新为来源台账（含各来源状态与逐份文件索引）",
+            "- 已知失效来源：`zwfw.beijing.gov.cn`（DNS 不可解析），原 README 中东城区指南链接失效",
+            "",
+        ],
+    )
+    changelog.write_text(text, encoding="utf-8")
     print("CHANGELOG.md updated")
 
 

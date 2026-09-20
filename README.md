@@ -15,10 +15,12 @@
 
 ## 归档进度
 
+- 国家层面：已归档法律 7 部、行政法规 12 部、司法解释 2 部、部门规章 9 部（含官方原件 20 份）。
+  - 目录：`regions/national/`，来源与清单：`regions/national/official-index.md`
 - 北京市：已完成第一轮批量抓取（文书模板、操作手册、办事指南、典型案例、管辖规定、机构名录、地方规范性文件）。
-  - 全量清单：`indexes/documents.csv` / `indexes/documents.json`，主题视图：`indexes/by-topic/`
   - 抓取与核验结论：`regions/municipalities/beijing/official-index.md`
-  - 抓取流程（可复现）：`tools/beijing_crawl/README.md`
+- 全量清单：`indexes/documents.csv` / `indexes/documents.json`（含 `region` 列），主题视图：`indexes/by-topic/`
+- 抓取流程（可复现）：`tools/crawl/README.md`
 - 其他省市区县：目录已就位，尚未开始归档。
 
 ## 北京资料入口

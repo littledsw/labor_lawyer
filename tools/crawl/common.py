@@ -1,11 +1,7 @@
-"""劳动仲裁公开资料抓取公共库（北京市）。
+"""公开资料抓取公共库（国家层面 + 北京市）。
 
-用法：设置 LABOR_LAWYER_REPO 指向仓库根目录后按顺序执行 stage1 → stage6，
-详见 tools/beijing_crawl/README.md。抓取结果写入仓库，元数据累积在 manifest.json。
-
-工作目录约定（可用环境变量覆盖）：
-- LABOR_LAWYER_REPO  仓库根目录，默认当前工作目录
-- LABOR_LAWYER_CACHE 抓取缓存与 manifest 目录，默认系统临时目录下的 labor_lawyer_crawl
+用法：设置 LABOR_LAWYER_REPO 指向仓库根目录后按 stage1 → stage7 顺序执行，
+详见 tools/crawl/README.md。抓取结果写入仓库，元数据累积在 manifest.json。
 """
 from __future__ import annotations
 
@@ -42,7 +38,26 @@ LEVEL = "municipality"
 AUTHORITY = "北京市人力资源和社会保障局"
 
 
+def region_root(region: str) -> pathlib.Path:
+    """地区根目录，如 region='municipalities/beijing' 或 'national'。"""
+    return REPO / "regions" / region
+
+
+def default_level(region: str) -> str:
+    return "national" if region == "national" else "municipality"
+
+
 # ---------------------------------------------------------------- network
+def solve_eo_bot(html_text: str) -> str | None:
+    """解析人社部网站的 EO_Bot 反爬挑战脚本，返回所需 Cookie。"""
+    ssid = re.search(r"\(t,\s*(\d{6,})\)", html_text)
+    props = re.findall(r"(\w{5,}):(\d{6,})", html_text)
+    if not ssid or not props:
+        return None
+    total = sum(int(v) for _, v in props)
+    return f"__tst_status={total}#; EO_Bot_Ssid={ssid.group(1)}"
+
+
 def fetch(url: str, referer: str | None = None, cache: bool = True, timeout: int = 45) -> bytes:
     """下载 URL 内容（带本地缓存，避免重复请求）。"""
     key = hashlib.sha1(url.encode()).hexdigest() + ".bin"
@@ -58,8 +73,19 @@ def fetch(url: str, referer: str | None = None, cache: bool = True, timeout: int
         try:
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 data = r.read()
-            if cp.exists() or True:
-                cp.write_bytes(data)
+            # 人社部等站点会返回反爬挑战页，解出 Cookie 后重试
+            if len(data) < 4000 and b"EO_Bot_Ssid" in data:
+                cookie = solve_eo_bot(data.decode("utf-8", "ignore"))
+                if cookie:
+                    req2 = urllib.request.Request(url)
+                    req2.add_header("User-Agent", UA)
+                    req2.add_header("Accept", "*/*")
+                    req2.add_header("Cookie", cookie)
+                    if referer:
+                        req2.add_header("Referer", referer)
+                    with urllib.request.urlopen(req2, timeout=timeout) as r2:
+                        data = r2.read()
+            cp.write_bytes(data)
             time.sleep(0.4)
             return data
         except Exception as exc:  # noqa: BLE001
@@ -113,7 +139,7 @@ def page_date(html: str, soup: BeautifulSoup, url: str) -> str | None:
 
 def main_node(soup: BeautifulSoup):
     """定位正文节点：优先常见 TRS 容器，否则选文本量最大的 div。"""
-    for sel in ("div.view", "#mainText", "div.task-detail", "div.detail", "article"):
+    for sel in ("div.view", "div.TRS_PreAppend", "#mainText", "div.task-detail", "div.detail", "article"):
         node = soup.select_one(sel)
         if node and len(node.get_text(strip=True)) > 200:
             return node
@@ -184,12 +210,13 @@ def add_record(rec: dict) -> None:
 
 def save_md(rel: str, title: str, md: str, *, topic: str, source_url: str,
             published_at: str | None = None, authority: str = AUTHORITY,
-            notes: str | None = None, extra_meta: dict | None = None) -> dict:
-    path = BEIJING / rel
+            notes: str | None = None, extra_meta: dict | None = None,
+            region: str = REGION, level: str | None = None) -> dict:
+    path = region_root(region) / rel
     path.parent.mkdir(parents=True, exist_ok=True)
     body = md.rstrip() + "\n"
     meta = {
-        "title": title, "region": REGION, "level": LEVEL, "topic": topic,
+        "title": title, "region": region, "level": level or default_level(region), "topic": topic,
         "authority": authority, "published_at": published_at,
         "source_url": source_url, "retrieved_at": RETRIEVED_AT,
         "status": "active", "content_hash": sha256(body.encode()),
@@ -207,12 +234,13 @@ def save_md(rel: str, title: str, md: str, *, topic: str, source_url: str,
 def save_binary(rel: str, data: bytes, *, title: str, topic: str, source_url: str,
                 download_url: str | None = None, published_at: str | None = None,
                 authority: str = AUTHORITY, notes: str | None = None,
-                original_filename: str | None = None) -> dict:
-    path = BEIJING / rel
+                original_filename: str | None = None,
+                region: str = REGION, level: str | None = None) -> dict:
+    path = region_root(region) / rel
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(data)
     meta = {
-        "title": title, "region": REGION, "level": LEVEL, "topic": topic,
+        "title": title, "region": region, "level": level or default_level(region), "topic": topic,
         "authority": authority, "published_at": published_at,
         "source_url": source_url, "download_url": download_url or source_url,
         "retrieved_at": RETRIEVED_AT, "status": "active",
