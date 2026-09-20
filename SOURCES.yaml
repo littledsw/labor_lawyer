@@ -1,5 +1,5 @@
 # 来源站点索引（由抓取流程生成，保留原始 URL 与 SHA-256 追溯信息）
-updated_at: '2026-09-20T23:44:16+08:00'
+updated_at: '2026-09-20T23:57:31+08:00'
 region: municipalities/beijing
 authority: 北京市人力资源和社会保障局
 sources:
@@ -1352,9 +1352,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394628.html
   download_url: null
   published_at: '2007-12-29'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 878a2b8059a4b4bb7fd7dcc9e9d7c9a8f4c011134427841551eb971329a21803
+  content_hash: 1c35b3f8677ac5b29c7e42111e07f0b13658f521b1d5e569ac38b38e3123caaa
 - region: national
   local_path: regions/national/regulations/laws/中华人民共和国劳动合同法.md
   title: 中华人民共和国劳动合同法
@@ -1362,9 +1362,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394622.html
   download_url: null
   published_at: '2012-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: b6e438794aff1db89ff4272ccc86d39e92b5ae2f1126cce058ed36a202fa071f
+  content_hash: 72cb3e519e4307b8b370c2488e52b626407a7fc5e06a5d61e6da060812b55b89
 - region: national
   local_path: regions/national/regulations/administrative-regulations/中华人民共和国劳动合同法实施条例.md
   title: 中华人民共和国劳动合同法实施条例
@@ -1372,9 +1372,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394939.html
   download_url: null
   published_at: '2008-09-18'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 9c3112f59bb2b1d86f0f5534c55a1562f05982ea1c0fde5ffe88d71418096fc2
+  content_hash: 49aa7763c0d6016773e256736cdb18b7680fa5806ce2c653483e5e527d3d673f
 - region: national
   local_path: regions/national/regulations/laws/中华人民共和国劳动法.md
   title: 中华人民共和国劳动法
@@ -1382,9 +1382,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394625.html
   download_url: null
   published_at: '2018-12-29'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: b50e0466555293ee806feab41721448138962cdc66bd3b1d3f24c6dcd4f2fbea
+  content_hash: 85195652e5aa7b7f8f7c930e37acc18265c7c58b86cea39319d7ffc3433d2714
 - region: national
   local_path: regions/national/regulations/laws/中华人民共和国就业促进法.md
   title: 中华人民共和国就业促进法
@@ -1392,9 +1392,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394626.html
   download_url: null
   published_at: '2015-04-24'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: a873c0e9501c97ae261711d1b499eee343a188f91c82b38017a174d232e3981c
+  content_hash: 0e3f1ad00fcb15f724956414ef76a6ed9f891441ff282a5c0aff41c55838754e
 - region: national
   local_path: regions/national/regulations/laws/中华人民共和国工会法.md
   title: 中华人民共和国工会法
@@ -1402,7 +1402,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394624.html
   download_url: null
   published_at: '2021-12-24'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: d51a4de48e21724c0b348daf8960e218627d3f8d95a820a7b5b67c1279903b1f
 - region: national
@@ -1412,9 +1412,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394629.html
   download_url: null
   published_at: '2018-12-29'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 9c3780a74f05d825667ae9720fd23f37bdb829d45d94269fb8f9b600c336f392
+  content_hash: 4e03bdaa4ec9b5dae6febccd7426bba09ae3f91c6428e0a7c5c6e1c027fd24f5
 - region: national
   local_path: regions/national/regulations/administrative-regulations/事业单位人事管理条例.md
   title: 事业单位人事管理条例
@@ -1422,9 +1422,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394930.html
   download_url: null
   published_at: '2014-04-25'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 4c775e744e2906b54ea8a7f18d9c03ad7e107a22ca5f3285b29b4976a2349083
+  content_hash: dd439007ad04b757ac15f6cb0d996ebf71b97559a7cd58f409898d1e80b1c867
 - region: national
   local_path: regions/national/regulations/department-rules/企业劳动争议协商调解规定.md
   title: 企业劳动争议协商调解规定
@@ -1432,9 +1432,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431626.html
   download_url: null
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 1f30417900eeb2081825427b566b82e1fc81cddae0e526d2e030ece967b74e3f
+  content_hash: 5719786529e7265bb2e5f4a2b0c58b211144384449fe99b1007ead5deaeec939
 - region: national
   local_path: regions/national/regulations/files/企业劳动争议协商调解规定-P020211229558188756558.pdf
   title: 企业劳动争议协商调解规定 · 附件 P020211229558188756558.pdf
@@ -1442,7 +1442,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431626.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229558188756558.pdf
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: ac534e6bf64aff9dab664243f551011d5c3a845f577f8378ebd6312c627091b4
 - region: national
@@ -1452,7 +1452,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431626.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229558188758399.docx
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 2daed097ad2def1d66dea682ce180554ff2667920794f4008caa047633abd0f0
 - region: national
@@ -1462,9 +1462,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431596.html
   download_url: null
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 7c48c49f9f7888a34874644eb1cdf7a920aa6078fded366b73d3a0b346c88f61
+  content_hash: ab026831df9e2a705da5dac0370e16468f1def2b5895ecc4966ac0daf44b8833
 - region: national
   local_path: regions/national/regulations/files/企业职工带薪年休假实施办法-P020211229590352861833.docx
   title: 企业职工带薪年休假实施办法 · 附件 P020211229590352861833.docx
@@ -1472,7 +1472,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431596.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229590352861833.docx
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 2f28b62e2ff3b673e16964fdc2113103289217f45865a3b0336308e8cf3a7d9c
 - region: national
@@ -1482,9 +1482,39 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431596.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229590352867273.pdf
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 94380076b87fa4ef551d51c5b6229e684d7b51798ca7a02a29a393f4f369dcd9
+- region: national
+  local_path: regions/national/regulations/department-rules/企业职工患病或非因工负伤医疗期规定.md
+  title: 企业职工患病或非因工负伤医疗期规定
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431556.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 3d36080b63d9b07168191b9cb03abc11f3258e1cec856e548c12b0001089bd38
+- region: national
+  local_path: regions/national/regulations/files/企业职工患病或非因工负伤医疗期规定-P020211229611332520312.docx
+  title: 企业职工患病或非因工负伤医疗期规定 · 附件 P020211229611332520312.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431556.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229611332520312.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 60cc6f8116826ad4f977fde74a96300ff787d13cfeeb664b28f5dab05a2719de
+- region: national
+  local_path: regions/national/regulations/files/企业职工患病或非因工负伤医疗期规定-P020211229611332535578.pdf
+  title: 企业职工患病或非因工负伤医疗期规定 · 附件 P020211229611332535578.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431556.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229611332535578.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 264e751ac28a095bfe33cac943a0b918d959744ee4c4e36393ee5f2d39dfbb3a
 - region: national
   local_path: regions/national/regulations/administrative-regulations/保障农民工工资支付条例.md
   title: 保障农民工工资支付条例
@@ -1492,9 +1522,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394928.html
   download_url: null
   published_at: '2019-12-30'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 67a4f7636f1e41d538789f39d469ffa65d00e8f9efc12b58a0bbba71e7fb5829
+  content_hash: 1e4d6b7c1a573c038c39eb286376a05c73f02a79f38fea41b02a0e1d9c0eea2a
 - region: national
   local_path: regions/national/regulations/laws/全国人民代表大会常务委员会关于实施渐进式延迟法定退休年龄的决定.md
   title: 全国人民代表大会常务委员会关于实施渐进式延迟法定退休年龄的决定
@@ -1502,9 +1532,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202411/t20241125_530761.html
   download_url: null
   published_at: '2024-09-13'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 6e9ebc88638771dc253bbaaadcef272531eec8308e51d5df93e6cd66a5b6ae74
+  content_hash: 67ca1df0082738bd6f9bde4779aba4abd6d2963bfdea14dc9b7bd5069d7ca074
 - region: national
   local_path: regions/national/regulations/administrative-regulations/全国年节及纪念日放假办法.md
   title: 全国年节及纪念日放假办法
@@ -1512,7 +1542,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394937.html
   download_url: null
   published_at: '2024-11-10'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 88754b124e08393db76b7bfb76b018dde2721f9c4a87055d3e6a7bbe3f7c4daf
 - region: municipalities/beijing
@@ -1545,6 +1575,36 @@ documents:
   retrieved_at: '2026-09-20T22:59:36+08:00'
   status: active
   content_hash: 3656b11a475f56cd7d6aa2908d8d6085e083b505edfd771f92a367012c6d2700
+- region: national
+  local_path: regions/national/regulations/department-rules/关于企业实行不定时工作制和综合计算工时工作制的审批办法.md
+  title: 关于企业实行不定时工作制和综合计算工时工作制的审批办法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431561.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 33ead2d1d846f4cc8d4a321c8f64578699433142a17880c3d61cb2c048cb8709
+- region: national
+  local_path: regions/national/regulations/files/关于企业实行不定时工作制和综合计算工时工作制的审批办法-P020211229609908265429.pdf
+  title: 关于企业实行不定时工作制和综合计算工时工作制的审批办法 · 附件 P020211229609908265429.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431561.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229609908265429.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: a3277fc5c8db468c0ed3eaec1d460f124b5475441aabd900bf71aa963e04a332
+- region: national
+  local_path: regions/national/regulations/files/关于企业实行不定时工作制和综合计算工时工作制的审批办法-P020211229609908268563.docx
+  title: 关于企业实行不定时工作制和综合计算工时工作制的审批办法 · 附件 P020211229609908268563.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431561.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229609908268563.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 6888f9add87907a0efef36087786d424ffba9695d85e0c9a71b6eb0d5842629e
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/regulations/2025-01-22-关于加强本市新就业形态劳动纠纷一站式调解工作的通知.md
   title: 关于加强本市新就业形态劳动纠纷一站式调解工作的通知
@@ -1572,9 +1632,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431639.html
   download_url: null
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: a94cb4043c1d4d4125d812a1d39d6556a456515b1f133c90de6cf6c915b0d799
+  content_hash: b6156a728f224602447c2374ea56de864dd3d390efe1884e5f4a10b38417eb65
 - region: national
   local_path: regions/national/regulations/files/劳务派遣暂行规定-P020211229555505968083.docx
   title: 劳务派遣暂行规定 · 附件 P020211229555505968083.docx
@@ -1582,7 +1642,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431639.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229555505968083.docx
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: ba0542e649f1b8e6ed7b0ad823651b5572767006eec5a96c90c45a3bf27effe1
 - region: national
@@ -1592,7 +1652,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431639.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229555505969637.pdf
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: c9fff5198f9c4c106ff1296e4a87bc5298562a2ec01338dd25b947bd54978b08
 - region: national
@@ -1602,9 +1662,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431661.html
   download_url: null
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 65a2f7c9a312731e80b52abb182b51921e0b3a581cdc971f69083665f5691d28
+  content_hash: 5017431400e7a69bec6e048f2cdfc3eece68452a536acf44255b6a402782fda4
 - region: national
   local_path: regions/national/regulations/files/劳动人事争议仲裁办案规则-P020211229545889171726.docx
   title: 劳动人事争议仲裁办案规则 · 附件 P020211229545889171726.docx
@@ -1612,7 +1672,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431661.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229545889171726.docx
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 690c90c8208f66fe35030a9ca45393ff35d3da1c6f2418248c481619c8f1f9a6
 - region: national
@@ -1622,7 +1682,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431661.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229545889175624.pdf
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: a80c81e89d6b47d2ad1c43481820a2661aecefbf3f402aad1018fed8984e08bc
 - region: national
@@ -1632,9 +1692,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431665.html
   download_url: null
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 88edf06b2ae4b2d07a4366f130c295aaa4b8f42a0aa91dd1ed0f5b3a6264189c
+  content_hash: e7ddb7a9652b28f1871c0c4dc64dd5026c6e5ea28d65e97a5db6cbd4c97f0f8c
 - region: national
   local_path: regions/national/regulations/files/劳动人事争议仲裁组织规则-P020211229545165850632.pdf
   title: 劳动人事争议仲裁组织规则 · 附件 P020211229545165850632.pdf
@@ -1642,7 +1702,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431665.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229545165850632.pdf
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: efc8fad72ed261843aecb29d1fb790a42fabbb60da6a4c1c173d892521a44597
 - region: national
@@ -1652,7 +1712,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431665.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229545165853212.docx
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: c01875e2fa0f0bcc9f50a5a3689049ec0945c29bc26df1753badd6cbb8adcc47
 - region: national
@@ -1662,9 +1722,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394944.html
   download_url: null
   published_at: '2004-11-01'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: e10290092d65281183d7b28c9f0d4f1bee7dc7875a4b292181f4d177fc402766
+  content_hash: d8a40f22181c550803b173ba6d7aeb5cc6725bec485ffab2d15aeeddbc4e0919
 - region: national
   local_path: regions/national/regulations/department-rules/劳动能力鉴定管理办法.md
   title: 劳动能力鉴定管理办法
@@ -1672,9 +1732,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/t20250523_542492.html
   download_url: null
   published_at: '2025-05-23'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: d3b542d2f488711af4fb8e1c82a7960a116d4d3bda88990773ab1e98aaefe0f9
+  content_hash: fa0f66bb4765cfdd3218f6964bf4ae2088ae3b0544c9bdabaccd7e77d169e0b0
 - region: national
   local_path: regions/national/regulations/files/劳动能力鉴定管理办法-P020250523339314479699.doc
   title: 劳动能力鉴定管理办法 · 附件 P020250523339314479699.doc
@@ -1682,7 +1742,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/t20250523_542492.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/P020250523339314479699.doc
   published_at: '2025-05-23'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 9a32ab79622d6d058202c608edf80f26c93006dabc8cdb0af294c9a57de7a9a8
 - region: national
@@ -1692,7 +1752,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/t20250523_542492.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/P020250523339314659253.pdf
   published_at: '2025-05-23'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 5b54c481c0f9236e911820120f67d0ea3a605d728963d701223958f7ac144d4d
 - region: national
@@ -1702,7 +1762,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/t20250523_542492.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/P020250523414800663832.doc
   published_at: '2025-05-23'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 1c4f125c7662fa03e7508246c302d7ff7cbc72766fbfeb2ec719331f529fd494
 - region: national
@@ -1712,7 +1772,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/t20250523_542492.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202505/P020250523414800768128.doc
   published_at: '2025-05-23'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 3f06c5ba3ad0e79c1af109c3132ae6b034fe6a95fce0422752c5b80f3089303f
 - region: national
@@ -1722,9 +1782,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394935.html
   download_url: null
   published_at: '2020-11-03'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 6ddaa6753a6ae7ae8c7c1faf5e88f3de0824ba5f5859fa47e396ace373bfbcba
+  content_hash: a508ade85c904f95dd94d871faf969db14b9765fcd315c9afeefd7156d9e3c23
 - region: national
   local_path: regions/national/regulations/administrative-regulations/失业保险条例.md
   title: 失业保险条例
@@ -1732,9 +1792,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394936.html
   download_url: null
   published_at: '2020-11-03'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: c98778d8bf7e92a3dff195f4d3defd40130705387eb34cc9f04f58455003ba6a
+  content_hash: da73cb2e09054d51f7fdc51bcdad33c278eb781f7f69d6603b444721f2133b89
 - region: national
   local_path: regions/national/regulations/administrative-regulations/女职工劳动保护特别规定.md
   title: 女职工劳动保护特别规定
@@ -1742,9 +1802,39 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394947.html
   download_url: null
   published_at: '2012-04-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: a07c6c17637810ae9282243d19177e7f6108853db5e9c5e67001fc62b5453bae
+  content_hash: 792940276ae44b01b36f3c2c876110e017e70c1735f46af39d041966c6213967
+- region: national
+  local_path: regions/national/regulations/department-rules/实施《中华人民共和国社会保险法》若干规定.md
+  title: 实施《中华人民共和国社会保险法》若干规定
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431614.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 63ec23b441dc1491771636d8a1cab2d54438df9eaaf991dd7ff33b7725876b5d
+- region: national
+  local_path: regions/national/regulations/files/实施《中华人民共和国社会保险法》若干规定-P020211229562397272141.docx
+  title: 实施《中华人民共和国社会保险法》若干规定 · 附件 P020211229562397272141.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431614.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229562397272141.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 8e60830701ebd5f8e2d40fb571169dbf057c79fadb9419153a35d99ed9126958
+- region: national
+  local_path: regions/national/regulations/files/实施《中华人民共和国社会保险法》若干规定-P020211229562397282055.pdf
+  title: 实施《中华人民共和国社会保险法》若干规定 · 附件 P020211229562397282055.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431614.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229562397282055.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: ad2b65725ec4f42bfc3888f757699a30a31483280a9d1a68a7ba09cfa6d72164
 - region: national
   local_path: regions/national/regulations/administrative-regulations/工伤保险条例.md
   title: 工伤保险条例
@@ -1752,9 +1842,69 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394950.html
   download_url: null
   published_at: '2010-12-20'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 963f0d10a5f7b1aba8dd2c46ecebbf8a08cb692d1d06bb4bc116230dd9fd2e19
+  content_hash: d4000fd97f637208952661234abd1ab5df6968962e5221daf65ffff28c9e45f0
+- region: national
+  local_path: regions/national/regulations/department-rules/工伤保险辅助器具配置管理办法.md
+  title: 工伤保险辅助器具配置管理办法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211229_431765.html
+  download_url: null
+  published_at: '2021-12-29'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: e37bb1d4b0ce6c7bba746dc9976a80170cacc3c71ae641e63cb4ef239809bdc3
+- region: national
+  local_path: regions/national/regulations/files/工伤保险辅助器具配置管理办法-P020211229535597088869.docx
+  title: 工伤保险辅助器具配置管理办法 · 附件 P020211229535597088869.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211229_431765.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229535597088869.docx
+  published_at: '2021-12-29'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 15f837d7b1887f4267c9e53c5c6a52aebe7cf4b62fbd86ad0e477ea3e98ff00b
+- region: national
+  local_path: regions/national/regulations/files/工伤保险辅助器具配置管理办法-P020211229535597091712.pdf
+  title: 工伤保险辅助器具配置管理办法 · 附件 P020211229535597091712.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211229_431765.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229535597091712.pdf
+  published_at: '2021-12-29'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: b45e2c5a5009f5c84572dbc631d8df062486b3bc65ebcd5951549ad4de94d2ca
+- region: national
+  local_path: regions/national/regulations/department-rules/工伤认定办法.md
+  title: 工伤认定办法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431606.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 00d0f8f339e7fdc6c600a6e4570d1453b798012ba255cf9d685a19bc7a3dbf95
+- region: national
+  local_path: regions/national/regulations/files/工伤认定办法-P020211229575169951222.docx
+  title: 工伤认定办法 · 附件 P020211229575169951222.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431606.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229575169951222.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 58bef088e5d52deb7c2475e0047c514c72e6ba4f8705592ca813b2d6125b8241
+- region: national
+  local_path: regions/national/regulations/files/工伤认定办法-P020211229575169955860.pdf
+  title: 工伤认定办法 · 附件 P020211229575169955860.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431606.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229575169955860.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: d92bb70520bd50a471ec83aff05a77ec1f4ea216fdedc7b52ac31aea73b4388d
 - region: national
   local_path: regions/national/regulations/department-rules/工资支付暂行规定.md
   title: 工资支付暂行规定
@@ -1762,9 +1912,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431557.html
   download_url: null
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 088709d070900938b2193f1865acbc31d67583058cf7502bf02256fc7b0412b6
+  content_hash: 21f999f14a7e88d26a9251ed386926c524b14d931690f648482312af7b5af5cb
 - region: national
   local_path: regions/national/regulations/files/工资支付暂行规定-P020220105606656151693.pdf
   title: 工资支付暂行规定 · 附件 P020220105606656151693.pdf
@@ -1772,7 +1922,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431557.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020220105606656151693.pdf
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: f9a3da3755d290cd62fa59bca3549e8c534348a94a247cbb99bcf3f9d5b3ce61
 - region: national
@@ -1782,9 +1932,69 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431557.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020220105606656152177.docx
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 18556ac6f65ffeaac9fc2b0862fc36ccbaf61aedda95a0d48a64befe8e09b35e
+- region: national
+  local_path: regions/national/regulations/department-rules/工资集体协商试行办法.md
+  title: 工资集体协商试行办法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431577.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: ee2f9e4d23dc2a558617484710aaedacd96354425fccd70a1f49fcedcc6a5501
+- region: national
+  local_path: regions/national/regulations/files/工资集体协商试行办法-P020211229599010193223.docx
+  title: 工资集体协商试行办法 · 附件 P020211229599010193223.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431577.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229599010193223.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 7d65bfb9ad8279f5530a548ac790a5e71cf7768ea1ddee4890b35f1fefa6c723
+- region: national
+  local_path: regions/national/regulations/files/工资集体协商试行办法-P020211229599010197166.pdf
+  title: 工资集体协商试行办法 · 附件 P020211229599010197166.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431577.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229599010197166.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: b7ca07c016af0bf596b71bda2f6d2d293390c037c0c6494f07d33abaf93aa038
+- region: national
+  local_path: regions/national/regulations/department-rules/拖欠农民工工资失信联合惩戒对象名单管理暂行办法.md
+  title: 拖欠农民工工资失信联合惩戒对象名单管理暂行办法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211229_431810.html
+  download_url: null
+  published_at: '2021-12-29'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: f86ccf30b7eddcadbc778d53bf0cd75f8fbd7ae0987278ed6ee0848ee2423108
+- region: national
+  local_path: regions/national/regulations/files/拖欠农民工工资失信联合惩戒对象名单管理暂行办法-P020211229517820792773.pdf
+  title: 拖欠农民工工资失信联合惩戒对象名单管理暂行办法 · 附件 P020211229517820792773.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211229_431810.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229517820792773.pdf
+  published_at: '2021-12-29'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 965ac5d3f7213eaba039d3e608c3d7b199e5bd6078d27bcc75a137c9ccd51d48
+- region: national
+  local_path: regions/national/regulations/files/拖欠农民工工资失信联合惩戒对象名单管理暂行办法-P020211229517820796744.docx
+  title: 拖欠农民工工资失信联合惩戒对象名单管理暂行办法 · 附件 P020211229517820796744.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211229_431810.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229517820796744.docx
+  published_at: '2021-12-29'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 1e42578cd4118e8e58a2e9fdd83e69d7da6244fc6835260cbb0af2cd41b1605b
 - region: national
   local_path: regions/national/regulations/department-rules/最低工资规定.md
   title: 最低工资规定
@@ -1792,9 +2002,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431587.html
   download_url: null
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 0564dd605c99875e059859f0763bad296c459bfd22e4e43fa62068892b8ad62a
+  content_hash: e4bbfb6a74b26c12d3c6e058cd0c38148cb246229df368410706e37ffcb1c30a
 - region: national
   local_path: regions/national/regulations/files/最低工资规定-P020211230630480093629.docx
   title: 最低工资规定 · 附件 P020211230630480093629.docx
@@ -1802,7 +2012,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431587.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211230630480093629.docx
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 4a81a8831dd49effe0d54ab64f81305e7cbd2a5bf161202a166c82f23cb48a7a
 - region: national
@@ -1812,7 +2022,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431587.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211230630480094696.pdf
   published_at: '2021-12-28'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 5a3f427ebfe31d089796e6ac5726e3f4d3610f9a03ec7ea5bb5ddba160972993
 - region: national
@@ -1822,9 +2032,9 @@ documents:
   source_url: https://www.court.gov.cn/fabu/xiangqing/282121.html
   download_url: null
   published_at: '2020-12-30'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: a23ddf4fe7a604f9b6b907e9a58f2290bd30a2d1fc735d5ef94fcb244badda57
+  content_hash: a3d0343166f57e2344ca732c4e5ba6110750895e86e8c771ed65a13924382a31
 - region: national
   local_path: regions/national/regulations/judicial-interpretations/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）.md
   title: 最高人民法院关于审理劳动争议案件适用法律问题的解释（二）
@@ -1832,9 +2042,9 @@ documents:
   source_url: http://gongbao.court.gov.cn/Details/bb72019c45453f84d920bd6375573e.html
   download_url: null
   published_at: '2025-02-17'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: c009dfe33ea75f5c5a6f746d2ec1fbc920de7d63db343cd3f8c23f058355765e
+  content_hash: fe266692060e1cfa845f7c13abaacbe3d870c80517c7373fc0098a1720329938
 - region: national
   local_path: regions/national/regulations/administrative-regulations/社会保险经办条例.md
   title: 社会保险经办条例
@@ -1842,9 +2052,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202312/t20231201_509829.html
   download_url: null
   published_at: '2023-08-16'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 107ec4fbdc46b5d7b0b201b9c315d92ed5f7eb4d3aba31d09dda23357c6b62bc
+  content_hash: 1feee0612b419dc0a13c95ff3741252ac22b4a0e9b75c584092b9d3683bc9e42
 - region: national
   local_path: regions/national/regulations/administrative-regulations/社会保险费征缴暂行条例.md
   title: 社会保险费征缴暂行条例
@@ -1852,9 +2062,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394934.html
   download_url: null
   published_at: '2020-11-03'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: 7735b81b8172fba57bc443c8221ba374a972079e1709843fd485a9f72c73c797
+  content_hash: a76e4a578dd9020f77357928fcb0eb4e12f4e5b81f478349b77e4dab5b4c8e15
 - region: national
   local_path: regions/national/regulations/administrative-regulations/职工带薪年休假条例.md
   title: 职工带薪年休假条例
@@ -1862,9 +2072,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394938.html
   download_url: null
   published_at: '2007-12-14'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: a51895899668fb76cc24426bb2b7230e21116d70649a94b5a552dfe88d9fc50b
+  content_hash: a62f03b9a3d50dbac366183104edca1bfbd3720942b3f329a08c536dd31f4b3d
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/regulations/2024-06-17-解读《北京市高级人民法院、北京市劳动人事争议仲裁委员会关于审理劳动争议案件法律适用问题的解答》.md
   title: 解读《北京市高级人民法院、北京市劳动人事争议仲裁委员会关于审理劳动争议案件法律适用问题的解答》
@@ -1882,9 +2092,9 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202605/t20260525_576849.html
   download_url: null
   published_at: '2026-05-25'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
-  content_hash: cbf2440a4ddb5e57a8611e9345dcd516b09d25409f1a057879aea13b0702efea
+  content_hash: 4a892d32d1591a2b9fbc405b0a533acfb82a806dfc3731349a0d727c94103e6d
 - region: national
   local_path: regions/national/regulations/files/超龄劳动者基本权益保障暂行规定-P020260525542709813349.doc
   title: 超龄劳动者基本权益保障暂行规定 · 附件 P020260525542709813349.doc
@@ -1892,7 +2102,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202605/t20260525_576849.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202605/P020260525542709813349.doc
   published_at: '2026-05-25'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 88a515b26b084210d3c958a66e9267e6b5a633ce33b4d0ad612bbc6e3c031c3c
 - region: national
@@ -1902,9 +2112,99 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202605/t20260525_576849.html
   download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202605/P020260525542709827577.pdf
   published_at: '2026-05-25'
-  retrieved_at: '2026-09-20T23:41:31+08:00'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: d26043da520ef315063c8e738b2514dd7eb71d68d1250748ca8e0cc0730598e3
+- region: national
+  local_path: regions/national/regulations/department-rules/违反《劳动法》有关劳动合同规定的赔偿办法.md
+  title: 违反《劳动法》有关劳动合同规定的赔偿办法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431568.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 2cd510d82381f07a001c8ff0929d1978b20ca77241297eeee7e69711226794c1
+- region: national
+  local_path: regions/national/regulations/files/违反《劳动法》有关劳动合同规定的赔偿办法-P020211229606371702906.pdf
+  title: 违反《劳动法》有关劳动合同规定的赔偿办法 · 附件 P020211229606371702906.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431568.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229606371702906.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 441edcc170a0965ecce39204f4d29038d1337f8e846041b82ad74eeff8d28d8f
+- region: national
+  local_path: regions/national/regulations/files/违反《劳动法》有关劳动合同规定的赔偿办法-P020211229606371703349.docx
+  title: 违反《劳动法》有关劳动合同规定的赔偿办法 · 附件 P020211229606371703349.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431568.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229606371703349.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: b30909cc045ad199cd5f2dda73686f18d99d9a0228eb07d237a4f15ebd4c6d53
+- region: national
+  local_path: regions/national/regulations/department-rules/部分行业企业工伤保险费缴纳办法.md
+  title: 部分行业企业工伤保险费缴纳办法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431608.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 6824011dd4ee13d24f45ea3e0cbfbaa3513a1d11e2fb9ef84724da85009003a8
+- region: national
+  local_path: regions/national/regulations/files/部分行业企业工伤保险费缴纳办法-P020211229572796992979.docx
+  title: 部分行业企业工伤保险费缴纳办法 · 附件 P020211229572796992979.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431608.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229572796992979.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 26691aa3939b34d5f40224e4d689e0ff76904340ca3f77143551179aceffa0cb
+- region: national
+  local_path: regions/national/regulations/files/部分行业企业工伤保险费缴纳办法-P020211229572796995101.pdf
+  title: 部分行业企业工伤保险费缴纳办法 · 附件 P020211229572796995101.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431608.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229572796995101.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: aee2061b0ce6b31f0fd8049b4e62ddd4029b3087593fe6f505affb0e2655ee7c
+- region: national
+  local_path: regions/national/regulations/department-rules/非法用工单位伤亡人员一次性赔偿办法.md
+  title: 非法用工单位伤亡人员一次性赔偿办法
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431607.html
+  download_url: null
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 3babbba73863ba13bca58c0d2ad89b08522700fbc19cb3d698799ff29c4e10f2
+- region: national
+  local_path: regions/national/regulations/files/非法用工单位伤亡人员一次性赔偿办法-P020211229574474654247.pdf
+  title: 非法用工单位伤亡人员一次性赔偿办法 · 附件 P020211229574474654247.pdf
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431607.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229574474654247.pdf
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: d2891e28158fbd4b231f809623c2b05abaff201265c92c1295962329c1343758
+- region: national
+  local_path: regions/national/regulations/files/非法用工单位伤亡人员一次性赔偿办法-P020211229574474658715.docx
+  title: 非法用工单位伤亡人员一次性赔偿办法 · 附件 P020211229574474658715.docx
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/t20211228_431607.html
+  download_url: https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229574474658715.docx
+  published_at: '2021-12-28'
+  retrieved_at: '2026-09-20T23:56:47+08:00'
+  status: active
+  content_hash: 10ef75fca2983da4dd3943dd8858a6a463680e3057f9aa4eb4fe8eb93470b5b0
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/templates/files/劳动人事争议仲裁申请书.docx
   title: 劳动人事争议仲裁申请书

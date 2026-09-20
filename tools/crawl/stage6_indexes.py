@@ -255,26 +255,37 @@ def write_changelog(records: list[dict]) -> None:
         return len([r for r in records if r.get("region") == region])
 
     files = len([r for r in records if r.get("region") == "national" and r.get("file_type") != "markdown"])
+
+    def nsub(sub: str) -> int:
+        return len([r for r in records if r.get("region") == "national"
+                    and r.get("file_type") == "markdown"
+                    and f"/regulations/{sub}/" in r.get("local_path", "")])
+
     changelog = REPO / "CHANGELOG.md"
     text = changelog.read_text(encoding="utf-8").rstrip()
 
     text = _upsert_changelog_section(
         text, f"## {today} · 国家层面劳动法律法规首轮归档",
         [
-            f"抓取并归档国家层面公开劳动法律法规，共 {cnt('national')} 份记录（含官方原件 {files} 份）：",
+            f"抓取并归档国家层面公开劳动法律法规，共 {cnt('national')} 份记录（正文 {nsub('laws') + nsub('administrative-regulations') + nsub('judicial-interpretations') + nsub('department-rules')} 份、"
+            f"官方原件 {files} 份）：",
             "",
-            "- 法律 7 部：劳动法、劳动合同法、劳动争议调解仲裁法、社会保险法、"
+            f"- 法律 {nsub('laws')} 部：劳动法、劳动合同法、劳动争议调解仲裁法、社会保险法、"
             "就业促进法、工会法、关于实施渐进式延迟法定退休年龄的决定",
-            "- 行政法规 12 部：劳动合同法实施条例、工伤保险条例、职工带薪年休假条例、女职工劳动保护特别规定、"
-            "失业保险条例、保障农民工工资支付条例、国务院关于职工工作时间的规定、事业单位人事管理条例、"
-            "社会保险费征缴暂行条例、劳动保障监察条例、全国年节及纪念日放假办法、社会保险经办条例",
-            "- 司法解释 2 部：审理劳动争议案件适用法律问题的解释（一）（法释〔2020〕26 号）、"
+            f"- 行政法规 {nsub('administrative-regulations')} 部：劳动合同法实施条例、工伤保险条例、职工带薪年休假条例、"
+            "女职工劳动保护特别规定、失业保险条例、保障农民工工资支付条例、国务院关于职工工作时间的规定、"
+            "事业单位人事管理条例、社会保险费征缴暂行条例、劳动保障监察条例、全国年节及纪念日放假办法、社会保险经办条例",
+            f"- 司法解释 {nsub('judicial-interpretations')} 部：审理劳动争议案件适用法律问题的解释（一）（法释〔2020〕26 号）、"
             "（二）（法释〔2025〕12 号）",
-            "- 部门规章 9 部：仲裁办案规则、仲裁组织规则、企业劳动争议协商调解规定、企业职工带薪年休假实施办法、"
-            "最低工资规定、工资支付暂行规定、劳务派遣暂行规定、劳动能力鉴定管理办法、超龄劳动者基本权益保障暂行规定",
+            f"- 部门规章与配套规范性文件 {nsub('department-rules')} 部：仲裁办案规则、仲裁组织规则、企业劳动争议协商调解规定、"
+            "企业职工带薪年休假实施办法、最低工资规定、工资支付暂行规定、劳务派遣暂行规定、劳动能力鉴定管理办法、"
+            "超龄劳动者基本权益保障暂行规定、工伤认定办法、非法用工单位伤亡人员一次性赔偿办法、实施社会保险法若干规定、"
+            "工伤保险辅助器具配置管理办法、部分行业企业工伤保险费缴纳办法、企业职工患病或非因工负伤医疗期规定、"
+            "不定时工作制和综合计算工时工作制审批办法、违反劳动法有关劳动合同规定的赔偿办法、工资集体协商试行办法、"
+            "拖欠农民工工资失信联合惩戒对象名单管理暂行办法",
             "- 来源：人社部政策法规（法律/行政法规栏目）与国家规章库、最高人民法院公报；"
-            "部门规章页面附带的官方 DOCX/PDF 原件一并归档到 `regions/national/regulations/files/`",
-            "- 新增 `regions/national/README.md`、`official-index.md`、`SOURCE.md`；`indexes/` 增加 `region` 列并覆盖国家层面资料",
+            "页面附带的官方 DOCX/PDF 原件一并归档到 `regions/national/regulations/files/`",
+            f"- 新增 `regions/national/README.md`、`official-index.md`、`SOURCE.md`；`indexes/` 增加 `region` 列并覆盖国家层面资料",
             "",
         ],
     )

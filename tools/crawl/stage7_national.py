@@ -92,9 +92,48 @@ DOCS: list[tuple[str, str, str, str]] = [
      "人社部规章（工伤劳动能力鉴定）"),
     ("department-rules", "超龄劳动者基本权益保障暂行规定", f"{GZ}/202605/t20260525_576849.html",
      "人社部规章，涉及超龄劳动者权益保障"),
+
+    # ---------------- 配套规章 / 规范性文件（第二轮补充） ----------------
+    ("department-rules", "工伤认定办法", f"{GZ}/202112/t20211228_431606.html",
+     "工伤认定程序性依据"),
+    ("department-rules", "非法用工单位伤亡人员一次性赔偿办法", f"{GZ}/202112/t20211228_431607.html",
+     "非法用工伤亡赔偿标准"),
+    ("department-rules", "实施《中华人民共和国社会保险法》若干规定",
+     f"{GZ}/202112/t20211228_431614.html", "社保法配套规定"),
+    ("department-rules", "工伤保险辅助器具配置管理办法", f"{GZ}/202112/t20211229_431765.html",
+     "工伤辅助器具配置"),
+    ("department-rules", "部分行业企业工伤保险费缴纳办法", f"{GZ}/202112/t20211228_431608.html",
+     "工伤保险费缴纳"),
+    ("department-rules", "企业职工患病或非因工负伤医疗期规定", f"{GZ}/202112/t20211228_431556.html",
+     "医疗期与病假工资口径"),
+    ("department-rules", "关于企业实行不定时工作制和综合计算工时工作制的审批办法",
+     f"{GZ}/202112/t20211228_431561.html", "加班费计算基数的前提：工时制度"),
+    ("department-rules", "违反《劳动法》有关劳动合同规定的赔偿办法",
+     f"{GZ}/202112/t20211228_431568.html", "赔偿口径"),
+    ("department-rules", "工资集体协商试行办法", f"{GZ}/202112/t20211228_431577.html",
+     "工资集体协商程序"),
+    ("department-rules", "拖欠农民工工资失信联合惩戒对象名单管理暂行办法",
+     f"{GZ}/202112/t20211229_431810.html", "欠薪联合惩戒"),
 ]
 
+LAW_NO = re.compile(
+    r"((?:中华人民共和国)?(?:人力资源社会保障部|人力资源和社会保障部|劳动和社会保障部|劳动部|"
+    r"国家统计局|国务院|最高人民法院|全国人民代表大会常务委员会)令第\d+号)"
+)
+EFFECTIVE = re.compile(r"自\s*(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日起施行")
 BAD = re.compile(r'[\\/:*?"<>|\s]+')
+
+
+def derive_note(base_note: str, md: str) -> str:
+    """从正文里抽取文号与施行日期，补进 notes，避免人工填错。"""
+    parts = [base_note] if base_note else []
+    m = LAW_NO.search(md)
+    if m:
+        parts.append(m.group(1))
+    m = EFFECTIVE.search(md)
+    if m:
+        parts.append(f"自{m.group(1)}年{int(m.group(2))}月{int(m.group(3))}日起施行")
+    return "；".join(dict.fromkeys(parts))
 
 
 def attach_local_name(title: str, name: str) -> str:
@@ -114,13 +153,14 @@ def main() -> None:
             print("  SKIP(short)", title, len(md), url)
             continue
         fname = f"{BAD.sub('-', title).strip('-')}.md"
+        note_full = derive_note(note, md)
         body = (
-            f"> 效力层级：{sub}\n> 来源：{url}\n> 发布信息：{note}\n\n{md}\n"
+            f"> 效力层级：{sub}\n> 来源：{url}\n> 发布信息：{note_full}\n\n{md}\n"
         )
         save_md(
             f"regulations/{sub}/{fname}", title, body, topic=TOPIC, source_url=url,
             published_at=date, authority="人力资源和社会保障部 / 最高人民法院（按来源）",
-            notes=f"{note}；正文来源页面发布时间 {date or '未标注'}",
+            notes=f"{note_full}；正文来源页面发布时间 {date or '未标注'}",
             region=REGION, level=LEVEL,
         )
         for abs_url, name in attachments(html, url):
