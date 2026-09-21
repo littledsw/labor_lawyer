@@ -1,5 +1,5 @@
 # 来源站点索引（由抓取流程生成，保留原始 URL 与 SHA-256 追溯信息）
-updated_at: '2026-09-22T00:39:19+08:00'
+updated_at: '2026-09-22T01:08:19+08:00'
 region: municipalities/beijing
 authority: 北京市人力资源和社会保障局
 sources:
@@ -1915,6 +1915,16 @@ documents:
   retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: ad2b65725ec4f42bfc3888f757699a30a31483280a9d1a68a7ba09cfa6d72164
+- region: municipalities/shanxi
+  local_path: regions/municipalities/shanxi/regulations/2026-08-21-关于公布2026年缴纳社会保险费基数标准等有关问题的通知.md
+  title: 山西省人力资源和社会保障厅
+  topic: regulations
+  source_url: https://rst.shanxi.gov.cn/zwyw/tzgg/202608/t20260826_10207826.shtml
+  download_url: null
+  published_at: '2026-08-21'
+  retrieved_at: '2026-09-22T01:08:18+08:00'
+  status: active
+  content_hash: ba7de5f1ca7fdfecb55241b2fb676312a1ead1be829d9b4a829849bf7e83427e
 - region: national
   local_path: regions/national/regulations/administrative-regulations/工伤保险条例.md
   title: 工伤保险条例
@@ -2785,6 +2795,66 @@ documents:
   retrieved_at: '2026-09-21T21:19:44+08:00'
   status: active
   content_hash: 60497aa268247b388bb051182ddcb31c527344cf090cf8887d98db7e8906404e
+- region: municipalities/shanxi
+  local_path: regions/municipalities/shanxi/statistics/sources/2019-缴费基数上下限-二手转载页.md
+  title: 山西人社厅2019年缴纳社会保险费基数标准
+  topic: statistics
+  source_url: https://zc.51shebao.com/detail/800162
+  download_url: null
+  published_at: '2019-06-06'
+  retrieved_at: '2026-09-22T01:08:18+08:00'
+  status: active
+  content_hash: 60e20d6b8283ccccca59c8ab0218effe0501f8238701d5439c89d335125173bb
+- region: municipalities/shanxi
+  local_path: regions/municipalities/shanxi/statistics/sources/2014-缴费基数上下限-二手转载页.md
+  title: 山西最新养老保险缴费基数上下限公布
+  topic: statistics
+  source_url: https://www.cpic.com.cn/c/2021-05-31/1775348.shtml
+  download_url: null
+  published_at: '2021-05-31'
+  retrieved_at: '2026-09-22T01:08:18+08:00'
+  status: active
+  content_hash: b0e8b852b751d932228fd5010ebfe6238e8499528531c7f6706de2cbb74de200
+- region: municipalities/shanxi
+  local_path: regions/municipalities/shanxi/statistics/parameters.yaml
+  title: 山西省社保参数台账（缴费基数上下限、全口径平均工资、费率与缺口）
+  topic: statistics
+  source_url: https://rst.shanxi.gov.cn/zwyw/tzgg/
+  download_url: https://rst.shanxi.gov.cn/zwyw/tzgg/
+  published_at: null
+  retrieved_at: '2026-09-22T01:08:18+08:00'
+  status: active
+  content_hash: b6281fbf3938f9ae1c3481ca35f4ba00579783486391d5a083d01f791d8b369c
+- region: municipalities/shanxi
+  local_path: regions/municipalities/shanxi/statistics/sources/2025-山西省城镇非私营单位就业人员年平均工资.md
+  title: 山西省统计局
+  topic: statistics
+  source_url: https://tjj.shanxi.gov.cn/tjsj/sjxx/202606/t20260626_10160880.shtml
+  download_url: null
+  published_at: '2026-06-26'
+  retrieved_at: '2026-09-22T01:08:18+08:00'
+  status: active
+  content_hash: 14c76a0832182b763dbb019890ceb948e7407fae89b8a193560f8456cd5ef168
+- region: municipalities/shanxi
+  local_path: regions/municipalities/shanxi/statistics/sources/2025-山西省城镇私营单位就业人员年平均工资.md
+  title: 山西省统计局
+  topic: statistics
+  source_url: https://tjj.shanxi.gov.cn/tjsj/sjxx/202606/t20260626_10160875.shtml
+  download_url: null
+  published_at: '2026-06-26'
+  retrieved_at: '2026-09-22T01:08:18+08:00'
+  status: active
+  content_hash: 3ad955419f0e1c7ed4f7b08cba2accfae93a9dfff586f717b68137f408ce2f9b
+- region: municipalities/shanxi
+  local_path: regions/municipalities/shanxi/statistics/sources/2025-山西省规模以上企业就业人员年平均工资.md
+  title: 山西省统计局
+  topic: statistics
+  source_url: https://tjj.shanxi.gov.cn/tjsj/sjxx/202606/t20260626_10160884.shtml
+  download_url: null
+  published_at: '2026-06-26'
+  retrieved_at: '2026-09-22T01:08:18+08:00'
+  status: active
+  content_hash: 2e8ab2f4fb741c6c624478c3fb99fe99b9eead4e88c1c5d5ec66341f9e876e62
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/statistics/sources/cap-basis-notice-2020.md
   title: 经济补偿封顶基数通告（2020-07-02）（原页面归档）

@@ -1,6 +1,6 @@
 # 计算参数（日历与工资口径）（statistics）资料索引
 
-共 56 项，抓取时间 2026-09-22T00:39:19+08:00。
+共 62 项，抓取时间 2026-09-22T01:08:19+08:00。
 
 | 地区 | 标题 | 发布日期 | 类型 | 本地路径 | 来源 |
 | --- | --- | --- | --- | --- | --- |
@@ -23,6 +23,12 @@
 | municipalities/beijing | 北京统计年鉴2025 · 3-13 城镇非私营、私营单位就业人员年末人数及工资情况(2024年) | 2025年 | xls | [regions/municipalities/beijing/statistics/yearbook/2025-C0313.xls](../../regions/municipalities/beijing/statistics/yearbook/2025-C0313.xls) | [来源](https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls) |
 | municipalities/beijing | 统计局答复：2025年法人单位从业人员平均工资（原页面归档） | 2026-01-28 | markdown | [regions/municipalities/beijing/statistics/sources/tjj-faq-cap-basis-2025.md](../../regions/municipalities/beijing/statistics/sources/tjj-faq-cap-basis-2025.md) | [来源](https://tjj.beijing.gov.cn/hudong/xinxiang/tjj/sindex/bjah-index-dept!detail.action?originalId=AH26012801058) |
 | municipalities/beijing | 历年北京市全口径城镇单位就业人员平均工资 | 2026-08-21 | markdown | [regions/municipalities/beijing/statistics/sources/full-caliber-avg-wage.md](../../regions/municipalities/beijing/statistics/sources/full-caliber-avg-wage.md) | [来源](https://rsj.beijing.gov.cn/bm/ywml/202007/t20200717_1950961.html) |
+| municipalities/shanxi | 山西省社保参数台账（缴费基数上下限、全口径平均工资、费率与缺口） | — | yaml | [regions/municipalities/shanxi/statistics/parameters.yaml](../../regions/municipalities/shanxi/statistics/parameters.yaml) | [来源](https://rst.shanxi.gov.cn/zwyw/tzgg/) |
+| municipalities/shanxi | 山西人社厅2019年缴纳社会保险费基数标准 | 2019-06-06 | markdown | [regions/municipalities/shanxi/statistics/sources/2019-缴费基数上下限-二手转载页.md](../../regions/municipalities/shanxi/statistics/sources/2019-缴费基数上下限-二手转载页.md) | [来源](https://zc.51shebao.com/detail/800162) |
+| municipalities/shanxi | 山西最新养老保险缴费基数上下限公布 | 2021-05-31 | markdown | [regions/municipalities/shanxi/statistics/sources/2014-缴费基数上下限-二手转载页.md](../../regions/municipalities/shanxi/statistics/sources/2014-缴费基数上下限-二手转载页.md) | [来源](https://www.cpic.com.cn/c/2021-05-31/1775348.shtml) |
+| municipalities/shanxi | 山西省统计局 | 2026-06-26 | markdown | [regions/municipalities/shanxi/statistics/sources/2025-山西省城镇非私营单位就业人员年平均工资.md](../../regions/municipalities/shanxi/statistics/sources/2025-山西省城镇非私营单位就业人员年平均工资.md) | [来源](https://tjj.shanxi.gov.cn/tjsj/sjxx/202606/t20260626_10160880.shtml) |
+| municipalities/shanxi | 山西省统计局 | 2026-06-26 | markdown | [regions/municipalities/shanxi/statistics/sources/2025-山西省城镇私营单位就业人员年平均工资.md](../../regions/municipalities/shanxi/statistics/sources/2025-山西省城镇私营单位就业人员年平均工资.md) | [来源](https://tjj.shanxi.gov.cn/tjsj/sjxx/202606/t20260626_10160875.shtml) |
+| municipalities/shanxi | 山西省统计局 | 2026-06-26 | markdown | [regions/municipalities/shanxi/statistics/sources/2025-山西省规模以上企业就业人员年平均工资.md](../../regions/municipalities/shanxi/statistics/sources/2025-山西省规模以上企业就业人员年平均工资.md) | [来源](https://tjj.shanxi.gov.cn/tjsj/sjxx/202606/t20260626_10160884.shtml) |
 | national | 国家层面计算参数表（全国城镇居民人均可支配收入） | — | yaml | [regions/national/statistics/parameters.yaml](../../regions/national/statistics/parameters.yaml) | [来源](https://www.stats.gov.cn/sj/tjgb/ndtjgb/) |
 | national | 节假日日历参数索引（2016—2026） | — | json | [regions/national/statistics/calendar/calendar-index.json](../../regions/national/statistics/calendar/calendar-index.json) | [来源](https://www.gov.cn/zhengce/zhengceku/) |
 | national | 2013年国民经济和社会发展统计公报（居民收入相关小节） | 2023-02-03 | markdown | [regions/national/statistics/sources/annual-statistical-communique-2013.md](../../regions/national/statistics/sources/annual-statistical-communique-2013.md) | [来源](https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898455.html) |

@@ -1,0 +1,15 @@
+title: 山西省社保参数台账（缴费基数上下限、全口径平均工资、费率与缺口）
+region: municipalities/shanxi
+level: municipality
+topic: statistics
+authority: 山西省人力资源和社会保障厅 / 山西省统计局
+published_at: null
+source_url: https://rst.shanxi.gov.cn/zwyw/tzgg/
+download_url: https://rst.shanxi.gov.cn/zwyw/tzgg/
+retrieved_at: '2026-09-22T01:08:18+08:00'
+status: active
+content_hash: b6281fbf3938f9ae1c3481ca35f4ba00579783486391d5a083d01f791d8b369c
+local_path: regions/municipalities/shanxi/statistics/parameters.yaml
+file: parameters.yaml
+original_filename: parameters.yaml
+notes: 官方条目 1 条；候选（二手来源）4 条；缺口 5 项

@@ -24,8 +24,10 @@ MAGIC = {
 def main() -> int:
     records = json.loads(MANIFEST.read_text())
     problems: list[str] = []
-    roots = [REPO / "regions/national", BEIJING]
-    disk = {str(p.relative_to(REPO)) for root in roots if root.exists()
+    # 覆盖全部地区（national + municipalities/*），不只北京；新增地区自动纳入校验
+    regions_root = REPO / "regions"
+    roots = [regions_root] if regions_root.exists() else []
+    disk = {str(p.relative_to(REPO)) for root in roots
             for p in root.rglob("*")
             if p.is_file() and not p.name.endswith(".meta.yaml") and p.name != ".gitkeep"}
     listed = {r["local_path"] for r in records}

@@ -5,6 +5,7 @@ import csv
 import datetime
 import json
 import pathlib
+import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -263,7 +264,11 @@ def write_changelog(records: list[dict]) -> None:
                     and f"/regulations/{sub}/" in r.get("local_path", "")])
 
     changelog = REPO / "CHANGELOG.md"
-    text = changelog.read_text(encoding="utf-8").rstrip()
+    # 先把手写补记块整体剥离，再改写自动小节。
+    # 否则 _upsert_changelog_section 在替换「最后一个小节」时，会把末尾的补记块
+    # 当成下一个 `## ` 小节一并吃掉，随后 _with_manual_notes 又追加一次 —— 每次重跑
+    # 都会多留一份补记（实测累积到 3 份）。
+    text = _strip_manual_notes(changelog.read_text(encoding="utf-8").rstrip())
 
     text = _upsert_changelog_section(
         text, f"## {today} · 国家层面劳动法律法规首轮归档",
@@ -315,26 +320,56 @@ def write_changelog(records: list[dict]) -> None:
 
 
 NOTES_START, NOTES_END = "<!-- changelog-notes:start -->", "<!-- changelog-notes:end -->"
+NOTES_FILE = pathlib.Path(__file__).parent / "CHANGELOG.notes.md"
+
+
+def _manual_notes() -> str:
+    if not NOTES_FILE.exists():
+        return ""
+    return NOTES_FILE.read_text(encoding="utf-8").strip()
+
+
+def _strip_manual_notes(text: str) -> str:
+    """剥掉 CHANGELOG 里已有的手写补记（幂等改写的前置步骤）。
+
+    两层防御：
+    1) 标记块（正常情况）——循环剥离，容忍重复的标记块；
+    2) 裸正文——历史版本可能因 `_upsert_changelog_section` 吃掉标记而只剩正文，
+       此时按补记原文整段删除，避免重复累积。
+    """
+    while NOTES_START in text or NOTES_END in text:
+        head, _, tail = text.partition(NOTES_START)
+        _, _, rest = tail.partition(NOTES_END)
+        stripped = head.rstrip() + "\n" + rest.lstrip("\n")
+        if stripped == text:          # 标记已无法再剥离，避免死循环
+            break
+        text = stripped
+    notes = _manual_notes()
+    if notes:
+        # 2a) 按补记文件里的每个 `## ` 标题，删除正文中同名的游离小节
+        #     （历史版本被 _upsert 吃掉标记后只剩正文，且可能不是当前补记的完整文本，
+        #      因此不能用「整段文本相等」去匹配，必须按标题逐个清）
+        for heading in re.findall(r"^## .+$", notes, flags=re.M):
+            pattern = re.compile(rf"^{re.escape(heading)}\n.*?(?=^## |\Z)", re.M | re.S)
+            text = pattern.sub("", text)
+        # 2b) 补记不含 `## ` 标题时，退回整段文本匹配
+        if notes in text:
+            text = text.replace(notes, "")
+    return re.sub(r"\n{3,}", "\n\n", text).rstrip()
 
 
 def _with_manual_notes(text: str) -> str:
-    """把 tools/crawl/CHANGELOG.notes.md 的手写补记追加到 CHANGELOG 末尾。
+    """把手写补记追加到 CHANGELOG 末尾。
 
     stage6 每次重跑都会用固定叙事重写 CHANGELOG 的当日小节，手写内容会被覆盖，
-    因此手写补记统一放 CHANGELOG.notes.md，由本函数幂等地拼到末尾
-    （先删旧的补记块，再追加，避免重跑重复或截断后续自动小节）。
+    因此手写补记统一放 `tools/crawl/CHANGELOG.notes.md`，由本函数幂等地拼到末尾。
+    先调用 `_strip_manual_notes` 清掉旧补记，保证重复运行结果一致。
     """
-    notes_file = pathlib.Path(__file__).parent / "CHANGELOG.notes.md"
-    if NOTES_START in text and NOTES_END in text:
-        head, _, tail = text.partition(NOTES_START)
-        _, _, rest = tail.partition(NOTES_END)
-        text = head.rstrip() + rest
-    if not notes_file.exists():
-        return text.rstrip() + "\n"
-    notes = notes_file.read_text(encoding="utf-8").strip()
+    text = _strip_manual_notes(text)
+    notes = _manual_notes()
     if not notes:
-        return text.rstrip() + "\n"
-    return f"{text.rstrip()}\n\n{NOTES_START}\n\n{notes}\n\n{NOTES_END}\n"
+        return text + "\n"
+    return f"{text}\n\n{NOTES_START}\n\n{notes}\n\n{NOTES_END}\n"
 
 
 def main() -> None:

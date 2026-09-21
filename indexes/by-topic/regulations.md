@@ -1,6 +1,6 @@
 # 地方法规与政策文件（regulations）资料索引
 
-共 93 项，抓取时间 2026-09-22T00:39:19+08:00。
+共 94 项，抓取时间 2026-09-22T01:08:19+08:00。
 
 | 地区 | 标题 | 发布日期 | 类型 | 本地路径 | 来源 |
 | --- | --- | --- | --- | --- | --- |
@@ -14,6 +14,7 @@
 | municipalities/beijing | 解读《北京市高级人民法院、北京市劳动人事争议仲裁委员会关于审理劳动争议案件法律适用问题的解答》 | 2024-06-17 | markdown | [regions/municipalities/beijing/regulations/2024-06-17-解读《北京市高级人民法院、北京市劳动人事争议仲裁委员会关于审理劳动争议案件法律适用问题的解答》.md](../../regions/municipalities/beijing/regulations/2024-06-17-解读《北京市高级人民法院、北京市劳动人事争议仲裁委员会关于审理劳动争议案件法律适用问题的解答》.md) | [来源](https://rsj.beijing.gov.cn/xxgk/2024zcjd/202406/t20240617_3717660.html) |
 | municipalities/beijing | 北京市失业保险金申领发放实施办法（试行） | 2024-12-27 | markdown | [regions/municipalities/beijing/regulations/2024-12-27-北京市失业保险金申领发放实施办法（试行）.md](../../regions/municipalities/beijing/regulations/2024-12-27-北京市失业保险金申领发放实施办法（试行）.md) | [来源](https://rsj.beijing.gov.cn/xxgk/2024zcwj/202412/t20241227_3974931.html) |
 | municipalities/beijing | 关于加强本市新就业形态劳动纠纷一站式调解工作的通知 | 2025-01-22 | markdown | [regions/municipalities/beijing/regulations/2025-01-22-关于加强本市新就业形态劳动纠纷一站式调解工作的通知.md](../../regions/municipalities/beijing/regulations/2025-01-22-关于加强本市新就业形态劳动纠纷一站式调解工作的通知.md) | [来源](https://rsj.beijing.gov.cn/xxgk/2024zcwj/202501/t20250122_3996364.html) |
+| municipalities/shanxi | 山西省人力资源和社会保障厅 | 2026-08-21 | markdown | [regions/municipalities/shanxi/regulations/2026-08-21-关于公布2026年缴纳社会保险费基数标准等有关问题的通知.md](../../regions/municipalities/shanxi/regulations/2026-08-21-关于公布2026年缴纳社会保险费基数标准等有关问题的通知.md) | [来源](https://rst.shanxi.gov.cn/zwyw/tzgg/202608/t20260826_10207826.shtml) |
 | national | 劳动保障监察条例 | 2004-11-01 | markdown | [regions/national/regulations/administrative-regulations/劳动保障监察条例.md](../../regions/national/regulations/administrative-regulations/劳动保障监察条例.md) | [来源](https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394944.html) |
 | national | 职工带薪年休假条例 | 2007-12-14 | markdown | [regions/national/regulations/administrative-regulations/职工带薪年休假条例.md](../../regions/national/regulations/administrative-regulations/职工带薪年休假条例.md) | [来源](https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fg/202011/t20201103_394938.html) |
 | national | 中华人民共和国劳动争议调解仲裁法 | 2007-12-29 | markdown | [regions/national/regulations/laws/中华人民共和国劳动争议调解仲裁法.md](../../regions/national/regulations/laws/中华人民共和国劳动争议调解仲裁法.md) | [来源](https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394628.html) |
