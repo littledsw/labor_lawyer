@@ -1,5 +1,5 @@
 # 来源站点索引（由抓取流程生成，保留原始 URL 与 SHA-256 追溯信息）
-updated_at: '2026-09-21T21:46:13+08:00'
+updated_at: '2026-09-21T22:10:13+08:00'
 region: municipalities/beijing
 authority: 北京市人力资源和社会保障局
 sources:
@@ -2479,12 +2479,72 @@ documents:
   local_path: regions/municipalities/beijing/statistics/parameters.yaml
   title: 北京劳动仲裁计算参数表（工资口径、最低工资、工伤待遇）
   topic: statistics
-  source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html
-  download_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html
+  source_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/indexce.htm
+  download_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/indexce.htm
   published_at: null
-  retrieved_at: '2026-09-21T21:45:59+08:00'
+  retrieved_at: '2026-09-21T22:09:54+08:00'
   status: active
-  content_hash: 75eef79c94a14e524993ad323f15349fd64bde55aba4811584f33ef492fd54f3
+  content_hash: 58a394b8bf0adfba731fcaeb3c5276bd70bb15cf57c8e195b8a74d630f87bcb3
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/statistics/yearbook/2019-C03-13.xls
+  title: 北京统计年鉴2019 · 3-13全市法人单位从业人员年末人数和平均工资
+  topic: statistics
+  source_url: https://hgk.tjj.beijing.gov.cn/2019tjnj/tjnj/zk/html/C03-13.xls
+  download_url: https://hgk.tjj.beijing.gov.cn/2019tjnj/tjnj/zk/html/C03-13.xls
+  published_at: 2019年
+  retrieved_at: '2026-09-21T22:09:54+08:00'
+  status: active
+  content_hash: 35c06f6290bdb7ba45dfeb738990bb4195e5cfbc4377a9ca3325fdf64bc88fc9
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/statistics/yearbook/2020-ch03-13.xls
+  title: 北京统计年鉴2020 · 3-13全市法人单位从业人员年末人数和平均工资
+  topic: statistics
+  source_url: https://hgk.tjj.beijing.gov.cn/2020tjnj/tjnj/zk/html/ch03-13.xls
+  download_url: https://hgk.tjj.beijing.gov.cn/2020tjnj/tjnj/zk/html/ch03-13.xls
+  published_at: 2020年
+  retrieved_at: '2026-09-21T22:09:54+08:00'
+  status: active
+  content_hash: 371e903d5038ad0d9e20ac38c1b5515ecd05d05e09982fd0e4387210abc56e36
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/statistics/yearbook/2021-C03-13.xls
+  title: 北京统计年鉴2021 · 3-14全市法人单位从业人员年末人数及工资情况(2020年)
+  topic: statistics
+  source_url: https://hgk.tjj.beijing.gov.cn/2021tjnj/tjnj/zk/html/C03-13.xls
+  download_url: https://hgk.tjj.beijing.gov.cn/2021tjnj/tjnj/zk/html/C03-13.xls
+  published_at: 2021年
+  retrieved_at: '2026-09-21T22:09:54+08:00'
+  status: active
+  content_hash: 4fd07efa67a3c99f3aee5eb0747bfb8f4637592e19d8ef0dde81b2abd4829562
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/statistics/yearbook/2022-C03-14.xls
+  title: 北京统计年鉴2022 · 3-14全市法人单位从业人员年末人数及工资情况(2021年)
+  topic: statistics
+  source_url: https://hgk.tjj.beijing.gov.cn/2022tjnj/tjnj/zk/html/C03-14.xls
+  download_url: https://hgk.tjj.beijing.gov.cn/2022tjnj/tjnj/zk/html/C03-14.xls
+  published_at: 2022年
+  retrieved_at: '2026-09-21T22:09:54+08:00'
+  status: active
+  content_hash: d2dcbbd1bf648cbc36e55450a262b8e2786f062744e7eed6570fb356c7927218
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/statistics/yearbook/2023-C03-14.xls
+  title: 北京统计年鉴2023 · 3-14全市法人单位从业人员年末人数及工资情况(2022年)
+  topic: statistics
+  source_url: https://hgk.tjj.beijing.gov.cn/2023tjnj/tjnj/zk/html/C03-14.xls
+  download_url: https://hgk.tjj.beijing.gov.cn/2023tjnj/tjnj/zk/html/C03-14.xls
+  published_at: 2023年
+  retrieved_at: '2026-09-21T22:09:54+08:00'
+  status: active
+  content_hash: 86e1884f714adb154a842509d551ee38eb72694232a235551f24c0cd2ffbabad
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/statistics/yearbook/2024-C03-14.xls
+  title: 北京统计年鉴2024 · 3-14全市法人单位从业人员年末人数及工资情况(2023年)
+  topic: statistics
+  source_url: https://hgk.tjj.beijing.gov.cn/2024tjnj/tjnj/zk/html/C03-14.xls
+  download_url: https://hgk.tjj.beijing.gov.cn/2024tjnj/tjnj/zk/html/C03-14.xls
+  published_at: 2024年
+  retrieved_at: '2026-09-21T22:09:54+08:00'
+  status: active
+  content_hash: 237c25bb127221e0bc266f4ddf09f22d12cd11a68a3633d776e7ce6c8bb576b4
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/statistics/sources/full-caliber-avg-wage.md
   title: 历年北京市全口径城镇单位就业人员平均工资

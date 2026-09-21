@@ -9,7 +9,7 @@
 
 ```bash
 # 推荐用 uv 临时环境
-uv run --with markdownify --with beautifulsoup4 --with lxml --with pyyaml python stage1_templates_manuals.py
+uv run --with markdownify --with beautifulsoup4 --with lxml --with pyyaml --with xlrd python stage1_templates_manuals.py
 # 或使用虚拟环境
 python -m venv .venv && . .venv/bin/activate && pip install markdownify beautifulsoup4 lxml pyyaml
 ```
@@ -36,6 +36,7 @@ python -m venv .venv && . .venv/bin/activate && pip install markdownify beautifu
 | 8 | `stage10_beijing_params.py` | 计算参数（北京）：社平工资三组口径、最低工资标准与封顶口径决定，生成 `statistics/parameters.yaml` |
 | 10 | `stage11_injury_params.py` | 计算参数（工伤）：归档京人社工发〔2011〕384号原文并写入工伤待遇对照表与社平口径待确认项 |
 | 11 | `stage13_national_income.py` | 国家层面参数：抓取 2013—2025 年国家统计局统计公报，归档「居民收入消费」小节并提取全国城镇居民人均可支配收入（工亡补助金基数） |
+| 11b | `stage15_beijing_yearbook.py` | 从北京统计年鉴在线版（hgk.tjj.beijing.gov.cn）取「全市法人单位从业人员年末人数及工资情况」表，归档 xls 原件并解析出封顶基数序列（2017—2023） |
 | 12 | `stage14_cap_basis_evidence.py` | 归档「经济补偿封顶基数」口径链条证据（人社局通告 + 统计局答复）并更新参数表缺口与取数路径 |
 | — | `stage12_promote_wage.py` | 参数核实工具：仅在官方页面确能检索到数值时，把候选值提升为已验证参数（需手动指定 `--year --annual --url`） |
 | 9 | `stage6_indexes.py` | 由 `manifest.json` 生成 `indexes/`、各主题 README 清单、`SOURCES.yaml`、`CHANGELOG.md` |

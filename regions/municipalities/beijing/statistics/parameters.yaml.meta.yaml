@@ -4,12 +4,12 @@ level: municipality
 topic: statistics
 authority: 北京市人力资源和社会保障局 / 北京市统计局 / 国务院（按条目）
 published_at: null
-source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html
-download_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html
-retrieved_at: '2026-09-21T21:45:59+08:00'
+source_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/indexce.htm
+download_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/indexce.htm
+retrieved_at: '2026-09-21T22:09:54+08:00'
 status: active
-content_hash: 75eef79c94a14e524993ad323f15349fd64bde55aba4811584f33ef492fd54f3
+content_hash: 58a394b8bf0adfba731fcaeb3c5276bd70bb15cf57c8e195b8a74d630f87bcb3
 local_path: regions/municipalities/beijing/statistics/parameters.yaml
 file: parameters.yaml
 original_filename: parameters.yaml
-notes: 更新：封顶基数的口径链条证据与取数路径（阶段 14）
+notes: 阶段 15：年鉴表格补齐法人单位从业人员平均工资 7 个数据年度（2017—2023）

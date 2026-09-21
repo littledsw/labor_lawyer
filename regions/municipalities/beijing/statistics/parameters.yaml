@@ -85,32 +85,97 @@ series:
   name: 北京市法人单位从业人员平均工资
   authority: 北京市统计局（口径由北京市人社局通告确认）
   source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/201912/t20191207_951033.html
-  use: 《劳动合同法》第四十七条第二款“本地区上年度职工月平均工资”的北京口径，用于计算经济补偿三倍封顶基数
+  use: 经济补偿三倍封顶基数 = 该序列 ÷ 12 × 3（2019-08-16 起口径）；数值取自北京统计年鉴「全市法人单位从业人员年末人数及工资情况」合计行。
   entries:
+  - year: 2017
+    annual: 115143
+    monthly: 9595
+    source_url: https://hgk.tjj.beijing.gov.cn/2019tjnj/tjnj/zk/html/C03-13.xls
+    source_page: https://hgk.tjj.beijing.gov.cn/2019tjnj/tjnj/zk/indexce.htm
+    source_file: 2019-C03-13.xls
+    source_file_sha256: 35c06f6290bdb7ba45dfeb738990bb4195e5cfbc4377a9ca3325fdf64bc88fc9
+    table: 3-13全市法人单位从业人员年末人数和平均工资
+    table_title: 3-13 全市法人单位从业人员年末人数和平均工资
+    column: 4
+    published_at: 2019年（北京统计年鉴）
+    verification: 年鉴原表按表头年份逐列解析（xlrd），值所在列与年份一一对应
   - year: 2018
     annual: 127107
     monthly: 10592
-    source_note: 取自人社局通告页面及 2019 年典型案例（2018 年数据）
-  candidates_unverified:
+    source_url: https://hgk.tjj.beijing.gov.cn/2020tjnj/tjnj/zk/html/ch03-13.xls
+    source_page: https://hgk.tjj.beijing.gov.cn/2020tjnj/tjnj/zk/indexce.htm
+    source_file: 2020-ch03-13.xls
+    source_file_sha256: 371e903d5038ad0d9e20ac38c1b5515ecd05d05e09982fd0e4387210abc56e36
+    table: 3-13全市法人单位从业人员年末人数和平均工资
+    table_title: 3-13 全市法人单位从业人员年末人数和平均工资
+    column: 4
+    published_at: 2020年（北京统计年鉴）
+    verification: 年鉴原表按表头年份逐列解析（xlrd），值所在列与年份一一对应
   - year: 2019
     annual: 140581
-    confidence: secondary
+    monthly: 11715
+    source_url: https://hgk.tjj.beijing.gov.cn/2020tjnj/tjnj/zk/html/ch03-13.xls
+    source_page: https://hgk.tjj.beijing.gov.cn/2020tjnj/tjnj/zk/indexce.htm
+    source_file: 2020-ch03-13.xls
+    source_file_sha256: 371e903d5038ad0d9e20ac38c1b5515ecd05d05e09982fd0e4387210abc56e36
+    table: 3-13全市法人单位从业人员年末人数和平均工资
+    table_title: 3-13 全市法人单位从业人员年末人数和平均工资
+    column: 3
+    published_at: 2020年（北京统计年鉴）
+    verification: 年鉴原表按表头年份逐列解析（xlrd），值所在列与年份一一对应
   - year: 2020
     annual: 151360
-    confidence: secondary
+    monthly: 12613
+    source_url: https://hgk.tjj.beijing.gov.cn/2021tjnj/tjnj/zk/html/C03-13.xls
+    source_page: https://hgk.tjj.beijing.gov.cn/2021tjnj/tjnj/zk/indexce.htm
+    source_file: 2021-C03-13.xls
+    source_file_sha256: 4fd07efa67a3c99f3aee5eb0747bfb8f4637592e19d8ef0dde81b2abd4829562
+    table: 3-14全市法人单位从业人员年末人数及工资情况(2020年)
+    table_title: 3-14 全市法人单位从业人员年末人数及工资情况(2020年)
+    column: 3
+    published_at: 2021年（北京统计年鉴）
+    verification: 年鉴原表按表头年份逐列解析（xlrd），值所在列与年份一一对应
   - year: 2021
     annual: 166513
-    confidence: secondary
+    monthly: 13876
+    source_url: https://hgk.tjj.beijing.gov.cn/2022tjnj/tjnj/zk/html/C03-14.xls
+    source_page: https://hgk.tjj.beijing.gov.cn/2022tjnj/tjnj/zk/indexce.htm
+    source_file: 2022-C03-14.xls
+    source_file_sha256: d2dcbbd1bf648cbc36e55450a262b8e2786f062744e7eed6570fb356c7927218
+    table: 3-14全市法人单位从业人员年末人数及工资情况(2021年)
+    table_title: 3-14 全市法人单位从业人员年末人数及工资情况(2021年)
+    column: 3
+    published_at: 2022年（北京统计年鉴）
+    verification: 年鉴原表按表头年份逐列解析（xlrd），值所在列与年份一一对应
   - year: 2022
     annual: 178476
-    confidence: secondary
+    monthly: 14873
+    source_url: https://hgk.tjj.beijing.gov.cn/2023tjnj/tjnj/zk/html/C03-14.xls
+    source_page: https://hgk.tjj.beijing.gov.cn/2023tjnj/tjnj/zk/indexce.htm
+    source_file: 2023-C03-14.xls
+    source_file_sha256: 86e1884f714adb154a842509d551ee38eb72694232a235551f24c0cd2ffbabad
+    table: 3-14全市法人单位从业人员年末人数及工资情况(2022年)
+    table_title: 3-14 全市法人单位从业人员年末人数及工资情况(2022年)
+    column: 3
+    published_at: 2023年（北京统计年鉴）
+    verification: 年鉴原表按表头年份逐列解析（xlrd），值所在列与年份一一对应
   - year: 2023
     annual: 188413
-    confidence: secondary
+    monthly: 15701
+    source_url: https://hgk.tjj.beijing.gov.cn/2024tjnj/tjnj/zk/html/C03-14.xls
+    source_page: https://hgk.tjj.beijing.gov.cn/2024tjnj/tjnj/zk/indexce.htm
+    source_file: 2024-C03-14.xls
+    source_file_sha256: 237c25bb127221e0bc266f4ddf09f22d12cd11a68a3633d776e7ce6c8bb576b4
+    table: 3-14全市法人单位从业人员年末人数及工资情况(2023年)
+    table_title: 3-14 全市法人单位从业人员年末人数及工资情况(2023年)
+    column: 3
+    published_at: 2024年（北京统计年鉴）
+    verification: 年鉴原表按表头年份逐列解析（xlrd），值所在列与年份一一对应
+  candidates_unverified: []
   gaps:
-  - 2019—2025 年度官方数值未出现在统计局与人社局网站可检索的公开页面中：人社局通告仅确认口径（「法人单位从业人员平均工资」）并要求到统计局网站查询数值；统计局公开序列仅「城镇非私营单位就业人员平均工资」「城镇私营单位就业人员平均工资」，且答复称劳动工资年度数据约每年 6 月上传至官网「统计部门发布计划」栏目。
-  - 取数路径（待执行）：统计局官网「统计数据 → 统计部门发布计划」栏目每年 6 月发布；或电话核实：北京市统计局 010-55529938 / 政府信息公开咨询 010-55533848 / 国家统计局北京调查总队 010-55533513。
-  - candidates_unverified 中的数值来自律所/媒体转述，仅供人工核对，禁止直接用于计算；取得官方页面后用 tools/crawl/stage12_promote_wage.py 提升为已验证条目。
+  - 年鉴在线版已收录到数据年度 2023（北京统计年鉴 2024 表 3-14）；年鉴2025 起不再收录「全市法人单位从业人员年末人数及工资情况」，2024 年度数值需另找官方来源（统计局「统计部门发布计划」栏目，约每年 6 月）。
+  - 取数依据：北京统计年鉴「全市法人单位从业人员年末人数及工资情况」表「合计」行的从业人员平均工资列；两年对比表须按表头年份对号入座（年鉴2019 列头为 2018|2017）。
+  - '年鉴2025: 年鉴2025 未收录「全市法人单位从业人员…工资」表'
 - id: beijing_min_wage
   name: 北京市最低工资标准（月）
   authority: 北京市人力资源和社会保障局
