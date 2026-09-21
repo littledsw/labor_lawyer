@@ -1,10 +1,10 @@
 # 计算参数（日历与工资口径）（statistics）资料索引
 
-共 54 项，抓取时间 2026-09-21T22:10:13+08:00。
+共 55 项，抓取时间 2026-09-21T22:24:02+08:00。
 
 | 地区 | 标题 | 发布日期 | 类型 | 本地路径 | 来源 |
 | --- | --- | --- | --- | --- | --- |
-| municipalities/beijing | 北京劳动仲裁计算参数表（工资口径、最低工资、工伤待遇） | — | yaml | [regions/municipalities/beijing/statistics/parameters.yaml](../../regions/municipalities/beijing/statistics/parameters.yaml) | [来源](https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/indexce.htm) |
+| municipalities/beijing | 北京劳动仲裁计算参数表（工资口径、最低工资、工伤待遇） | — | yaml | [regions/municipalities/beijing/statistics/parameters.yaml](../../regions/municipalities/beijing/statistics/parameters.yaml) | [来源](https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls) |
 | municipalities/beijing | 京人社工发〔2011〕384号 关于北京市工伤保险基金支出项目标准及相关问题的通知 | 2012-01-06 | markdown | [regions/municipalities/beijing/statistics/sources/injury-benefits-notice-384.md](../../regions/municipalities/beijing/statistics/sources/injury-benefits-notice-384.md) | [来源](https://www.beijing.gov.cn/zhengce/zhengcefagui/201905/t20190522_57148.html) |
 | municipalities/beijing | 历年北京市职工年平均工资（已归档） | 2018-01-17 | markdown | [regions/municipalities/beijing/statistics/sources/employee-avg-wage-archive.md](../../regions/municipalities/beijing/statistics/sources/employee-avg-wage-archive.md) | [来源](http://rsj.beijing.gov.cn/bm/ywml/201912/t20191206_873811.html) |
 | municipalities/beijing | 关于按照法人单位从业人员平均工资计算经济补偿封顶基数的通告 | 2019-08-16 | markdown | [regions/municipalities/beijing/statistics/sources/compensation-cap-notice.md](../../regions/municipalities/beijing/statistics/sources/compensation-cap-notice.md) | [来源](https://rsj.beijing.gov.cn/xxgk/tzgg/201912/t20191207_951033.html) |
@@ -19,6 +19,7 @@
 | municipalities/beijing | 统计局答复：2024年北京法人单位从业人员平均工资统计结果公布时间（原页面归档） | 2025-02-13 | markdown | [regions/municipalities/beijing/statistics/sources/tjj-faq-cap-basis-publish-time.md](../../regions/municipalities/beijing/statistics/sources/tjj-faq-cap-basis-publish-time.md) | [来源](https://tjj.beijing.gov.cn/hudong/xinxiang/tjj/sindex/bjah-index-dept!detail.action?originalId=AH25021301385) |
 | municipalities/beijing | 统计局答复：咨询2024年北京法人单位从业人员平均工资（原页面归档） | 2025-07-04 | markdown | [regions/municipalities/beijing/statistics/sources/tjj-faq-cap-basis-2024.md](../../regions/municipalities/beijing/statistics/sources/tjj-faq-cap-basis-2024.md) | [来源](https://tjj.beijing.gov.cn/hudong/xinxiang/tjj/sindex/bjah-index-dept!detail.action?originalId=AH25070400999) |
 | municipalities/beijing | 关于调整北京市2025年最低工资标准的通知 | 2025-07-25 | markdown | [regions/municipalities/beijing/statistics/sources/min-wage-2025.md](../../regions/municipalities/beijing/statistics/sources/min-wage-2025.md) | [来源](https://rsj.beijing.gov.cn/xxgk/2024zcwj/202507/t20250725_4158456.html) |
+| municipalities/beijing | 北京统计年鉴2025 · 3-13 城镇非私营、私营单位就业人员年末人数及工资情况(2024年) | 2025年 | xls | [regions/municipalities/beijing/statistics/yearbook/2025-C0313.xls](../../regions/municipalities/beijing/statistics/yearbook/2025-C0313.xls) | [来源](https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls) |
 | municipalities/beijing | 统计局答复：2025年法人单位从业人员平均工资（原页面归档） | 2026-01-28 | markdown | [regions/municipalities/beijing/statistics/sources/tjj-faq-cap-basis-2025.md](../../regions/municipalities/beijing/statistics/sources/tjj-faq-cap-basis-2025.md) | [来源](https://tjj.beijing.gov.cn/hudong/xinxiang/tjj/sindex/bjah-index-dept!detail.action?originalId=AH26012801058) |
 | municipalities/beijing | 历年北京市全口径城镇单位就业人员平均工资 | 2026-08-21 | markdown | [regions/municipalities/beijing/statistics/sources/full-caliber-avg-wage.md](../../regions/municipalities/beijing/statistics/sources/full-caliber-avg-wage.md) | [来源](https://rsj.beijing.gov.cn/bm/ywml/202007/t20200717_1950961.html) |
 | national | 国家层面计算参数表（全国城镇居民人均可支配收入） | — | yaml | [regions/national/statistics/parameters.yaml](../../regions/national/statistics/parameters.yaml) | [来源](https://www.stats.gov.cn/sj/tjgb/ndtjgb/) |

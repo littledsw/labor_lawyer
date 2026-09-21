@@ -2103,13 +2103,13 @@
   "title": "北京劳动仲裁计算参数表（工资口径、最低工资、工伤待遇）",
   "authority": "北京市人力资源和社会保障局 / 北京市统计局 / 国务院（按条目）",
   "published_at": null,
-  "source_url": "https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/indexce.htm",
-  "download_url": "https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/indexce.htm",
-  "retrieved_at": "2026-09-21T22:09:54+08:00",
+  "source_url": "https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls",
+  "download_url": "https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls",
+  "retrieved_at": "2026-09-21T22:22:42+08:00",
   "status": "active",
-  "content_hash": "58a394b8bf0adfba731fcaeb3c5276bd70bb15cf57c8e195b8a74d630f87bcb3",
+  "content_hash": "4effc86905189807c06b6fb8355039288d79452c9475e8ea9ffd41375608c214",
   "file_type": "yaml",
-  "bytes": 14840
+  "bytes": 16180
  },
  {
   "region": "municipalities/beijing",
@@ -2334,6 +2334,22 @@
   "content_hash": "af57e3d002a52747abf1d82a397999c213fe20640391de01c2e27df81cd17a5d",
   "file_type": "markdown",
   "bytes": 1889
+ },
+ {
+  "region": "municipalities/beijing",
+  "level": "municipality",
+  "topic": "statistics",
+  "local_path": "regions/municipalities/beijing/statistics/yearbook/2025-C0313.xls",
+  "title": "北京统计年鉴2025 · 3-13 城镇非私营、私营单位就业人员年末人数及工资情况(2024年)",
+  "authority": "北京市统计局、国家统计局北京调查总队",
+  "published_at": "2025年",
+  "source_url": "https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls",
+  "download_url": "https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls",
+  "retrieved_at": "2026-09-21T22:22:42+08:00",
+  "status": "active",
+  "content_hash": "59a24d1c743ac3de74ad21f588d2d17e68d9904c4327ae1572716d03f42bd28f",
+  "file_type": "xls",
+  "bytes": 13824
  },
  {
   "region": "municipalities/beijing",

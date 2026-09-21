@@ -37,6 +37,7 @@ python -m venv .venv && . .venv/bin/activate && pip install markdownify beautifu
 | 10 | `stage11_injury_params.py` | 计算参数（工伤）：归档京人社工发〔2011〕384号原文并写入工伤待遇对照表与社平口径待确认项 |
 | 11 | `stage13_national_income.py` | 国家层面参数：抓取 2013—2025 年国家统计局统计公报，归档「居民收入消费」小节并提取全国城镇居民人均可支配收入（工亡补助金基数） |
 | 11b | `stage15_beijing_yearbook.py` | 从北京统计年鉴在线版（hgk.tjj.beijing.gov.cn）取「全市法人单位从业人员年末人数及工资情况」表，归档 xls 原件并解析出封顶基数序列（2017—2023） |
+| 11c | `stage16_beijing_2024_estimate.py` | 年鉴2025 已无「法人单位」表（3-13 改为城镇非私营/私营两行口径），用两行工资总额÷人数之和估算 2024 年度值，并用 2023 年官方值校验偏差；结果标记 `estimate-not-official` |
 | 12 | `stage14_cap_basis_evidence.py` | 归档「经济补偿封顶基数」口径链条证据（人社局通告 + 统计局答复）并更新参数表缺口与取数路径 |
 | — | `stage12_promote_wage.py` | 参数核实工具：仅在官方页面确能检索到数值时，把候选值提升为已验证参数（需手动指定 `--year --annual --url`） |
 | 9 | `stage6_indexes.py` | 由 `manifest.json` 生成 `indexes/`、各主题 README 清单、`SOURCES.yaml`、`CHANGELOG.md` |

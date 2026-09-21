@@ -1,5 +1,5 @@
 # 来源站点索引（由抓取流程生成，保留原始 URL 与 SHA-256 追溯信息）
-updated_at: '2026-09-21T22:10:13+08:00'
+updated_at: '2026-09-21T22:24:02+08:00'
 region: municipalities/beijing
 authority: 北京市人力资源和社会保障局
 sources:
@@ -2479,12 +2479,12 @@ documents:
   local_path: regions/municipalities/beijing/statistics/parameters.yaml
   title: 北京劳动仲裁计算参数表（工资口径、最低工资、工伤待遇）
   topic: statistics
-  source_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/indexce.htm
-  download_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/indexce.htm
+  source_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls
+  download_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls
   published_at: null
-  retrieved_at: '2026-09-21T22:09:54+08:00'
+  retrieved_at: '2026-09-21T22:22:42+08:00'
   status: active
-  content_hash: 58a394b8bf0adfba731fcaeb3c5276bd70bb15cf57c8e195b8a74d630f87bcb3
+  content_hash: 4effc86905189807c06b6fb8355039288d79452c9475e8ea9ffd41375608c214
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/statistics/yearbook/2019-C03-13.xls
   title: 北京统计年鉴2019 · 3-13全市法人单位从业人员年末人数和平均工资
@@ -2545,6 +2545,16 @@ documents:
   retrieved_at: '2026-09-21T22:09:54+08:00'
   status: active
   content_hash: 237c25bb127221e0bc266f4ddf09f22d12cd11a68a3633d776e7ce6c8bb576b4
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/statistics/yearbook/2025-C0313.xls
+  title: 北京统计年鉴2025 · 3-13 城镇非私营、私营单位就业人员年末人数及工资情况(2024年)
+  topic: statistics
+  source_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls
+  download_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls
+  published_at: 2025年
+  retrieved_at: '2026-09-21T22:22:42+08:00'
+  status: active
+  content_hash: 59a24d1c743ac3de74ad21f588d2d17e68d9904c4327ae1572716d03f42bd28f
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/statistics/sources/full-caliber-avg-wage.md
   title: 历年北京市全口径城镇单位就业人员平均工资

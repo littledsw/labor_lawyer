@@ -4,12 +4,12 @@ level: municipality
 topic: statistics
 authority: 北京市人力资源和社会保障局 / 北京市统计局 / 国务院（按条目）
 published_at: null
-source_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/indexce.htm
-download_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/indexce.htm
-retrieved_at: '2026-09-21T22:09:54+08:00'
+source_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls
+download_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls
+retrieved_at: '2026-09-21T22:22:42+08:00'
 status: active
-content_hash: 58a394b8bf0adfba731fcaeb3c5276bd70bb15cf57c8e195b8a74d630f87bcb3
+content_hash: 4effc86905189807c06b6fb8355039288d79452c9475e8ea9ffd41375608c214
 local_path: regions/municipalities/beijing/statistics/parameters.yaml
 file: parameters.yaml
 original_filename: parameters.yaml
-notes: 阶段 15：年鉴表格补齐法人单位从业人员平均工资 7 个数据年度（2017—2023）
+notes: 阶段 16：新增 2024 年度估算 192817 元/年（estimate-not-official）
