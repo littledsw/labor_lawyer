@@ -1,0 +1,15 @@
+title: 2024 年日历参数（法定节假日/休息日/调休上班日）
+region: national
+level: national
+topic: statistics
+authority: 国务院办公厅
+published_at: '2026-08-05'
+source_url: https://www.gov.cn/zhengce/zhengceku/202310/content_6911528.htm
+download_url: https://www.gov.cn/zhengce/zhengceku/202310/content_6911528.htm
+retrieved_at: '2026-09-21T20:45:21+08:00'
+status: active
+content_hash: d8c3762707afc40ec8191778c86934dfebd87ef2c3c368f913af6f9cdc904b89
+local_path: regions/national/statistics/calendar/calendar-index-2024.json
+file: calendar-index-2024.json
+original_filename: 2024-calendar.json
+notes: 由国办节假日安排通知派生；法定节假日按《全国年节及纪念日放假办法》与农历/节气计算

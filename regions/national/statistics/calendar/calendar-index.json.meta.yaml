@@ -1,0 +1,15 @@
+title: 节假日日历参数索引（2016—2026）
+region: national
+level: national
+topic: statistics
+authority: 国务院办公厅
+published_at: null
+source_url: https://www.gov.cn/zhengce/zhengceku/
+download_url: https://www.gov.cn/zhengce/zhengceku/
+retrieved_at: '2026-09-21T20:46:26+08:00'
+status: active
+content_hash: 43fbdf777aa1d87418777652f4f4563adbde00ab261132078b9cce5ff74778c3
+local_path: regions/national/statistics/calendar/calendar-index.json
+file: calendar-index.json
+original_filename: calendar-index.json
+notes: 各年度日历参数文件的汇总索引（法定节假日天数、调休上班日、校验问题）

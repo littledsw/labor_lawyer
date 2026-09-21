@@ -15,6 +15,7 @@ TOPIC_CN = {
     "templates": "模板与文书", "manuals": "系统操作手册", "guidance": "办事指南",
     "cases": "典型案例", "jurisdiction": "管辖规定", "institutions": "仲裁机构名录",
     "regulations": "地方法规与政策文件",
+    "statistics": "计算参数（日历与工资口径）",
 }
 CSV_FIELDS = [
     "region", "level", "topic", "local_path", "title", "authority", "published_at", "source_url",

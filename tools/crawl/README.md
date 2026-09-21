@@ -5,7 +5,7 @@
 ## 依赖
 
 - Python 3.11+
-- 第三方库：`markdownify`、`beautifulsoup4`、`lxml`、`pyyaml`
+- 第三方库：`markdownify`、`beautifulsoup4`、`lxml`、`pyyaml`（日历参数另需 `cnlunar`、`lunardate`）
 
 ```bash
 # 推荐用 uv 临时环境
@@ -32,7 +32,9 @@ python -m venv .venv && . .venv/bin/activate && pip install markdownify beautifu
 | 4b | `stage4b_cases_gov.py` | 北京：归档首都之窗的年度十大案例发布动态页及其官方附件 |
 | 5 | `stage5_guidance.py` | 北京：抓取市级/区级政务服务事项办事指南与平台在线申请须知（含表格样例附件） |
 | 6 | `stage7_national.py` | 国家层面：法律、行政法规、司法解释、部门规章（含页面附带的 DOCX/PDF 原件） |
-| 7 | `stage6_indexes.py` | 由 `manifest.json` 生成 `indexes/`、各主题 README 清单、`SOURCES.yaml`、`CHANGELOG.md` |
+| 7 | `stage9_calendar.py` | 计算参数（日历）：抓取 2016—2026 各年国办节假日安排通知，派生法定节假日/休息日/调休上班日 |
+| 8 | `stage10_beijing_params.py` | 计算参数（北京）：社平工资三组口径、最低工资标准与封顶口径决定，生成 `statistics/parameters.yaml` |
+| 9 | `stage6_indexes.py` | 由 `manifest.json` 生成 `indexes/`、各主题 README 清单、`SOURCES.yaml`、`CHANGELOG.md` |
 | — | `verify.py` | 校验 frontmatter 完整性、附件类型、索引与实际文件一致性 |
 | — | `extract_cases.py` | 派生抽取：法条引用、主题标签、年度合集切片 → `indexes/derived/`（纯脚本，无 LLM 成本） |
 | — | `merge_llm_extract.py` | 合并 `indexes/derived/llm-extract/*.json` 的模型抽取结果并做回文核验，产出 `cases-structured.json/md` |
@@ -50,6 +52,18 @@ export LABOR_LAWYER_REPO=/path/to/labor_lawyer
 - **典型案例专题（rsj.beijing.gov.cn）**：列表分页为 `index.html`、`index_1.html`…，正文在 `div.view`。
 - **司法解释**：最高法官网（`court.gov.cn`）或最高人民法院公报（`gongbao.court.gov.cn`）。
 - 抓取失败会打印 `FAIL` / `ATT FAIL`，可直接重跑；页面已缓存（`LABOR_LAWYER_CACHE`），重跑不会重复请求站点。
+
+## 计算参数（statistics）
+
+| 路径 | 内容 |
+| --- | --- |
+| `regions/national/statistics/calendar/notices/` | 国办年度节假日安排通知原文（2016—2026） |
+| `regions/national/statistics/calendar/calendar-<年>.json` | 逐日分类：`statutory_holiday`（3 倍工资日）/ `rest_day`（2 倍或补休）/ `makeup_workday`（调休上班）/ `weekend` / `workday` |
+| `regions/national/statistics/calendar/calendar-index.json` | 各年度法定节假日天数、调休上班日与校验问题汇总 |
+| `regions/municipalities/beijing/statistics/parameters.yaml` | 北京工资/最低工资参数台账（`series` 时间序列 + `decisions` 口径 + `gaps` 缺口） |
+| `regions/municipalities/beijing/statistics/sources/` | 参数来源页面原文 |
+
+口径要点：法定节假日按《全国年节及纪念日放假办法》确定，农历/节气日期由 `cnlunar` 计算，并与当年国办通知交叉校验（法定节假日必须落在通知的放假区间内）；2020 年另计春节假期延长。北京经济补偿三倍封顶基数自 2019-08-16 起按「法人单位从业人员平均工资」，而不是「全口径城镇单位就业人员平均工资」（后者官方注明仅用于社保基数）。
 
 ## 归档约定
 

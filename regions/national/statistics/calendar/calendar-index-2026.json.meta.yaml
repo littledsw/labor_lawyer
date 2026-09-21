@@ -1,0 +1,15 @@
+title: 2026 年日历参数（法定节假日/休息日/调休上班日）
+region: national
+level: national
+topic: statistics
+authority: 国务院办公厅
+published_at: '2026-07-29'
+source_url: https://www.gov.cn/zhengce/zhengceku/202511/content_7047091.htm
+download_url: https://www.gov.cn/zhengce/zhengceku/202511/content_7047091.htm
+retrieved_at: '2026-09-21T20:45:21+08:00'
+status: active
+content_hash: c5c1019a661cf56a4f76219d13fad4e64bb6c2ddb84350b75ab10dcea11b63d5
+local_path: regions/national/statistics/calendar/calendar-index-2026.json
+file: calendar-index-2026.json
+original_filename: 2026-calendar.json
+notes: 由国办节假日安排通知派生；法定节假日按《全国年节及纪念日放假办法》与农历/节气计算

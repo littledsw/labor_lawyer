@@ -1,0 +1,15 @@
+title: 2018 年日历参数（法定节假日/休息日/调休上班日）
+region: national
+level: national
+topic: statistics
+authority: 国务院办公厅
+published_at: '2026-08-12'
+source_url: https://www.gov.cn/zhengce/zhengceku/2017-11/30/content_5243579.htm
+download_url: https://www.gov.cn/zhengce/zhengceku/2017-11/30/content_5243579.htm
+retrieved_at: '2026-09-21T20:45:21+08:00'
+status: active
+content_hash: 80886b36f025e0969caec5176a5ce797d9ee99d94c2cd1e519f82f2ce203c4ea
+local_path: regions/national/statistics/calendar/calendar-index-2018.json
+file: calendar-index-2018.json
+original_filename: 2018-calendar.json
+notes: 由国办节假日安排通知派生；法定节假日按《全国年节及纪念日放假办法》与农历/节气计算

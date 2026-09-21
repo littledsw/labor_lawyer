@@ -1,0 +1,15 @@
+title: 2017 年日历参数（法定节假日/休息日/调休上班日）
+region: national
+level: national
+topic: statistics
+authority: 国务院办公厅
+published_at: '2026-08-12'
+source_url: https://www.gov.cn/zhengce/zhengceku/2016-12/01/content_5141603.htm
+download_url: https://www.gov.cn/zhengce/zhengceku/2016-12/01/content_5141603.htm
+retrieved_at: '2026-09-21T20:46:26+08:00'
+status: active
+content_hash: 15e06bb50b9cc6ea96c67d682210869ac1e8cff7716b80ca72a262517579345d
+local_path: regions/national/statistics/calendar/calendar-2017.json
+file: calendar-2017.json
+original_filename: 2017-calendar.json
+notes: 由国办节假日安排通知派生；法定节假日按《全国年节及纪念日放假办法》与农历/节气计算（2020 年另计春节假期延长）

@@ -74,7 +74,7 @@ def main() -> int:
         problems.append(f"documents.json 行数 {len(json_rows)} != manifest {len(records)}")
 
     print(f"records={len(records)} csv={len(csv_rows)} json={len(json_rows)} disk_files={len(disk)}")
-    for topic in ["templates", "manuals", "guidance", "cases", "jurisdiction", "institutions", "regulations"]:
+    for topic in sorted({r["topic"] for r in records}):
         n = len([r for r in records if r["topic"] == topic])
         print(f"  {topic}: {n}")
     if problems:

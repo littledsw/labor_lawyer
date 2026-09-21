@@ -1,7 +1,7 @@
-"""劳动仲裁公开资料抓取公共库（Hermes 私有草稿区，不进仓库）。
+"""公开资料抓取公共库（国家层面 + 北京市）。
 
-用法：在 labor_lawyer_crawl 下 `python stageN_xxx.py`，抓取结果写入
-/Users/abaaba/workspace/projects/labor_lawyer，并在 manifest.json 累积元数据。
+用法：设置 LABOR_LAWYER_REPO 指向仓库根目录后按 stage1 → stage10 顺序执行，
+详见 tools/crawl/README.md。抓取结果写入仓库，元数据累积在 manifest.json。
 """
 from __future__ import annotations
 

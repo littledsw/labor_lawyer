@@ -15,6 +15,7 @@
 
 ## 归档进度
 
+- 计算参数：2016—2026 年节假日日历参数（法定节假日/休息日/调休上班日）与北京工资口径参数（`regions/national/statistics/`、`regions/municipalities/beijing/statistics/`）。
 - 国家层面：已归档法律 7 部、行政法规 12 部、司法解释 2 部、部门规章与配套规范性文件 19 部（含官方原件 40 份）。
   - 目录：`regions/national/`，来源与清单：`regions/national/official-index.md`
 - 北京市：已完成第一轮批量抓取（文书模板、操作手册、办事指南、典型案例、管辖规定、机构名录、地方规范性文件）。

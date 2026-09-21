@@ -1,0 +1,15 @@
+title: 2020 年日历参数（法定节假日/休息日/调休上班日）
+region: national
+level: national
+topic: statistics
+authority: 国务院办公厅
+published_at: '2026-08-06'
+source_url: https://www.gov.cn/zhengce/zhengceku/2019-11/21/content_5454164.htm
+download_url: https://www.gov.cn/zhengce/zhengceku/2019-11/21/content_5454164.htm
+retrieved_at: '2026-09-21T20:46:26+08:00'
+status: active
+content_hash: 8875ef7c4957c3301019ef5e315d564e7db0afe20b8edcfde2dc4e9d1e33d778
+local_path: regions/national/statistics/calendar/calendar-2020.json
+file: calendar-2020.json
+original_filename: 2020-calendar.json
+notes: 由国办节假日安排通知派生；法定节假日按《全国年节及纪念日放假办法》与农历/节气计算（2020 年另计春节假期延长）

@@ -1,0 +1,130 @@
+# 北京劳动仲裁计算参数（由 tools/crawl/stage10_beijing_params.py 生成）
+# 每条数值均需可追溯至官方页面；gaps 表示尚未取得官方来源，禁止凭记忆补数。
+region: municipalities/beijing
+topic: 计算参数
+note: 所有数值均来自官方页面（见 series[].source_url）；未取到官方来源的年份列入 gaps，不得凭记忆填写。历史案件请按“案件相关时点”取值（生效区间/数据年度）。
+series:
+- id: beijing_full_caliber_avg_wage
+  name: 北京市全口径城镇单位就业人员平均工资
+  authority: 北京市人力资源和社会保障局（依据《北京统计年鉴》）
+  source_url: https://rsj.beijing.gov.cn/bm/ywml/202007/t20200717_1950961.html
+  use: 核定社会保险个人缴费基数上下限；官方页面明确注明“仅用于核定社保缴费基数上下限”，不作为经济补偿封顶基数
+  entries:
+  - year: 2018
+    annual: 94258
+    monthly: 7855
+  - year: 2019
+    annual: 106168
+    monthly: 8847
+  - year: 2020
+    annual: 112886
+    monthly: 9407
+  - year: 2021
+    annual: 127535
+    monthly: 10628
+  - year: 2022
+    annual: 135567
+    monthly: 11297
+  - year: 2023
+    annual: 141133
+    monthly: 11761
+  - year: 2024
+    annual: 143244
+    monthly: 11937
+  - year: 2025
+    annual: 145391
+    monthly: 12116
+- id: beijing_employee_avg_wage_legacy
+  name: 北京市职工年平均工资（已归档序列）
+  authority: 北京市人力资源和社会保障局
+  source_url: http://rsj.beijing.gov.cn/bm/ywml/201912/t20191206_873811.html
+  use: 2019 年 8 月 16 日之前的经济补偿封顶口径；亦为财税〔2001〕157 号免税额度基数口径
+  entries:
+  - year: 1997
+    annual: 11019
+  - year: 1998
+    annual: 12285
+  - year: 1999
+    annual: 13778
+  - year: 2000
+    annual: 15726
+  - year: 2001
+    annual: 18092
+  - year: 2002
+    annual: 20728
+  - year: 2003
+    annual: 24045
+  - year: 2004
+    annual: 28348
+  - year: 2005
+    annual: 32808
+  - year: 2006
+    annual: 36097
+  - year: 2007
+    annual: 39867
+  - year: 2008
+    annual: 44715
+  - year: 2009
+    annual: 48444
+  - year: 2010
+    annual: 50415
+  - year: 2011
+    annual: 56061
+  - year: 2012
+    annual: 62677
+  - year: 2013
+    annual: 69521
+  - year: 2014
+    annual: 77560
+  - year: 2015
+    annual: 85038
+  - year: 2016
+    annual: 92477
+  - year: 2017
+    annual: 101599
+- id: beijing_legal_entity_avg_wage
+  name: 北京市法人单位从业人员平均工资
+  authority: 北京市统计局（口径由北京市人社局通告确认）
+  source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/201912/t20191207_951033.html
+  use: 《劳动合同法》第四十七条第二款“本地区上年度职工月平均工资”的北京口径，用于计算经济补偿三倍封顶基数
+  entries:
+  - year: 2018
+    annual: 127107
+    monthly: 10592
+    source_note: 取自人社局通告页面及 2019 年典型案例（2018 年数据）
+  gaps:
+  - 2019—2025 年度数值待补：需从北京市统计局年度数据/统计公报取得与通告口径一致的数值
+- id: beijing_min_wage
+  name: 北京市最低工资标准（月）
+  authority: 北京市人力资源和社会保障局
+  source_url: https://rsj.beijing.gov.cn/xxgk/2024zcwj/202507/t20250725_4158456.html
+  use: 病假工资下限、竞业限制补偿下限、差额类计算、二倍工资下限参照等
+  entries:
+  - effective_from: '2025-09-01'
+    monthly: 2540
+    part_time_hourly: '27.7'
+    part_time_holiday_hourly: '65.1'
+    doc_no: 京人社劳发〔2025〕7号
+    source_url: https://rsj.beijing.gov.cn/xxgk/2024zcwj/202507/t20250725_4158456.html
+  - effective_from: '2023-09-01'
+    monthly: 2420
+    part_time_hourly: '26.4'
+    source_url: https://www.beijing.gov.cn/zhengce/zcjd/202307/t20230714_3162840.html
+  - effective_from: '2021-08-01'
+    monthly: 2320
+    source_url: https://www.beijing.gov.cn/zhengce/zcjd/202307/t20230714_3162840.html
+    source_note: 由 2023 年官方解读的“新旧政策差异”推出，建议补充当年调整通知原件后复核
+  gaps:
+  - 2016—2020 各次调整的官方通知尚未定位（需逐年在 rsj.beijing.gov.cn 政策文件栏目检索）；2021 年标准目前仅有 2023 年官方解读的引用，待补当年通知原件
+decisions:
+- id: economic_compensation_cap_basis
+  title: 经济补偿三倍封顶基数口径
+  rule: 封顶基数 = 上年度北京市法人单位从业人员平均工资 × 3；月工资高于该基数的，按封顶基数计算且补偿年限最高 12 年（《劳动合同法》第四十七条）
+  effective_from: '2019-08-16'
+  source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/201912/t20191207_951033.html
+  note: 2019 年 8 月 16 日前按原「北京市职工年平均工资」口径；人社局与统计局原联合发布职工平均工资的做法已终止
+- id: economic_compensation_tax_exemption
+  title: 经济补偿个税免税额度基数
+  rule: 一次性补偿收入在当地上年职工平均工资 3 倍数额以内的部分免征个人所得税
+  legal_basis: 财税〔2001〕157 号第一条
+  note: 北京 2019 年前按「职工年平均工资」；口径切换后需以税务/统计局公布口径复核
