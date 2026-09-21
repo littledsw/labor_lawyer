@@ -34,6 +34,8 @@ python -m venv .venv && . .venv/bin/activate && pip install markdownify beautifu
 | 6 | `stage7_national.py` | 国家层面：法律、行政法规、司法解释、部门规章（含页面附带的 DOCX/PDF 原件） |
 | 7 | `stage9_calendar.py` | 计算参数（日历）：抓取 2016—2026 各年国办节假日安排通知，派生法定节假日/休息日/调休上班日 |
 | 8 | `stage10_beijing_params.py` | 计算参数（北京）：社平工资三组口径、最低工资标准与封顶口径决定，生成 `statistics/parameters.yaml` |
+| 10 | `stage11_injury_params.py` | 计算参数（工伤）：归档京人社工发〔2011〕384号原文并写入工伤待遇对照表与社平口径待确认项 |
+| — | `stage12_promote_wage.py` | 参数核实工具：仅在官方页面确能检索到数值时，把候选值提升为已验证参数（需手动指定 `--year --annual --url`） |
 | 9 | `stage6_indexes.py` | 由 `manifest.json` 生成 `indexes/`、各主题 README 清单、`SOURCES.yaml`、`CHANGELOG.md` |
 | — | `verify.py` | 校验 frontmatter 完整性、附件类型、索引与实际文件一致性 |
 | — | `extract_cases.py` | 派生抽取：法条引用、主题标签、年度合集切片 → `indexes/derived/`（纯脚本，无 LLM 成本） |
@@ -71,6 +73,18 @@ export LABOR_LAWYER_REPO=/path/to/labor_lawyer
 - 二进制附件：与原文件同名的 `<文件名>.meta.yaml`，并保留 `original_filename` 记录官方原始文件名。
 - `status` 取值：`active`（现行有效）、`superseded`（已被新版本取代，需保留旧文件）、`unreachable`（来源不可访问）。
 - 重新执行脚本会按 `local_path` 覆盖同名记录，属于幂等更新；官方网站改版导致选择器失效时需先修正抽取逻辑。
+## 参数核实（candidates_unverified → entries）
+
+`parameters.yaml` 中 `candidates_unverified` 的数值来自二手渠道（律所/媒体转述），**禁止直接用于计算**。取得官方页面后用：
+
+```bash
+python stage12_promote_wage.py --year 2023 --annual 188413 \
+    --url "https://tjj.beijing.gov.cn/<官方页面>" --pubdate 2024-06-19
+```
+
+脚本会抓取该页面并校验数值确实出现在页面文本中（含千分位写法），校验通过才写入 `entries` 并记录
+`source_url`、抓取时间与页面 sha256；未命中（exit 2）或页面不可达（exit 3）时不写入任何内容。
+
 - 地区通过 `region` 参数区分（`national`、`municipalities/beijing`），索引与主题 README 由 `stage6_indexes.py` 按地区自动生成。
 
 ## 合规要求

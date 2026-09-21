@@ -1,5 +1,5 @@
 # 来源站点索引（由抓取流程生成，保留原始 URL 与 SHA-256 追溯信息）
-updated_at: '2026-09-21T21:03:52+08:00'
+updated_at: '2026-09-21T21:12:38+08:00'
 region: municipalities/beijing
 authority: 北京市人力资源和社会保障局
 sources:
@@ -2316,6 +2316,16 @@ documents:
   status: active
   content_hash: 32f757952a03afca58cf2468085b672ca183a7d3900d20fc78a78705605da1c3
 - region: municipalities/beijing
+  local_path: regions/municipalities/beijing/statistics/sources/injury-benefits-notice-384.md
+  title: 京人社工发〔2011〕384号 关于北京市工伤保险基金支出项目标准及相关问题的通知
+  topic: statistics
+  source_url: https://www.beijing.gov.cn/zhengce/zhengcefagui/201905/t20190522_57148.html
+  download_url: null
+  published_at: '2012-01-06'
+  retrieved_at: '2026-09-21T21:10:34+08:00'
+  status: active
+  content_hash: 90eecadd05ff9ab42c176a3c43dec1590b77847305830377f5a3fb1c7fe4c83e
+- region: municipalities/beijing
   local_path: regions/municipalities/beijing/statistics/sources/compensation-cap-notice.md
   title: 关于按照法人单位从业人员平均工资计算经济补偿封顶基数的通告
   topic: statistics
@@ -2337,14 +2347,14 @@ documents:
   content_hash: af57e3d002a52747abf1d82a397999c213fe20640391de01c2e27df81cd17a5d
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/statistics/parameters.yaml
-  title: 北京劳动仲裁计算参数表（社平工资口径、最低工资标准）
+  title: 北京劳动仲裁计算参数表（工资口径、最低工资、工伤待遇）
   topic: statistics
   source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/201912/t20191207_951033.html
   download_url: https://rsj.beijing.gov.cn/xxgk/tzgg/201912/t20191207_951033.html
   published_at: null
-  retrieved_at: '2026-09-21T20:57:34+08:00'
+  retrieved_at: '2026-09-21T21:10:34+08:00'
   status: active
-  content_hash: cfc30845467e2ca2eac14417bc873e546bea45ee59f923f322babb5c6a6796c5
+  content_hash: d0f1528c16681b11c3ab77b7f6b2c33921df97f8b40e9b90e6e368c81745ae17
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/statistics/sources/full-caliber-avg-wage.md
   title: 历年北京市全口径城镇单位就业人员平均工资

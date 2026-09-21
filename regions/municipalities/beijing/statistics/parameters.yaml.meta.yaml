@@ -1,15 +1,15 @@
-title: 北京劳动仲裁计算参数表（社平工资口径、最低工资标准）
+title: 北京劳动仲裁计算参数表（工资口径、最低工资、工伤待遇）
 region: municipalities/beijing
 level: municipality
 topic: statistics
-authority: 北京市人力资源和社会保障局 / 北京市统计局（按条目）
+authority: 北京市人力资源和社会保障局 / 北京市统计局 / 国务院（按条目）
 published_at: null
 source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/201912/t20191207_951033.html
 download_url: https://rsj.beijing.gov.cn/xxgk/tzgg/201912/t20191207_951033.html
-retrieved_at: '2026-09-21T20:57:34+08:00'
+retrieved_at: '2026-09-21T21:10:34+08:00'
 status: active
-content_hash: cfc30845467e2ca2eac14417bc873e546bea45ee59f923f322babb5c6a6796c5
+content_hash: d0f1528c16681b11c3ab77b7f6b2c33921df97f8b40e9b90e6e368c81745ae17
 local_path: regions/municipalities/beijing/statistics/parameters.yaml
 file: parameters.yaml
 original_filename: parameters.yaml
-notes: 参数台账：series 为时间序列（含生效区间/数据年度与来源 URL），decisions 为口径决定（含法条与生效日期），gaps 为尚未取得官方来源的年份
+notes: 参数台账：series（含工伤对照表）、decisions（含工伤社平口径待确认项）、gaps

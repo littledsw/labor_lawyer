@@ -1,5 +1,6 @@
-# 北京劳动仲裁计算参数（由 tools/crawl/stage10_beijing_params.py 生成）
-# 每条数值均需可追溯至官方页面；gaps 表示尚未取得官方来源，禁止凭记忆补数。
+# 北京劳动仲裁计算参数（由 tools/crawl/stage10/stage11 生成）
+# 每条数值均需可追溯至官方页面；candidates_unverified 禁止直接用于计算；
+# gaps 表示尚未取得官方来源，需补齐后写入 entries。
 region: municipalities/beijing
 topic: 计算参数
 note: 所有数值均来自官方页面（见 series[].source_url）；未取到官方来源的年份列入 gaps，不得凭记忆填写。历史案件请按“案件相关时点”取值（生效区间/数据年度）。
@@ -132,6 +133,98 @@ series:
     source_note: 由 2023 年官方解读的“新旧政策差异”推出，建议补充当年调整通知原件后复核
   gaps:
   - 2016—2020 各次调整的官方通知尚未定位（需逐年在 rsj.beijing.gov.cn 政策文件栏目检索）；2021 年标准目前仅有 2023 年官方解读的引用，待补当年通知原件
+- id: injury_lump_sum_months
+  name: 一次性伤残补助金月数（× 本人工资）
+  authority: 国务院（《工伤保险条例》第35—37条）
+  source_url: regions/national/regulations/administrative-regulations/工伤保险条例.md
+  use: 一次性伤残补助金 = 本人工资 × 月数；本人工资指受伤前 12 个月平均月缴费工资
+  entries:
+  - grade: 1
+    months: 27
+  - grade: 2
+    months: 25
+  - grade: 3
+    months: 23
+  - grade: 4
+    months: 21
+  - grade: 5
+    months: 18
+  - grade: 6
+    months: 16
+  - grade: 7
+    months: 13
+  - grade: 8
+    months: 11
+  - grade: 9
+    months: 9
+  - grade: 10
+    months: 7
+- id: injury_disability_allowance_rate
+  name: 伤残津贴比例（× 本人工资）
+  authority: 国务院（《工伤保险条例》第35、36条）
+  source_url: regions/national/regulations/administrative-regulations/工伤保险条例.md
+  use: 一至四级由工伤保险基金按月支付；五至六级由用人单位在难以安排工作时按月支付
+  entries:
+  - grade: 1
+    rate: '0.90'
+  - grade: 2
+    rate: '0.85'
+  - grade: 3
+    rate: '0.80'
+  - grade: 4
+    rate: '0.75'
+  - grade: 5
+    rate: '0.70'
+  - grade: 6
+    rate: '0.60'
+- id: injury_nursing_rate
+  name: 生活护理费比例（× 统筹地区上年度职工月平均工资）
+  authority: 国务院（《工伤保险条例》第34条）
+  source_url: regions/national/regulations/administrative-regulations/工伤保险条例.md
+  entries:
+  - level: 完全生活自理障碍
+    rate: '0.50'
+  - level: 大部分生活自理障碍
+    rate: '0.40'
+  - level: 部分生活自理障碍
+    rate: '0.30'
+- id: injury_beijing_medical_employment_months
+  name: 北京一次性工伤医疗补助金 / 一次性伤残就业补助金月数（× 本市上年度职工月平均工资）
+  authority: 北京市人力资源和社会保障局、北京市财政局
+  source_url: https://www.beijing.gov.cn/zhengce/zhengcefagui/201905/t20190522_57148.html
+  use: 解除或终止劳动关系时支付；医疗补助金由工伤保险基金支付，就业补助金由用人单位支付
+  entries:
+  - grade: 5
+    medical_months: 18
+    employment_months: 18
+  - grade: 6
+    medical_months: 15
+    employment_months: 15
+  - grade: 7
+    medical_months: 12
+    employment_months: 12
+  - grade: 8
+    medical_months: 9
+    employment_months: 9
+  - grade: 9
+    medical_months: 6
+    employment_months: 6
+  - grade: 10
+    medical_months: 3
+    employment_months: 3
+- id: injury_death_benefits
+  name: 因工死亡待遇构成（《工伤保险条例》第39条）
+  authority: 国务院
+  source_url: regions/national/regulations/administrative-regulations/工伤保险条例.md
+  entries:
+  - item: 丧葬补助金
+    formula: 统筹地区上年度职工月平均工资 × 6
+  - item: 一次性工亡补助金
+    formula: 上年度全国城镇居民人均可支配收入 × 20
+  - item: 供养亲属抚恤金
+    formula: 本人工资 × 配偶 40% / 其他亲属每人 30%（孤寡老人或孤儿每人再加 10%），各供养亲属合计不超过本人工资
+  gaps:
+  - 「上年度全国城镇居民人均可支配收入」序列尚未归档（来源：国家统计局年度统计公报），计算时需显式传入并注明来源
 decisions:
 - id: economic_compensation_cap_basis
   title: 经济补偿三倍封顶基数口径
@@ -144,3 +237,14 @@ decisions:
   rule: 一次性补偿收入在当地上年职工平均工资 3 倍数额以内的部分免征个人所得税
   legal_basis: 财税〔2001〕157 号第一条
   note: 北京 2019 年前按「职工年平均工资」；口径切换后需以税务/统计局公布口径复核
+- id: injury_wage_base
+  title: 工伤待遇中「本市上年度职工月平均工资」的取值序列
+  status: pending-official-confirmation
+  rule: 京人社工发〔2011〕384号等文件仅表述为「本市上年度职工月平均工资」，未指明采用哪一组统计序列
+  candidates:
+  - series: beijing_full_caliber_avg_wage
+    note: 人社局发布的社保经办口径，社保系统常用
+  - series: beijing_legal_entity_avg_wage
+    note: 统计局法人单位口径，经济补偿封顶使用
+  note: 计算时**必须显式选择序列**并输出提示；正式出具意见前建议向社保经办机构/12333 确认本地口径
+series_updated_at: null

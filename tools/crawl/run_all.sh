@@ -12,5 +12,8 @@ python stage4_regs.py
 python stage4b_cases_gov.py
 python stage5_guidance.py
 python stage7_national.py
+python stage9_calendar.py
+python stage10_beijing_params.py
+python stage11_injury_params.py
 python stage6_indexes.py
 python verify.py
