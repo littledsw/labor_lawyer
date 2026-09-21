@@ -1,5 +1,5 @@
 # 来源站点索引（由抓取流程生成，保留原始 URL 与 SHA-256 追溯信息）
-updated_at: '2026-09-21T22:30:08+08:00'
+updated_at: '2026-09-21T23:11:16+08:00'
 region: municipalities/beijing
 authority: 北京市人力资源和社会保障局
 sources:
@@ -1426,6 +1426,26 @@ documents:
   status: active
   content_hash: dd439007ad04b757ac15f6cb0d996ebf71b97559a7cd58f409898d1e80b1c867
 - region: national
+  local_path: regions/national/regulations/department-rules/人力资源社会保障部关于职工全年月平均工作时间和工资折算问题的通知.md
+  title: 人力资源社会保障部关于职工全年月平均工作时间和工资折算问题的通知
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/gfxwj/ldgx/202501/t20250101_533693.html
+  download_url: null
+  published_at: '2025-01-01'
+  retrieved_at: '2026-09-21T23:11:13+08:00'
+  status: active
+  content_hash: 2c96e3c67d5067ef131efab4efed45a53552cc4cc4c812abcbf0f28e6289e190
+- region: national
+  local_path: regions/national/regulations/department-rules/人力资源社会保障部办公厅关于2020年国庆节、中秋节假期加班工资计算问题的复函.md
+  title: 人力资源社会保障部办公厅关于2020年国庆节、中秋节假期加班工资计算问题的复函
+  topic: regulations
+  source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/gfxwj/ldgx/202401/t20240131_513082.html
+  download_url: null
+  published_at: '2020-09-18'
+  retrieved_at: '2026-09-21T23:11:13+08:00'
+  status: active
+  content_hash: 4cfc7fffeb5c675e9456f4900ae7a7b0203607d920075b8983193b7e0f246e8b
+- region: national
   local_path: regions/national/regulations/department-rules/企业劳动争议协商调解规定.md
   title: 企业劳动争议协商调解规定
   topic: regulations
@@ -1726,6 +1746,16 @@ documents:
   status: active
   content_hash: d8a40f22181c550803b173ba6d7aeb5cc6725bec485ffab2d15aeeddbc4e0919
 - region: national
+  local_path: regions/national/regulations/department-rules/劳动和社会保障部关于职工全年月平均工作时间和工资折算问题的通知.md
+  title: 劳动和社会保障部关于职工全年月平均工作时间和工资折算问题的通知
+  topic: regulations
+  source_url: https://rsj.yueyang.gov.cn/7719/7725/content_472965.html
+  download_url: null
+  published_at: '2008-01-03'
+  retrieved_at: '2026-09-21T23:11:13+08:00'
+  status: superseded
+  content_hash: 648c707e16e9e856f2f911cc4ce40be7ef28c5981238368b187fb417897ccfbc
+- region: national
   local_path: regions/national/regulations/department-rules/劳动能力鉴定管理办法.md
   title: 劳动能力鉴定管理办法
   topic: regulations
@@ -1775,6 +1805,16 @@ documents:
   retrieved_at: '2026-09-20T23:56:47+08:00'
   status: active
   content_hash: 3f06c5ba3ad0e79c1af109c3132ae6b034fe6a95fce0422752c5b80f3089303f
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/regulations/2003-12-22-北京市工资支付规定.md
+  title: 北京市工资支付规定
+  topic: regulations
+  source_url: https://www.beijing.gov.cn/zhengce/zhengcefagui/201905/t20190522_56550.html
+  download_url: null
+  published_at: '2003-12-22'
+  retrieved_at: '2026-09-21T23:11:13+08:00'
+  status: active
+  content_hash: e44c3c1640cc61072a2f7460e0ffebe81b9490ed3e85de56bc3b7f1ed6f5c5b2
 - region: national
   local_path: regions/national/regulations/administrative-regulations/国务院关于职工工作时间的规定.md
   title: 国务院关于职工工作时间的规定

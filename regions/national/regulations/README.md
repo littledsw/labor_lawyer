@@ -1,13 +1,14 @@
 # 地方法规与政策文件
 
 <!-- inventory:start -->
-## 已归档资料（80 项，抓取时间 2026-09-21T22:30:08+08:00）
+## 已归档资料（83 项，抓取时间 2026-09-21T23:11:16+08:00）
 
 | 标题 | 发布日期 | 类型 | 文件名 |
 | --- | --- | --- | --- |
 | 劳动保障监察条例 | 2004-11-01 | markdown | `administrative-regulations/劳动保障监察条例.md` |
 | 职工带薪年休假条例 | 2007-12-14 | markdown | `administrative-regulations/职工带薪年休假条例.md` |
 | 中华人民共和国劳动争议调解仲裁法 | 2007-12-29 | markdown | `laws/中华人民共和国劳动争议调解仲裁法.md` |
+| 劳动和社会保障部关于职工全年月平均工作时间和工资折算问题的通知 | 2008-01-03 | markdown | `department-rules/劳动和社会保障部关于职工全年月平均工作时间和工资折算问题的通知.md` |
 | 中华人民共和国劳动合同法实施条例 | 2008-09-18 | markdown | `administrative-regulations/中华人民共和国劳动合同法实施条例.md` |
 | 工伤保险条例 | 2010-12-20 | markdown | `administrative-regulations/工伤保险条例.md` |
 | 女职工劳动保护特别规定 | 2012-04-28 | markdown | `administrative-regulations/女职工劳动保护特别规定.md` |
@@ -17,6 +18,7 @@
 | 中华人民共和国劳动法 | 2018-12-29 | markdown | `laws/中华人民共和国劳动法.md` |
 | 中华人民共和国社会保险法 | 2018-12-29 | markdown | `laws/中华人民共和国社会保险法.md` |
 | 保障农民工工资支付条例 | 2019-12-30 | markdown | `administrative-regulations/保障农民工工资支付条例.md` |
+| 人力资源社会保障部办公厅关于2020年国庆节、中秋节假期加班工资计算问题的复函 | 2020-09-18 | markdown | `department-rules/人力资源社会保障部办公厅关于2020年国庆节、中秋节假期加班工资计算问题的复函.md` |
 | 国务院关于职工工作时间的规定 | 2020-11-03 | markdown | `administrative-regulations/国务院关于职工工作时间的规定.md` |
 | 失业保险条例 | 2020-11-03 | markdown | `administrative-regulations/失业保险条例.md` |
 | 社会保险费征缴暂行条例 | 2020-11-03 | markdown | `administrative-regulations/社会保险费征缴暂行条例.md` |
@@ -76,6 +78,7 @@
 | 社会保险经办条例 | 2023-08-16 | markdown | `administrative-regulations/社会保险经办条例.md` |
 | 全国人民代表大会常务委员会关于实施渐进式延迟法定退休年龄的决定 | 2024-09-13 | markdown | `laws/全国人民代表大会常务委员会关于实施渐进式延迟法定退休年龄的决定.md` |
 | 全国年节及纪念日放假办法 | 2024-11-10 | markdown | `administrative-regulations/全国年节及纪念日放假办法.md` |
+| 人力资源社会保障部关于职工全年月平均工作时间和工资折算问题的通知 | 2025-01-01 | markdown | `department-rules/人力资源社会保障部关于职工全年月平均工作时间和工资折算问题的通知.md` |
 | 最高人民法院关于审理劳动争议案件适用法律问题的解释（二） | 2025-02-17 | markdown | `judicial-interpretations/最高人民法院关于审理劳动争议案件适用法律问题的解释（二）.md` |
 | 劳动能力鉴定管理办法 | 2025-05-23 | markdown | `department-rules/劳动能力鉴定管理办法.md` |
 | 劳动能力鉴定管理办法 · 附件 P020250523339314479699.doc | 2025-05-23 | doc | `files/劳动能力鉴定管理办法-P020250523339314479699.doc` |

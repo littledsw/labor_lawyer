@@ -20,5 +20,6 @@ python stage13_national_income.py
 python stage15_beijing_yearbook.py
 python stage16_beijing_2024_estimate.py
 python stage14_cap_basis_evidence.py
+python stage17_working_hours_regs.py
 python stage6_indexes.py
 python verify.py
