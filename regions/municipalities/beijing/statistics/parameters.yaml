@@ -92,8 +92,24 @@ series:
     annual: 127107
     monthly: 10592
     source_note: 取自人社局通告页面及 2019 年典型案例（2018 年数据）
+  candidates_unverified:
+  - year: 2019
+    annual: 140581
+    confidence: secondary
+  - year: 2020
+    annual: 151360
+    confidence: secondary
+  - year: 2021
+    annual: 166513
+    confidence: secondary
+  - year: 2022
+    annual: 178476
+    confidence: secondary
+  - year: 2023
+    annual: 188413
+    confidence: secondary
   gaps:
-  - 2019—2025 年度数值待补：需从北京市统计局年度数据/统计公报取得与通告口径一致的数值
+  - 2019—2025 年度官方来源待补：需在北京市统计局网站（tjj.beijing.gov.cn，数据/人口与就业栏目）取得与通告口径一致的「法人单位从业人员平均工资」；candidates_unverified 中的数值来自律所/媒体转述，仅供人工核对，禁止直接用于计算
 - id: beijing_min_wage
   name: 北京市最低工资标准（月）
   authority: 北京市人力资源和社会保障局

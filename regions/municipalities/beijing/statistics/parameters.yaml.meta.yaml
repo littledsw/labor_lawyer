@@ -6,9 +6,9 @@ authority: 北京市人力资源和社会保障局 / 北京市统计局（按条
 published_at: null
 source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/201912/t20191207_951033.html
 download_url: https://rsj.beijing.gov.cn/xxgk/tzgg/201912/t20191207_951033.html
-retrieved_at: '2026-09-21T20:47:19+08:00'
+retrieved_at: '2026-09-21T20:57:34+08:00'
 status: active
-content_hash: cdd0ffe85c97de2256665a4680fcc208ae25c249a95e3f63af39558e46edf19d
+content_hash: cfc30845467e2ca2eac14417bc873e546bea45ee59f923f322babb5c6a6796c5
 local_path: regions/municipalities/beijing/statistics/parameters.yaml
 file: parameters.yaml
 original_filename: parameters.yaml
