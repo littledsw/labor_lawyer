@@ -4,12 +4,12 @@ level: municipality
 topic: statistics
 authority: 北京市人力资源和社会保障局 / 北京市统计局 / 国务院（按条目）
 published_at: null
-source_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls
-download_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls
-retrieved_at: '2026-09-21T22:22:42+08:00'
+source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html
+download_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html
+retrieved_at: '2026-09-22T00:37:01+08:00'
 status: active
-content_hash: 4effc86905189807c06b6fb8355039288d79452c9475e8ea9ffd41375608c214
+content_hash: cbbd21b27c47ff02bf130c42c97a0b739ed4dbf1b46c4a433c4229014976d7c7
 local_path: regions/municipalities/beijing/statistics/parameters.yaml
 file: parameters.yaml
 original_filename: parameters.yaml
-notes: 阶段 16：新增 2024 年度估算 192817 元/年（estimate-not-official）
+notes: 更新：封顶基数的口径链条证据与取数路径（阶段 14）

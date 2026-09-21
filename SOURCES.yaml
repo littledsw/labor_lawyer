@@ -1,5 +1,5 @@
 # 来源站点索引（由抓取流程生成，保留原始 URL 与 SHA-256 追溯信息）
-updated_at: '2026-09-21T23:11:16+08:00'
+updated_at: '2026-09-22T00:39:19+08:00'
 region: municipalities/beijing
 authority: 北京市人力资源和社会保障局
 sources:
@@ -1136,6 +1136,16 @@ documents:
   status: active
   content_hash: ab0cb67053e6bd2cca818a96693f3bb9d9ab7c6ebbebb451ee244805b00d2911
 - region: municipalities/beijing
+  local_path: regions/municipalities/beijing/guidance/2024-08-07-失业保险金热点问答.md
+  title: 失业保险金热点问答（北京市人民政府）
+  topic: guidance
+  source_url: https://www.beijing.gov.cn/fuwu/bmfw/bmzt/syzqh/syqj/sybxj/202408/t20240807_3768506.html
+  download_url: null
+  published_at: '2024-08-07'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
+  status: active
+  content_hash: 6023fb5b4dd8894f6ba2460fa7a68c9889b8fca0224895a14a42f4ecd1f7030c
+- region: municipalities/beijing
   local_path: regions/municipalities/beijing/guidance/guides/密云区-劳动人事争议仲裁申请办事指南.md
   title: 密云区·劳动人事争议仲裁申请办事指南
   topic: guidance
@@ -1432,7 +1442,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/gfxwj/ldgx/202501/t20250101_533693.html
   download_url: null
   published_at: '2025-01-01'
-  retrieved_at: '2026-09-21T23:11:13+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: 2c96e3c67d5067ef131efab4efed45a53552cc4cc4c812abcbf0f28e6289e190
 - region: national
@@ -1442,7 +1452,7 @@ documents:
   source_url: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/gfxwj/ldgx/202401/t20240131_513082.html
   download_url: null
   published_at: '2020-09-18'
-  retrieved_at: '2026-09-21T23:11:13+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: 4cfc7fffeb5c675e9456f4900ae7a7b0203607d920075b8983193b7e0f246e8b
 - region: national
@@ -1645,6 +1655,16 @@ documents:
   retrieved_at: '2026-09-20T22:59:36+08:00'
   status: active
   content_hash: 9e5d48ac0e5cc974b1148a83afc27679891b4bce95a671bcd1d1335b93225652
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/regulations/2011-12-12-关于调整本市职工生育保险政策有关问题的通知.md
+  title: 关于调整本市职工生育保险政策有关问题的通知
+  topic: regulations
+  source_url: https://www.beijing.gov.cn/zhengce/zhengcefagui/201905/t20190522_56936.html
+  download_url: null
+  published_at: '2011-12-12'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
+  status: active
+  content_hash: 8d690729cdd2004f8e2739f7cd6ebc727c0df8011b8873374f92f47697ca45e6
 - region: national
   local_path: regions/national/regulations/department-rules/劳务派遣暂行规定.md
   title: 劳务派遣暂行规定
@@ -1752,7 +1772,7 @@ documents:
   source_url: https://rsj.yueyang.gov.cn/7719/7725/content_472965.html
   download_url: null
   published_at: '2008-01-03'
-  retrieved_at: '2026-09-21T23:11:13+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: superseded
   content_hash: 648c707e16e9e856f2f911cc4ce40be7ef28c5981238368b187fb417897ccfbc
 - region: national
@@ -1806,13 +1826,33 @@ documents:
   status: active
   content_hash: 3f06c5ba3ad0e79c1af109c3132ae6b034fe6a95fce0422752c5b80f3089303f
 - region: municipalities/beijing
+  local_path: regions/municipalities/beijing/regulations/2007-06-14-北京市失业保险规定.md
+  title: 北京市失业保险规定（1999年市政府令第38号发布，2007年市政府令第190号修改后重新公布）
+  topic: regulations
+  source_url: https://www.beijing.gov.cn/zhengce/zhengcefagui/201905/t20190522_56688.html
+  download_url: null
+  published_at: '2007-06-14'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
+  status: active
+  content_hash: 786a1f75281f9800bccf1e4bad4935eca5aa3f67c05534c2aa904457b924b2e2
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/regulations/2024-12-27-北京市失业保险金申领发放实施办法（试行）.md
+  title: 北京市失业保险金申领发放实施办法（试行）
+  topic: regulations
+  source_url: https://rsj.beijing.gov.cn/xxgk/2024zcwj/202412/t20241227_3974931.html
+  download_url: null
+  published_at: '2024-12-27'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
+  status: active
+  content_hash: fc00fc3754e251ea9cacd07ee8853b54fa4975a85e55a0cc5bcb873aebe9befa
+- region: municipalities/beijing
   local_path: regions/municipalities/beijing/regulations/2003-12-22-北京市工资支付规定.md
   title: 北京市工资支付规定
   topic: regulations
   source_url: https://www.beijing.gov.cn/zhengce/zhengcefagui/201905/t20190522_56550.html
   download_url: null
   published_at: '2003-12-22'
-  retrieved_at: '2026-09-21T23:11:13+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: e44c3c1640cc61072a2f7460e0ffebe81b9490ed3e85de56bc3b7f1ed6f5c5b2
 - region: national
@@ -2492,7 +2532,7 @@ documents:
   source_url: https://www.beijing.gov.cn/zhengce/zhengcefagui/201905/t20190522_57148.html
   download_url: null
   published_at: '2012-01-06'
-  retrieved_at: '2026-09-21T21:10:34+08:00'
+  retrieved_at: '2026-09-22T00:37:00+08:00'
   status: active
   content_hash: 90eecadd05ff9ab42c176a3c43dec1590b77847305830377f5a3fb1c7fe4c83e
 - region: municipalities/beijing
@@ -2502,7 +2542,7 @@ documents:
   source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/201912/t20191207_951033.html
   download_url: null
   published_at: '2019-08-16'
-  retrieved_at: '2026-09-21T20:57:34+08:00'
+  retrieved_at: '2026-09-22T00:36:30+08:00'
   status: active
   content_hash: b80cda4b46aae0ba5d5fd4e37b9defc6200df074bf16705c0295138917c2104e
 - region: municipalities/beijing
@@ -2512,19 +2552,29 @@ documents:
   source_url: https://rsj.beijing.gov.cn/xxgk/2024zcwj/202507/t20250725_4158456.html
   download_url: null
   published_at: '2025-07-25'
-  retrieved_at: '2026-09-21T20:57:34+08:00'
+  retrieved_at: '2026-09-22T00:36:30+08:00'
   status: active
   content_hash: af57e3d002a52747abf1d82a397999c213fe20640391de01c2e27df81cd17a5d
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/statistics/parameters.yaml
   title: 北京劳动仲裁计算参数表（工资口径、最低工资、工伤待遇）
   topic: statistics
-  source_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls
-  download_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls
+  source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html
+  download_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html
   published_at: null
-  retrieved_at: '2026-09-21T22:22:42+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
-  content_hash: 4effc86905189807c06b6fb8355039288d79452c9475e8ea9ffd41375608c214
+  content_hash: cbbd21b27c47ff02bf130c42c97a0b739ed4dbf1b46c4a433c4229014976d7c7
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/statistics/sources/unemployment-benefit-2025.md
+  title: 北京市人力资源和社会保障局关于调整失业保险金发放标准的通告
+  topic: statistics
+  source_url: https://www.beijing.gov.cn/zhengce/zhengcefagui/202509/t20250926_4211356.html
+  download_url: null
+  published_at: '2025-07-28'
+  retrieved_at: '2026-09-22T00:36:30+08:00'
+  status: active
+  content_hash: 0137947d6ebce2f997d471a07dc340514f400184935f950b81751a3eef0fc5f7
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/statistics/yearbook/2019-C03-13.xls
   title: 北京统计年鉴2019 · 3-13全市法人单位从业人员年末人数和平均工资
@@ -2532,7 +2582,7 @@ documents:
   source_url: https://hgk.tjj.beijing.gov.cn/2019tjnj/tjnj/zk/html/C03-13.xls
   download_url: https://hgk.tjj.beijing.gov.cn/2019tjnj/tjnj/zk/html/C03-13.xls
   published_at: 2019年
-  retrieved_at: '2026-09-21T22:09:54+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: 35c06f6290bdb7ba45dfeb738990bb4195e5cfbc4377a9ca3325fdf64bc88fc9
 - region: municipalities/beijing
@@ -2542,7 +2592,7 @@ documents:
   source_url: https://hgk.tjj.beijing.gov.cn/2020tjnj/tjnj/zk/html/ch03-13.xls
   download_url: https://hgk.tjj.beijing.gov.cn/2020tjnj/tjnj/zk/html/ch03-13.xls
   published_at: 2020年
-  retrieved_at: '2026-09-21T22:09:54+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: 371e903d5038ad0d9e20ac38c1b5515ecd05d05e09982fd0e4387210abc56e36
 - region: municipalities/beijing
@@ -2552,7 +2602,7 @@ documents:
   source_url: https://hgk.tjj.beijing.gov.cn/2021tjnj/tjnj/zk/html/C03-13.xls
   download_url: https://hgk.tjj.beijing.gov.cn/2021tjnj/tjnj/zk/html/C03-13.xls
   published_at: 2021年
-  retrieved_at: '2026-09-21T22:09:54+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: 4fd07efa67a3c99f3aee5eb0747bfb8f4637592e19d8ef0dde81b2abd4829562
 - region: municipalities/beijing
@@ -2562,7 +2612,7 @@ documents:
   source_url: https://hgk.tjj.beijing.gov.cn/2022tjnj/tjnj/zk/html/C03-14.xls
   download_url: https://hgk.tjj.beijing.gov.cn/2022tjnj/tjnj/zk/html/C03-14.xls
   published_at: 2022年
-  retrieved_at: '2026-09-21T22:09:54+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: d2dcbbd1bf648cbc36e55450a262b8e2786f062744e7eed6570fb356c7927218
 - region: municipalities/beijing
@@ -2572,7 +2622,7 @@ documents:
   source_url: https://hgk.tjj.beijing.gov.cn/2023tjnj/tjnj/zk/html/C03-14.xls
   download_url: https://hgk.tjj.beijing.gov.cn/2023tjnj/tjnj/zk/html/C03-14.xls
   published_at: 2023年
-  retrieved_at: '2026-09-21T22:09:54+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: 86e1884f714adb154a842509d551ee38eb72694232a235551f24c0cd2ffbabad
 - region: municipalities/beijing
@@ -2582,7 +2632,7 @@ documents:
   source_url: https://hgk.tjj.beijing.gov.cn/2024tjnj/tjnj/zk/html/C03-14.xls
   download_url: https://hgk.tjj.beijing.gov.cn/2024tjnj/tjnj/zk/html/C03-14.xls
   published_at: 2024年
-  retrieved_at: '2026-09-21T22:09:54+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: 237c25bb127221e0bc266f4ddf09f22d12cd11a68a3633d776e7ce6c8bb576b4
 - region: municipalities/beijing
@@ -2592,7 +2642,7 @@ documents:
   source_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls
   download_url: https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls
   published_at: 2025年
-  retrieved_at: '2026-09-21T22:22:42+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: 59a24d1c743ac3de74ad21f588d2d17e68d9904c4327ae1572716d03f42bd28f
 - region: municipalities/beijing
@@ -2602,7 +2652,7 @@ documents:
   source_url: https://rsj.beijing.gov.cn/bm/ywml/202007/t20200717_1950961.html
   download_url: null
   published_at: '2026-08-21'
-  retrieved_at: '2026-09-21T20:57:34+08:00'
+  retrieved_at: '2026-09-22T00:36:30+08:00'
   status: active
   content_hash: f738743c0d93346deac6f4cf80f3b7328495b0155bfce4dec6b8070ff574291b
 - region: municipalities/beijing
@@ -2612,7 +2662,7 @@ documents:
   source_url: http://rsj.beijing.gov.cn/bm/ywml/201912/t20191206_873811.html
   download_url: null
   published_at: '2018-01-17'
-  retrieved_at: '2026-09-21T20:57:34+08:00'
+  retrieved_at: '2026-09-22T00:36:30+08:00'
   status: active
   content_hash: 6508681f2c19688a5818199e441706984d7e5028d81d3548934a176ad17a2881
 - region: national
@@ -2742,7 +2792,7 @@ documents:
   source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html
   download_url: null
   published_at: '2020-07-02'
-  retrieved_at: '2026-09-21T21:45:59+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: 7a42be4d2f6adbfa895bbf29806e062fda83f8aa1fc002caac48c3c9af9ffeb9
 - region: municipalities/beijing
@@ -2752,7 +2802,7 @@ documents:
   source_url: https://tjj.beijing.gov.cn/hudong/xinxiang/tjj/sindex/bjah-index-dept!detail.action?originalId=AH25021301385
   download_url: null
   published_at: '2025-02-13'
-  retrieved_at: '2026-09-21T21:45:59+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: 4253139461c8cf5d901df12ad406fb0bbc9730503e3a4d510e96a655e6b4972e
 - region: municipalities/beijing
@@ -2762,7 +2812,7 @@ documents:
   source_url: https://tjj.beijing.gov.cn/hudong/xinxiang/tjj/sindex/bjah-index-dept!detail.action?originalId=AH26012801058
   download_url: null
   published_at: '2026-01-28'
-  retrieved_at: '2026-09-21T21:45:59+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: 5755abd29fb4c5e54d8d280e2b4b097645865a2bcb8effbfd86272f0dfa419de
 - region: municipalities/beijing
@@ -2772,7 +2822,7 @@ documents:
   source_url: https://tjj.beijing.gov.cn/hudong/xinxiang/tjj/sindex/bjah-index-dept!detail.action?originalId=AH25070400999
   download_url: null
   published_at: '2025-07-04'
-  retrieved_at: '2026-09-21T21:45:59+08:00'
+  retrieved_at: '2026-09-22T00:37:01+08:00'
   status: active
   content_hash: b0a7be9a7c46fd0da47cc7f2f0f8e025b5b4e5eeebce6d0c764b698519c20800
 - region: national
@@ -2792,7 +2842,7 @@ documents:
   source_url: https://www.beijing.gov.cn/zhengce/zcjd/202307/t20230714_3162840.html
   download_url: null
   published_at: '2023-07-14'
-  retrieved_at: '2026-09-21T20:57:34+08:00'
+  retrieved_at: '2026-09-22T00:36:30+08:00'
   status: active
   content_hash: a1b71dab2fecf7989a4645b558c0808e8815a4995a328e86d55fdd8a6088d75e
 - region: municipalities/beijing

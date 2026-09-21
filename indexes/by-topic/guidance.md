@@ -1,6 +1,6 @@
 # 办事指南（guidance）资料索引
 
-共 24 项，抓取时间 2026-09-21T23:11:16+08:00。
+共 25 项，抓取时间 2026-09-22T00:39:19+08:00。
 
 | 地区 | 标题 | 发布日期 | 类型 | 本地路径 | 来源 |
 | --- | --- | --- | --- | --- | --- |
@@ -28,3 +28,4 @@
 | municipalities/beijing | 身份证件(样表).docx | — | docx | [regions/municipalities/beijing/guidance/files/f08a123f-身份证件(样表).docx](../../regions/municipalities/beijing/guidance/files/f08a123f-身份证件(样表).docx) | [来源](https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/1f742ee9-db1e-46f0-b009-0a71220d2f08.html) |
 | municipalities/beijing | 身份证件.docx | — | docx | [regions/municipalities/beijing/guidance/files/f08a123f-身份证件.docx](../../regions/municipalities/beijing/guidance/files/f08a123f-身份证件.docx) | [来源](https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/1f742ee9-db1e-46f0-b009-0a71220d2f08.html) |
 | municipalities/beijing | 通州区·劳动人事争议仲裁申请办事指南 | — | markdown | [regions/municipalities/beijing/guidance/guides/通州区-劳动人事争议仲裁申请办事指南.md](../../regions/municipalities/beijing/guidance/guides/通州区-劳动人事争议仲裁申请办事指南.md) | [来源](https://banshi.beijing.gov.cn/pubtask/task/1/110112000000/c692cfd3-1a9d-4734-8f16-86b3a0dbafee.html) |
+| municipalities/beijing | 失业保险金热点问答（北京市人民政府） | 2024-08-07 | markdown | [regions/municipalities/beijing/guidance/2024-08-07-失业保险金热点问答.md](../../regions/municipalities/beijing/guidance/2024-08-07-失业保险金热点问答.md) | [来源](https://www.beijing.gov.cn/fuwu/bmfw/bmzt/syzqh/syqj/sybxj/202408/t20240807_3768506.html) |

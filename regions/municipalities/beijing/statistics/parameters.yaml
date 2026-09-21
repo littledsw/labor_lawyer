@@ -171,12 +171,11 @@ series:
     column: 3
     published_at: 2024年（北京统计年鉴）
     verification: 年鉴原表按表头年份逐列解析（xlrd），值所在列与年份一一对应
-  candidates_unverified: []
   gaps:
-  - 年鉴在线版已收录到数据年度 2023（北京统计年鉴 2024 表 3-14）；年鉴2025 起不再收录「全市法人单位从业人员年末人数及工资情况」，2024 年度数值需另找官方来源（统计局「统计部门发布计划」栏目，约每年 6 月）。
-  - 取数依据：北京统计年鉴「全市法人单位从业人员年末人数及工资情况」表「合计」行的从业人员平均工资列；两年对比表须按表头年份对号入座（年鉴2019 列头为 2018|2017）。
-  - '年鉴2025: 年鉴2025 未收录「全市法人单位从业人员…工资」表'
-  - 2024 年度官方数值未发布；参数表提供估算 192817 元/年（方法经 2023 年数据校验，偏差 1.01%），状态 estimate-not-official，不得直接用于正式计算。
+  - 2019—2025 年度官方数值未出现在统计局与人社局网站可检索的公开页面中：人社局通告仅确认口径（「法人单位从业人员平均工资」）并要求到统计局网站查询数值；统计局公开序列仅「城镇非私营单位就业人员平均工资」「城镇私营单位就业人员平均工资」，且答复称劳动工资年度数据约每年 6 月上传至官网「统计部门发布计划」栏目。
+  - 取数路径（待执行）：统计局官网「统计数据 → 统计部门发布计划」栏目每年 6 月发布；或电话核实：北京市统计局 010-55529938 / 政府信息公开咨询 010-55533848 / 国家统计局北京调查总队 010-55533513。
+  - candidates_unverified 中的数值来自律所/媒体转述，仅供人工核对，禁止直接用于计算；取得官方页面后用 tools/crawl/stage12_promote_wage.py 提升为已验证条目。
+  candidates_unverified: []
   derived_estimates:
   - year: 2024
     annual: 192817
@@ -224,6 +223,55 @@ series:
     source_note: 由 2023 年官方解读的“新旧政策差异”推出，建议补充当年调整通知原件后复核
   gaps:
   - 2016—2020 各次调整的官方通知尚未定位（需逐年在 rsj.beijing.gov.cn 政策文件栏目检索）；2021 年标准目前仅有 2023 年官方解读的引用，待补当年通知原件
+- id: beijing_unemployment_benefit_standard
+  name: 北京市失业保险金月发放标准（分档）
+  authority: 北京市人力资源和社会保障局
+  source_url: https://www.beijing.gov.cn/zhengce/zhengcefagui/202509/t20250926_4211356.html
+  use: 计算「未依法缴纳失业保险费导致不能享受失业保险待遇」的损失赔偿（赔偿责任依据：《北京市失业保险规定》第三十一条——用人单位不按规定缴纳失业保险费或不按规定及时转移档案关系，致使失业人员不能享受失业保险待遇或影响其再就业的，应当赔偿损失）；计发月数按《北京市失业保险规定》第十七条（见 months_table），标准按失业前累计缴费年限取档，从第 13 个月起一律按第一档发放
+  entries:
+  - effective_from: '2025-09-01'
+    doc_no: 京人社发〔2025〕9号
+    tiers:
+    - min_years: 1
+      max_years: 5
+      monthly: 2129
+    - min_years: 5
+      max_years: 10
+      monthly: 2156
+    - min_years: 10
+      max_years: 15
+      monthly: 2188
+    - min_years: 15
+      max_years: 20
+      monthly: 2215
+    - min_years: 20
+      max_years: null
+      monthly: 2286
+    tier_after_month: 13
+    tier_after_monthly: 2129
+    source_url: https://www.beijing.gov.cn/zhengce/zhengcefagui/202509/t20250926_4211356.html
+  months_table:
+    legal_basis: 《北京市失业保险规定》第十七条（1999 年市政府令第 38 号发布，经 2007 年市政府令第 190 号修改）
+    source_url: https://www.beijing.gov.cn/zhengce/zhengcefagui/201905/t20190522_56688.html
+    rules:
+    - min_years: 1
+      max_years: 2
+      months: 3
+    - min_years: 2
+      max_years: 3
+      months: 6
+    - min_years: 3
+      max_years: 4
+      months: 9
+    - min_years: 4
+      max_years: 5
+      months: 12
+    - min_years: 5
+      max_years: null
+      months_formula: 每满 1 年增发 1 个月；领取期限最长不超过 24 个月
+    note: 领取失业保险金的实体条件见《北京市失业保险规定》第十三条与《社会保险法》第四十五条（缴费满 1 年、非因本人意愿中断就业、已办理失业登记并有求职要求）；依《劳动合同法》第三十八条解除劳动合同属于「非因本人意愿中断就业」
+  gaps:
+  - 2025-09-01 之前的历年分档标准（逐年调整通告）尚未归档，历史案件按案件时点取值时须先补档当年通告原件
 - id: injury_lump_sum_months
   name: 一次性伤残补助金月数（× 本人工资）
   authority: 国务院（《工伤保险条例》第35—37条）
@@ -333,6 +381,32 @@ decisions:
   rule: 一次性补偿收入在当地上年职工平均工资 3 倍数额以内的部分免征个人所得税
   legal_basis: 财税〔2001〕157 号第一条
   note: 北京 2019 年前按「职工年平均工资」；口径切换后需以税务/统计局公布口径复核
+- id: unemployment_benefit_months_over_5y
+  title: 失业保险金计发月数在「累计缴费 5 年以上」段的起算口径
+  rule: 《北京市失业保险规定》第十七条第（五）项仅表述「按每满一年增发一个月失业保险金的办法计算，确定增发的月数」，未给出增发的起算基数。本表通过（采用值）：月数 = 12（对应「4 年以上不满 5 年」档） + （满整年数 − 4），24 个月封顶（即满 16 年达到封顶）
+  candidates:
+  - id: base_12_plus_one_per_year
+    rule: 12 +（满整年数 − 4），封顶 24
+    note: 与 1—5 年段「每满 1 年 3 个月」的档位（4—5 年 = 12 个月）衔接；采用值
+  - id: years_times_3_continued
+    rule: 满整年数 × 3，封顶 24
+    note: 若把「增发」理解为延续 1—5 年段每年 3 个月的口径
+  status: pending-official-confirmation
+  source_url: https://www.beijing.gov.cn/zhengce/zhengcefagui/201905/t20190522_56688.html
+  note: 官方页面（首都之窗失业保险金热点问答、海淀/门头沟问答）均只复述条文，未给算例；计算侧命中时输出待核实提示，正式文书前向 12333 或经办机构确认
+- id: maternity_benefit_days
+  title: 生育津贴计发天数（是否含生育奖励假）
+  rule: 京人社医发〔2011〕334号第三条只写「按职工所在用人单位月缴费平均工资除以 30 天再乘以产假天数计发」，未列明天数。北京实务中同时存在 98 天（国家产假）与 128 天（98 天 + 30 天生育奖励假）两种口径，且各期政策不同
+  candidates:
+  - id: '98'
+    days: 98
+    note: 《女职工劳动保护特别规定》第七条国家产假天数
+  - id: '128'
+    days: 128
+    note: 98 天产假 + 30 天生育奖励假；见于经办实务与媒体解读，未定位到官方原文页，须核实
+  status: pending-official-confirmation
+  source_url: https://www.beijing.gov.cn/zhengce/zhengcefagui/201905/t20190522_56936.html
+  note: 计算侧要求调用方显式传入计发天数，不设默认值；《北京市企业职工生育保险规定》（2005 年市政府令第 154 号）原文尚未归档
 - id: injury_wage_base
   title: 工伤待遇中「本市上年度职工月平均工资」的取值序列
   status: pending-official-confirmation

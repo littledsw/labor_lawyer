@@ -40,6 +40,7 @@ python -m venv .venv && . .venv/bin/activate && pip install markdownify beautifu
 | 11c | `stage16_beijing_2024_estimate.py` | 年鉴2025 已无「法人单位」表（3-13 改为城镇非私营/私营两行口径），用两行工资总额÷人数之和估算 2024 年度值，并用 2023 年官方值校验偏差；结果标记 `estimate-not-official` |
 | 12 | `stage14_cap_basis_evidence.py` | 归档「经济补偿封顶基数」口径链条证据（人社局通告 + 统计局答复）并更新参数表缺口与取数路径 |
 | 12b | `stage17_working_hours_regs.py` | 计算参数（工时与加班）：归档折算依据（人社部发〔2025〕2号，及其废止的劳社部发〔2008〕3号）、假期加班工资复函（人社厅函〔2020〕135号）与《北京市工资支付规定》（市政府令第142号） |
+| 12c | `stage18_beijing_social_insurance.py` | 计算参数（社保赔偿）：归档《北京市失业保险规定》（赔偿责任第31条、计发月数第17条）、京人社评发〔2024〕17号《北京市失业保险金申领发放实施办法（试行）》（第21条单位承担失业待遇损失）与京人社医发〔2011〕334号（生育津贴计发口径） |
 | — | `stage12_promote_wage.py` | 参数核实工具：仅在官方页面确能检索到数值时，把候选值提升为已验证参数（需手动指定 `--year --annual --url`） |
 | 9 | `stage6_indexes.py` | 由 `manifest.json` 生成 `indexes/`、各主题 README 清单、`SOURCES.yaml`、`CHANGELOG.md` |
 | — | `verify.py` | 校验 frontmatter 完整性、附件类型、索引与实际文件一致性 |

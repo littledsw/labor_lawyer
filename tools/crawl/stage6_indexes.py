@@ -310,8 +310,31 @@ def write_changelog(records: list[dict]) -> None:
             "",
         ],
     )
-    changelog.write_text(text, encoding="utf-8")
+    changelog.write_text(_with_manual_notes(text), encoding="utf-8")
     print("CHANGELOG.md updated")
+
+
+NOTES_START, NOTES_END = "<!-- changelog-notes:start -->", "<!-- changelog-notes:end -->"
+
+
+def _with_manual_notes(text: str) -> str:
+    """把 tools/crawl/CHANGELOG.notes.md 的手写补记追加到 CHANGELOG 末尾。
+
+    stage6 每次重跑都会用固定叙事重写 CHANGELOG 的当日小节，手写内容会被覆盖，
+    因此手写补记统一放 CHANGELOG.notes.md，由本函数幂等地拼到末尾
+    （先删旧的补记块，再追加，避免重跑重复或截断后续自动小节）。
+    """
+    notes_file = pathlib.Path(__file__).parent / "CHANGELOG.notes.md"
+    if NOTES_START in text and NOTES_END in text:
+        head, _, tail = text.partition(NOTES_START)
+        _, _, rest = tail.partition(NOTES_END)
+        text = head.rstrip() + rest
+    if not notes_file.exists():
+        return text.rstrip() + "\n"
+    notes = notes_file.read_text(encoding="utf-8").strip()
+    if not notes:
+        return text.rstrip() + "\n"
+    return f"{text.rstrip()}\n\n{NOTES_START}\n\n{notes}\n\n{NOTES_END}\n"
 
 
 def main() -> None:
