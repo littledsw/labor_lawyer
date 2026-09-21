@@ -1,0 +1,106 @@
+# 国家层面计算参数（由 tools/crawl/stage13_national_income.py 生成）
+# 每条数值均来自官方页面并可回溯；未取得官方来源的年份留在 gaps。
+region: national
+topic: statistics
+note: 国家层面计算参数。数值均来自官方页面（见 series[].source_url），未取到官方来源的年份列入 gaps。工亡案件按「死亡时点的上年度」取值。
+series:
+- id: national_urban_per_capita_disposable_income
+  name: 全国城镇居民人均可支配收入（元/年）
+  authority: 国家统计局
+  source_page: https://www.stats.gov.cn/sj/tjgb/ndtjgb/
+  use: 一次性工亡补助金 = 上年度全国城镇居民人均可支配收入 × 20
+  entries:
+  - year: 2013
+    amount: 26955
+    source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898455.html
+    published_at: '2023-02-03'
+    statement: 城镇居民人均可支配收入26955元，比上年增长9.7%，扣除价格因素，实际增长7.0%；城镇居民人均可支配收入中位数为24200元，增长10.1%。
+    source_page_sha256: b2d30c8007bf1886292aac80eafc5db738d725f08659fe0c8648075ff8fc2d94
+    use: 一次性工亡补助金 = 上年度该值 × 20（《工伤保险条例》第三十九条）
+  - year: 2014
+    amount: 28844
+    source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898704.html
+    published_at: '2023-02-03'
+    statement: 城镇居民人均可支配收入28844元，比上年增长9.0%，扣除价格因素，实际增长6.8%；城镇居民人均可支配收入中位数为26635元，增长10.3%。
+    source_page_sha256: 305e4614a3bfada57bb1f12a87221a651690bbd8a941f0a5bfdbcbc26b8a068b
+    use: 一次性工亡补助金 = 上年度该值 × 20（《工伤保险条例》第三十九条）
+  - year: 2015
+    amount: 31195
+    source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899041.html
+    published_at: '2023-02-03'
+    statement: 城镇居民人均可支配收入31195元，比上年增长8.2%，扣除价格因素，实际增长6.6%；城镇居民人均可支配收入中位数为29129元，增长9.4%。
+    source_page_sha256: 7195854efea67201bf6cb7e6de3faf3668dd8ae36f9de7d781835a9808e81887
+    use: 一次性工亡补助金 = 上年度该值 × 20（《工伤保险条例》第三十九条）
+  - year: 2016
+    amount: 33616
+    source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html
+    published_at: '2023-02-03'
+    statement: 城镇居民人均可支配收入33616元，比上年增长7.8%，扣除价格因素，实际增长5.6%；城镇居民人均可支配收入中位数31554元，增长8.3%。
+    source_page_sha256: 7c5f89e5ff751e2d726312880dcdc643812e58744c3f8b03f62bcf9ebd9fee97
+    use: 一次性工亡补助金 = 上年度该值 × 20（《工伤保险条例》第三十九条）
+  - year: 2017
+    amount: 36396
+    source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html
+    published_at: '2023-02-03'
+    statement: 城镇居民人均可支配收入36396元，比上年增长8.3%，扣除价格因素，实际增长6.5%。
+    source_page_sha256: da992f80192e5582ae5d1303e7bb055c8253fffe22303437092c22504d181e9b
+    use: 一次性工亡补助金 = 上年度该值 × 20（《工伤保险条例》第三十九条）
+  - year: 2018
+    amount: 39251
+    source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html
+    published_at: '2023-02-03'
+    statement: 城镇居民人均可支配收入39251元，比上年增长7.8%，扣除价格因素，实际增长5.6%。
+    source_page_sha256: a54b732eca8006f2bdd03c00bd5be10e353490095c74a0f414444644b66b643b
+    use: 一次性工亡补助金 = 上年度该值 × 20（《工伤保险条例》第三十九条）
+  - year: 2019
+    amount: 42359
+    source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html
+    published_at: '2023-02-03'
+    statement: 城镇居民人均可支配收入42359元，比上年增长7.9%，扣除价格因素，实际增长5.0%。
+    source_page_sha256: 04f4eafd6c0be9d101d482631d62ed7bdc9d2f9f927205bd4c86ea1666d88ed1
+    use: 一次性工亡补助金 = 上年度该值 × 20（《工伤保险条例》第三十九条）
+  - year: 2020
+    amount: 43834
+    source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html
+    published_at: '2023-02-03'
+    statement: 城镇居民人均可支配收入43834元，比上年增长3.5%，扣除价格因素，实际增长1.2%。
+    source_page_sha256: 5276894d6a8f86464ecffbb101e2f2a671f6dbe429814725ca1e8cfb1ad704c8
+    use: 一次性工亡补助金 = 上年度该值 × 20（《工伤保险条例》第三十九条）
+  - year: 2021
+    amount: 47412
+    source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901393.html
+    published_at: '2023-02-03'
+    statement: 城镇居民人均可支配收入47412元，比上年增长8.2%，扣除价格因素，实际增长7.1%。
+    source_page_sha256: 817da8c6b12759ab1e1fe7305a7dd52ba4038654e2dba097784020dc735e2c0b
+    use: 一次性工亡补助金 = 上年度该值 × 20（《工伤保险条例》第三十九条）
+  - year: 2022
+    amount: 49283
+    source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230228_1919011.html
+    published_at: '2023-02-28'
+    statement: 城镇居民人均可支配收入49283元，比上年增长3.9%，扣除价格因素，实际增长1.9%。
+    source_page_sha256: b67b49c18acceda271c2ebb04d2fd46d151288a75225e566220f8597457ad61f
+    use: 一次性工亡补助金 = 上年度该值 × 20（《工伤保险条例》第三十九条）
+  - year: 2023
+    amount: 51821
+    source_url: https://www.stats.gov.cn/sj/zxfb/202402/t20240228_1947915.html
+    published_at: '2024-02-28'
+    statement: 城镇居民人均可支配收入51821元，比上年增长5.1%，扣除价格因素，实际增长4.8%。
+    source_page_sha256: ef613339e709bc089254c051cfe167ca8f12713aa1f719dbdc34dc09a7c26d12
+    use: 一次性工亡补助金 = 上年度该值 × 20（《工伤保险条例》第三十九条）
+  - year: 2024
+    amount: 54188
+    source_url: https://www.stats.gov.cn/sj/zxfb/202502/t20250228_1958817.html
+    published_at: '2025-02-28'
+    statement: 城镇居民人均可支配收入54188元，比上年增长4.6%，扣除价格因素，实际增长4.4%。
+    source_page_sha256: 3e732426d3cbdb84b13168a3fa2daa7aa30663e05d7247e090abd4506aa03e39
+    use: 一次性工亡补助金 = 上年度该值 × 20（《工伤保险条例》第三十九条）
+  - year: 2025
+    amount: 56502
+    source_url: https://www.stats.gov.cn/sj/zxfb/202602/t20260228_1962662.html
+    published_at: '2026-02-28'
+    statement: 城镇居民人均可支配收入56502元，比上年增长4.3%，扣除价格因素，实际增长4.2%。
+    source_page_sha256: 38686120cd89155f7614f959d12252b386ada9cda282edd1777616afab0bfcc6
+    use: 一次性工亡补助金 = 上年度该值 × 20（《工伤保险条例》第三十九条）
+decisions: []
+gaps: []
+updated_at: '2026-09-21'

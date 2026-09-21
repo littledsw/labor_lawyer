@@ -1,5 +1,5 @@
 # 来源站点索引（由抓取流程生成，保留原始 URL 与 SHA-256 追溯信息）
-updated_at: '2026-09-21T21:12:38+08:00'
+updated_at: '2026-09-21T21:20:31+08:00'
 region: municipalities/beijing
 authority: 北京市人力资源和社会保障局
 sources:
@@ -2206,6 +2206,36 @@ documents:
   status: active
   content_hash: 10ef75fca2983da4dd3943dd8858a6a463680e3057f9aa4eb4fe8eb93470b5b0
 - region: national
+  local_path: regions/national/statistics/sources/annual-statistical-communique-2013.md
+  title: 2013年国民经济和社会发展统计公报（居民收入相关小节）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898455.html
+  download_url: null
+  published_at: '2023-02-03'
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: ad4c2d5e41b29742cc5cd2580c6fef521adf9cf91bbb4151e845b6fa15c7decd
+- region: national
+  local_path: regions/national/statistics/sources/annual-statistical-communique-2014.md
+  title: 2014年国民经济和社会发展统计公报（居民收入相关小节）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898704.html
+  download_url: null
+  published_at: '2023-02-03'
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: 0388b13c4f2b79e3fbd46edb0765e75a15e161c33c8e67f0075523aed0b7a165
+- region: national
+  local_path: regions/national/statistics/sources/annual-statistical-communique-2015.md
+  title: 2015年国民经济和社会发展统计公报（居民收入相关小节）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899041.html
+  download_url: null
+  published_at: '2023-02-03'
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: cc3c6eaa55186bfe8470033605b92598b80ec7956f5e738ed6d61ff4fc82b264
+- region: national
   local_path: regions/national/statistics/calendar/calendar-2016.json
   title: 2016 年日历参数（法定节假日/休息日/调休上班日）
   topic: statistics
@@ -2215,6 +2245,16 @@ documents:
   retrieved_at: '2026-09-21T20:46:26+08:00'
   status: active
   content_hash: 7c59df30b4173691f5318f78e579573f567a7847961a08386c54dc01290fad64
+- region: national
+  local_path: regions/national/statistics/sources/annual-statistical-communique-2016.md
+  title: 2016年国民经济和社会发展统计公报（居民收入相关小节）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899428.html
+  download_url: null
+  published_at: '2023-02-03'
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: 42c81af244424df3fd8feb761ce1593de71297247e7af885617d5fc2768a8143
 - region: national
   local_path: regions/national/statistics/calendar/calendar-2017.json
   title: 2017 年日历参数（法定节假日/休息日/调休上班日）
@@ -2226,6 +2266,16 @@ documents:
   status: active
   content_hash: 15e06bb50b9cc6ea96c67d682210869ac1e8cff7716b80ca72a262517579345d
 - region: national
+  local_path: regions/national/statistics/sources/annual-statistical-communique-2017.md
+  title: 2017年国民经济和社会发展统计公报（居民收入相关小节）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899855.html
+  download_url: null
+  published_at: '2023-02-03'
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: d06e0222b2abb92cf61889f18182ddc09f2f89a7fbc39626554657640062cf79
+- region: national
   local_path: regions/national/statistics/calendar/calendar-2018.json
   title: 2018 年日历参数（法定节假日/休息日/调休上班日）
   topic: statistics
@@ -2235,6 +2285,16 @@ documents:
   retrieved_at: '2026-09-21T20:46:26+08:00'
   status: active
   content_hash: 3f2d77749aa43912275485474ce9a1095291c2206f7e4b75df60f36c0932de8c
+- region: national
+  local_path: regions/national/statistics/sources/annual-statistical-communique-2018.md
+  title: 2018年国民经济和社会发展统计公报（居民收入相关小节）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900241.html
+  download_url: null
+  published_at: '2023-02-03'
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: 555fd7c7b11c03dd7ec9a4d0b746f75b4e15a97bac9a30486a7715853e5d6719
 - region: national
   local_path: regions/national/statistics/calendar/calendar-2019.json
   title: 2019 年日历参数（法定节假日/休息日/调休上班日）
@@ -2246,6 +2306,16 @@ documents:
   status: active
   content_hash: de0bd4c5548590d326046557dd29afc9e498a94006ca3c39bfa74b48b6426e0d
 - region: national
+  local_path: regions/national/statistics/sources/annual-statistical-communique-2019.md
+  title: 2019年国民经济和社会发展统计公报（居民收入相关小节）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html
+  download_url: null
+  published_at: '2023-02-03'
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: a07b0e3e1219a3bda02329e24656072c1f8ef67a2c294cfe8067c9d94344da47
+- region: national
   local_path: regions/national/statistics/calendar/calendar-2020.json
   title: 2020 年日历参数（法定节假日/休息日/调休上班日）
   topic: statistics
@@ -2255,6 +2325,16 @@ documents:
   retrieved_at: '2026-09-21T20:46:26+08:00'
   status: active
   content_hash: 8875ef7c4957c3301019ef5e315d564e7db0afe20b8edcfde2dc4e9d1e33d778
+- region: national
+  local_path: regions/national/statistics/sources/annual-statistical-communique-2020.md
+  title: 2020年国民经济和社会发展统计公报（居民收入相关小节）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901004.html
+  download_url: null
+  published_at: '2023-02-03'
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: e13579f25f7e745da7d2ebe3ec9371b68892d4e5136f48f8bc0692ca439d3387
 - region: national
   local_path: regions/national/statistics/calendar/calendar-2021.json
   title: 2021 年日历参数（法定节假日/休息日/调休上班日）
@@ -2266,6 +2346,16 @@ documents:
   status: active
   content_hash: 5d3bd53f6ed0a5b462280164610a8f4743be6d403f1942411ed8c14d8bbc0033
 - region: national
+  local_path: regions/national/statistics/sources/annual-statistical-communique-2021.md
+  title: 2021年国民经济和社会发展统计公报（居民收入相关小节）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901393.html
+  download_url: null
+  published_at: '2023-02-03'
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: 15a4bf7b8f499306c9998e776911a343495cb26b72e27f51e6eb1742a6b0bb99
+- region: national
   local_path: regions/national/statistics/calendar/calendar-2022.json
   title: 2022 年日历参数（法定节假日/休息日/调休上班日）
   topic: statistics
@@ -2275,6 +2365,16 @@ documents:
   retrieved_at: '2026-09-21T20:46:26+08:00'
   status: active
   content_hash: 280ccfa31d5bb322fd2ef2b7770d5944ed08dd19aab360c69dfde942510bdf6d
+- region: national
+  local_path: regions/national/statistics/sources/annual-statistical-communique-2022.md
+  title: 2022年国民经济和社会发展统计公报（居民收入相关小节）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/zxfb/202302/t20230228_1919011.html
+  download_url: null
+  published_at: '2023-02-28'
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: 21428a573a25f4d4f7bdced10c4aadbe44f5649986f228e11d25d1d49354b8bc
 - region: national
   local_path: regions/national/statistics/calendar/calendar-2023.json
   title: 2023 年日历参数（法定节假日/休息日/调休上班日）
@@ -2286,6 +2386,16 @@ documents:
   status: active
   content_hash: 9f4b955637a5117f38474735839e51a010861e887413ceda76085f9d8e219512
 - region: national
+  local_path: regions/national/statistics/sources/annual-statistical-communique-2023.md
+  title: 2023年国民经济和社会发展统计公报（居民收入相关小节）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/zxfb/202402/t20240228_1947915.html
+  download_url: null
+  published_at: '2024-02-28'
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: 5dbe1f11fb356871e88485974ef763fdd1328bbc13b7b02b594227529d555992
+- region: national
   local_path: regions/national/statistics/calendar/calendar-2024.json
   title: 2024 年日历参数（法定节假日/休息日/调休上班日）
   topic: statistics
@@ -2296,6 +2406,16 @@ documents:
   status: active
   content_hash: a944456dee0adcef5cde530729f54337aa14e98adf4fd9822602b0a9ca7aadc0
 - region: national
+  local_path: regions/national/statistics/sources/annual-statistical-communique-2024.md
+  title: 2024年国民经济和社会发展统计公报（居民收入相关小节）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/zxfb/202502/t20250228_1958817.html
+  download_url: null
+  published_at: '2025-02-28'
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: 56090c5dd9654223cf4eac369541487e06296fa649f915b75a50d2e80fc03f00
+- region: national
   local_path: regions/national/statistics/calendar/calendar-2025.json
   title: 2025 年日历参数（法定节假日/休息日/调休上班日）
   topic: statistics
@@ -2305,6 +2425,16 @@ documents:
   retrieved_at: '2026-09-21T20:46:26+08:00'
   status: active
   content_hash: 3129b443ee7e8335091ecdcaf7e96382b51cc54b0ea6c00c33aed1f7ee2be8eb
+- region: national
+  local_path: regions/national/statistics/sources/annual-statistical-communique-2025.md
+  title: 2025年国民经济和社会发展统计公报（居民收入相关小节）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/zxfb/202602/t20260228_1962662.html
+  download_url: null
+  published_at: '2026-02-28'
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: fb4becf2be872183118be482866b6b287017a076abbabf065e4ef9f983ebde8c
 - region: national
   local_path: regions/national/statistics/calendar/calendar-2026.json
   title: 2026 年日历参数（法定节假日/休息日/调休上班日）
@@ -2345,16 +2475,6 @@ documents:
   retrieved_at: '2026-09-21T20:57:34+08:00'
   status: active
   content_hash: af57e3d002a52747abf1d82a397999c213fe20640391de01c2e27df81cd17a5d
-- region: municipalities/beijing
-  local_path: regions/municipalities/beijing/statistics/parameters.yaml
-  title: 北京劳动仲裁计算参数表（工资口径、最低工资、工伤待遇）
-  topic: statistics
-  source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/201912/t20191207_951033.html
-  download_url: https://rsj.beijing.gov.cn/xxgk/tzgg/201912/t20191207_951033.html
-  published_at: null
-  retrieved_at: '2026-09-21T21:10:34+08:00'
-  status: active
-  content_hash: d0f1528c16681b11c3ab77b7f6b2c33921df97f8b40e9b90e6e368c81745ae17
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/statistics/sources/full-caliber-avg-wage.md
   title: 历年北京市全口径城镇单位就业人员平均工资
@@ -2485,6 +2605,26 @@ documents:
   retrieved_at: '2026-09-21T20:46:26+08:00'
   status: active
   content_hash: 48df903c86f7eea24af7511d2fa215a5ce9dff3ed40c96b93c426c1b000bd712
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/statistics/parameters.yaml
+  title: 国家层面计算参数表（全国城镇居民人均可支配收入）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/tjgb/ndtjgb/
+  download_url: https://www.stats.gov.cn/sj/tjgb/ndtjgb/
+  published_at: null
+  retrieved_at: '2026-09-21T21:18:57+08:00'
+  status: active
+  content_hash: 60497aa268247b388bb051182ddcb31c527344cf090cf8887d98db7e8906404e
+- region: national
+  local_path: regions/national/statistics/parameters.yaml
+  title: 国家层面计算参数表（全国城镇居民人均可支配收入）
+  topic: statistics
+  source_url: https://www.stats.gov.cn/sj/tjgb/ndtjgb/
+  download_url: https://www.stats.gov.cn/sj/tjgb/ndtjgb/
+  published_at: null
+  retrieved_at: '2026-09-21T21:19:44+08:00'
+  status: active
+  content_hash: 60497aa268247b388bb051182ddcb31c527344cf090cf8887d98db7e8906404e
 - region: national
   local_path: regions/national/statistics/calendar/calendar-index.json
   title: 节假日日历参数索引（2016—2026）

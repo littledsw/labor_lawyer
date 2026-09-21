@@ -1,11 +1,11 @@
 # 计算参数（日历与工资口径）
 
 <!-- inventory:start -->
-## 已归档资料（7 项，抓取时间 2026-09-21T21:12:38+08:00）
+## 已归档资料（7 项，抓取时间 2026-09-21T21:20:31+08:00）
 
 | 标题 | 发布日期 | 类型 | 文件名 |
 | --- | --- | --- | --- |
-| 北京劳动仲裁计算参数表（工资口径、最低工资、工伤待遇） | — | yaml | `parameters.yaml` |
+| 国家层面计算参数表（全国城镇居民人均可支配收入） | — | yaml | `parameters.yaml` |
 | 京人社工发〔2011〕384号 关于北京市工伤保险基金支出项目标准及相关问题的通知 | 2012-01-06 | markdown | `sources/injury-benefits-notice-384.md` |
 | 历年北京市职工年平均工资（已归档） | 2018-01-17 | markdown | `sources/employee-avg-wage-archive.md` |
 | 关于按照法人单位从业人员平均工资计算经济补偿封顶基数的通告 | 2019-08-16 | markdown | `sources/compensation-cap-notice.md` |

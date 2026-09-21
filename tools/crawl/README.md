@@ -35,6 +35,7 @@ python -m venv .venv && . .venv/bin/activate && pip install markdownify beautifu
 | 7 | `stage9_calendar.py` | 计算参数（日历）：抓取 2016—2026 各年国办节假日安排通知，派生法定节假日/休息日/调休上班日 |
 | 8 | `stage10_beijing_params.py` | 计算参数（北京）：社平工资三组口径、最低工资标准与封顶口径决定，生成 `statistics/parameters.yaml` |
 | 10 | `stage11_injury_params.py` | 计算参数（工伤）：归档京人社工发〔2011〕384号原文并写入工伤待遇对照表与社平口径待确认项 |
+| 11 | `stage13_national_income.py` | 国家层面参数：抓取 2013—2025 年国家统计局统计公报，归档「居民收入消费」小节并提取全国城镇居民人均可支配收入（工亡补助金基数） |
 | — | `stage12_promote_wage.py` | 参数核实工具：仅在官方页面确能检索到数值时，把候选值提升为已验证参数（需手动指定 `--year --annual --url`） |
 | 9 | `stage6_indexes.py` | 由 `manifest.json` 生成 `indexes/`、各主题 README 清单、`SOURCES.yaml`、`CHANGELOG.md` |
 | — | `verify.py` | 校验 frontmatter 完整性、附件类型、索引与实际文件一致性 |

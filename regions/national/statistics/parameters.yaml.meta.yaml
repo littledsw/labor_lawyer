@@ -1,0 +1,15 @@
+title: 国家层面计算参数表（全国城镇居民人均可支配收入）
+region: national
+level: national
+topic: statistics
+authority: 国家统计局
+published_at: null
+source_url: https://www.stats.gov.cn/sj/tjgb/ndtjgb/
+download_url: https://www.stats.gov.cn/sj/tjgb/ndtjgb/
+retrieved_at: '2026-09-21T21:19:44+08:00'
+status: active
+content_hash: 60497aa268247b388bb051182ddcb31c527344cf090cf8887d98db7e8906404e
+local_path: regions/national/statistics/parameters.yaml
+file: parameters.yaml
+original_filename: parameters.yaml
+notes: 13 个数据年度（2013—2025）

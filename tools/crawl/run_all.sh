@@ -15,5 +15,6 @@ python stage7_national.py
 python stage9_calendar.py
 python stage10_beijing_params.py
 python stage11_injury_params.py
+python stage13_national_income.py
 python stage6_indexes.py
 python verify.py
