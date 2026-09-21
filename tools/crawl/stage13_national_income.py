@@ -21,6 +21,12 @@ BASE = "statistics"
 REGION = "national"   # 注意：必须传给 common.save_* 的 region 参数，level 不能替代 region
 PARAMS_REL = f"{BASE}/parameters.yaml"
 
+# 口径决定（随参数表一并生成，须与 regions/national/statistics/parameters.yaml 保持一致）。
+# 与北京参数表的 decisions.injury_wage_base 同一形态：status=pending-official-confirmation，
+# 计算侧读取该状态并强制输出「待核实」提示。
+DECISIONS = [{'id': 'makeup_workday_overtime_basis', 'title': '调休上班日（补班日）的加班费定性', 'status': 'pending-official-confirmation', 'rule': '现行文件只规定加班费倍数（劳动法第 44 条）与「假期内各日」的倍数分段（人社厅函〔2020〕135号），均未规定国办统一放假调休所形成的「调休上班日」应按工作日处理（只有延时部分 150%）还是按休息日处理（不能补休 200%）。', 'options': [{'value': 'workday', 'note': '视为工作日：当天正常工时按正常工资计，仅超出标准工作时间的部分按 150%。（现行计算实现默认）'}, {'value': 'rest_day', 'note': '视为休息日：当天出勤应安排同等时间补休，不能补休的按 200% 支付。'}], 'adopted': 'workday', 'adopted_reason': '国办年度通知已将该日调整为上班日；且与之对调的假期内休息日（如 2025-10-07、10-08）已按人社厅函〔2020〕135号 的分段口径按 200% 计。该理由为通行理解，非官方原文。', 'evidence_chain': ['《全国年节及纪念日放假办法》第七条：仅授权「合理安排统一放假调休」，未规定补班日定性', '人社厅函〔2020〕135号：仅界定假期内 10 月 1—4 日 300%、10 月 5—8 日 200%，未涉及补班日', '归档的 94 篇单篇典型案例与 80 条年度十大案例合集中，无一篇涉及补班日的加班费定性'], 'note': '正式出具意见前，建议向人社部门/12333 或经办法院确认本地口径；计算书须输出「待核实」提示。'}]
+
+
 # 数据年度 → 统计公报 URL（国家统计局年度统计公报栏目）
 COMMUNIQUES = {
     2013: "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898455.html",
@@ -110,7 +116,7 @@ def main() -> None:
             "use": "一次性工亡补助金 = 上年度全国城镇居民人均可支配收入 × 20",
             "entries": entries,
         }],
-        "decisions": [],
+        "decisions": DECISIONS,
         "gaps": ([] if not problems else [f"抓取失败：{p}" for p in problems]),
         "updated_at": __import__("datetime").date.today().isoformat(),
     }
