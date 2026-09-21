@@ -11,10 +11,12 @@ python stage3_cases.py
 python stage4_regs.py
 python stage4b_cases_gov.py
 python stage5_guidance.py
+# 注：JS 渲染页面（统计局/人社局智能云搜索、政民互动答复页）用 browser_fetch.py 单独取
 python stage7_national.py
 python stage9_calendar.py
 python stage10_beijing_params.py
 python stage11_injury_params.py
 python stage13_national_income.py
+python stage14_cap_basis_evidence.py
 python stage6_indexes.py
 python verify.py
