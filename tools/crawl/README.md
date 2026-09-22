@@ -150,7 +150,9 @@ LABOR_LAWYER_REPO=$PWD python tools/verify_citations.py \
 | WAF | 连发请求会被 JS 挑战，冷却 15–60s 才恢复；`curl` 直连 POST 被 307 拦。**必须在浏览器上下文（`browser_fetch.Browser`）里发请求**，每请求间隔 ≥2.5s，命中挑战页要退避重试 |
 | 分类过滤 | `flfgCodeId` **只认叶子码**（如社会法 150），传父级码（法律 101、司法解释 311）返回 0 条 |
 | 官方原件 | `GET /law-search/download/pc?format=docx\|pdf&bbbs=<id>&fileId=<id>` → `data.url` 在**公开可取的 OSS**（`flkoss.obs-bj2.cucloud.cn`，注意不是 `previewLink` 返回的 `-internal` 域名）。浏览器里 `fetch → blob → a[download]`（配合 CDP `Browser.setDownloadBehavior`）即可落盘：`format=docx` 是 WPS 版、`format=pdf` 是公报原版 |
-| 正文来源 | **WPS 版 docx 抽取**（`python-docx` 逐段，段首条号完整：《劳动法》107 条、《劳动合同法》98 条实测齐全）。原件一并归档到 `<分类>/files/<标题>-<id>.docx\|pdf` + `.meta.yaml` 侧车 |
+| 正文来源 | **WPS 版 docx 抽取**（`python-docx` 逐段，段首条号完整：《劳动法》107 条、《劳动合同法》98 条实测齐全）。原件归档到 `<分类>/files/<标题>-<id>.docx\|doc` + `.meta.yaml` 侧车 |
+| 公报版 pdf | **默认不落盘**（`--with-pdf` 才归档）：72 组对比显示条文内容与 docx 无实质差异，202MB 里 91% 是扫描件；只把 sha256/字节数写进 md 的 notes 与 `indexes/originals-sha256.json` 台账，需要时按 flk 详情页重新下载 |
+| 勘误：`format=docx` 可能是老式 `.doc` | 少数条目（如《工会法若干问题的解释》《山西省私营企业工会条例》）返回 OLE2 格式的 `.doc`，python-docx 读不了 → 用 macOS `textutil` 转文本兜底，并按真实扩展名归档 |
 | 不要用 OFD 阅读器文本层做正文 | 阅读器（`flkofd.npc.gov.cn/reader`）虽然公开可达、文本会随翻页累加，但 **OFD 把条号渲染成轮廓字形，文本层没有「第N条」**，且分行重建会丢数字。仅作最后兜底 |
 
 跑法：
