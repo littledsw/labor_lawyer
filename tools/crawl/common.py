@@ -172,6 +172,28 @@ def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
+def split_frontmatter(text: str) -> tuple[dict, str]:
+    """拆出 (frontmatter dict, body)。body 的边界与 save_md 写入格式一致：
+
+    `---\\n<fm>\\n---\\n\\n<body>`，因此 bytes / content_hash 都按 body 计算。
+
+    注：`rebuild_manifest.py` 里有一份等价实现，那份刻意不依赖 common.py
+    （只需 pyyaml 即可运行，用于缓存丢失后的恢复）。
+    """
+    if not text.startswith("---\n"):
+        raise ValueError("缺少 frontmatter")
+    end = text.find("\n---", 3)
+    if end == -1:
+        raise ValueError("frontmatter 未闭合")
+    meta = yaml.safe_load(text[4:end + 1]) or {}
+    start = end + 4
+    if text[start:start + 1] == "\n":
+        start += 1
+    if text[start:start + 1] == "\n":
+        start += 1
+    return meta, text[start:]
+
+
 # ---------------------------------------------------------------- writing
 def _fmt(v) -> str:
     """标量 → YAML 安全字面量（字符串用 JSON 双引号形式，YAML 兼容）。"""
@@ -186,14 +208,22 @@ def _fmt(v) -> str:
 
 def _frontmatter(meta: dict) -> str:
     order = [
-        "title", "region", "level", "topic", "authority", "published_at",
-        "source_url", "download_url", "retrieved_at", "status", "content_hash",
+        "title", "region", "level", "topic", "authority", "published_at", "effective_at",
+        "source_url", "download_url", "retrieved_at", "status", "effect_status",
+        "flk_category", "flk_bbbs", "source_note", "content_hash",
         "file", "local_path", "notes",
     ]
     lines = ["---"]
+    written = set()
     for k in order:
         if meta.get(k) is not None:
             lines.append(f"{k}: {_fmt(meta[k])}")
+            written.add(k)
+    # 其余自定义字段（新信源带来的结构化元数据）追加在后面，保持顺序稳定
+    for k in sorted(set(meta) - written):
+        if k in ("file_type", "bytes", "downloaded") or meta.get(k) is None:
+            continue
+        lines.append(f"{k}: {_fmt(meta[k])}")
     lines.append("---")
     return "\n".join(lines) + "\n"
 

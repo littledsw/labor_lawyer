@@ -48,6 +48,7 @@ python -m venv .venv && . .venv/bin/activate && pip install markdownify beautifu
 | — | `rebuild_manifest.py` | **缓存丢失后**从 frontmatter 与附件侧车重建 `manifest.json`（不联网）；`--check` 与已入库 `indexes/documents.json` 逐字段核对 |
 | — | `extract_cases.py` | 派生抽取：法条引用、主题标签、年度合集切片 → `indexes/derived/`（纯脚本，无 LLM 成本） |
 | — | `merge_llm_extract.py` | 合并 `indexes/derived/llm-extract/*.json` 的模型抽取结果并做回文核验，产出 `cases-structured.json/md` |
+| 20 | `stage20_flk_npc.py` | **法律法规/司法解释的唯一信源**：国家法律法规数据库（flk.npc.gov.cn）全量更新，只收「有效」「尚未生效」 |
 
 ```bash
 cd tools/crawl
@@ -106,6 +107,53 @@ uv run --with pyyaml --with markdownify --with beautifulsoup4 --with lxml python
 - `bytes` / `content_hash` 均按**正文**（frontmatter 之后的部分）计算，与 `common.save_md` 一致；重建时若正文被改而 frontmatter 的 `content_hash` 未同步，会打印告警（当前 1 处：`regions/national/statistics/parameters.yaml` 的侧车未随文件更新）。
 - `stage6_indexes.py` 每次重跑都会刷新「抓取时间」时间戳，属预期差异；除时间戳外，重建后的索引应与提交版本一致。
 - 手工新增归档件时，md 必须带齐 frontmatter 的 8 个必填字段（`title`/`region`/`level`/`topic`/`source_url`/`retrieved_at`/`status`/`content_hash`），非 md 文件必须带同名 `.meta.yaml`，否则 `verify.py` 会报「未登记的仓库文件」。
+## 法律法规信源：国家法律法规数据库（flk.npc.gov.cn，stage20）
+
+**法律法规、司法解释的唯一信源**为国家法律法规数据库（用户 2026-09-22 指定）。部门规章与地方政府规章
+该库不收录，仍按原信源（人社部国家规章库、地方政府网站）维护，并在 frontmatter 用
+`source_note` 标注「非 flk」。
+
+约定：
+
+- 只收录时效性为 **有效（sxx=3）** 与 **尚未生效（sxx=4）** 的文件；已废止版本不归档，
+  历史沿革（`lsyg`）写进 `notes`。
+- frontmatter 记录 **制定机关**（`authority` = flk 的 `zdjgName`）、**公布日期**（`published_at` =
+  `gbrq`）、**施行日期**（`effective_at` = `sxrq`）、**效力状态**（`effect_status`）、
+  **flk 分类**（`flk_category`）、**版次标识**（`flk_bbbs`）。
+- 目录对齐 flk 分类：法律 → `regions/national/regulations/laws/`；行政法规 →
+  `administrative-regulations/`；司法解释 → `judicial-interpretations/`；
+  地方法规 → `regions/<地区>/regulations/local-regulations/`。
+
+接口与坑（实测）：
+
+| 事项 | 结论 |
+| --- | --- |
+| 检索 | `POST /law-search/search/list`，body：`{searchRange:1,searchType:2,searchContent,flfgCodeId:[],zdjgCodeId:[],sxx:[],gbrq:[],sxrq:[],gbrqYear:[],orderByParam:{order:"-1",sort:""},pageNum,pageSize}`；返回 `{total, rows[]}` |
+| 列表字段 | `bbbs`(版次)、`title`、`gbrq`(公布)、`sxrq`(施行)、`sxx`(时效性)、`zdjgName`(制定机关)、`flxz`(分类)、`flfgCodeId`(叶子分类码) |
+| 详情 | `GET /law-search/search/flfgDetails?bbbs=<id>` → 元数据 + `ossFile`（docx/ofd/pdf 路径）+ 章条目录 + `lsyg` 历史沿革 |
+| WAF | 连发请求会被 JS 挑战，冷却 15–60s 才恢复；`curl` 直连 POST 被 307 拦。**必须在浏览器上下文（`browser_fetch.Browser`）里发请求**，每请求间隔 ≥2.5s，命中挑战页要退避重试 |
+| 分类过滤 | `flfgCodeId` **只认叶子码**（如社会法 150），传父级码（法律 101、司法解释 311）返回 0 条 |
+| 官方原件 | `GET /law-search/download/pc?format=docx\|pdf&bbbs=<id>&fileId=<id>` → `data.url` 在**公开可取的 OSS**（`flkoss.obs-bj2.cucloud.cn`，注意不是 `previewLink` 返回的 `-internal` 域名）。浏览器里 `fetch → blob → a[download]`（配合 CDP `Browser.setDownloadBehavior`）即可落盘：`format=docx` 是 WPS 版、`format=pdf` 是公报原版 |
+| 正文来源 | **WPS 版 docx 抽取**（`python-docx` 逐段，段首条号完整：《劳动法》107 条、《劳动合同法》98 条实测齐全）。原件一并归档到 `<分类>/files/<标题>-<id>.docx\|pdf` + `.meta.yaml` 侧车 |
+| 不要用 OFD 阅读器文本层做正文 | 阅读器（`flkofd.npc.gov.cn/reader`）虽然公开可达、文本会随翻页累加，但 **OFD 把条号渲染成轮廓字形，文本层没有「第N条」**，且分行重建会丢数字。仅作最后兜底 |
+
+跑法：
+
+```bash
+# 1) 盘点候选（法律/行政法规/司法解释按分类分支枚举；地方法规按关键词检索）
+#    输出 $CACHE/flk_candidates.json
+python flk_collect.py
+# 2) 先试一份，确认正文与 frontmatter
+python stage20_flk_npc.py --dry-run
+python stage20_flk_npc.py --limit 1
+# 3) 全量（建议后台跑，支持断点续跑：$CACHE/flk_state.json）
+python stage20_flk_npc.py
+# 4) 标注非 flk 文件（部门规章、地方政府规章）
+python stage20_flk_npc.py --mark-non-flk
+# 5) 收尾
+python stage6_indexes.py && python verify.py
+```
+
 ## 抓 JS 渲染的页面（站内检索、政民互动答复）
 
 政务网站的智能云搜索、数据表等由 JS 动态渲染，纯 HTTP 抓取只能拿到空壳。用自带的 headless 浏览器：
