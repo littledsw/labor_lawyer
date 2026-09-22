@@ -45,3 +45,11 @@ Agent 检索仍走结构化路线：`indexes/documents.json`（含 region/topic/
 + `indexes/by-topic/*.md` + `indexes/derived/cases-chunks.jsonl`。
 向量 RAG 仅在「按事实模式找相似案例」时才有优势，且必须先做元数据过滤（排除已失效 / 非本地区），
 详见 `indexes/derived/README.md` 与 workspace 的 `shared/policies/`。
+
+## 五、本机 vault 现状（2026-09-22）
+
+- 实际在用（活动）vault 是**workspace 根** `~/workspace`：一次能看到 labor_lawyer + legal-assistant + shared，
+  排除项写在 `~/workspace/.obsidian/app.json`（含本仓生成物、legal-assistant 的 `evidence/`、`_agents/`、虚拟环境）。
+- 本仓 `~/workspace/projects/labor_lawyer` 也注册为独立 vault（在 Obsidian 里可切换），排除项见本仓 `.obsidian/app.json`。
+- 两处配置都做了同一件事：**不要手改生成物**（`indexes/**`、`regions/**/README.md`）。
+- 需要跨仓看图/搜索就用 workspace vault；只做法规归档维护建议切到 labor_lawyer vault（噪音更少）。

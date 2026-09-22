@@ -45,6 +45,7 @@ python -m venv .venv && . .venv/bin/activate && pip install markdownify beautifu
 | — | `stage12_promote_wage.py` | 参数核实工具：仅在官方页面确能检索到数值时，把候选值提升为已验证参数（需手动指定 `--year --annual --url`） |
 | 9 | `stage6_indexes.py` | 由 `manifest.json` 生成 `indexes/`、各主题 README 清单、`SOURCES.yaml`、`CHANGELOG.md` |
 | — | `verify.py` | 校验 frontmatter 完整性、附件类型、索引与实际文件一致性 |
+| — | `rebuild_manifest.py` | **缓存丢失后**从 frontmatter 与附件侧车重建 `manifest.json`（不联网）；`--check` 与已入库 `indexes/documents.json` 逐字段核对 |
 | — | `extract_cases.py` | 派生抽取：法条引用、主题标签、年度合集切片 → `indexes/derived/`（纯脚本，无 LLM 成本） |
 | — | `merge_llm_extract.py` | 合并 `indexes/derived/llm-extract/*.json` 的模型抽取结果并做回文核验，产出 `cases-structured.json/md` |
 
@@ -82,6 +83,29 @@ export LABOR_LAWYER_REPO=/path/to/labor_lawyer
 - 二进制附件：与原文件同名的 `<文件名>.meta.yaml`，并保留 `original_filename` 记录官方原始文件名。
 - `status` 取值：`active`（现行有效）、`superseded`（已被新版本取代，需保留旧文件）、`unreachable`（来源不可访问）。
 - 重新执行脚本会按 `local_path` 覆盖同名记录，属于幂等更新；官方网站改版导致选择器失效时需先修正抽取逻辑。
+
+## manifest 丢失后的恢复与增量补档（`rebuild_manifest.py`）
+
+`manifest.json` 的位置由 `LABOR_LAWYER_CACHE` 决定（默认 `<repo>/.cache/labor_lawyer_crawl/`，本机实际使用 `~/workspace/_agents/hermes/labor_lawyer_crawl/`）。仓库内 `.cache/` 通常是空的，**不能据此判断 manifest 已丢失**。该文件是 `stage6_indexes.py`（生成 `indexes/`、主题 README、`SOURCES.yaml`、`CHANGELOG.md`）与 `verify.py` 的唯一元数据来源。
+
+**先恢复，再补档**（顺序不能反）：各 stage 脚本只按 `local_path` **追加**自己的记录，若 manifest 为空时直接跑补档脚本，`indexes/` 会被重写成只剩新记录的几条。
+
+```bash
+# 1) 从 md 的 frontmatter + 二进制侧车 .meta.yaml 重建 manifest（不联网）
+uv run --with pyyaml python tools/crawl/rebuild_manifest.py
+# 2) 与已入库索引逐字段核对（documents.json 即 manifest 的投影）
+uv run --with pyyaml python tools/crawl/rebuild_manifest.py --check
+# 3) 补档：新增 stage 脚本（内部用 common.save_md / save_binary 落盘并 add_record）
+# 4) 重生成索引与校验
+uv run --with pyyaml --with markdownify --with beautifulsoup4 --with lxml python tools/crawl/stage6_indexes.py
+uv run --with pyyaml --with markdownify --with beautifulsoup4 --with lxml python tools/crawl/verify.py
+```
+
+口径与注意事项：
+
+- `bytes` / `content_hash` 均按**正文**（frontmatter 之后的部分）计算，与 `common.save_md` 一致；重建时若正文被改而 frontmatter 的 `content_hash` 未同步，会打印告警（当前 1 处：`regions/national/statistics/parameters.yaml` 的侧车未随文件更新）。
+- `stage6_indexes.py` 每次重跑都会刷新「抓取时间」时间戳，属预期差异；除时间戳外，重建后的索引应与提交版本一致。
+- 手工新增归档件时，md 必须带齐 frontmatter 的 8 个必填字段（`title`/`region`/`level`/`topic`/`source_url`/`retrieved_at`/`status`/`content_hash`），非 md 文件必须带同名 `.meta.yaml`，否则 `verify.py` 会报「未登记的仓库文件」。
 ## 抓 JS 渲染的页面（站内检索、政民互动答复）
 
 政务网站的智能云搜索、数据表等由 JS 动态渲染，纯 HTTP 抓取只能拿到空壳。用自带的 headless 浏览器：
