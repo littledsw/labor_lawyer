@@ -262,6 +262,34 @@ def save_state(state: dict) -> None:
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+LEDGER = REPO / "indexes" / "originals-sha256.json"
+
+
+def write_original_ledger(state: dict | None = None) -> int:
+    """把每件法规的原件指纹写成台账（docx 已落盘；pdf 默认未落盘，只留 sha256/字节数）。
+
+    入 `indexes/originals-sha256.json`，供核对「本地原件是否与 flk 官方原件一致」。
+    """
+    state = state if state is not None else load_state()
+    rows = []
+    for bbbs, v in sorted(state.items(), key=lambda kv: kv[1].get("local_path") or ""):
+        if v.get("status") != "ok":
+            continue
+        docx = [p for p in (v.get("originals") or []) if p.endswith((".docx", ".doc"))]
+        rows.append({
+            "local_path": v.get("local_path"),
+            "title": v.get("title"),
+            "bbbs": bbbs,
+            "docx": [{"path": p, "bytes": (REPO / p).stat().st_size,
+                      "sha256": sha256((REPO / p).read_bytes())} for p in docx if (REPO / p).exists()],
+            "pdf": v.get("pdf") or None,
+        })
+    LEDGER.parent.mkdir(parents=True, exist_ok=True)
+    LEDGER.write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"原件指纹台账：{LEDGER.relative_to(REPO)}（{len(rows)} 条）")
+    return 0
+
+
 def mark_non_flk(dry: bool = False) -> int:
     """给 flk 未收录的现行文件（部门规章、地方政府规章）补 `source_note` 标注。"""
     flk_paths = {v.get("local_path") for v in load_state().values() if v.get("status") == "ok"}
@@ -297,7 +325,8 @@ def main() -> int:
     ap.add_argument("--only-regions", default="",
                     help="只处理指定地区的地方法规，逗号分隔（如 municipalities/beijing,municipalities/shanxi）")
     ap.add_argument("--redo", action="store_true", help="忽略断点，重抓已完成项")
-    ap.add_argument("--no-pdf", action="store_true", help="只归档 docx 原件，不存公报版 pdf")
+    ap.add_argument("--with-pdf", action="store_true",
+                    help="额外归档公报版 pdf（默认不落盘：体积大且 91% 是扫描件，只记 sha256/字节数/来源）")
     ap.add_argument("--mark-non-flk", action="store_true", help="只补 source_note 标注，然后退出")
     args = ap.parse_args()
 
@@ -381,10 +410,11 @@ def main() -> int:
                 rel = f"{CAT_DIR[c['flxz']]}/{title}.md"
                 rel_files_dir = "regulations/files"
 
-            # 1) 官方原件：WPS 版 docx（正文来源）+ 公报原版 pdf（归档）
+            # 1) 官方原件：WPS 版 docx（正文来源，落盘）+ 公报版 pdf（默认只记指纹，不落盘）
             paras: list[str] = []
             originals: list[str] = []
-            for fmt in ("docx",) + (() if args.no_pdf else ("pdf",)):
+            pdf_meta: dict = {}
+            for fmt in ("docx", "pdf"):
                 url = download_link(b, bbbs, fmt, file_id)
                 if not url:
                     print(f"      {fmt}：未取到下载链接", flush=True)
@@ -396,6 +426,11 @@ def main() -> int:
                 else:
                     data = save_via_browser(b, url, f"{name}.{fmt}")
                 if not data:
+                    continue
+                if fmt == "pdf" and not args.with_pdf:
+                    pdf_meta = {"bytes": len(data), "sha256": sha256(data),
+                                "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"}
+                    print(f"      pdf 只记指纹：{len(data)}B sha256={sha256(data)[:16]}…", flush=True)
                     continue
                 ext = fmt
                 if fmt == "docx":
@@ -437,6 +472,8 @@ def main() -> int:
                 notes.append("历史沿革（未归档的旧版本）：" + "；".join(f"{h.get('gbrq')}（bbbs={h.get('bbbs')}）" for h in hist))
             if originals:
                 notes.append("已归档原件：" + "、".join(originals))
+            if pdf_meta:
+                notes.append(f"公报版 pdf（未落盘）：{pdf_meta['bytes']} 字节，sha256={pdf_meta['sha256']}")
             meta = {
                 "title": title, "region": region, "level": level, "topic": "regulations",
                 "authority": c.get("zdjgName"), "published_at": published,
@@ -450,13 +487,14 @@ def main() -> int:
             size = write_md(rel, body, meta)
             print(f"      md {rel} {size}B；原件 {len(originals)} 份", flush=True)
             state[bbbs] = {"status": "ok", "title": title, "chars": len(body),
-                           "local_path": rel, "originals": originals}
+                           "local_path": rel, "originals": originals, "pdf": pdf_meta}
             save_state(state)
             ok += 1
             time.sleep(2)
     finally:
         b.close()
 
+    write_original_ledger(state)
     print(f"\n完成：成功 {ok}、失败 {fail}、跳过（已完成） {skip}")
     print(f"状态文件：{STATE}；接着跑 stage6_indexes.py 与 verify.py")
     return 0
