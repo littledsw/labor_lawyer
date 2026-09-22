@@ -120,11 +120,27 @@ uv run --with pyyaml --with markdownify --with beautifulsoup4 --with lxml python
 - frontmatter 记录 **制定机关**（`authority` = flk 的 `zdjgName`）、**公布日期**（`published_at` =
   `gbrq`）、**施行日期**（`effective_at` = `sxrq`）、**效力状态**（`effect_status`）、
   **flk 分类**（`flk_category`）、**版次标识**（`flk_bbbs`）。
-- 目录对齐 flk 分类：法律 → `regions/national/regulations/laws/`；行政法规 →
-  `administrative-regulations/`；司法解释 → `judicial-interpretations/`；
-  地方法规 → `regions/<地区>/regulations/local-regulations/`。
+- 目录：法律 → `regions/national/regulations/laws/`；行政法规 → `administrative-regulations/`；
+  司法解释 → `judicial-interpretations/`；地方法规 → `regions/<地区>/regulations/local-regulations/`。
+  地区目录按制定机关映射：直辖市 → `municipalities/<拼音>`（山西因 stage19 既有落点在 `municipalities/shanxi`），
+  省/自治区 → `provinces/<拼音>`，设区的市 → `cities/<拼音>`，自治州 → `autonomous-regions/<拼音>`；
+  映射表在 `stage20_flk_npc.py` 的 `PROVINCE_PINYIN` / `CITY_PINYIN` / `REGION_OVERRIDES`。
 
-接口与坑（实测）：
+## 条号回核（tools/verify_citations.py）
+
+换信源后最有价值的一步：把下游仓库（默认 sibling `legal-assistant`）引用的法条逐条对到 flk 归档正文上。
+
+```bash
+LABOR_LAWYER_REPO=$PWD python tools/verify_citations.py \
+    --target ~/workspace/projects/legal-assistant \
+    --report ~/workspace/projects/legal-assistant/docs/citation-check.md
+```
+
+判定口径：`OK`（条号存在）、`OK（通知体序号）`（该文件用「一、二、三」体例，按序号核对）、
+`条号不存在`（需人工核对）、`未归档`（引用件不在归档范围）。匹配时对法规名做归一化
+（去书名号/空白/「中华人民共和国」/括号注释），正文条号识别兼容 `**第十条**`、全角缩进等写法。
+
+## flk 接口与坑（实测）
 
 | 事项 | 结论 |
 | --- | --- |

@@ -70,6 +70,21 @@ MUNICIPALITIES = {"北京", "天津", "上海", "重庆"}
 # （legal-assistant 的计算层也按该路径读 parameters.yaml）。
 REGION_OVERRIDES = {"山西": "municipalities/shanxi"}
 
+# 设区的市与自治州（地级）→ regions/cities/<拼音>、regions/autonomous-regions/<拼音>
+# 全名匹配（避免「呼和浩特市」被 3 字正则截断），按长度倒序匹配
+CITY_PINYIN = {
+    "厦门": "xiamen", "深圳": "shenzhen", "郑州": "zhengzhou", "广州": "guangzhou",
+    "昆明": "kunming", "武汉": "wuhan", "合肥": "hefei", "哈尔滨": "haerbin",
+    "贵阳": "guiyang", "包头": "baotou", "沈阳": "shenyang", "宁波": "ningbo",
+    "无锡": "wuxi", "杭州": "hangzhou", "呼和浩特": "huhehaote", "常州": "changzhou",
+    "青岛": "qingdao", "银川": "yinchuan", "鞍山": "anshan", "大连": "dalian",
+    "抚顺": "fushun", "安康": "ankang", "徐州": "xuzhou", "南昌": "nanchang",
+    "唐山": "tangshan", "珠海": "zhuhai", "本溪": "benxi", "成都": "chengdu",
+    "济南": "jinan", "福州": "fuzhou", "西安": "xian", "石家庄": "shijiazhuang",
+    "延边朝鲜族自治州": "yanbian", "克孜勒苏柯尔克孜自治州": "kezilesu",
+    "黔西南布依族苗族自治州": "qianxinan",
+}
+
 # 司法解释中与劳动仲裁无关的条目（刑事、军队等），第一期不收（用户 2026-09-22 确认）
 JUDICIAL_EXCLUDE = [
     "贪污养老、医疗等社会保险基金能否适用",
@@ -85,6 +100,11 @@ def region_from_authority(authority: str) -> str | None:
     if not authority:
         return None
     a = authority.replace("人民代表大会", "").replace("常务委员会", "").replace("人民政府", "").strip()
+    # 设区的市 / 自治州：按全名倒序匹配，避免被短前缀或 3 字正则误截
+    for city, pinyin in sorted(CITY_PINYIN.items(), key=lambda kv: -len(kv[0])):
+        if a.startswith(city):
+            sub = "autonomous-regions" if city.endswith("自治州") else "cities"
+            return f"{sub}/{pinyin}"
     m = re.match(r"^([\u4e00-\u9fa5]{2,3})(省|市|自治区|特别行政区)?", a)
     if not m:
         return None
@@ -305,7 +325,8 @@ def main() -> int:
             region = region_from_authority(c.get("zdjgName") or "")
             if not region:
                 continue
-            if only_regions and region not in only_regions:
+            if only_regions and not any(region == r or region.startswith(r.rstrip("/") + "/")
+                                        for r in only_regions):
                 continue
         c["_region"] = region
         todo.append(c)
