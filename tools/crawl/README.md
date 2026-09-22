@@ -123,7 +123,7 @@ uv run --with pyyaml --with markdownify --with beautifulsoup4 --with lxml python
 - 目录：法律 → `regions/national/regulations/laws/`；行政法规 → `administrative-regulations/`；
   司法解释 → `judicial-interpretations/`；地方法规 → `regions/<地区>/regulations/local-regulations/`。
   地区目录按制定机关映射：直辖市 → `municipalities/<拼音>`（山西因 stage19 既有落点在 `municipalities/shanxi`），
-  省/自治区 → `provinces/<拼音>`，设区的市 → `cities/<拼音>`，自治州 → `autonomous-regions/<拼音>`；
+  省 → `provinces/<拼音>`，自治区与自治州 → `autonomous-regions/<拼音>`，设区的市 → `cities/<拼音>`；
   映射表在 `stage20_flk_npc.py` 的 `PROVINCE_PINYIN` / `CITY_PINYIN` / `REGION_OVERRIDES`。
 
 ## 条号回核（tools/verify_citations.py）

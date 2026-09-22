@@ -100,6 +100,12 @@ def region_from_authority(authority: str) -> str | None:
     if not authority:
         return None
     a = authority.replace("人民代表大会", "").replace("常务委员会", "").replace("人民政府", "").strip()
+    # 自治区：先显式切出「…自治区」前的地名（否则 2 字地名会被 3 字贪婪匹配吃掉后缀）
+    if "自治区" in a:
+        name_part = a.split("自治区")[0]
+        for prov, pinyin in PROVINCE_PINYIN.items():
+            if name_part.startswith(prov):
+                return f"autonomous-regions/{pinyin}"
     # 设区的市 / 自治州：按全名倒序匹配，避免被短前缀或 3 字正则误截
     for city, pinyin in sorted(CITY_PINYIN.items(), key=lambda kv: -len(kv[0])):
         if a.startswith(city):
@@ -113,6 +119,8 @@ def region_from_authority(authority: str) -> str | None:
         if name.startswith(prov):
             if prov in REGION_OVERRIDES:
                 return REGION_OVERRIDES[prov]
+            if suffix == "自治区":
+                return f"autonomous-regions/{pinyin}"
             if prov in MUNICIPALITIES and suffix != "省":
                 return f"municipalities/{pinyin}"
             return f"provinces/{pinyin}"
@@ -203,9 +211,29 @@ def clean_line(t: str) -> str:
 
 
 def docx_paragraphs(path: pathlib.Path) -> list[str]:
-    import docx  # noqa: PLC0415
+    """按文档顺序抽取全部段落文本。
 
-    return [c for c in (clean_line(p.text) for p in docx.Document(str(path)).paragraphs) if c]
+    不能只用 `Document.paragraphs`：它只返回 body 顶层段落，而部分 flk 原件
+    （如《吉林省外商投资企业、私营企业工会条例》2012 年模板）把**整篇正文放在表格单元格里**，
+    顶层段落是空的 → 改为遍历 body 下所有 `w:p`（含表格/文本框内的），顺序即文档顺序。
+    """
+    import docx  # noqa: PLC0415
+    from docx.oxml.ns import qn  # noqa: PLC0415
+
+    doc = docx.Document(str(path))
+    paras = docx_paragraphs_flatten(doc, qn)
+    if not paras:                                          # 极端情况退回顶层段落
+        paras = [clean_line(p.text) for p in doc.paragraphs]
+    return [c for c in (clean_line(t) for t in paras) if c]
+
+
+def docx_paragraphs_flatten(doc, qn) -> list[str]:  # noqa: ANN001
+    out: list[str] = []
+    for p in doc.element.body.iter(qn("w:p")):
+        text = "".join(t.text or "" for t in p.iter(qn("w:t")))
+        if text.strip():
+            out.append(text)
+    return out
 
 
 def extract_paragraphs(data: bytes, stem: str) -> tuple[list[str], str]:

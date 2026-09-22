@@ -1,5 +1,74 @@
 [
  {
+  "local_path": "regions/autonomous-regions/guangxi/regulations/local-regulations/广西壮族自治区人力资源市场条例.md",
+  "title": "广西壮族自治区人力资源市场条例",
+  "bbbs": "ff8081817fd9834101803bb874be56a4",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/guangxi/regulations/local-regulations/files/广西壮族自治区人力资源市场条例-be56a4.doc",
+    "bytes": 53760,
+    "sha256": "688ea0ce33b49798b98e0aba007ec1c930c65986490c4fe6571d8c69b936cb21"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/guangxi/regulations/local-regulations/广西壮族自治区企业工资集体协商条例.md",
+  "title": "广西壮族自治区企业工资集体协商条例",
+  "bbbs": "ff808181927f0e7b0193d3e2678f47b8",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/guangxi/regulations/local-regulations/files/广西壮族自治区企业工资集体协商条例-8f47b8.docx",
+    "bytes": 24208,
+    "sha256": "37352740054d1920ee8b81861dce3fc808c1dee3e7b259131883d353c8ec3695"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/guangxi/regulations/local-regulations/广西壮族自治区劳动人事争议调解仲裁条例.md",
+  "title": "广西壮族自治区劳动人事争议调解仲裁条例",
+  "bbbs": "ff8081818c24da9e018c803caafa4829",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/guangxi/regulations/local-regulations/files/广西壮族自治区劳动人事争议调解仲裁条例-fa4829.docx",
+    "bytes": 28263,
+    "sha256": "cc39640dd36cae2e7f266ca8a66aa5a456263d848593fb3ba76b0f5ca068c9db"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/guangxi/regulations/local-regulations/广西壮族自治区外商投资企业工会条例.md",
+  "title": "广西壮族自治区外商投资企业工会条例",
+  "bbbs": "4028abcc61277793016127e56ce32479",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/guangxi/regulations/local-regulations/files/广西壮族自治区外商投资企业工会条例-e32479.docx",
+    "bytes": 26517,
+    "sha256": "cac4dd670f7eb41501e61c810672cd173969e05a4529a92c5b2ed8ede310f70c"
+   }
+  ],
+  "pdf": {
+   "bytes": 10611062,
+   "sha256": "0166f061ecc4f1d192327d7dca9e95459e4750333cb4c54519f8479cf7bd2baf",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/autonomous-regions/guangxi/regulations/local-regulations/广西壮族自治区实施《中华人民共和国工会法》办法.md",
+  "title": "广西壮族自治区实施《中华人民共和国工会法》办法",
+  "bbbs": "ff8081819aedd63e019b0744ee2736ff",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/guangxi/regulations/local-regulations/files/广西壮族自治区实施《中华人民共和国工会法》办法-2736ff.docx",
+    "bytes": 22951,
+    "sha256": "c171ea22cf05f5b591077eebf08389c677eceef923bca683b923a11d279cbaf3"
+   }
+  ],
+  "pdf": null
+ },
+ {
   "local_path": "regions/autonomous-regions/kezilesu/regulations/local-regulations/克孜勒苏柯尔克孜自治州防范和治理拖欠中小企业款项和农民工工资条例.md",
   "title": "克孜勒苏柯尔克孜自治州防范和治理拖欠中小企业款项和农民工工资条例",
   "bbbs": "ff8081819f12cdb7019f3aa108f1424c",
@@ -14,6 +83,186 @@
    "bytes": null,
    "sha256": null,
    "note": "公报版 pdf 未下载/未提供（未取到下载链接）"
+  }
+ },
+ {
+  "local_path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/内蒙古自治区企业工资集体协商条例.md",
+  "title": "内蒙古自治区企业工资集体协商条例",
+  "bbbs": "ff80818199e72d6e019a4c2511b77eae",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/files/内蒙古自治区企业工资集体协商条例-b77eae.docx",
+    "bytes": 20945,
+    "sha256": "2a295146276eeeac179ae7f80698c957896bae9440716f0fa245485f88a4cc51"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/内蒙古自治区保障农民工工资支付条例.md",
+  "title": "内蒙古自治区保障农民工工资支付条例",
+  "bbbs": "ff808181971b83ab01978cb844a3495e",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/files/内蒙古自治区保障农民工工资支付条例-a3495e.docx",
+    "bytes": 24517,
+    "sha256": "553649d7badc1d18b376b8949dfddc15283603c974789ae5bf58d3adfd7d6a52"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/内蒙古自治区劳动保障监察条例.md",
+  "title": "内蒙古自治区劳动保障监察条例",
+  "bbbs": "4028abcc61277793016127c6d81807aa",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/files/内蒙古自治区劳动保障监察条例-1807aa.doc",
+    "bytes": 37888,
+    "sha256": "d125af5d344fdba555b3f64dc3c7ff21d3e928667d542fae3a7c082793a78670"
+   }
+  ],
+  "pdf": {
+   "bytes": 1533957,
+   "sha256": "418263a16935d9fbbb0e33ee8b3d338be92934e23a2c62de652e47d88c741303",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/内蒙古自治区城镇基本医疗保险条例.md",
+  "title": "内蒙古自治区城镇基本医疗保险条例",
+  "bbbs": "4028abcc61277793016127e3f2eb22f8",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/files/内蒙古自治区城镇基本医疗保险条例-eb22f8.doc",
+    "bytes": 43520,
+    "sha256": "4b4d2fee557b7fc3f4e067e3028071b03ad60d5a27259bdd3ef68c5b9bff8d3a"
+   }
+  ],
+  "pdf": {
+   "bytes": 2626446,
+   "sha256": "b5fef390ff0e2f7e9f433953247ee3cb2de696c4a6e33f30f7a7350d306be409",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/内蒙古自治区实施《中华人民共和国工会法》办法.md",
+  "title": "内蒙古自治区实施《中华人民共和国工会法》办法",
+  "bbbs": "ff808181907351a5019136090fa97733",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/files/内蒙古自治区实施《中华人民共和国工会法》办法-a97733.docx",
+    "bytes": 25332,
+    "sha256": "350f4d667313411c5eaf8c644f7c16ac70477767ca7f82e423c247f981b9e02b"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/内蒙古自治区就业促进条例.md",
+  "title": "内蒙古自治区就业促进条例",
+  "bbbs": "ff8081818b287dfc018b50e301d94b58",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/files/内蒙古自治区就业促进条例-d94b58.docx",
+    "bytes": 22395,
+    "sha256": "156fda6525dc14752445753e178fdc18cbf76b5f4470f31d2611a08313933a0b"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/内蒙古自治区工会劳动法律监督条例.md",
+  "title": "内蒙古自治区工会劳动法律监督条例",
+  "bbbs": "ff80818199e72aa4019a4c254fea065a",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/neimenggu/regulations/local-regulations/files/内蒙古自治区工会劳动法律监督条例-ea065a.docx",
+    "bytes": 21274,
+    "sha256": "78a4bef7b6e32a7dd5c1af5fa82bead471317e15c5487bf7f98aa616a33aae22"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/ningxia/regulations/local-regulations/宁夏回族自治区创业与就业促进条例.md",
+  "title": "宁夏回族自治区创业与就业促进条例",
+  "bbbs": "4028abcc612777930161283929d078a1",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/ningxia/regulations/local-regulations/files/宁夏回族自治区创业与就业促进条例-d078a1.doc",
+    "bytes": 38912,
+    "sha256": "c548d4f292771db0d343d510431a64e3ee9159250deaf2133fd154c4339bf75a"
+   }
+  ],
+  "pdf": {
+   "bytes": 227267,
+   "sha256": "08d8ab5692d235c800563ccc82deb71505e103d942898879622e9a81f5e20799",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/autonomous-regions/ningxia/regulations/local-regulations/宁夏回族自治区劳动保障监察条例.md",
+  "title": "宁夏回族自治区劳动保障监察条例",
+  "bbbs": "4028abcc6127779301612845ef770522",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/ningxia/regulations/local-regulations/files/宁夏回族自治区劳动保障监察条例-770522.doc",
+    "bytes": 52822,
+    "sha256": "7a005ea4abc630d9a048fca78f70cac85087cb94c14f2aefa5d69a8331ed688b"
+   }
+  ],
+  "pdf": {
+   "bytes": 2494995,
+   "sha256": "e31dc51e6f3f1139ac011557697b71db8d064fd2dce75b1c8ba00a81bb4d89dd",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/autonomous-regions/ningxia/regulations/local-regulations/宁夏回族自治区劳动合同条例.md",
+  "title": "宁夏回族自治区劳动合同条例",
+  "bbbs": "2c90e5b96214c5010163910cb5113c93",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/ningxia/regulations/local-regulations/files/宁夏回族自治区劳动合同条例-113c93.doc",
+    "bytes": 67584,
+    "sha256": "9d7e252b1a8f7bba6d452f3ebff831968cb92f9052645c917fd2243f20202cd5"
+   }
+  ],
+  "pdf": {
+   "bytes": 392419,
+   "sha256": "552978331d58774c54a7bca077524ecb884b6ec276d88cdedd4bd33834e33368",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/autonomous-regions/ningxia/regulations/local-regulations/宁夏回族自治区实施《中华人民共和国工会法》办法.md",
+  "title": "宁夏回族自治区实施《中华人民共和国工会法》办法",
+  "bbbs": "ff8081819014e99a01902f5716c50713",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/ningxia/regulations/local-regulations/files/宁夏回族自治区实施《中华人民共和国工会法》办法-c50713.docx",
+    "bytes": 26739,
+    "sha256": "67696192978d863e6d36c92b47459a0eccecc52e1a73137c52955c9f52080559"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/ningxia/regulations/local-regulations/宁夏回族自治区私营企业工会条例.md",
+  "title": "宁夏回族自治区私营企业工会条例",
+  "bbbs": "4028abcc61277793016127d1a4d61140",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/ningxia/regulations/local-regulations/files/宁夏回族自治区私营企业工会条例-d61140.doc",
+    "bytes": 28160,
+    "sha256": "201254f87ecb505001a0eee5bf935b935246109570340a49a9ff46b734ffea4c"
+   }
+  ],
+  "pdf": {
+   "bytes": 165082,
+   "sha256": "5515d7104516847bcfe40109e7973f2849970dd0b836209b1feb9329a657d706",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
   }
  },
  {
@@ -32,6 +281,97 @@
    "sha256": null,
    "note": "公报版 pdf 未下载/未提供（未取到下载链接）"
   }
+ },
+ {
+  "local_path": "regions/autonomous-regions/xinjiang/regulations/local-regulations/新疆维吾尔自治区实施《中华人民共和国就业促进法》办法.md",
+  "title": "新疆维吾尔自治区实施《中华人民共和国就业促进法》办法",
+  "bbbs": "ff808181907351a50190b49fc6167983",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/xinjiang/regulations/local-regulations/files/新疆维吾尔自治区实施《中华人民共和国就业促进法》办法-167983.docx",
+    "bytes": 28431,
+    "sha256": "18d5d2b8ee4095d4044cbddcfbc2658b7bfab79a48b365dfd841cc6afcb86bcf"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/xinjiang/regulations/local-regulations/新疆维吾尔自治区实施《中华人民共和国工会法》办法.md",
+  "title": "新疆维吾尔自治区实施《中华人民共和国工会法》办法",
+  "bbbs": "2c90e5b96c128b4c016d712751092d4a",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/xinjiang/regulations/local-regulations/files/新疆维吾尔自治区实施《中华人民共和国工会法》办法-092d4a.docx",
+    "bytes": 30533,
+    "sha256": "8a6d1708be64545e446fef55f69c6eabd1a23e3884120ac3b7ad380021cbb5c9"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/xinjiang/regulations/local-regulations/新疆维吾尔自治区非公有制企业工会条例.md",
+  "title": "新疆维吾尔自治区非公有制企业工会条例",
+  "bbbs": "2c90e5b96c128b4c016d70d7a80a2d3f",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/xinjiang/regulations/local-regulations/files/新疆维吾尔自治区非公有制企业工会条例-0a2d3f.docx",
+    "bytes": 27446,
+    "sha256": "8325f6c4bc87214dc27e576ad03cb63c0ee5fc1d84e921f2dd48fd0d06cef736"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/xizang/regulations/local-regulations/西藏自治区人力资源市场条例.md",
+  "title": "西藏自治区人力资源市场条例",
+  "bbbs": "ff8081818fe2c6ba01900a75302d68dd",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/xizang/regulations/local-regulations/files/西藏自治区人力资源市场条例-2d68dd.docx",
+    "bytes": 24356,
+    "sha256": "b3281034bcf45994345f087157a6552a0d38a524de6561684635cfd0f27f3d26"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/xizang/regulations/local-regulations/西藏自治区实施《中华人民共和国就业促进法》办法.md",
+  "title": "西藏自治区实施《中华人民共和国就业促进法》办法",
+  "bbbs": "ff8081817cdd483f017cdde450800ba9",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/xizang/regulations/local-regulations/files/西藏自治区实施《中华人民共和国就业促进法》办法-800ba9.docx",
+    "bytes": 24758,
+    "sha256": "57d3ca4e6fd2c36e126eaf15bcab60c758bf5a360747f81e3f57fe2293ade076"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/xizang/regulations/local-regulations/西藏自治区实施《中华人民共和国工会法》办法.md",
+  "title": "西藏自治区实施《中华人民共和国工会法》办法",
+  "bbbs": "ff8081818c24e05b018c80c03893104b",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/xizang/regulations/local-regulations/files/西藏自治区实施《中华人民共和国工会法》办法-93104b.docx",
+    "bytes": 23342,
+    "sha256": "5ad31149ac08ed2a49056a62d12bc0cf7d52f6f23fa6244a04ab94d0f72d4a2c"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/autonomous-regions/xizang/regulations/local-regulations/西藏自治区工会劳动法律监督条例.md",
+  "title": "西藏自治区工会劳动法律监督条例",
+  "bbbs": "ff8081819fad3f6e019fda3a1e1f4534",
+  "docx": [
+   {
+    "path": "regions/autonomous-regions/xizang/regulations/local-regulations/files/西藏自治区工会劳动法律监督条例-1f4534.docx",
+    "bytes": 21814,
+    "sha256": "f7e15d32142a7a36c93c45b38deffa96d166af96d23678141c2ca2ac205c2349"
+   }
+  ],
+  "pdf": null
  },
  {
   "local_path": "regions/autonomous-regions/yanbian/regulations/local-regulations/延边朝鲜族自治州劳动保障监察条例.md",
@@ -1917,6 +2257,2388 @@
   "pdf": {
    "bytes": 137599,
    "sha256": "c77057d16baa9b75fdd3ddf2ab7d1c530927589b5222605f94fcd9f007a03e55",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/anhui/regulations/local-regulations/安徽省人力资源市场条例.md",
+  "title": "安徽省人力资源市场条例",
+  "bbbs": "ff8081817e5817ac017e6ff705157c09",
+  "docx": [
+   {
+    "path": "regions/provinces/anhui/regulations/local-regulations/files/安徽省人力资源市场条例-157c09.docx",
+    "bytes": 23791,
+    "sha256": "3b065925167bf43b33cf56b63bec0c85df9ee7296f5181a8f27cb81de3db543f"
+   }
+  ],
+  "pdf": {
+   "bytes": 232836,
+   "sha256": "a7a21e6fb9e777bce344b2a916f2a5a7eb4469aea906575194f9c350feb92019",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/anhui/regulations/local-regulations/安徽省劳动人事争议调解仲裁条例.md",
+  "title": "安徽省劳动人事争议调解仲裁条例",
+  "bbbs": "ff8081819dba0be4019dd80dda2d51c5",
+  "docx": [
+   {
+    "path": "regions/provinces/anhui/regulations/local-regulations/files/安徽省劳动人事争议调解仲裁条例-2d51c5.docx",
+    "bytes": 20493,
+    "sha256": "b4c7fa08edefe54bc066a1587ef97116adf8549e13f77bc996f097beecb6a039"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/anhui/regulations/local-regulations/安徽省劳动保护条例.md",
+  "title": "安徽省劳动保护条例",
+  "bbbs": "4028abcc612777930161283d6d9c7ce9",
+  "docx": [
+   {
+    "path": "regions/provinces/anhui/regulations/local-regulations/files/安徽省劳动保护条例-9c7ce9.docx",
+    "bytes": 28735,
+    "sha256": "be25709833263b7c3911d12cc2397a30b1a2f90b071fa7402399d008e73703e5"
+   }
+  ],
+  "pdf": {
+   "bytes": 239090,
+   "sha256": "40db87deca75bb4fa03a72b6a701ab308d289b76e5ec77c8a95a0ef3a60e9bf6",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/anhui/regulations/local-regulations/安徽省实施《中华人民共和国就业促进法》办法.md",
+  "title": "安徽省实施《中华人民共和国就业促进法》办法",
+  "bbbs": "4028abcc61277793016127caf9c00b59",
+  "docx": [
+   {
+    "path": "regions/provinces/anhui/regulations/local-regulations/files/安徽省实施《中华人民共和国就业促进法》办法-c00b59.docx",
+    "bytes": 29439,
+    "sha256": "b4d4c10d1c977d22a399fc5fc60a559eb2f59e9264ebfef7254ec47acdae7ceb"
+   }
+  ],
+  "pdf": {
+   "bytes": 252241,
+   "sha256": "11fda5b45fc6fe7670a075ed66b888cfa26098760aa3e1a3e6a7aa2bbeb8a0fd",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/anhui/regulations/local-regulations/安徽省实施《中华人民共和国工会法》办法.md",
+  "title": "安徽省实施《中华人民共和国工会法》办法",
+  "bbbs": "4028abcc612777930161283d41657cbb",
+  "docx": [
+   {
+    "path": "regions/provinces/anhui/regulations/local-regulations/files/安徽省实施《中华人民共和国工会法》办法-657cbb.docx",
+    "bytes": 22997,
+    "sha256": "ace56db9c106533c80ffe550dd1ace41f47bad2fc87d8de8b1d5740fd50e28d2"
+   }
+  ],
+  "pdf": {
+   "bytes": 244454,
+   "sha256": "e21e03157ef03f53dcddf474306c8f2c01c88fc686f57698fe00f331affd4640",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/anhui/regulations/local-regulations/安徽省工会劳动法律监督条例.md",
+  "title": "安徽省工会劳动法律监督条例",
+  "bbbs": "ff8080816fbc57c1016fcadeb6a31728",
+  "docx": [
+   {
+    "path": "regions/provinces/anhui/regulations/local-regulations/files/安徽省工会劳动法律监督条例-a31728.doc",
+    "bytes": 32256,
+    "sha256": "4bcdb3c99b4700be241be064598457219a712b4e8398e018bcf2aac3e43948a5"
+   }
+  ],
+  "pdf": {
+   "bytes": 185176,
+   "sha256": "0f4e76bcc3e68965694b479f94f7c651b6589676eccbb135b3d4add47bdad5fe",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/anhui/regulations/local-regulations/安徽省新就业形态劳动者劳动权益保障规定.md",
+  "title": "安徽省新就业形态劳动者劳动权益保障规定",
+  "bbbs": "ff808181987864eb01987e3a49802dee",
+  "docx": [
+   {
+    "path": "regions/provinces/anhui/regulations/local-regulations/files/安徽省新就业形态劳动者劳动权益保障规定-802dee.docx",
+    "bytes": 17910,
+    "sha256": "3094064d45483bc77062ac3f4a6f0c079c2497764c5cfe6cef67ef713c275fea"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/fujian/regulations/local-regulations/福建省事业单位人事争议处理规定.md",
+  "title": "福建省事业单位人事争议处理规定",
+  "bbbs": "2c90e5bb6a291f86016a9fa457730aa4",
+  "docx": [
+   {
+    "path": "regions/provinces/fujian/regulations/local-regulations/files/福建省事业单位人事争议处理规定-730aa4.docx",
+    "bytes": 28084,
+    "sha256": "a14dbe4f7e03c7c2e6430d7fbcbd599048494e66428e6f309c4795a14cad79e1"
+   }
+  ],
+  "pdf": {
+   "bytes": 330223,
+   "sha256": "3526bd5c4ee8633db9781acfcaeae8b3836bbf6e0619a334300af0e09c9c6eac",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/fujian/regulations/local-regulations/福建省人力资源市场条例.md",
+  "title": "福建省人力资源市场条例",
+  "bbbs": "ff808181927f09310193f7c7c3d853bd",
+  "docx": [
+   {
+    "path": "regions/provinces/fujian/regulations/local-regulations/files/福建省人力资源市场条例-d853bd.docx",
+    "bytes": 28656,
+    "sha256": "9e1a6ae1d787e00bfd7f87744944a7afef9f8da48d58662f379f5357c421700c"
+   }
+  ],
+  "pdf": {
+   "bytes": 326982,
+   "sha256": "a36b4cf438aaf39407f2b56ef81dc9b9df0f7fdfe770204b0902a8e803d304eb",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/fujian/regulations/local-regulations/福建省城镇企业职工基本养老保险条例.md",
+  "title": "福建省城镇企业职工基本养老保险条例",
+  "bbbs": "4028abcc612777930161287a3e8536fc",
+  "docx": [
+   {
+    "path": "regions/provinces/fujian/regulations/local-regulations/files/福建省城镇企业职工基本养老保险条例-8536fc.docx",
+    "bytes": 32413,
+    "sha256": "2556bbb06311f94ed0c68f09a66ca005ffb7773cf5e385e76bd074f9a30547a2"
+   }
+  ],
+  "pdf": {
+   "bytes": 123894,
+   "sha256": "ed42246202769dc26914817d7d0f9b0995c41284d2cf335f3cfb78547eb79e89",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/fujian/regulations/local-regulations/福建省外商投资企业工会条例.md",
+  "title": "福建省外商投资企业工会条例",
+  "bbbs": "4028abcc61277793016128631cca2229",
+  "docx": [
+   {
+    "path": "regions/provinces/fujian/regulations/local-regulations/files/福建省外商投资企业工会条例-ca2229.docx",
+    "bytes": 25130,
+    "sha256": "096615bd16f1e63acc537c6ddfde10fd277e279cc78ff2162c7b0b338788c597"
+   }
+  ],
+  "pdf": {
+   "bytes": 183809,
+   "sha256": "be0b7e37cb1091279455f4daf84826935dcb85a607e60ce257bc517e3af8d842",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/fujian/regulations/local-regulations/福建省失业保险条例.md",
+  "title": "福建省失业保险条例",
+  "bbbs": "ff8081818160c35a0181615df5880a38",
+  "docx": [
+   {
+    "path": "regions/provinces/fujian/regulations/local-regulations/files/福建省失业保险条例-880a38.docx",
+    "bytes": 24349,
+    "sha256": "0f0703f23952ef00539236596800f18b5defdb9bb88fe5a662ebb15970d5fa81"
+   }
+  ],
+  "pdf": {
+   "bytes": 269595,
+   "sha256": "0586a614a594893413616f632d759c4a426cfc9d1bb6ea43970de07a54af26c4",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/fujian/regulations/local-regulations/福建省女职工劳动保护条例.md",
+  "title": "福建省女职工劳动保护条例",
+  "bbbs": "ff808081713927d101718711c594629a",
+  "docx": [
+   {
+    "path": "regions/provinces/fujian/regulations/local-regulations/files/福建省女职工劳动保护条例-94629a.docx",
+    "bytes": 26559,
+    "sha256": "3121a14fb7bdec5f0700e0a1a2f00cd1cccc6329df4d69c200a3a6ba7fca0a03"
+   }
+  ],
+  "pdf": {
+   "bytes": 231674,
+   "sha256": "9b712dd4bc5c9c160eaae40b1dfb21ab27a03ea356b37d9643d21ba6790212b7",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/fujian/regulations/local-regulations/福建省实施《中华人民共和国工会法》办法.md",
+  "title": "福建省实施《中华人民共和国工会法》办法",
+  "bbbs": "ff80818187aa33300187bc6bcbdf54dd",
+  "docx": [
+   {
+    "path": "regions/provinces/fujian/regulations/local-regulations/files/福建省实施《中华人民共和国工会法》办法-df54dd.docx",
+    "bytes": 36450,
+    "sha256": "0383291fff6e0c33c6f5694a5b19463ab90d79f89f2b52cec3c6ef383a553ddd"
+   }
+  ],
+  "pdf": {
+   "bytes": 334190,
+   "sha256": "3c943ec40cbb50ea3ff9e7db48f24c6674183d677f58465b8520984723d1a7a7",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/fujian/regulations/local-regulations/福建省工会劳动法律监督条例.md",
+  "title": "福建省工会劳动法律监督条例",
+  "bbbs": "4028abcc612777930161282f7ec572f7",
+  "docx": [
+   {
+    "path": "regions/provinces/fujian/regulations/local-regulations/files/福建省工会劳动法律监督条例-c572f7.docx",
+    "bytes": 31706,
+    "sha256": "16719ef90bb623a156418f435cfb23759b5324e051307c1b3cf9a650dde833c8"
+   }
+  ],
+  "pdf": {
+   "bytes": 256920,
+   "sha256": "f9c369a59cdbe1d92f2281f126723456a61a618b8aa655b23941d2261012e372",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/fujian/regulations/local-regulations/福建省私营企业工会若干规定.md",
+  "title": "福建省私营企业工会若干规定",
+  "bbbs": "4028abcc6127779301612853b3a21349",
+  "docx": [
+   {
+    "path": "regions/provinces/fujian/regulations/local-regulations/files/福建省私营企业工会若干规定-a21349.docx",
+    "bytes": 24476,
+    "sha256": "b10001ee235c3541a238baaf638c4dcea0023f1f1533b77bcbbac09ddb8904f8"
+   }
+  ],
+  "pdf": {
+   "bytes": 105867,
+   "sha256": "cc0bc5d0c59e403117c293444a14de5100c9231befb8afbdbb9c5ae4ac4254c6",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/fujian/regulations/local-regulations/福建省高质量充分就业促进条例.md",
+  "title": "福建省高质量充分就业促进条例",
+  "bbbs": "ff8081819aedd63e019b43b47cd742bb",
+  "docx": [
+   {
+    "path": "regions/provinces/fujian/regulations/local-regulations/files/福建省高质量充分就业促进条例-d742bb.docx",
+    "bytes": 25039,
+    "sha256": "93d4cd1d6fbd5ded17b4921590b061e4dab6bed23da68267769da5bd62cfe376"
+   }
+  ],
+  "pdf": {
+   "bytes": 327678,
+   "sha256": "dbaa92bc535bc9da8e680aa082367def3629280a0109ba5e545d7a176ab41d60",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/gansu/regulations/local-regulations/甘肃省实施《中华人民共和国工会法》办法.md",
+  "title": "甘肃省实施《中华人民共和国工会法》办法",
+  "bbbs": "ff808181844230ec01846444a6357a38",
+  "docx": [
+   {
+    "path": "regions/provinces/gansu/regulations/local-regulations/files/甘肃省实施《中华人民共和国工会法》办法-357a38.docx",
+    "bytes": 28862,
+    "sha256": "bb7cd22297a43b9a7992ca35636ed4b1ed95b17ce1ef5dec5d03f3721ca2b393"
+   }
+  ],
+  "pdf": {
+   "bytes": 1244892,
+   "sha256": "957619f6f8353acc9f81fd83dffcfa60e7fa1c0ce0831335782b73d9bb26ac94",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/gansu/regulations/local-regulations/甘肃省就业促进条例.md",
+  "title": "甘肃省就业促进条例",
+  "bbbs": "ff8081817c92ddac017c96209d290419",
+  "docx": [
+   {
+    "path": "regions/provinces/gansu/regulations/local-regulations/files/甘肃省就业促进条例-290419.docx",
+    "bytes": 31679,
+    "sha256": "c003339dfb7ba4e8bcca1531455ab785bbbe5a1aa3303b8d90c0c72acbb4ae7d"
+   }
+  ],
+  "pdf": {
+   "bytes": 1008516,
+   "sha256": "a28af318c0e7db0c1660282d4187bce1183da452f0d0b1e6c1676dd708c72bb7",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/guangdong/regulations/local-regulations/广东省人力资源市场条例.md",
+  "title": "广东省人力资源市场条例",
+  "bbbs": "ff8081817db1b755017dbd1085951f23",
+  "docx": [
+   {
+    "path": "regions/provinces/guangdong/regulations/local-regulations/files/广东省人力资源市场条例-951f23.docx",
+    "bytes": 40143,
+    "sha256": "91bd23ccfc188bd0a9ae31bf6841790eb1253c97ad9b36efc864f942f41842af"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/guangdong/regulations/local-regulations/广东省促进港澳青年在粤港澳大湾区内地九市就业创业条例.md",
+  "title": "广东省促进港澳青年在粤港澳大湾区内地九市就业创业条例",
+  "bbbs": "ff8081819150444501915507419e07c1",
+  "docx": [
+   {
+    "path": "regions/provinces/guangdong/regulations/local-regulations/files/广东省促进港澳青年在粤港澳大湾区内地九市就业创业条例-9e07c1.docx",
+    "bytes": 24122,
+    "sha256": "1338a6c6e686595f6f854bd0954caca7f03c14b34b718e9408a14e0b80175f3b"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/guangdong/regulations/local-regulations/广东省劳动保障监察条例.md",
+  "title": "广东省劳动保障监察条例",
+  "bbbs": "2c90e5ba6a291d8f016b4575badb1e08",
+  "docx": [
+   {
+    "path": "regions/provinces/guangdong/regulations/local-regulations/files/广东省劳动保障监察条例-db1e08.docx",
+    "bytes": 41528,
+    "sha256": "b09e155afb4f8fba8f14b1985871f54ff892d50e52f3f2fc0fa27c4b918eeeb4"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/guangdong/regulations/local-regulations/广东省失业保险条例.md",
+  "title": "广东省失业保险条例",
+  "bbbs": "ff808181927f09310194831e24d97a56",
+  "docx": [
+   {
+    "path": "regions/provinces/guangdong/regulations/local-regulations/files/广东省失业保险条例-d97a56.docx",
+    "bytes": 22192,
+    "sha256": "d82c30bf548ecaecfdd567ae5c26893a0431de4809040b4556a55a6ca990398a"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/guangdong/regulations/local-regulations/广东省实施《中华人民共和国就业促进法》办法.md",
+  "title": "广东省实施《中华人民共和国就业促进法》办法",
+  "bbbs": "4028abcc61277793016127e10a581feb",
+  "docx": [
+   {
+    "path": "regions/provinces/guangdong/regulations/local-regulations/files/广东省实施《中华人民共和国就业促进法》办法-581feb.docx",
+    "bytes": 30628,
+    "sha256": "f46448bfd3403c2f9a53d92a7797420e25053590cba12b567c54d19c819c7dbb"
+   }
+  ],
+  "pdf": {
+   "bytes": 4954481,
+   "sha256": "12b19f7d033dc43cd66f73ac0227f4aa94af9b4baf503ef97a896e007c4ba990",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/guangdong/regulations/local-regulations/广东省实施《中华人民共和国工会法》办法.md",
+  "title": "广东省实施《中华人民共和国工会法》办法",
+  "bbbs": "ff8081818c24df58018c5d1e4fad31b8",
+  "docx": [
+   {
+    "path": "regions/provinces/guangdong/regulations/local-regulations/files/广东省实施《中华人民共和国工会法》办法-ad31b8.docx",
+    "bytes": 24379,
+    "sha256": "64679f4b199c5ec6785d8a494cdc6f525c4e97f5b139b3b40d6c15ba9836a4fb"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/guangdong/regulations/local-regulations/广东省工会劳动法律监督条例.md",
+  "title": "广东省工会劳动法律监督条例",
+  "bbbs": "4028abcc61277793016127f406eb3412",
+  "docx": [
+   {
+    "path": "regions/provinces/guangdong/regulations/local-regulations/files/广东省工会劳动法律监督条例-eb3412.docx",
+    "bytes": 24226,
+    "sha256": "974438b174b5dd01b8516cb5901ce68ec7217a02dd4ea0111ab75896c692f817"
+   }
+  ],
+  "pdf": {
+   "bytes": 3268627,
+   "sha256": "89a9e35728d5b998dc8031b3a61049b4f91d229f26515fa7bcfbead547651d39",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/guangdong/regulations/local-regulations/广东省工伤保险条例.md",
+  "title": "广东省工伤保险条例",
+  "bbbs": "2c90e5b96a292396016b457b5cc91dc6",
+  "docx": [
+   {
+    "path": "regions/provinces/guangdong/regulations/local-regulations/files/广东省工伤保险条例-c91dc6.docx",
+    "bytes": 41903,
+    "sha256": "c74357be425bbc989b70eb77c712bea537dc6df9e54bbede7ff9354841f3b022"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/guangdong/regulations/local-regulations/广东省工资支付条例.md",
+  "title": "广东省工资支付条例",
+  "bbbs": "4028abcc6127779301612845bb5c04fa",
+  "docx": [
+   {
+    "path": "regions/provinces/guangdong/regulations/local-regulations/files/广东省工资支付条例-5c04fa.docx",
+    "bytes": 35800,
+    "sha256": "bbcfdc7e08badabfa35747d0073bcd773ae0c2681a860be794e07eb40c9e6824"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/guangdong/regulations/local-regulations/广东省社会保险基金监督条例.md",
+  "title": "广东省社会保险基金监督条例",
+  "bbbs": "4028abcc612777930161284c46b30b12",
+  "docx": [
+   {
+    "path": "regions/provinces/guangdong/regulations/local-regulations/files/广东省社会保险基金监督条例-b30b12.docx",
+    "bytes": 45380,
+    "sha256": "b0feaba1f0ee5219497ce35a5e1b77d8228d86e70277ead3f9477b97c2c6e00d"
+   }
+  ],
+  "pdf": {
+   "bytes": 17246252,
+   "sha256": "ba63766e754f2276fee0ef72754854086008746c6432c7bccc2e8613d2010b92",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/guangdong/regulations/local-regulations/广东省高等学校学生实习与毕业生就业见习条例.md",
+  "title": "广东省高等学校学生实习与毕业生就业见习条例",
+  "bbbs": "ff8080816eb1afb8016ec49f16762298",
+  "docx": [
+   {
+    "path": "regions/provinces/guangdong/regulations/local-regulations/files/广东省高等学校学生实习与毕业生就业见习条例-762298.docx",
+    "bytes": 25939,
+    "sha256": "92132e1caa114e9944c799547f432d4468d6686d356eda2744d54169b2b852a2"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/guizhou/regulations/local-regulations/贵州省人力资源市场条例.md",
+  "title": "贵州省人力资源市场条例",
+  "bbbs": "ff808181927f1276019300d018134719",
+  "docx": [
+   {
+    "path": "regions/provinces/guizhou/regulations/local-regulations/files/贵州省人力资源市场条例-134719.docx",
+    "bytes": 21856,
+    "sha256": "71df07fc43b5d66e025054d390673ed3cf58e5791e5d39cad119d822b700f89f"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/guizhou/regulations/local-regulations/贵州省企业工资集体协商条例.md",
+  "title": "贵州省企业工资集体协商条例",
+  "bbbs": "4028abcc612777930161280aa1814be0",
+  "docx": [
+   {
+    "path": "regions/provinces/guizhou/regulations/local-regulations/files/贵州省企业工资集体协商条例-814be0.docx",
+    "bytes": 23779,
+    "sha256": "8b67e46167fe170eae2dbc7ee6bfe2825e5be6083111683751936fd3d426f79a"
+   }
+  ],
+  "pdf": {
+   "bytes": 667991,
+   "sha256": "220f206b4979371135b2ccf20af273f935697ace14ab7d59db443019c6f44f93",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/guizhou/regulations/local-regulations/贵州省劳动保障监察条例.md",
+  "title": "贵州省劳动保障监察条例",
+  "bbbs": "4028abcc61277793016127c7c2830899",
+  "docx": [
+   {
+    "path": "regions/provinces/guizhou/regulations/local-regulations/files/贵州省劳动保障监察条例-830899.docx",
+    "bytes": 26277,
+    "sha256": "600d3f0e6e8a0cef82a6242ce6bb8506d6f6aedf8069d70f4b31a71681670281"
+   }
+  ],
+  "pdf": {
+   "bytes": 763618,
+   "sha256": "ef7570cdb540b5d577bad8f57699f46e68e14a08f86230f28fd804af322f15fe",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/guizhou/regulations/local-regulations/贵州省就业促进条例.md",
+  "title": "贵州省就业促进条例",
+  "bbbs": "4028abcc61277793016127cc68530cb8",
+  "docx": [
+   {
+    "path": "regions/provinces/guizhou/regulations/local-regulations/files/贵州省就业促进条例-530cb8.docx",
+    "bytes": 20540,
+    "sha256": "9a8fe6e3eaf1dad05185205582d7c232a54bc1c285d61b4a912cd08c5b68584d"
+   }
+  ],
+  "pdf": {
+   "bytes": 430883,
+   "sha256": "52ffccc71f020adb9beef6300d68780a94d5ab3d30c9db8142f7b19b05d9b932",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/guizhou/regulations/local-regulations/贵州省工会条例.md",
+  "title": "贵州省工会条例",
+  "bbbs": "ff8081819aedd63e019b11a90e10005c",
+  "docx": [
+   {
+    "path": "regions/provinces/guizhou/regulations/local-regulations/files/贵州省工会条例-10005c.docx",
+    "bytes": 23481,
+    "sha256": "068a46909dcd4c7d68a290abbf38592c2a91f98e5377a9ecda86b06e06b2a604"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/guizhou/regulations/local-regulations/贵州省工伤保险条例.md",
+  "title": "贵州省工伤保险条例",
+  "bbbs": "4028abcc61277793016127d6862b157e",
+  "docx": [
+   {
+    "path": "regions/provinces/guizhou/regulations/local-regulations/files/贵州省工伤保险条例-2b157e.docx",
+    "bytes": 22721,
+    "sha256": "3af07335b9df59afc190472c693c0d3697eb7b78dabfa347e5371665f5cee12c"
+   }
+  ],
+  "pdf": {
+   "bytes": 576233,
+   "sha256": "9c037f940f709dfe276564a8a0d45ec5178e7def1de6da6c449033dd45ccf7df",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/hainan/regulations/local-regulations/海南省劳动保障监察若干规定.md",
+  "title": "海南省劳动保障监察若干规定",
+  "bbbs": "ff80818187c2962001881ed638c43b42",
+  "docx": [
+   {
+    "path": "regions/provinces/hainan/regulations/local-regulations/files/海南省劳动保障监察若干规定-c43b42.docx",
+    "bytes": 24221,
+    "sha256": "8dad5c35a48d78592dfe3098ac31637224c3782893cf9dd70ede42421c67f6cc"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hainan/regulations/local-regulations/海南省城镇从业人员基本医疗保险条例.md",
+  "title": "海南省城镇从业人员基本医疗保险条例",
+  "bbbs": "ff8081817fd9834101800322ee0f7598",
+  "docx": [
+   {
+    "path": "regions/provinces/hainan/regulations/local-regulations/files/海南省城镇从业人员基本医疗保险条例-0f7598.doc",
+    "bytes": 46080,
+    "sha256": "3279354f1ba4bce5a3ffb140ac944971917824d3095261d19b7a9432fed024ac"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hainan/regulations/local-regulations/海南省城镇从业人员失业保险条例.md",
+  "title": "海南省城镇从业人员失业保险条例",
+  "bbbs": "ff8081819c46f9bb019cf4b722a64c5a",
+  "docx": [
+   {
+    "path": "regions/provinces/hainan/regulations/local-regulations/files/海南省城镇从业人员失业保险条例-a64c5a.docx",
+    "bytes": 20206,
+    "sha256": "7512a5311c62d94a98e4842c216a80af1e0fd0c22311e47e35c6335aeb7a5cd7"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hainan/regulations/local-regulations/海南省实施《中华人民共和国就业促进法》办法.md",
+  "title": "海南省实施《中华人民共和国就业促进法》办法",
+  "bbbs": "ff8081819bdff260019be8b748454259",
+  "docx": [
+   {
+    "path": "regions/provinces/hainan/regulations/local-regulations/files/海南省实施《中华人民共和国就业促进法》办法-454259.docx",
+    "bytes": 23938,
+    "sha256": "7c65d338c1ead1ec8829cd0278b44e4de0376b7c4d476732f84bac4b5d7ac673"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hainan/regulations/local-regulations/海南省实施《中华人民共和国工会法》若干规定.md",
+  "title": "海南省实施《中华人民共和国工会法》若干规定",
+  "bbbs": "ff80818196802109019685863d821dab",
+  "docx": [
+   {
+    "path": "regions/provinces/hainan/regulations/local-regulations/files/海南省实施《中华人民共和国工会法》若干规定-821dab.docx",
+    "bytes": 26938,
+    "sha256": "201a048bf7e37ce63409e7360ac9f95cae6162280f00af10d87dd0662c35f0b2"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hainan/regulations/local-regulations/海南经济特区工伤保险若干规定.md",
+  "title": "海南经济特区工伤保险若干规定",
+  "bbbs": "4028abcc6127779301612864c11423ae",
+  "docx": [
+   {
+    "path": "regions/provinces/hainan/regulations/local-regulations/files/海南经济特区工伤保险若干规定-1423ae.docx",
+    "bytes": 32167,
+    "sha256": "fae00dea6f562c690167b3ac79e50901a44c70c3c3da51f5eb63504d34894d29"
+   }
+  ],
+  "pdf": {
+   "bytes": 368251,
+   "sha256": "dd9aaff58990505162794a7414f5a56c987741a8c5f82bee1971a6ffd7841707",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/hebei/regulations/local-regulations/河北省人力资源市场条例.md",
+  "title": "河北省人力资源市场条例",
+  "bbbs": "ff8081818364d903018407fa1c9b754f",
+  "docx": [
+   {
+    "path": "regions/provinces/hebei/regulations/local-regulations/files/河北省人力资源市场条例-9b754f.docx",
+    "bytes": 24004,
+    "sha256": "0674023c0f6961b5c752372241d609f907f5b03d7ee0ef4126d35a10e0f1063f"
+   }
+  ],
+  "pdf": {
+   "bytes": 1217372,
+   "sha256": "35c9a7a7793cfee94e45a623ddb5e0967867ee4cb4798784865ef8ab0f0ed74f",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/hebei/regulations/local-regulations/河北省农民工权益保障条例.md",
+  "title": "河北省农民工权益保障条例",
+  "bbbs": "ff808181927f12760193d2517b883bcc",
+  "docx": [
+   {
+    "path": "regions/provinces/hebei/regulations/local-regulations/files/河北省农民工权益保障条例-883bcc.docx",
+    "bytes": 23305,
+    "sha256": "3c0feef3358b6ff4ab406129158e5a38db075125a69bf962b2840b0663908a34"
+   }
+  ],
+  "pdf": {
+   "bytes": 2031565,
+   "sha256": "acec100a8c71ca58a528116cd6881e1641dca34aac9593407f20de79888f40eb",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/hebei/regulations/local-regulations/河北省劳动和社会保障监察条例.md",
+  "title": "河北省劳动和社会保障监察条例",
+  "bbbs": "4028abcc612777930161287697f93483",
+  "docx": [
+   {
+    "path": "regions/provinces/hebei/regulations/local-regulations/files/河北省劳动和社会保障监察条例-f93483.docx",
+    "bytes": 24738,
+    "sha256": "97f256100fbd3b3f7933c4c3d549df46bb0400192094af1e0ef27cb2fdd4e8ac"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hebei/regulations/local-regulations/河北省实施《中华人民共和国就业促进法》办法.md",
+  "title": "河北省实施《中华人民共和国就业促进法》办法",
+  "bbbs": "4028abcc61277793016128093f6b4b28",
+  "docx": [
+   {
+    "path": "regions/provinces/hebei/regulations/local-regulations/files/河北省实施《中华人民共和国就业促进法》办法-6b4b28.docx",
+    "bytes": 27341,
+    "sha256": "4b74dc910a6de0342f199ff671c1409a5487e14e0ee4e756bd9b5b24dfbb40d5"
+   }
+  ],
+  "pdf": {
+   "bytes": 14092055,
+   "sha256": "ced1111c95ecbc3e1af1d5fb97965535d2d7649967f20941dc4dc62684cd103d",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/hebei/regulations/local-regulations/河北省实施《中华人民共和国工会法》办法.md",
+  "title": "河北省实施《中华人民共和国工会法》办法",
+  "bbbs": "ff808181927f0e7b0193b8ac132c75cd",
+  "docx": [
+   {
+    "path": "regions/provinces/hebei/regulations/local-regulations/files/河北省实施《中华人民共和国工会法》办法-2c75cd.docx",
+    "bytes": 27766,
+    "sha256": "2633f68937d15b3fb00764d348673914f50afc7d6a72d7cbb6e66a1f338db317"
+   }
+  ],
+  "pdf": {
+   "bytes": 2053280,
+   "sha256": "babed746002740db919da40dfa1286007ba95f0e87ee9692a4725edc69d43172",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/hebei/regulations/local-regulations/河北省工会劳动法律监督条例.md",
+  "title": "河北省工会劳动法律监督条例",
+  "bbbs": "2c90e5ba681ce0d401688344f182191d",
+  "docx": [
+   {
+    "path": "regions/provinces/hebei/regulations/local-regulations/files/河北省工会劳动法律监督条例-82191d.docx",
+    "bytes": 15584,
+    "sha256": "66500ade59e1c999120508aa51080bdb9be90377d1465a8bde8e417f59aee717"
+   }
+  ],
+  "pdf": {
+   "bytes": 797170,
+   "sha256": "fb78377ab523d0382925bd78fab041f3326cabc5a3fa5e318feb242b453841f3",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/heilongjiang/regulations/local-regulations/黑龙江省劳动保障监察条例.md",
+  "title": "黑龙江省劳动保障监察条例",
+  "bbbs": "ff8080816ecb2302016ed4c397b24226",
+  "docx": [
+   {
+    "path": "regions/provinces/heilongjiang/regulations/local-regulations/files/黑龙江省劳动保障监察条例-b24226.doc",
+    "bytes": 51200,
+    "sha256": "a9b04e33611a5f86b61a65fb4f9f2dfcf8218cb91244f6bcd8cb7e033da166b1"
+   }
+  ],
+  "pdf": {
+   "bytes": 4575165,
+   "sha256": "2feb26bd7a8edab8292361e1fde1bea3b775e221b3964fdd603b7aa0510d5581",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/heilongjiang/regulations/local-regulations/黑龙江省劳动力市场管理条例.md",
+  "title": "黑龙江省劳动力市场管理条例",
+  "bbbs": "ff8080816ecb2302016ed48cc64a3d61",
+  "docx": [
+   {
+    "path": "regions/provinces/heilongjiang/regulations/local-regulations/files/黑龙江省劳动力市场管理条例-4a3d61.doc",
+    "bytes": 44032,
+    "sha256": "103394dacdb4c273bcd7b52f407ee45af301882dadb325941d0e99ddf9763533"
+   }
+  ],
+  "pdf": {
+   "bytes": 3142231,
+   "sha256": "5e8756430d5ef5ce192e4f40c167655ccccecd20ed02066f8efe20cf98d37428",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/heilongjiang/regulations/local-regulations/黑龙江省失业保险条例.md",
+  "title": "黑龙江省失业保险条例",
+  "bbbs": "ff8080816eb1afb8016ec06dec9d7c7b",
+  "docx": [
+   {
+    "path": "regions/provinces/heilongjiang/regulations/local-regulations/files/黑龙江省失业保险条例-9d7c7b.docx",
+    "bytes": 23222,
+    "sha256": "9b583dd76029fac527615beb146877c4c3545f940af346dc6ede5ed2951b2b95"
+   }
+  ],
+  "pdf": {
+   "bytes": 3901062,
+   "sha256": "444cd9729a87ba8d8437c318a5a6345bc25ed285551c60729363f06e795cb278",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/heilongjiang/regulations/local-regulations/黑龙江省女职工劳动保护条例.md",
+  "title": "黑龙江省女职工劳动保护条例",
+  "bbbs": "ff8081817bdd7fb7017be2f051fe3879",
+  "docx": [
+   {
+    "path": "regions/provinces/heilongjiang/regulations/local-regulations/files/黑龙江省女职工劳动保护条例-fe3879.docx",
+    "bytes": 31665,
+    "sha256": "cc8c41cc47e786f9d54ba9d719ffc3e9ee7630fc830ebdd9a925d47994eedc9e"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/heilongjiang/regulations/local-regulations/黑龙江省工会条例.md",
+  "title": "黑龙江省工会条例",
+  "bbbs": "ff808181927f0931019467958af20449",
+  "docx": [
+   {
+    "path": "regions/provinces/heilongjiang/regulations/local-regulations/files/黑龙江省工会条例-f20449.docx",
+    "bytes": 22035,
+    "sha256": "afc9aa4eb57a9fecd8493c684d750148b3cd7f22b58f2dd69346e7ccc81be159"
+   }
+  ],
+  "pdf": {
+   "bytes": 316030,
+   "sha256": "ce3dd39e2006d686280106f65c16b7e43b9353b3dd18822b14998c579e383469",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/henan/regulations/local-regulations/河南省人力资源市场条例.md",
+  "title": "河南省人力资源市场条例",
+  "bbbs": "ff808181844230ec01847ad060c233cb",
+  "docx": [
+   {
+    "path": "regions/provinces/henan/regulations/local-regulations/files/河南省人力资源市场条例-c233cb.docx",
+    "bytes": 28584,
+    "sha256": "2c7d59013719e9b5db90471e635556ebafbc03e60a78f9f5d21dee6ec0a2829e"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/henan/regulations/local-regulations/河南省人民代表大会常务委员会关于加强新形势下就业工作的决定.md",
+  "title": "河南省人民代表大会常务委员会关于加强新形势下就业工作的决定",
+  "bbbs": "4028abcc61277793016127d35d1e128f",
+  "docx": [
+   {
+    "path": "regions/provinces/henan/regulations/local-regulations/files/河南省人民代表大会常务委员会关于加强新形势下就业工作的决定-1e128f.docx",
+    "bytes": 18228,
+    "sha256": "9b7d6c0525e8f772809e82bf605970ff48d80f4193bffe2340c7d75beb0b79e2"
+   }
+  ],
+  "pdf": {
+   "bytes": 1741717,
+   "sha256": "f109a4602dceec3b40c0d9d72f46a9bb072e0031e9aab3ab61bc14d90c932929",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/henan/regulations/local-regulations/河南省企业工资集体协商条例.md",
+  "title": "河南省企业工资集体协商条例",
+  "bbbs": "4028abcc61277793016127ec05092bb6",
+  "docx": [
+   {
+    "path": "regions/provinces/henan/regulations/local-regulations/files/河南省企业工资集体协商条例-092bb6.docx",
+    "bytes": 22682,
+    "sha256": "c753e08725f991aa8a061604f6fc742b4b5db3319deafa192e0fd85e3359841d"
+   }
+  ],
+  "pdf": {
+   "bytes": 3667838,
+   "sha256": "770b540cfee3e1c7ee419149c6b27a7a7e5b001fd97a475e5a9eeb4491850b6f",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/henan/regulations/local-regulations/河南省劳动保障监察条例.md",
+  "title": "河南省劳动保障监察条例",
+  "bbbs": "4028abcc6127779301612840a4e10026",
+  "docx": [
+   {
+    "path": "regions/provinces/henan/regulations/local-regulations/files/河南省劳动保障监察条例-e10026.docx",
+    "bytes": 23163,
+    "sha256": "be02e53e390260432f312073a47249a2dcb224cc572de749ad1aceaf36265b3b"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/henan/regulations/local-regulations/河南省失业保险条例.md",
+  "title": "河南省失业保险条例",
+  "bbbs": "ff808181927f127601944e3471db145f",
+  "docx": [
+   {
+    "path": "regions/provinces/henan/regulations/local-regulations/files/河南省失业保险条例-db145f.docx",
+    "bytes": 21854,
+    "sha256": "a0d0ff0b61481ebe95d0a0255e977fd587e0a0742cde4a6659f59248a179c6e7"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/henan/regulations/local-regulations/河南省就业促进条例.md",
+  "title": "河南省就业促进条例",
+  "bbbs": "ff8081819aedd63e019b4e0e73e90eb0",
+  "docx": [
+   {
+    "path": "regions/provinces/henan/regulations/local-regulations/files/河南省就业促进条例-e90eb0.docx",
+    "bytes": 21787,
+    "sha256": "97d29fc0cce632117ef9a654c1aa3b6d9634965722f89610b1b36a9a3853c547"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/henan/regulations/local-regulations/河南省工会条例.md",
+  "title": "河南省工会条例",
+  "bbbs": "ff808181927f12760192ace302a7004c",
+  "docx": [
+   {
+    "path": "regions/provinces/henan/regulations/local-regulations/files/河南省工会条例-a7004c.docx",
+    "bytes": 22901,
+    "sha256": "81f387af5225d18e0464b2df95cf4ab9f4dbc9b90dafd978f9838fb59469f346"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/henan/regulations/local-regulations/河南省工伤保险条例.md",
+  "title": "河南省工伤保险条例",
+  "bbbs": "ff8081819ff54a6401a040fd57680354",
+  "docx": [
+   {
+    "path": "regions/provinces/henan/regulations/local-regulations/files/河南省工伤保险条例-680354.docx",
+    "bytes": 25434,
+    "sha256": "d7de44d1d3a02a15869e736bd21c3b1a9df8f5fcf502143608d18bb461ac9f18"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/henan/regulations/local-regulations/河南省工伤保险条例.md",
+  "title": "河南省工伤保险条例",
+  "bbbs": "4028abcc61277793016127d241f411ab",
+  "docx": [
+   {
+    "path": "regions/provinces/henan/regulations/local-regulations/files/河南省工伤保险条例-f411ab.docx",
+    "bytes": 22853,
+    "sha256": "eb63dab369d8127ce94ee64a6b6d355c078d9f2741412e39cb44c9d40e2a37af"
+   }
+  ],
+  "pdf": {
+   "bytes": 5222503,
+   "sha256": "541c238869a58dd13855084ec21ede720b0cd6a36b830fa827874d67f8ffceef",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/henan/regulations/local-regulations/河南省职业培训条例.md",
+  "title": "河南省职业培训条例",
+  "bbbs": "4028abcc612777930161282af9de6dee",
+  "docx": [
+   {
+    "path": "regions/provinces/henan/regulations/local-regulations/files/河南省职业培训条例-de6dee.docx",
+    "bytes": 25792,
+    "sha256": "456808a11b5abca36c2ae79c83bd077615481b78a0e9dffdefe7dd5ded92cbb5"
+   }
+  ],
+  "pdf": {
+   "bytes": 3904721,
+   "sha256": "d6e0d1c77228ec385ebda074c283d5960325ccfcd01780447fa8d1e0bdcf5b59",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/henan/regulations/local-regulations/河南省职业病防治条例.md",
+  "title": "河南省职业病防治条例",
+  "bbbs": "4028abcc612777930161283d0a177c81",
+  "docx": [
+   {
+    "path": "regions/provinces/henan/regulations/local-regulations/files/河南省职业病防治条例-177c81.docx",
+    "bytes": 22972,
+    "sha256": "794d3dfc3ad068bc260a182ae9c52961a3efc0d3c964aeedcefd1716a5a09093"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hubei/regulations/local-regulations/湖北省人力资源市场条例.md",
+  "title": "湖北省人力资源市场条例",
+  "bbbs": "ff80808175265dd401768cfa583d0e06",
+  "docx": [
+   {
+    "path": "regions/provinces/hubei/regulations/local-regulations/files/湖北省人力资源市场条例-3d0e06.doc",
+    "bytes": 50176,
+    "sha256": "aa14bca251bf1520d23b871a18c2a8182b645f67b69c59f23a6eb4aca0756a6d"
+   }
+  ],
+  "pdf": {
+   "bytes": 3865498,
+   "sha256": "38cc087ea2902741fbdcbe0753075d2884c915912ed3a53485ac98d489ecbaf3",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/hubei/regulations/local-regulations/湖北省企业工会条例.md",
+  "title": "湖北省企业工会条例",
+  "bbbs": "ff808181927f0e7b019614a1b28b54c8",
+  "docx": [
+   {
+    "path": "regions/provinces/hubei/regulations/local-regulations/files/湖北省企业工会条例-8b54c8.docx",
+    "bytes": 22369,
+    "sha256": "45aee5e29ea466592133efffaaad88ac1ba68bdb8b0eee89cd6a147c77fd2667"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hubei/regulations/local-regulations/湖北省劳动和社会保障监察条例.md",
+  "title": "湖北省劳动和社会保障监察条例",
+  "bbbs": "4028abcc6127779301612802ad46444c",
+  "docx": [
+   {
+    "path": "regions/provinces/hubei/regulations/local-regulations/files/湖北省劳动和社会保障监察条例-46444c.docx",
+    "bytes": 23370,
+    "sha256": "4411e4ba9963c999ced222181688bf9752fa5aa97d3a740d500e27b49e9ce2b9"
+   }
+  ],
+  "pdf": {
+   "bytes": 144780,
+   "sha256": "7af2efeba349926bd7c289c0ff61d72356bc54d3e6ab6d8e5a285e8cc843bcee",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/hubei/regulations/local-regulations/湖北省实施《中华人民共和国工会法》办法.md",
+  "title": "湖北省实施《中华人民共和国工会法》办法",
+  "bbbs": "ff8081818c24df58018c5d2b016632a8",
+  "docx": [
+   {
+    "path": "regions/provinces/hubei/regulations/local-regulations/files/湖北省实施《中华人民共和国工会法》办法-6632a8.docx",
+    "bytes": 24957,
+    "sha256": "d9041bc29fbe1b8e4c47522172cc61910db0431970062c36ae020b9dbe01ae6d"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hubei/regulations/local-regulations/湖北省就业促进条例.md",
+  "title": "湖北省就业促进条例",
+  "bbbs": "ff80808172b5fee801730f13063127e4",
+  "docx": [
+   {
+    "path": "regions/provinces/hubei/regulations/local-regulations/files/湖北省就业促进条例-3127e4.doc",
+    "bytes": 72869,
+    "sha256": "0a159b609c31d28e927cf5b5d1e98132da24305a9598e000dc6106e3e3ab931e"
+   }
+  ],
+  "pdf": {
+   "bytes": 6289092,
+   "sha256": "3ab4ae4feacfdec651f4c6b59a2e8492b6dbf6c003337b4bc30b460e84b082b1",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/hubei/regulations/local-regulations/湖北省工会劳动法律监督条例.md",
+  "title": "湖北省工会劳动法律监督条例",
+  "bbbs": "ff808181927f127601929eb253566568",
+  "docx": [
+   {
+    "path": "regions/provinces/hubei/regulations/local-regulations/files/湖北省工会劳动法律监督条例-566568.docx",
+    "bytes": 23445,
+    "sha256": "be5b6d5ca296a457a3aac45bf9ef8cfdcef6ab5c605def920b59e7050ed0992f"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hunan/regulations/local-regulations/湖南省人力资源市场条例.md",
+  "title": "湖南省人力资源市场条例",
+  "bbbs": "ff808181927f12760196a4bfed8a17f1",
+  "docx": [
+   {
+    "path": "regions/provinces/hunan/regulations/local-regulations/files/湖南省人力资源市场条例-8a17f1.docx",
+    "bytes": 20429,
+    "sha256": "e870bf98631e2269eb7cc090486b1872a9a06d7cf0aaa1a4c522f140c5044928"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hunan/regulations/local-regulations/湖南省企业工资集体协商条例.md",
+  "title": "湖南省企业工资集体协商条例",
+  "bbbs": "4028abcc61277793016128188817593e",
+  "docx": [
+   {
+    "path": "regions/provinces/hunan/regulations/local-regulations/files/湖南省企业工资集体协商条例-17593e.docx",
+    "bytes": 31532,
+    "sha256": "dd447a027006d01bce2564380ccfccb575a8301d01a35dc3dcdaccc869f03776"
+   }
+  ],
+  "pdf": {
+   "bytes": 9825991,
+   "sha256": "9fe279217f8283e56ff729f63b8b80fa43553c543aeb06046d17a9029f1fbec1",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/hunan/regulations/local-regulations/湖南省劳动保障监察条例.md",
+  "title": "湖南省劳动保障监察条例",
+  "bbbs": "ff808181927f09310193f2640f913ace",
+  "docx": [
+   {
+    "path": "regions/provinces/hunan/regulations/local-regulations/files/湖南省劳动保障监察条例-913ace.docx",
+    "bytes": 21651,
+    "sha256": "1de029a279e242909c5ffc35305ca952ece3eea6bffcbb8ee96d8127a58f6379"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hunan/regulations/local-regulations/湖南省实施《中华人民共和国就业促进法》办法.md",
+  "title": "湖南省实施《中华人民共和国就业促进法》办法",
+  "bbbs": "ff8081817bc08c03017bc2e5e4f700c3",
+  "docx": [
+   {
+    "path": "regions/provinces/hunan/regulations/local-regulations/files/湖南省实施《中华人民共和国就业促进法》办法-f700c3.docx",
+    "bytes": 27304,
+    "sha256": "72c70a19bfaa8f8f3a7e6ddd8c108b63368c4beec21bdc9a34f05c394376d7a3"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hunan/regulations/local-regulations/湖南省实施《中华人民共和国工会法》办法.md",
+  "title": "湖南省实施《中华人民共和国工会法》办法",
+  "bbbs": "ff8081817bc08894017bc2dcf21e0082",
+  "docx": [
+   {
+    "path": "regions/provinces/hunan/regulations/local-regulations/files/湖南省实施《中华人民共和国工会法》办法-1e0082.docx",
+    "bytes": 21648,
+    "sha256": "2a742f26ea3b739e2cfa495649e38336c985c591ae912d270d4ab320910ade20"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hunan/regulations/local-regulations/湖南省工会劳动法律监督条例.md",
+  "title": "湖南省工会劳动法律监督条例",
+  "bbbs": "ff8081818364d90301838826085062b5",
+  "docx": [
+   {
+    "path": "regions/provinces/hunan/regulations/local-regulations/files/湖南省工会劳动法律监督条例-5062b5.docx",
+    "bytes": 13509,
+    "sha256": "8cc12370e7e1d9bf3b469b60583f770eefac1ded2e166788cdea54b157ef2eb2"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hunan/regulations/local-regulations/湖南省社会保险基金监管条例.md",
+  "title": "湖南省社会保险基金监管条例",
+  "bbbs": "ff8081818c24da9e018c391bf8685a7a",
+  "docx": [
+   {
+    "path": "regions/provinces/hunan/regulations/local-regulations/files/湖南省社会保险基金监管条例-685a7a.docx",
+    "bytes": 22119,
+    "sha256": "e976ecb13fa3b5c9ee878b2a8e2b675e61f35e1cb9da14fc6bafc2940a61705e"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/hunan/regulations/local-regulations/湖南省职业病防治若干规定.md",
+  "title": "湖南省职业病防治若干规定",
+  "bbbs": "ff8081818364d9f60183b6d4cd700d7d",
+  "docx": [
+   {
+    "path": "regions/provinces/hunan/regulations/local-regulations/files/湖南省职业病防治若干规定-700d7d.docx",
+    "bytes": 23153,
+    "sha256": "89623a6e193dec4f53288807332897453860d4831261e21871053d87836b33fc"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/jiangsu/regulations/local-regulations/江苏省人力资源市场条例.md",
+  "title": "江苏省人力资源市场条例",
+  "bbbs": "ff808181927f0e7b01967b6ec6a447d5",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangsu/regulations/local-regulations/files/江苏省人力资源市场条例-a447d5.docx",
+    "bytes": 22905,
+    "sha256": "25b9293e9c0c95fc35c4ce77ecd504eec1ecd7716066d2f6829fa5a116723a4c"
+   }
+  ],
+  "pdf": {
+   "bytes": 6310950,
+   "sha256": "20cf24b3841de47b36ec32c4f14d7e6e7cc74489d01a863157f483e4ac531fad",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/jiangsu/regulations/local-regulations/江苏省劳动合同条例.md",
+  "title": "江苏省劳动合同条例",
+  "bbbs": "4028abcc612777930161283c39577ba8",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangsu/regulations/local-regulations/files/江苏省劳动合同条例-577ba8.docx",
+    "bytes": 30342,
+    "sha256": "dfa8a54d20d227dc99a1a48b26b08ab3469913a58fece996ceccb8fa34fc7628"
+   }
+  ],
+  "pdf": {
+   "bytes": 3367698,
+   "sha256": "cb99bcfdbb9df91f2e6931aaa13d14a35db630310807a3bfb655daff05414183",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/jiangsu/regulations/local-regulations/江苏省实施《中华人民共和国工会法》办法.md",
+  "title": "江苏省实施《中华人民共和国工会法》办法",
+  "bbbs": "ff808181971b89730197c3c9d09c0a94",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangsu/regulations/local-regulations/files/江苏省实施《中华人民共和国工会法》办法-9c0a94.docx",
+    "bytes": 26975,
+    "sha256": "222a9ab062a1378dc1505c41cfe966a54e73e9e2a728f3b904393427d9a03a1f"
+   }
+  ],
+  "pdf": {
+   "bytes": 7587441,
+   "sha256": "684926d22120655220250650011253607bf561413be2e8c50c53efeb9da4e6bc",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/jiangsu/regulations/local-regulations/江苏省就业促进条例.md",
+  "title": "江苏省就业促进条例",
+  "bbbs": "ff8081817e9b236f017f005b55a117e9",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangsu/regulations/local-regulations/files/江苏省就业促进条例-a117e9.doc",
+    "bytes": 67644,
+    "sha256": "b7985093a30315e690d5bf8fcba17c64887d181f175e5efd1f9f69e17da378c4"
+   }
+  ],
+  "pdf": {
+   "bytes": 11844723,
+   "sha256": "de4d512a6ff8e8a1bb39df98ebaa14eaebff809c07440f8cfba8b3d06bf8e279",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/jiangsu/regulations/local-regulations/江苏省工会劳动法律监督条例.md",
+  "title": "江苏省工会劳动法律监督条例",
+  "bbbs": "ff80808174a08a160174bf4111d71108",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangsu/regulations/local-regulations/files/江苏省工会劳动法律监督条例-d71108.doc",
+    "bytes": 52168,
+    "sha256": "4cc59c2c8e01eb24644e11bae991f4c7e586279c15b457c41733b9763120b2e0"
+   }
+  ],
+  "pdf": {
+   "bytes": 4919798,
+   "sha256": "82f9fedb891811871230efc7f5369da0b19ca5f21ceae56bbb95c442e1810edf",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/jiangsu/regulations/local-regulations/江苏省工资支付条例.md",
+  "title": "江苏省工资支付条例",
+  "bbbs": "ff8081819e48b44c019eee46da3b019a",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangsu/regulations/local-regulations/files/江苏省工资支付条例-3b019a.docx",
+    "bytes": 25644,
+    "sha256": "2dd3922112d888766a46967c455c40a2c4f4d5d868a3bb5f501c8f7db9eff0bc"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/jiangsu/regulations/local-regulations/江苏省社会保险基金监督条例.md",
+  "title": "江苏省社会保险基金监督条例",
+  "bbbs": "ff80808174a08f0e0174bf4dc82b116f",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangsu/regulations/local-regulations/files/江苏省社会保险基金监督条例-2b116f.doc",
+    "bytes": 94404,
+    "sha256": "44fa5bba2bf9ceda80bd9f25058deac58ad7f2d737042293832584becadfa470"
+   }
+  ],
+  "pdf": {
+   "bytes": 11891254,
+   "sha256": "b9eb440ef5fb11b93827ea2b2d64690f499002614c45f874601b40b01291f338",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/jiangsu/regulations/local-regulations/江苏省社会保险费征缴条例.md",
+  "title": "江苏省社会保险费征缴条例",
+  "bbbs": "ff80808174a08a160174bf48e3b51160",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangsu/regulations/local-regulations/files/江苏省社会保险费征缴条例-b51160.doc",
+    "bytes": 65246,
+    "sha256": "13f430be0ce87afcd39785ae34dbbca4a9ea7c46b77faaa68792ae659ca20f25"
+   }
+  ],
+  "pdf": {
+   "bytes": 6964702,
+   "sha256": "37adf9da2c61322c2b489f9a2ea36fef2f5a256694f4ae19b197a06e248d149b",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/jiangsu/regulations/local-regulations/江苏省职业病防治条例.md",
+  "title": "江苏省职业病防治条例",
+  "bbbs": "ff8081818d736ac1018dc41bd557678f",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangsu/regulations/local-regulations/files/江苏省职业病防治条例-57678f.docx",
+    "bytes": 23266,
+    "sha256": "29b24bf9e4c5086eecba4d6fc2f119a6c81403cc63cb0d7feb06237b2dd61015"
+   }
+  ],
+  "pdf": {
+   "bytes": 5914380,
+   "sha256": "3a4e475d1f6efcdaa9207e6dfbe2455fb19055933d6963446ba3a52945a8b8ff",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/jiangxi/regulations/local-regulations/江西省人力资源市场条例.md",
+  "title": "江西省人力资源市场条例",
+  "bbbs": "ff808181864a5d9101864a6709ac0025",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangxi/regulations/local-regulations/files/江西省人力资源市场条例-ac0025.docx",
+    "bytes": 23741,
+    "sha256": "a19ae543ab80a854aee780024a6962cb8423134b7550e117e62bf9b0e385920f"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/jiangxi/regulations/local-regulations/江西省企业工会工作条例.md",
+  "title": "江西省企业工会工作条例",
+  "bbbs": "ff8081818364d9f6018369a86bc71072",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangxi/regulations/local-regulations/files/江西省企业工会工作条例-c71072.docx",
+    "bytes": 25056,
+    "sha256": "b2dce4f170ca24630685df28f11402be74b82e0061efd04cbcae8b051e9d3a18"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/jiangxi/regulations/local-regulations/江西省企业工资集体协商条例.md",
+  "title": "江西省企业工资集体协商条例",
+  "bbbs": "4028abcc6127779301612804bf6e465e",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangxi/regulations/local-regulations/files/江西省企业工资集体协商条例-6e465e.docx",
+    "bytes": 21760,
+    "sha256": "08684a8fa0a2fa76f14a88bacd33d43aee81f2179abccce107e79c51ef1817ba"
+   }
+  ],
+  "pdf": {
+   "bytes": 2435751,
+   "sha256": "9e4d7424eec22a5d918c7feb91d5409da11aff6c2e1a6b09aae379128b3bb602",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/jiangxi/regulations/local-regulations/江西省劳动保障监察条例.md",
+  "title": "江西省劳动保障监察条例",
+  "bbbs": "ff80818191d60d4101920ad7b1493c06",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangxi/regulations/local-regulations/files/江西省劳动保障监察条例-493c06.docx",
+    "bytes": 21533,
+    "sha256": "d377ebd837d342b8fc58f1a342527fa69a65241fdb1de31d9bde553bdc856582"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/jiangxi/regulations/local-regulations/江西省实施《中华人民共和国工会法》办法.md",
+  "title": "江西省实施《中华人民共和国工会法》办法",
+  "bbbs": "4028abcc612777930161286c599e2ac3",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangxi/regulations/local-regulations/files/江西省实施《中华人民共和国工会法》办法-9e2ac3.docx",
+    "bytes": 28798,
+    "sha256": "c1d089dd45181679dc7bf5300d38238d095dd00f4a61eb61f79852fdd8aaa29e"
+   }
+  ],
+  "pdf": {
+   "bytes": 3629858,
+   "sha256": "56b3f8ebf56dcacb8ec92d657540c10aa577d3bd6a8ab0909a3075d3f9dd0eb2",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/jiangxi/regulations/local-regulations/江西省就业促进条例.md",
+  "title": "江西省就业促进条例",
+  "bbbs": "ff80818191d62db001920ac8c62b249d",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangxi/regulations/local-regulations/files/江西省就业促进条例-2b249d.docx",
+    "bytes": 24979,
+    "sha256": "fa24b571aaafeb7eac2eea7ec3257f9014541d7058512b73791188d62ed397bf"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/jiangxi/regulations/local-regulations/江西省工会劳动法律监督条例.md",
+  "title": "江西省工会劳动法律监督条例",
+  "bbbs": "2c90e5b96214c5010162f59548b02599",
+  "docx": [
+   {
+    "path": "regions/provinces/jiangxi/regulations/local-regulations/files/江西省工会劳动法律监督条例-b02599.docx",
+    "bytes": 28554,
+    "sha256": "5a9e6c2a4d28d0c2e0cc2a56bc7ea7c75f08631966f310f9e6669595fa8c281b"
+   }
+  ],
+  "pdf": {
+   "bytes": 291259,
+   "sha256": "67d22a69c9ef55d3924c4a01b192dc2e1776e6ee090f1c6db5cc331ecd6fe99f",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/jilin/regulations/local-regulations/吉林省人力资源市场条例.md",
+  "title": "吉林省人力资源市场条例",
+  "bbbs": "ff808181927f0e7b0192ade5628c623a",
+  "docx": [
+   {
+    "path": "regions/provinces/jilin/regulations/local-regulations/files/吉林省人力资源市场条例-8c623a.docx",
+    "bytes": 23461,
+    "sha256": "2be56a4881fc1775ea303f830932cddd3c610a534675b88f9b536bf1341f3b09"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/jilin/regulations/local-regulations/吉林省企业工资集体协商条例.md",
+  "title": "吉林省企业工资集体协商条例",
+  "bbbs": "2c90e5b9617a3e490161c148ac9e0569",
+  "docx": [
+   {
+    "path": "regions/provinces/jilin/regulations/local-regulations/files/吉林省企业工资集体协商条例-9e0569.doc",
+    "bytes": 41472,
+    "sha256": "2874bfabc393ea273052629464d3dae6fb601e280856d8478944a30d490d03f2"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/jilin/regulations/local-regulations/吉林省劳动保障监察条例.md",
+  "title": "吉林省劳动保障监察条例",
+  "bbbs": "ff808181927f0e7b01941f61ffdc6fde",
+  "docx": [
+   {
+    "path": "regions/provinces/jilin/regulations/local-regulations/files/吉林省劳动保障监察条例-dc6fde.docx",
+    "bytes": 19321,
+    "sha256": "12f14f8a5da14b56aac145557c0c75017230fd3bd11c0ee5c38e0a8c4388719f"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/jilin/regulations/local-regulations/吉林省劳动合同条例.md",
+  "title": "吉林省劳动合同条例",
+  "bbbs": "ff808181927f0e7b01941f6140e26fce",
+  "docx": [
+   {
+    "path": "regions/provinces/jilin/regulations/local-regulations/files/吉林省劳动合同条例-e26fce.docx",
+    "bytes": 22921,
+    "sha256": "97c28942dd5578b77a9767bfb17aa7bd425bee7868f0c547b521e9d0d9c8077c"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/jilin/regulations/local-regulations/吉林省外商投资企业、私营企业工会条例.md",
+  "title": "吉林省外商投资企业、私营企业工会条例",
+  "bbbs": "4028abcc61277793016127c7054207db",
+  "docx": [
+   {
+    "path": "regions/provinces/jilin/regulations/local-regulations/files/吉林省外商投资企业、私营企业工会条例-4207db.docx",
+    "bytes": 27012,
+    "sha256": "3b464e87172ebc2100da9e3999e58d313bc9dd6fa720e1849c002f2045a42f38"
+   }
+  ],
+  "pdf": {
+   "bytes": 214900,
+   "sha256": "a109abd6ee468b4745e50f197d1a778e5c2d9bab72eb493dcdf6db68cd13fb95",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/jilin/regulations/local-regulations/吉林省实施《中华人民共和国工会法》若干规定.md",
+  "title": "吉林省实施《中华人民共和国工会法》若干规定",
+  "bbbs": "ff8081819ff54a6401a01377d55b15b2",
+  "docx": [
+   {
+    "path": "regions/provinces/jilin/regulations/local-regulations/files/吉林省实施《中华人民共和国工会法》若干规定-5b15b2.docx",
+    "bytes": 23930,
+    "sha256": "8571363e253a8b6ca906d607739e71408a4aad565a74b7959317fea8b823ac9e"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/jilin/regulations/local-regulations/吉林省就业促进条例.md",
+  "title": "吉林省就业促进条例",
+  "bbbs": "2c90e5b9617a3e490161c13deb920534",
+  "docx": [
+   {
+    "path": "regions/provinces/jilin/regulations/local-regulations/files/吉林省就业促进条例-920534.doc",
+    "bytes": 89600,
+    "sha256": "6e64efa1bd6ef3faba07f4ecb4dd0c6704e2042d6c50e7fa0fca6aefc6014147"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/jilin/regulations/local-regulations/长春经济技术开发区劳动管理规定.md",
+  "title": "长春经济技术开发区劳动管理规定",
+  "bbbs": "4028abcc61277793016127f26a4b323c",
+  "docx": [
+   {
+    "path": "regions/provinces/jilin/regulations/local-regulations/files/长春经济技术开发区劳动管理规定-4b323c.docx",
+    "bytes": 24318,
+    "sha256": "796ccdeb0ef9401187a011488c96cf35e9c06412d2cc47e03f010cb44f02aace"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/liaoning/regulations/local-regulations/辽宁省人力资源市场条例.md",
+  "title": "辽宁省人力资源市场条例",
+  "bbbs": "ff808181927f12760193ec6834103779",
+  "docx": [
+   {
+    "path": "regions/provinces/liaoning/regulations/local-regulations/files/辽宁省人力资源市场条例-103779.docx",
+    "bytes": 22523,
+    "sha256": "18777fb0f890ba5e08cadd2e458a368a8831a485e018ba64dc4251b353c03ca1"
+   }
+  ],
+  "pdf": {
+   "bytes": 790994,
+   "sha256": "dc67398f22ef7bd35a7d791b79f2ea36ae386118faadbcbed267f1ab17decc4d",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/liaoning/regulations/local-regulations/辽宁省企业工资集体协商条例.md",
+  "title": "辽宁省企业工资集体协商条例",
+  "bbbs": "4028abcc6127779301612806044747b2",
+  "docx": [
+   {
+    "path": "regions/provinces/liaoning/regulations/local-regulations/files/辽宁省企业工资集体协商条例-4747b2.docx",
+    "bytes": 28108,
+    "sha256": "88ee0a31d3dc54f77af526a6ffa822f1231792d4ee3b5b3f479b8850b93162d1"
+   }
+  ],
+  "pdf": {
+   "bytes": 1531101,
+   "sha256": "c71f5ca3abedd088d3db9bf329b249814a5d5b80770054f90448f8da48deb438",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/liaoning/regulations/local-regulations/辽宁省劳动监察条例.md",
+  "title": "辽宁省劳动监察条例",
+  "bbbs": "4028abcc6127779301612866c70f258d",
+  "docx": [
+   {
+    "path": "regions/provinces/liaoning/regulations/local-regulations/files/辽宁省劳动监察条例-0f258d.docx",
+    "bytes": 24032,
+    "sha256": "a941cbd94378be11d777ee034173229c706c9443b85f48fcc7d513485e1647f1"
+   }
+  ],
+  "pdf": {
+   "bytes": 1569288,
+   "sha256": "2c7fca71b2e81dfcf5ad835937b38e814d5b812f86e713e3abdf3fcd742100af",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/liaoning/regulations/local-regulations/辽宁省失业保险条例.md",
+  "title": "辽宁省失业保险条例",
+  "bbbs": "4028abcc61277793016128641e392311",
+  "docx": [
+   {
+    "path": "regions/provinces/liaoning/regulations/local-regulations/files/辽宁省失业保险条例-392311.docx",
+    "bytes": 24075,
+    "sha256": "88e9a11f1664bedf3afaa3a7cd7855cfd76ec7882e838df2becd2d93a8c4dbb7"
+   }
+  ],
+  "pdf": {
+   "bytes": 1079520,
+   "sha256": "e098ac2377ba7104e2586e3d2695e3f4b7b116c63d8e65bc7ff46e60af2c25f7",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/liaoning/regulations/local-regulations/辽宁省实施《中华人民共和国工会法》规定.md",
+  "title": "辽宁省实施《中华人民共和国工会法》规定",
+  "bbbs": "ff80818189b5c330018a1b1376ce734f",
+  "docx": [
+   {
+    "path": "regions/provinces/liaoning/regulations/local-regulations/files/辽宁省实施《中华人民共和国工会法》规定-ce734f.docx",
+    "bytes": 20210,
+    "sha256": "9cb92610f93cd9d2726cbb7046692a26fe70c96996c542f3ebe5ef079877b7c2"
+   }
+  ],
+  "pdf": {
+   "bytes": 744785,
+   "sha256": "6a4ddca60c72fbe664f91bed087a66057bd837c53f54b1c06c28c7ed7bb896d4",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/liaoning/regulations/local-regulations/辽宁省就业促进条例.md",
+  "title": "辽宁省就业促进条例",
+  "bbbs": "4028abcc6127779301612862ca1421d6",
+  "docx": [
+   {
+    "path": "regions/provinces/liaoning/regulations/local-regulations/files/辽宁省就业促进条例-1421d6.docx",
+    "bytes": 28086,
+    "sha256": "e343469f94000d1610e1933f2f45db7d97b7b90c51eeb16f2bc330a185d20e32"
+   }
+  ],
+  "pdf": {
+   "bytes": 1371562,
+   "sha256": "a2c1df99dc23490da55b999d60230eac085b291be8746b0a9bab02148e76ed4a",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/liaoning/regulations/local-regulations/辽宁省职工劳动权益保障条例.md",
+  "title": "辽宁省职工劳动权益保障条例",
+  "bbbs": "ff8080816fbc57c101710674f39778ae",
+  "docx": [
+   {
+    "path": "regions/provinces/liaoning/regulations/local-regulations/files/辽宁省职工劳动权益保障条例-9778ae.doc",
+    "bytes": 44544,
+    "sha256": "f9da4898b69659ec638ab9a8b1bda0aabc23449f6103942e2822980e956ac10c"
+   }
+  ],
+  "pdf": {
+   "bytes": 748339,
+   "sha256": "ea699278d009df15a2491697642e3f96c68957e27f47ef5177a2894ccc16bf86",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/qinghai/regulations/local-regulations/青海省企业工资集体协商条例.md",
+  "title": "青海省企业工资集体协商条例",
+  "bbbs": "4028abcc6127779301612800cc6a4233",
+  "docx": [
+   {
+    "path": "regions/provinces/qinghai/regulations/local-regulations/files/青海省企业工资集体协商条例-6a4233.doc",
+    "bytes": 37376,
+    "sha256": "3005837cb4ae58ce0648c7a42e06e1e49b932ccc6c91b1b710ffb391aba9ab77"
+   }
+  ],
+  "pdf": {
+   "bytes": 1138915,
+   "sha256": "7e3a7b961db65209c6918b1a36d4a27cd3f8a5cba678b162a38652449fb2bc6f",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/qinghai/regulations/local-regulations/青海省劳动保障监察条例.md",
+  "title": "青海省劳动保障监察条例",
+  "bbbs": "ff808081736bb19d01741063653960fa",
+  "docx": [
+   {
+    "path": "regions/provinces/qinghai/regulations/local-regulations/files/青海省劳动保障监察条例-3960fa.docx",
+    "bytes": 28250,
+    "sha256": "4dbb304735c22f7cfffe51251249002d2aff2cc19091585099df7be1a769b453"
+   }
+  ],
+  "pdf": {
+   "bytes": 762894,
+   "sha256": "d2c97ff9a5798a3dbf6dd2d6146fda3166cdd431018e3e336e7187bed3711b64",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/qinghai/regulations/local-regulations/青海省实施《中华人民共和国工会法》办法.md",
+  "title": "青海省实施《中华人民共和国工会法》办法",
+  "bbbs": "4028abcc61277793016127fd99e83e9f",
+  "docx": [
+   {
+    "path": "regions/provinces/qinghai/regulations/local-regulations/files/青海省实施《中华人民共和国工会法》办法-e83e9f.doc",
+    "bytes": 31744,
+    "sha256": "0821cf477f851d55bb2903d59bc88ff35a902b81107bcc2afb385e79d4de72ad"
+   }
+  ],
+  "pdf": {
+   "bytes": 1086948,
+   "sha256": "df978cc575202f77c01438f25dc62fccae227bc318cfc535eb9ccf849ad20a81",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/qinghai/regulations/local-regulations/青海省实施《中华人民共和国工会法》办法.md",
+  "title": "青海省实施《中华人民共和国工会法》办法",
+  "bbbs": "ff8081819ff54a6401a047538ed6334e",
+  "docx": [
+   {
+    "path": "regions/provinces/qinghai/regulations/local-regulations/files/青海省实施《中华人民共和国工会法》办法-d6334e.docx",
+    "bytes": 24892,
+    "sha256": "0fa16d647b7f19f31a9d38b652c1db2b0fd88d03cf44e5ad081b5344acfc713b"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/shaanxi/regulations/local-regulations/陕西省人力资源市场条例.md",
+  "title": "陕西省人力资源市场条例",
+  "bbbs": "2c90e5b9681cdbbd01684f0daf100b67",
+  "docx": [
+   {
+    "path": "regions/provinces/shaanxi/regulations/local-regulations/files/陕西省人力资源市场条例-100b67.docx",
+    "bytes": 31120,
+    "sha256": "7b72134a8a9df665c80bee170c2d4a578570227ea28ea8cd2db5fa06e90dfe91"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/shaanxi/regulations/local-regulations/陕西省企业工资支付条例.md",
+  "title": "陕西省企业工资支付条例",
+  "bbbs": "4028abcc61277793016128441e040393",
+  "docx": [
+   {
+    "path": "regions/provinces/shaanxi/regulations/local-regulations/files/陕西省企业工资支付条例-040393.docx",
+    "bytes": 25048,
+    "sha256": "57e0059a6f4d852991b0447d7bd330b1cd2e36a0d19d6b829da1b92658927f33"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/shaanxi/regulations/local-regulations/陕西省企业工资集体协商条例.md",
+  "title": "陕西省企业工资集体协商条例",
+  "bbbs": "2c90e5ba681ce0d40168500364bb0bb7",
+  "docx": [
+   {
+    "path": "regions/provinces/shaanxi/regulations/local-regulations/files/陕西省企业工资集体协商条例-bb0bb7.docx",
+    "bytes": 29693,
+    "sha256": "cc1140c768bd11dd1438329fe87972f4c28977550f83b9ed440231457d5a3fd9"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/shaanxi/regulations/local-regulations/陕西省劳动监察条例.md",
+  "title": "陕西省劳动监察条例",
+  "bbbs": "4028abcc6127779301612847d0b106e1",
+  "docx": [
+   {
+    "path": "regions/provinces/shaanxi/regulations/local-regulations/files/陕西省劳动监察条例-b106e1.docx",
+    "bytes": 28819,
+    "sha256": "6b37c3bbe9b5e102ead81cc5905a2138d9355ba11b3113b62ec50b9f6e96414e"
+   }
+  ],
+  "pdf": {
+   "bytes": 2114384,
+   "sha256": "174816774c521ba780b90dccadb42ea002bc67aaa461dd7f57dad88fb00cab7e",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/shaanxi/regulations/local-regulations/陕西省城镇企业职工基本养老保险条例.md",
+  "title": "陕西省城镇企业职工基本养老保险条例",
+  "bbbs": "4028abcc61277793016127d86a0e1763",
+  "docx": [
+   {
+    "path": "regions/provinces/shaanxi/regulations/local-regulations/files/陕西省城镇企业职工基本养老保险条例-0e1763.docx",
+    "bytes": 25079,
+    "sha256": "8f92ea77779943d7a2df33136715ea38a27ba6b62cd7697769976852e21b6f67"
+   }
+  ],
+  "pdf": {
+   "bytes": 1464110,
+   "sha256": "83493c37c09ef5de805ea52569f6851e99c451827902da7cea7fdfe7709d4708",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/shaanxi/regulations/local-regulations/陕西省实施《中华人民共和国工会法》办法.md",
+  "title": "陕西省实施《中华人民共和国工会法》办法",
+  "bbbs": "ff808181971b86bf01975e8d591e7271",
+  "docx": [
+   {
+    "path": "regions/provinces/shaanxi/regulations/local-regulations/files/陕西省实施《中华人民共和国工会法》办法-1e7271.docx",
+    "bytes": 24372,
+    "sha256": "24512aad246a35ffa5a4e696e7c3d229ab05208a49d7608e283966e27273222d"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/shaanxi/regulations/local-regulations/陕西省就业促进条例.md",
+  "title": "陕西省就业促进条例",
+  "bbbs": "ff8081817fc0f0f0017fd50af097164f",
+  "docx": [
+   {
+    "path": "regions/provinces/shaanxi/regulations/local-regulations/files/陕西省就业促进条例-97164f.doc",
+    "bytes": 44595,
+    "sha256": "6de23f6e093b69eba20761cbe1e4d72a0d1691846bd91f9ab96dc48f944c4a49"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/shaanxi/regulations/local-regulations/陕西省工会劳动法律监督条例.md",
+  "title": "陕西省工会劳动法律监督条例",
+  "bbbs": "ff808181927f0931019347a4d6c67480",
+  "docx": [
+   {
+    "path": "regions/provinces/shaanxi/regulations/local-regulations/files/陕西省工会劳动法律监督条例-c67480.docx",
+    "bytes": 20757,
+    "sha256": "0ba922a4368498f9b5402663c03524aff9f3c97609d39773682483355eca9732"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/shandong/regulations/local-regulations/山东省人力资源市场条例.md",
+  "title": "山东省人力资源市场条例",
+  "bbbs": "4028abcc61277793016127c8d43609ab",
+  "docx": [
+   {
+    "path": "regions/provinces/shandong/regulations/local-regulations/files/山东省人力资源市场条例-3609ab.docx",
+    "bytes": 32044,
+    "sha256": "ce4ed8fc4f44701ce61317eb1d0031601fc616989e52442fc4cad66c0bf113fd"
+   }
+  ],
+  "pdf": {
+   "bytes": 3893905,
+   "sha256": "e8e1ada4aa6b835710e0fb960148aef9f84a619ceb8cb333c05fc2b716e534bd",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/shandong/regulations/local-regulations/山东省人大常委会关于对符合享受特殊贡献待遇条件的干部、工人提高退休费的执行意见.md",
+  "title": "山东省人大常委会关于对符合享受特殊贡献待遇条件的干部、工人提高退休费的执行意见",
+  "bbbs": "4028abcc61277793016127ddc4c21c8c",
+  "docx": [
+   {
+    "path": "regions/provinces/shandong/regulations/local-regulations/files/山东省人大常委会关于对符合享受特殊贡献待遇条件的干部、工人提高退休费的执行意见-c21c8c.docx",
+    "bytes": 22920,
+    "sha256": "ed33df51aca7d7684cd9cc680158f497b94593a6438dabb496be4a2343bf9c98"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/shandong/regulations/local-regulations/山东省企业工资集体协商条例.md",
+  "title": "山东省企业工资集体协商条例",
+  "bbbs": "4028abcc61277793016127d1185310c1",
+  "docx": [
+   {
+    "path": "regions/provinces/shandong/regulations/local-regulations/files/山东省企业工资集体协商条例-5310c1.docx",
+    "bytes": 32942,
+    "sha256": "e80736bc11c8970a01c62c580336a7d4bbe16c718233e525893d4f9ecea9dc05"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/shandong/regulations/local-regulations/山东省劳动人事争议调解仲裁条例.md",
+  "title": "山东省劳动人事争议调解仲裁条例",
+  "bbbs": "4028abcc6127779301612827c8936a8d",
+  "docx": [
+   {
+    "path": "regions/provinces/shandong/regulations/local-regulations/files/山东省劳动人事争议调解仲裁条例-936a8d.docx",
+    "bytes": 28906,
+    "sha256": "a62a51a843a70742caf4b209bfa159df3b420133e8b9b1f6dbff365ea76341fb"
+   }
+  ],
+  "pdf": {
+   "bytes": 695895,
+   "sha256": "aa1fffbcb60b7d754d7b465f3e6e1e997d4bc412cf21d1bb9797a0fd5a3a9bce",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/shandong/regulations/local-regulations/山东省劳动合同条例.md",
+  "title": "山东省劳动合同条例",
+  "bbbs": "4028abcc612777930161288a039940ca",
+  "docx": [
+   {
+    "path": "regions/provinces/shandong/regulations/local-regulations/files/山东省劳动合同条例-9940ca.docx",
+    "bytes": 35435,
+    "sha256": "eddb32a12693a04bbba6942fb5e52fcdfa9c6daabf2646f959dd38cfefb1daea"
+   }
+  ],
+  "pdf": {
+   "bytes": 4982897,
+   "sha256": "87d7690950e005e997cd6347c66afbd4e7639b07e8410d77a9009328adbbbc35",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/shandong/regulations/local-regulations/山东省劳动和社会保障监察条例.md",
+  "title": "山东省劳动和社会保障监察条例",
+  "bbbs": "ff80808175265dd40176b835f2ba3cd8",
+  "docx": [
+   {
+    "path": "regions/provinces/shandong/regulations/local-regulations/files/山东省劳动和社会保障监察条例-ba3cd8.docx",
+    "bytes": 21443,
+    "sha256": "db12fded898015273c145187bda001ebe4ae70b42f5a500b1dca730051213b21"
+   }
+  ],
+  "pdf": {
+   "bytes": 346455,
+   "sha256": "d3aae8fe9e7c7cb9ad27b3186633ab2e3b4601e0148b3e7be4eb5538521a1cb2",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/shandong/regulations/local-regulations/山东省实施《中华人民共和国工会法》办法.md",
+  "title": "山东省实施《中华人民共和国工会法》办法",
+  "bbbs": "ff808181927f127601964802c7d920fd",
+  "docx": [
+   {
+    "path": "regions/provinces/shandong/regulations/local-regulations/files/山东省实施《中华人民共和国工会法》办法-d920fd.docx",
+    "bytes": 22853,
+    "sha256": "ea158fd0b0dfa81d4fde8c0d1bea87459a2b30a34a890aecf4d5bd7a407767fc"
+   }
+  ],
+  "pdf": {
+   "bytes": 3159706,
+   "sha256": "a4df2c2204dea6514c1b893747d834ef28ff3944cd1122e375acca0b0abd5c4b",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/shandong/regulations/local-regulations/山东省就业促进条例.md",
+  "title": "山东省就业促进条例",
+  "bbbs": "4028abcc612777930161288a196040db",
+  "docx": [
+   {
+    "path": "regions/provinces/shandong/regulations/local-regulations/files/山东省就业促进条例-6040db.docx",
+    "bytes": 28173,
+    "sha256": "5bd782430cc7374b2669e567fd899ba3dccd1ea6bd24c45a8a102c489e431d48"
+   }
+  ],
+  "pdf": {
+   "bytes": 7971157,
+   "sha256": "efda9de4b4040776f5251963306ec12b130f36d2494417b4be3b5f6a736f0d89",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/shandong/regulations/local-regulations/山东省工会劳动法律监督条例.md",
+  "title": "山东省工会劳动法律监督条例",
+  "bbbs": "ff8081817b5e8945017b6178817c03f9",
+  "docx": [
+   {
+    "path": "regions/provinces/shandong/regulations/local-regulations/files/山东省工会劳动法律监督条例-7c03f9.docx",
+    "bytes": 25006,
+    "sha256": "c3120ff70010cbce9a4515fb948d9c5df7f540df5df60a215e8639f97ff3b844"
+   }
+  ],
+  "pdf": {
+   "bytes": 2600288,
+   "sha256": "e2b422b6884bf86960ecc600dceade9bf04bbe0128a0079bffd8ee5cd5a44ef6",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/shandong/regulations/local-regulations/山东省职业病防治条例.md",
+  "title": "山东省职业病防治条例",
+  "bbbs": "4028abcc61277793016128895a724039",
+  "docx": [
+   {
+    "path": "regions/provinces/shandong/regulations/local-regulations/files/山东省职业病防治条例-724039.docx",
+    "bytes": 25489,
+    "sha256": "85c2225f3fe443805211d9c2283914811fbade15e3ef6568abfe6609d47a8d08"
+   }
+  ],
+  "pdf": {
+   "bytes": 242951,
+   "sha256": "69b2f2ca3094913b62a39964e20d28594556378286fb3fd93065ab094570be73",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/sichuan/regulations/local-regulations/四川省《中华人民共和国工会法》实施办法.md",
+  "title": "四川省《中华人民共和国工会法》实施办法",
+  "bbbs": "ff8081818a1cb709018a2183aabf161b",
+  "docx": [
+   {
+    "path": "regions/provinces/sichuan/regulations/local-regulations/files/四川省《中华人民共和国工会法》实施办法-bf161b.docx",
+    "bytes": 28509,
+    "sha256": "6a71022d970d81832ba5a7c4f5a1e9093597cc4259942c392235b9e952c8a4c2"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/sichuan/regulations/local-regulations/四川省劳动和社会保障监察条例.md",
+  "title": "四川省劳动和社会保障监察条例",
+  "bbbs": "2c90e5ba64fa820601656aecbb620808",
+  "docx": [
+   {
+    "path": "regions/provinces/sichuan/regulations/local-regulations/files/四川省劳动和社会保障监察条例-620808.doc",
+    "bytes": 39936,
+    "sha256": "019b623605848ea1637773ed83226d8e737c8acfd97d5a734073406c85145235"
+   }
+  ],
+  "pdf": {
+   "bytes": 835609,
+   "sha256": "9bb679d58ea41b7823115e4578ea7dcd5fa080caea4b943164c3488c02ad1a2b",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/sichuan/regulations/local-regulations/四川省失业保险条例.md",
+  "title": "四川省失业保险条例",
+  "bbbs": "4028abcc61277793016128252cf96785",
+  "docx": [
+   {
+    "path": "regions/provinces/sichuan/regulations/local-regulations/files/四川省失业保险条例-f96785.docx",
+    "bytes": 31433,
+    "sha256": "f0e6026b53de30cf49a00ffebb78f37eeb4be86e85ccb7a4629f96cf95e01a33"
+   }
+  ],
+  "pdf": {
+   "bytes": 404004,
+   "sha256": "5f50dca4e439585d88d225ad29b9ef04893adaf4f8c8262db9c63847cf7058e8",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/sichuan/regulations/local-regulations/四川省就业创业促进条例.md",
+  "title": "四川省就业创业促进条例",
+  "bbbs": "4028abcc612777930161281f3d1c60aa",
+  "docx": [
+   {
+    "path": "regions/provinces/sichuan/regulations/local-regulations/files/四川省就业创业促进条例-1c60aa.docx",
+    "bytes": 30784,
+    "sha256": "c1e22e37c0f78226dcfdd2e69f4989f03064b933c90bda76b4149d584acf22a4"
+   }
+  ],
+  "pdf": {
+   "bytes": 3204927,
+   "sha256": "e3a4a0c9653840b08f3cdb223852b5e57b00144551d68388b923cfbe582a8ff6",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/sichuan/regulations/local-regulations/四川省工伤保险条例.md",
+  "title": "四川省工伤保险条例",
+  "bbbs": "ff80808174915f36017494cbd7bf0187",
+  "docx": [
+   {
+    "path": "regions/provinces/sichuan/regulations/local-regulations/files/四川省工伤保险条例-bf0187.docx",
+    "bytes": 31653,
+    "sha256": "ccab25fe950f1d488ab40b501951052f3fdcaf5ed9a60eebbccaff719fc122af"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/provinces/yunnan/regulations/local-regulations/云南省企业工会条例.md",
+  "title": "云南省企业工会条例",
+  "bbbs": "4028abcc61277793016127e7b65b26e6",
+  "docx": [
+   {
+    "path": "regions/provinces/yunnan/regulations/local-regulations/files/云南省企业工会条例-5b26e6.docx",
+    "bytes": 26307,
+    "sha256": "b468355db29ad7e38f860ec5199bd0588acbe579fce03bc82608df520b6b51f0"
+   }
+  ],
+  "pdf": {
+   "bytes": 3111498,
+   "sha256": "af1d6ff5d48f3fe263f2ef5300a02143700949da19e6855f33b85beff982f56d",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/yunnan/regulations/local-regulations/云南省企业工资集体协商条例.md",
+  "title": "云南省企业工资集体协商条例",
+  "bbbs": "4028abcc61277793016127dd403c1c06",
+  "docx": [
+   {
+    "path": "regions/provinces/yunnan/regulations/local-regulations/files/云南省企业工资集体协商条例-3c1c06.docx",
+    "bytes": 26675,
+    "sha256": "2121050830eec01eac23d6c0757f658bd27991bd42350066f48d87b531656399"
+   }
+  ],
+  "pdf": {
+   "bytes": 3432206,
+   "sha256": "c6aef0455cb145b1d310b24e2a262e0c176c3f6620b667bacc3fb2b6674366e8",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/yunnan/regulations/local-regulations/云南省企业职工基本养老保险条例.md",
+  "title": "云南省企业职工基本养老保险条例",
+  "bbbs": "ff808181927f12760193b882a384700a",
+  "docx": [
+   {
+    "path": "regions/provinces/yunnan/regulations/local-regulations/files/云南省企业职工基本养老保险条例-84700a.docx",
+    "bytes": 20550,
+    "sha256": "7147880e6982a1e7e93456a9ec43673c89cd0553238cb868d98f0331dbe8de98"
+   }
+  ],
+  "pdf": {
+   "bytes": 283738,
+   "sha256": "10314167b1fb4ee1f8a66b8b4b54f359f1b85461711f50730a09733849d687ea",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/yunnan/regulations/local-regulations/云南省劳动就业条例.md",
+  "title": "云南省劳动就业条例",
+  "bbbs": "4028abcc6127779301612846fc8c0618",
+  "docx": [
+   {
+    "path": "regions/provinces/yunnan/regulations/local-regulations/files/云南省劳动就业条例-8c0618.docx",
+    "bytes": 23584,
+    "sha256": "aaace8435e57da06069eaa65e808edb1ee25e8f2d781e245a4fcad7a2cff6772"
+   }
+  ],
+  "pdf": {
+   "bytes": 2316334,
+   "sha256": "f06d218138071330494eda8e68100f664fd7435030cb10d9fa1a6b025f252cb9",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/yunnan/regulations/local-regulations/云南省劳动监察条例.md",
+  "title": "云南省劳动监察条例",
+  "bbbs": "ff808181927f12760193b881a1556ffc",
+  "docx": [
+   {
+    "path": "regions/provinces/yunnan/regulations/local-regulations/files/云南省劳动监察条例-556ffc.docx",
+    "bytes": 21760,
+    "sha256": "b2f51263c37f97b9068d1968e8c0103c665f8e0f70499c432a6736aed3973aa0"
+   }
+  ],
+  "pdf": {
+   "bytes": 296022,
+   "sha256": "531c4a437e489cba5826b8f8cddb791fd457f903262a1537fe597b32b5f0e27d",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/yunnan/regulations/local-regulations/云南省失业保险条例.md",
+  "title": "云南省失业保险条例",
+  "bbbs": "ff80808175265dd40176b15150292eab",
+  "docx": [
+   {
+    "path": "regions/provinces/yunnan/regulations/local-regulations/files/云南省失业保险条例-292eab.docx",
+    "bytes": 22373,
+    "sha256": "3d6cc78afd0aef6d4beb768f7207c280ad0a58c7194508e8800d68e6363e50cc"
+   }
+  ],
+  "pdf": {
+   "bytes": 171738,
+   "sha256": "b3101a0b328934b7ece64d77b12cb18f347ecf70fc3f28460b245e8c7872de37",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/yunnan/regulations/local-regulations/云南省实施《中华人民共和国工会法》办法.md",
+  "title": "云南省实施《中华人民共和国工会法》办法",
+  "bbbs": "ff80818188d322d501891eab954d230a",
+  "docx": [
+   {
+    "path": "regions/provinces/yunnan/regulations/local-regulations/files/云南省实施《中华人民共和国工会法》办法-4d230a.docx",
+    "bytes": 23647,
+    "sha256": "2d7c24f3d729e10607001ba1ca073b4d3f19b3e79b93bb5bdd180668bd5071fc"
+   }
+  ],
+  "pdf": {
+   "bytes": 753365,
+   "sha256": "ecb5d0ce8e110cf439fd16a0d52544368b2793dd9c83c252c798f1b729867320",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/yunnan/regulations/local-regulations/云南省工会劳动法律监督条例.md",
+  "title": "云南省工会劳动法律监督条例",
+  "bbbs": "4028abcc61277793016127dc9fc81b69",
+  "docx": [
+   {
+    "path": "regions/provinces/yunnan/regulations/local-regulations/files/云南省工会劳动法律监督条例-c81b69.docx",
+    "bytes": 24762,
+    "sha256": "63eea677fb768042c004b177ed8b03a21c8a29cd2b33cceaf758f605080aac3d"
+   }
+  ],
+  "pdf": {
+   "bytes": 2842943,
+   "sha256": "ba33c16618c3fa05edea77c94ec2028fae5dfd4d979f1b76ac0c9ef36d3055ef",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/yunnan/regulations/local-regulations/云南省社会保险费征缴条例.md",
+  "title": "云南省社会保险费征缴条例",
+  "bbbs": "4028abcc6127779301612850f71c10b6",
+  "docx": [
+   {
+    "path": "regions/provinces/yunnan/regulations/local-regulations/files/云南省社会保险费征缴条例-1c10b6.docx",
+    "bytes": 40488,
+    "sha256": "1eda2498df417b69bcc7e92924b4ddd943ceb984a87a01270bdbecc9e78e4ee3"
+   }
+  ],
+  "pdf": {
+   "bytes": 2246679,
+   "sha256": "c21e425c073a8d000f8a873c9df16eb15a4c87b657d38fcd7d4e5f0e51b2d986",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/yunnan/regulations/local-regulations/云南省职工劳动权益保障条例.md",
+  "title": "云南省职工劳动权益保障条例",
+  "bbbs": "4028abcc61277793016127e83423276d",
+  "docx": [
+   {
+    "path": "regions/provinces/yunnan/regulations/local-regulations/files/云南省职工劳动权益保障条例-23276d.docx",
+    "bytes": 27173,
+    "sha256": "59355e337513527658558c18165550e394d217aadd2f31328a828e815eb875fd"
+   }
+  ],
+  "pdf": {
+   "bytes": 3140451,
+   "sha256": "acfd96bc9dcae86bab0ffef2d0c1e48875755a8662465ce05216cb6c47dd26c9",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/zhejiang/regulations/local-regulations/浙江省劳动人事争议调解仲裁条例.md",
+  "title": "浙江省劳动人事争议调解仲裁条例",
+  "bbbs": "ff808081752b7d4301752ef78e87012e",
+  "docx": [
+   {
+    "path": "regions/provinces/zhejiang/regulations/local-regulations/files/浙江省劳动人事争议调解仲裁条例-87012e.docx",
+    "bytes": 31725,
+    "sha256": "66a327ef9e0e14a9c449aae54b0ffa7058b8abe31625686235524bb4f19cbb60"
+   }
+  ],
+  "pdf": {
+   "bytes": 1195974,
+   "sha256": "62b45f870570c077ca3061763241ffa4137e7f17bf6f5ef9088d3b73276df1a5",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/zhejiang/regulations/local-regulations/浙江省劳动保障监察条例.md",
+  "title": "浙江省劳动保障监察条例",
+  "bbbs": "ff808081752b7d4301752efd16ec014a",
+  "docx": [
+   {
+    "path": "regions/provinces/zhejiang/regulations/local-regulations/files/浙江省劳动保障监察条例-ec014a.docx",
+    "bytes": 21873,
+    "sha256": "7d2fabfcf2d1223e5510aea73a8a23c19279411f4c8004d719a6163969ca6976"
+   }
+  ],
+  "pdf": {
+   "bytes": 951797,
+   "sha256": "48798c2e1b55da902f7f4f158840f1336197ffd296defa4c39a1debe756c097f",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/zhejiang/regulations/local-regulations/浙江省失业保险条例.md",
+  "title": "浙江省失业保险条例",
+  "bbbs": "ff808181822581440182680ce0eb55e1",
+  "docx": [
+   {
+    "path": "regions/provinces/zhejiang/regulations/local-regulations/files/浙江省失业保险条例-eb55e1.doc",
+    "bytes": 37888,
+    "sha256": "854737c92cf78ac612a854617437d19ef8bb004b0b6b78bf4b96022f1103fc49"
+   }
+  ],
+  "pdf": {
+   "bytes": 1680803,
+   "sha256": "2af99b7aea8fa03c9695b57c6dc82abe2e63f62ecd12767691264c9c0a2d4395",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/zhejiang/regulations/local-regulations/浙江省实施《中华人民共和国工会法》办法.md",
+  "title": "浙江省实施《中华人民共和国工会法》办法",
+  "bbbs": "ff8081818b287dfc018b37af5e6921de",
+  "docx": [
+   {
+    "path": "regions/provinces/zhejiang/regulations/local-regulations/files/浙江省实施《中华人民共和国工会法》办法-6921de.docx",
+    "bytes": 25893,
+    "sha256": "06ce848a305770ef796f4108943fff938638b2457bcf29ca7d0d244b72287436"
+   }
+  ],
+  "pdf": {
+   "bytes": 2436971,
+   "sha256": "8e1397b3d448131d9b2e10cf6cf3a9547f071c122e01470f44414626b31bfb8a",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/zhejiang/regulations/local-regulations/浙江省就业促进条例.md",
+  "title": "浙江省就业促进条例",
+  "bbbs": "ff8081819014efb401905da058a954d9",
+  "docx": [
+   {
+    "path": "regions/provinces/zhejiang/regulations/local-regulations/files/浙江省就业促进条例-a954d9.docx",
+    "bytes": 28074,
+    "sha256": "4e9f7f57609918e7e443955aee3fdf885b9ea5fe84273977896652e20d041458"
+   }
+  ],
+  "pdf": {
+   "bytes": 3724133,
+   "sha256": "dddd30d66acd98c4b3282b92cfda6e28a77b94b69e38c0455ac9754cb8791467",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/zhejiang/regulations/local-regulations/浙江省工会劳动法律监督条例.md",
+  "title": "浙江省工会劳动法律监督条例",
+  "bbbs": "4028abcc61277793016127f796d4381d",
+  "docx": [
+   {
+    "path": "regions/provinces/zhejiang/regulations/local-regulations/files/浙江省工会劳动法律监督条例-d4381d.docx",
+    "bytes": 30855,
+    "sha256": "62c37dca72afaf4ad8c77a52e383969945967500e3fd50e134bbd2b9aef39656"
+   }
+  ],
+  "pdf": {
+   "bytes": 11726411,
+   "sha256": "2caad591916cf3791c125e0aefb1d3be00fb21c5e1d99a0f679147406a6ad9f1",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/zhejiang/regulations/local-regulations/浙江省工伤保险条例.md",
+  "title": "浙江省工伤保险条例",
+  "bbbs": "ff80808175265dd401752afaea0604d7",
+  "docx": [
+   {
+    "path": "regions/provinces/zhejiang/regulations/local-regulations/files/浙江省工伤保险条例-0604d7.docx",
+    "bytes": 30863,
+    "sha256": "a14594e786f3ab9e1ec87332571780e75717a802bd52625d45b8c7328d3eb057"
+   }
+  ],
+  "pdf": {
+   "bytes": 1211840,
+   "sha256": "820523a463f81098136fbc8e3d3bfd3bfcbbfd0214e319f1b49bb87500264ee1",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/provinces/zhejiang/regulations/local-regulations/浙江省职工基本养老保险条例.md",
+  "title": "浙江省职工基本养老保险条例",
+  "bbbs": "4028abcc612777930161285c144f1b60",
+  "docx": [
+   {
+    "path": "regions/provinces/zhejiang/regulations/local-regulations/files/浙江省职工基本养老保险条例-4f1b60.docx",
+    "bytes": 35321,
+    "sha256": "0b12ceba5689ea36257a523f62e3705c697b259ab9b04fb430a31a0f4f0a8b06"
+   }
+  ],
+  "pdf": {
+   "bytes": 2094380,
+   "sha256": "858995e908d7db5da9f272aa0ff43ea125455415fc439ae6bdd532769969c711",
    "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
   }
  }

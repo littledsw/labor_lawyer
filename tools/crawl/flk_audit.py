@@ -22,7 +22,10 @@ REQUIRED = ["title", "region", "level", "topic", "authority", "published_at",
             "flk_category", "flk_bbbs", "body_structure"]
 
 # 这些体裁本身不用「第N条」体例（批复/决议/复函/暂行规定等），条号少不算问题
-NO_ARTICLE_HINT = ["批复", "决议", "复函", "答复", "暂行规定", "补充规定", "实施办法", "通知"]
+NO_ARTICLE_HINT = ["批复", "决议", "复函", "答复", "暂行规定", "补充规定", "实施办法", "通知",
+                   "决定", "意见", "执行意见"]
+# 无条号体裁的正文兜底：正文有实质内容（≥500 字）就不算抽取失败
+MIN_CHARS_NO_ARTICLE = 500
 
 
 def main() -> int:
@@ -58,8 +61,11 @@ def main() -> int:
         missing_orig = [p.name for p in originals if not p.exists()]
         if missing_orig:
             problems.append(f"{rel}: 原件缺失 {missing_orig}")
-        if tiao < 3 and not any(h in (meta.get("title") or "") for h in NO_ARTICLE_HINT):
-            problems.append(f"{rel}: 条号疑似缺失（仅 {tiao} 处）")
+        title = meta.get("title") or ""
+        no_article_genre = any(h in title for h in NO_ARTICLE_HINT)
+        body_chars = len(re.sub(r"\s", "", body))
+        if tiao < 3 and not no_article_genre and body_chars < MIN_CHARS_NO_ARTICLE:
+            problems.append(f"{rel}: 条号疑似缺失（仅 {tiao} 处、正文 {body_chars} 字）")
         if not originals:
             problems.append(f"{rel}: 无归档原件")
         rows.append((meta.get("flk_category"), meta.get("effect_status"), tiao,
