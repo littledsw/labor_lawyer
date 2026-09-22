@@ -6,3 +6,7 @@ __pycache__/
 
 # 系统文件
 .DS_Store
+
+# Obsidian：只保留共享的 vault 配置，其余本地状态（工作区布局/缓存/回收站）不入库
+.obsidian/*
+!.obsidian/app.json

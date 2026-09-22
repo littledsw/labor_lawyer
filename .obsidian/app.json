@@ -1,0 +1,27 @@
+{
+  "alwaysUpdateLinks": false,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./",
+  "trashOption": "system",
+  "readableLineLength": true,
+  "showFrontmatter": true,
+  "userIgnoreFilters": [
+    "indexes/",
+    "regions/national/README.md",
+    "regions/national/regulations/README.md",
+    "regions/national/statistics/README.md",
+    "regions/municipalities/beijing/README.md",
+    "regions/municipalities/beijing/cases/README.md",
+    "regions/municipalities/beijing/guidance/README.md",
+    "regions/municipalities/beijing/institutions/README.md",
+    "regions/municipalities/beijing/jurisdiction/README.md",
+    "regions/municipalities/beijing/manuals/README.md",
+    "regions/municipalities/beijing/regulations/README.md",
+    "regions/municipalities/beijing/statistics/README.md",
+    "regions/municipalities/beijing/templates/README.md",
+    "regions/municipalities/shanxi/regulations/README.md",
+    "regions/municipalities/shanxi/statistics/README.md"
+  ]
+}
