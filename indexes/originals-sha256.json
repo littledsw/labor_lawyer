@@ -1428,6 +1428,143 @@
   }
  },
  {
+  "local_path": "regions/municipalities/chongqing/regulations/local-regulations/重庆市人力资源市场条例.md",
+  "title": "重庆市人力资源市场条例",
+  "bbbs": "ff808081736ba7420173d6459a5d2e8c",
+  "docx": [
+   {
+    "path": "regions/municipalities/chongqing/regulations/local-regulations/files/重庆市人力资源市场条例-5d2e8c.doc",
+    "bytes": 51712,
+    "sha256": "7034bf16607fb7831e2b76b609de5db082224946c76956630419a66f4eed679a"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/municipalities/chongqing/regulations/local-regulations/重庆市劳动保障监察条例.md",
+  "title": "重庆市劳动保障监察条例",
+  "bbbs": "ff808181842c261c01842d5add4f064d",
+  "docx": [
+   {
+    "path": "regions/municipalities/chongqing/regulations/local-regulations/files/重庆市劳动保障监察条例-4f064d.doc",
+    "bytes": 103235,
+    "sha256": "5c4cbcf3fad4def5972287b53cb0ade73051927198ab791f79de11d65ae0b712"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/municipalities/chongqing/regulations/local-regulations/重庆市失业保险条例.md",
+  "title": "重庆市失业保险条例",
+  "bbbs": "4028abcc612777930161286bb1392a26",
+  "docx": [
+   {
+    "path": "regions/municipalities/chongqing/regulations/local-regulations/files/重庆市失业保险条例-392a26.docx",
+    "bytes": 274238,
+    "sha256": "c68cfc6573b57d713f2dbb787de4d42f6501788c6ce7a10ada10932b6c17acf6"
+   }
+  ],
+  "pdf": {
+   "bytes": 2516929,
+   "sha256": "79f53ebb80dc568b2f847adda128589a926508d3d14f495e273107cac25d380f",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/municipalities/chongqing/regulations/local-regulations/重庆市就业促进条例.md",
+  "title": "重庆市就业促进条例",
+  "bbbs": "ff8081819ff54a6401a05ac81da71244",
+  "docx": [
+   {
+    "path": "regions/municipalities/chongqing/regulations/local-regulations/files/重庆市就业促进条例-a71244.docx",
+    "bytes": 22676,
+    "sha256": "54911431b6b040a30c39f731395a8c4b6b2d14e98da09018f00f69a5e24d79bd"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/municipalities/chongqing/regulations/local-regulations/重庆市工会条例.md",
+  "title": "重庆市工会条例",
+  "bbbs": "4028abcc6127779301612876d2a934be",
+  "docx": [
+   {
+    "path": "regions/municipalities/chongqing/regulations/local-regulations/files/重庆市工会条例-a934be.docx",
+    "bytes": 34152,
+    "sha256": "b5ccdf67e76f53dceb67d9d1afd7c16de2cc1fed0fdffd735ec63caafaf6578b"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/municipalities/shanghai/regulations/local-regulations/上海市劳动合同条例.md",
+  "title": "上海市劳动合同条例",
+  "bbbs": "4028abcc61277793016127ec28ac2bdf",
+  "docx": [
+   {
+    "path": "regions/municipalities/shanghai/regulations/local-regulations/files/上海市劳动合同条例-ac2bdf.docx",
+    "bytes": 29476,
+    "sha256": "465cec9f775217436a43d952e919e7a7c14677e21a5535ef227a78b83ffa5353"
+   }
+  ],
+  "pdf": {
+   "bytes": 17374905,
+   "sha256": "fb75d10d18fc6258f500982f673483ff533d1ff5cb35604bb48ab383773ad292",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/municipalities/shanghai/regulations/local-regulations/上海市就业促进条例.md",
+  "title": "上海市就业促进条例",
+  "bbbs": "ff808181889567210188b7ecc606067d",
+  "docx": [
+   {
+    "path": "regions/municipalities/shanghai/regulations/local-regulations/files/上海市就业促进条例-06067d.docx",
+    "bytes": 34098,
+    "sha256": "575c25ede2f2fa2f42515d0eff89efda915b3a6e48354f0f61cd9eb3d38bf685"
+   }
+  ],
+  "pdf": {
+   "bytes": 591521,
+   "sha256": "d03041c7fffade4d86bbc927fc954ff024ae49381c3239c7c2b293c0a8ad476e",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/municipalities/shanghai/regulations/local-regulations/上海市工会条例.md",
+  "title": "上海市工会条例",
+  "bbbs": "ff808181842c261c0184a8bd2b8d7a6f",
+  "docx": [
+   {
+    "path": "regions/municipalities/shanghai/regulations/local-regulations/files/上海市工会条例-8d7a6f.docx",
+    "bytes": 34756,
+    "sha256": "f21960b6064947442385eb8787146aee71dc6b0bb8d5b69b76d1d1a0b013f53a"
+   }
+  ],
+  "pdf": {
+   "bytes": 789403,
+   "sha256": "69ae2fb12cf5bf034642608ae305b6ea10de1a7ac5800b9cf4836afc877e5e4d",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/municipalities/shanghai/regulations/local-regulations/上海市职业病防治条例.md",
+  "title": "上海市职业病防治条例",
+  "bbbs": "4028abcc612777930161285c7f741bc0",
+  "docx": [
+   {
+    "path": "regions/municipalities/shanghai/regulations/local-regulations/files/上海市职业病防治条例-741bc0.docx",
+    "bytes": 24333,
+    "sha256": "0a9b7c5b98072b6b13c4de638eabc21743cc9ef84bbc8baadbfcd887767b3f8e"
+   }
+  ],
+  "pdf": {
+   "bytes": 8854702,
+   "sha256": "77988220ee198fb0660a4b5a8b51eb774a3067a4bc60ea602d298dc910fe7536",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
   "local_path": "regions/municipalities/shanxi/regulations/local-regulations/山西省人力资源市场条例.md",
   "title": "山西省人力资源市场条例",
   "bbbs": "ff80818199614c1a01997e797d3d4f8d",
@@ -1579,6 +1716,130 @@
    "sha256": "232136d2c86f13423df829394207c9f7f529608bf32e70b642d095ecce699b55",
    "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
   }
+ },
+ {
+  "local_path": "regions/municipalities/tianjin/regulations/local-regulations/天津市企业工资集体协商条例.md",
+  "title": "天津市企业工资集体协商条例",
+  "bbbs": "4028abcc61277793016127c415c804fa",
+  "docx": [
+   {
+    "path": "regions/municipalities/tianjin/regulations/local-regulations/files/天津市企业工资集体协商条例-c804fa.doc",
+    "bytes": 46430,
+    "sha256": "417fbe46f6fbb043619e85da52eac2e66ce17daecb50b5bf386085a3dc2e194c"
+   }
+  ],
+  "pdf": {
+   "bytes": 539396,
+   "sha256": "fcc9d7705aaa519c38b751f4bf4ec4d9beb100daf0d26dc228be165bb1737889",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/municipalities/tianjin/regulations/local-regulations/天津市劳动和社会保障监察条例.md",
+  "title": "天津市劳动和社会保障监察条例",
+  "bbbs": "ff8080816eea6bee016ef8a56b812ef3",
+  "docx": [
+   {
+    "path": "regions/municipalities/tianjin/regulations/local-regulations/files/天津市劳动和社会保障监察条例-812ef3.doc",
+    "bytes": 44802,
+    "sha256": "4941a72936192012d7a16f4447b394a192a6935f3d3e3128253a3a15c6c5fb45"
+   }
+  ],
+  "pdf": {
+   "bytes": 1153897,
+   "sha256": "4dd9ba611b3728ddf731e2bacc86843c7653773e0217b412f21db3cc51cd352b",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/municipalities/tianjin/regulations/local-regulations/天津市城镇企业职工养老保险条例.md",
+  "title": "天津市城镇企业职工养老保险条例",
+  "bbbs": "ff8080816eea6bee016ef89a2ae42ea5",
+  "docx": [
+   {
+    "path": "regions/municipalities/tianjin/regulations/local-regulations/files/天津市城镇企业职工养老保险条例-e42ea5.doc",
+    "bytes": 48938,
+    "sha256": "bad9fe9901acdf57e2c24238d52502a8ae3217f91a1ffbb1297b10d1e231f755"
+   }
+  ],
+  "pdf": {
+   "bytes": 1385170,
+   "sha256": "0c0326546111878c1dbbbff149738ef669ff793057a3581013fb58db878ac6fd",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/municipalities/tianjin/regulations/local-regulations/天津市基本医疗保险条例.md",
+  "title": "天津市基本医疗保险条例",
+  "bbbs": "ff8080816fbc57c1016fcaeae7b917b8",
+  "docx": [
+   {
+    "path": "regions/municipalities/tianjin/regulations/local-regulations/files/天津市基本医疗保险条例-b917b8.doc",
+    "bytes": 52224,
+    "sha256": "568e8800c8d8914267ccf5ab3586ac09d321149a2427dc99b59643d53ddb2515"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/municipalities/tianjin/regulations/local-regulations/天津市失业保险条例.md",
+  "title": "天津市失业保险条例",
+  "bbbs": "ff8080816eb1afb8016ebad264c46bd7",
+  "docx": [
+   {
+    "path": "regions/municipalities/tianjin/regulations/local-regulations/files/天津市失业保险条例-c46bd7.doc",
+    "bytes": 53440,
+    "sha256": "609194f5ce940e3f6e95faa12e4b75a956304d5edd752d95ed6582054f67ef0b"
+   }
+  ],
+  "pdf": {
+   "bytes": 3867938,
+   "sha256": "3b8d313647653c4fcee76a5ed1ee42ecc1377bccaa53e76887e810bd1544dd2f",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/municipalities/tianjin/regulations/local-regulations/天津市实施《中华人民共和国工会法》办法.md",
+  "title": "天津市实施《中华人民共和国工会法》办法",
+  "bbbs": "ff80818192289187019275c78834096c",
+  "docx": [
+   {
+    "path": "regions/municipalities/tianjin/regulations/local-regulations/files/天津市实施《中华人民共和国工会法》办法-34096c.docx",
+    "bytes": 22799,
+    "sha256": "91b786be69b05fae8b32f37ba07e8e170bbcdd8df9e0a7d39cd7567a03a41729"
+   }
+  ],
+  "pdf": null
+ },
+ {
+  "local_path": "regions/municipalities/tianjin/regulations/local-regulations/天津市就业促进条例.md",
+  "title": "天津市就业促进条例",
+  "bbbs": "ff8080816eb1afb8016ebf5cf3514dca",
+  "docx": [
+   {
+    "path": "regions/municipalities/tianjin/regulations/local-regulations/files/天津市就业促进条例-514dca.doc",
+    "bytes": 56590,
+    "sha256": "5c64d81eebc75d0abc6d7b90689d2c5404c3f604a83b70ba158fcefc655c330f"
+   }
+  ],
+  "pdf": {
+   "bytes": 5515274,
+   "sha256": "e6ffd8d83b71384113df2f727b0b4b9dfbdfd29b104f57bb2ff06c3aa73eb2c4",
+   "note": "公报版 pdf 未落盘（体积大、多为扫描件）；可由 flk 详情页重新下载"
+  }
+ },
+ {
+  "local_path": "regions/municipalities/tianjin/regulations/local-regulations/天津市工会劳动法律监督条例.md",
+  "title": "天津市工会劳动法律监督条例",
+  "bbbs": "ff80808175265dd401763c62cf1956d9",
+  "docx": [
+   {
+    "path": "regions/municipalities/tianjin/regulations/local-regulations/files/天津市工会劳动法律监督条例-1956d9.docx",
+    "bytes": 25504,
+    "sha256": "c9aff7ab4c3ebafad489cc86eee444f5b4f4fdadbf49e60190beeead36750dbf"
+   }
+  ],
+  "pdf": null
  },
  {
   "local_path": "regions/national/regulations/administrative-regulations/中华人民共和国劳动合同法实施条例.md",
