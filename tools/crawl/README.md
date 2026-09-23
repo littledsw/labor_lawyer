@@ -49,7 +49,8 @@ python -m venv .venv && . .venv/bin/activate && pip install markdownify beautifu
 | — | `extract_cases.py` | 派生抽取：法条引用、主题标签、语义单元切片 → `indexes/derived/`（纯脚本，无 LLM 成本）。合集按案例锚点切、单篇案例整篇一片；主题 `README.md`、「发布动态」页、「空壳页」不产切片 |
 | — | `merge_llm_extract.py` | 合并 `indexes/derived/llm-extract/*.json` 的模型抽取结果并做回文核验，产出 `cases-structured.json/md`（要求切片全覆盖） |
 | 20 | `stage20_flk_npc.py` | **法律法规/司法解释的唯一信源**：国家法律法规数据库（flk.npc.gov.cn）全量更新，只收「有效」「尚未生效」 |
-| 21 | `stage21_flag_empty_cases.py` | 给「空壳页」案例（正文由站点 JS 加载、抓取只剩站内搜索控件）在正文顶部加缺失提示并重写 `notes`，幂等；`--render-check` 用 headless Chrome 复核 |
+| 21 | `stage21_flag_empty_cases.py` | 给「空壳页」案例（正文由站点 JS 加载、抓取只剩站内搜索控件）在正文顶部加缺失提示并重写 `notes`（含官方替代来源 URL），幂等；`--render-check` 用 headless Chrome 复核 |
+| 22 | `stage22_beijing_2025_estimate.py` | 2025 年度封顶基数：归档统计局年度统计资料发布件（zip + xlsx 原件，GBK 文件名已还原）并对两行口径做「有校验的估算」写入 `derived_estimates`（`estimate-not-official`） |
 
 ```bash
 cd tools/crawl

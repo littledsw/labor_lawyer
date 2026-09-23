@@ -1,5 +1,5 @@
 # 来源站点索引（由抓取流程生成，保留原始 URL 与 SHA-256 追溯信息）
-updated_at: '2026-09-23T21:35:20+08:00'
+updated_at: '2026-09-23T21:58:02+08:00'
 region: municipalities/beijing
 authority: 北京市人力资源和社会保障局
 sources:
@@ -302,9 +302,9 @@ documents:
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977632.html
   download_url: null
   published_at: '2024-05-30'
-  retrieved_at: '2026-09-23T21:34:05+08:00'
+  retrieved_at: '2026-09-23T21:56:34+08:00'
   status: active
-  content_hash: 9ccc5bb7b97ac8a578d63a9eb7f241475ae3336b6d19072547a263d14e3dc96e
+  content_hash: 7b2211f61622fc257dfa053af2aca655b03c5a91e1172d9bb1a79453d36cd41c
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/cases/2022-06-02-入职培训应计入劳动关系存续期间.md
   title: 入职培训应计入劳动关系存续期间
@@ -512,9 +512,9 @@ documents:
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977502.html
   download_url: null
   published_at: '2024-03-29'
-  retrieved_at: '2026-09-23T21:34:05+08:00'
+  retrieved_at: '2026-09-23T21:56:34+08:00'
   status: active
-  content_hash: b8aba58fd49c2a1f4efc26da6b9694a0af44a7a2b0e47398b88b7f4bf7e3dc33
+  content_hash: 69c6fea7a81511796580aeee3c5ec07f98a570f3ddb0e9ae7240c38916e83e9a
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/cases/2021-07-02-工伤职工停工留薪期未满返岗上班，-工资如何支付？.md
   title: 工伤职工停工留薪期未满返岗上班， 工资如何支付？
@@ -582,9 +582,9 @@ documents:
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977650.html
   download_url: null
   published_at: '2024-11-29'
-  retrieved_at: '2026-09-23T21:34:05+08:00'
+  retrieved_at: '2026-09-23T21:56:34+08:00'
   status: active
-  content_hash: f2493645117ed910183999924839f9d9ea5d4f6e5c2e312b99b4f9e57fd7d9f4
+  content_hash: 98daf68cce6493c01eed7a0b05e5f50fe4da7142ec13d4fc62e6cbced9d962f6
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/cases/2024-09-27-故意不签合同-索要双倍工资-“劳动碰瓷”要不得.md
   title: 故意不签合同 索要双倍工资 “劳动碰瓷”要不得
@@ -592,9 +592,9 @@ documents:
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977640.html
   download_url: null
   published_at: '2024-09-27'
-  retrieved_at: '2026-09-23T21:34:05+08:00'
+  retrieved_at: '2026-09-23T21:56:34+08:00'
   status: active
-  content_hash: 8cc5ba8af55d64630f09e8d05750fecb1efcd7082de93335f29a672fb0b5b6a8
+  content_hash: ca0f0b95c564cb3f2dfbb8c9201af9d9fc7ec1968ae9e55a0d552a6d81b06787
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/cases/2018-07-03-服务期及相关违约金不得随意约定.md
   title: 服务期及相关违约金不得随意约定
@@ -8519,12 +8519,12 @@ documents:
   local_path: regions/municipalities/beijing/statistics/parameters.yaml
   title: 北京劳动仲裁计算参数表（工资口径、最低工资、工伤待遇）
   topic: statistics
-  source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html
-  download_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html
+  source_url: https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/t20260105_4400088.html
+  download_url: https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/t20260105_4400088.html
   published_at: null
-  retrieved_at: '2026-09-22T00:37:01+08:00'
+  retrieved_at: '2026-09-23T21:55:03+08:00'
   status: active
-  content_hash: cbbd21b27c47ff02bf130c42c97a0b739ed4dbf1b46c4a433c4229014976d7c7
+  content_hash: 29e8287f2877a210c8a18850aaed08d1a4bc77d32094e81b0bc705dc9170856b
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/statistics/sources/unemployment-benefit-2025.md
   title: 北京市人力资源和社会保障局关于调整失业保险金发放标准的通告
@@ -8535,6 +8535,26 @@ documents:
   retrieved_at: '2026-09-22T00:36:30+08:00'
   status: active
   content_hash: 0137947d6ebce2f997d471a07dc340514f400184935f950b81751a3eef0fc5f7
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/statistics/publish-plan/2026-06-population-employment.zip
+  title: 北京市统计局 2026 年度统计资料发布件（人口与就业，2026-06-25）
+  topic: statistics
+  source_url: https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/t20260105_4400088.html
+  download_url: https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/P020260625381701456879.zip
+  published_at: '2026-06-25'
+  retrieved_at: '2026-09-23T21:55:03+08:00'
+  status: active
+  content_hash: db03c2bcec654413e53fd78ab9414b0a0c055e3896797ba7e90007bd8241338e
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/statistics/sources/annual-publish-plan-2026.md
+  title: 北京市统计局、国家统计局北京调查总队年度统计资料发布计划（2026年度）
+  topic: statistics
+  source_url: https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/t20260105_4400088.html
+  download_url: null
+  published_at: '2026-01-05'
+  retrieved_at: '2026-09-23T21:55:03+08:00'
+  status: active
+  content_hash: f1e17be67ce8ddc35c98ec2ef90b4c259e7fb886e6ca22e3c6bc29440be4c43b
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/statistics/yearbook/2019-C03-13.xls
   title: 北京统计年鉴2019 · 3-13全市法人单位从业人员年末人数和平均工资
@@ -8745,6 +8765,16 @@ documents:
   retrieved_at: '2026-09-21T21:19:44+08:00'
   status: active
   content_hash: 60497aa268247b388bb051182ddcb31c527344cf090cf8887d98db7e8906404e
+- region: municipalities/beijing
+  local_path: regions/municipalities/beijing/statistics/publish-plan/2025-table-population-employment.xlsx
+  title: 城镇非私营、私营单位就业人员年末人数及工资情况（2025年）
+  topic: statistics
+  source_url: https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/t20260105_4400088.html
+  download_url: https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/P020260625381701456879.zip
+  published_at: '2026-06-25'
+  retrieved_at: '2026-09-23T21:55:03+08:00'
+  status: active
+  content_hash: 3718eb5af5de5f792663bb985b385796d9780773830b9800ff8f344bda70e009
 - region: municipalities/shanxi
   local_path: regions/municipalities/shanxi/statistics/sources/2019-缴费基数上下限-二手转载页.md
   title: 山西人社厅2019年缴纳社会保险费基数标准

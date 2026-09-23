@@ -3577,11 +3577,11 @@
   "published_at": "2024-03-29",
   "source_url": "https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977502.html",
   "download_url": null,
-  "retrieved_at": "2026-09-23T21:34:05+08:00",
+  "retrieved_at": "2026-09-23T21:56:34+08:00",
   "status": "active",
-  "content_hash": "b8aba58fd49c2a1f4efc26da6b9694a0af44a7a2b0e47398b88b7f4bf7e3dc33",
+  "content_hash": "69c6fea7a81511796580aeee3c5ec07f98a570f3ddb0e9ae7240c38916e83e9a",
   "file_type": "markdown",
-  "bytes": 1496
+  "bytes": 1620
  },
  {
   "region": "municipalities/beijing",
@@ -3593,11 +3593,11 @@
   "published_at": "2024-05-30",
   "source_url": "https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977632.html",
   "download_url": null,
-  "retrieved_at": "2026-09-23T21:34:05+08:00",
+  "retrieved_at": "2026-09-23T21:56:34+08:00",
   "status": "active",
-  "content_hash": "9ccc5bb7b97ac8a578d63a9eb7f241475ae3336b6d19072547a263d14e3dc96e",
+  "content_hash": "7b2211f61622fc257dfa053af2aca655b03c5a91e1172d9bb1a79453d36cd41c",
   "file_type": "markdown",
-  "bytes": 1496
+  "bytes": 1620
  },
  {
   "region": "municipalities/beijing",
@@ -3641,11 +3641,11 @@
   "published_at": "2024-09-27",
   "source_url": "https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977640.html",
   "download_url": null,
-  "retrieved_at": "2026-09-23T21:34:05+08:00",
+  "retrieved_at": "2026-09-23T21:56:34+08:00",
   "status": "active",
-  "content_hash": "8cc5ba8af55d64630f09e8d05750fecb1efcd7082de93335f29a672fb0b5b6a8",
+  "content_hash": "ca0f0b95c564cb3f2dfbb8c9201af9d9fc7ec1968ae9e55a0d552a6d81b06787",
   "file_type": "markdown",
-  "bytes": 1496
+  "bytes": 1620
  },
  {
   "region": "municipalities/beijing",
@@ -3657,11 +3657,11 @@
   "published_at": "2024-11-29",
   "source_url": "https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977650.html",
   "download_url": null,
-  "retrieved_at": "2026-09-23T21:34:05+08:00",
+  "retrieved_at": "2026-09-23T21:56:34+08:00",
   "status": "active",
-  "content_hash": "f2493645117ed910183999924839f9d9ea5d4f6e5c2e312b99b4f9e57fd7d9f4",
+  "content_hash": "98daf68cce6493c01eed7a0b05e5f50fe4da7142ec13d4fc62e6cbced9d962f6",
   "file_type": "markdown",
-  "bytes": 1496
+  "bytes": 1620
  },
  {
   "region": "municipalities/beijing",
@@ -4455,13 +4455,13 @@
   "title": "北京劳动仲裁计算参数表（工资口径、最低工资、工伤待遇）",
   "authority": "北京市人力资源和社会保障局 / 北京市统计局 / 国务院（按条目）",
   "published_at": null,
-  "source_url": "https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html",
-  "download_url": "https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html",
-  "retrieved_at": "2026-09-22T00:37:01+08:00",
+  "source_url": "https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/t20260105_4400088.html",
+  "download_url": "https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/t20260105_4400088.html",
+  "retrieved_at": "2026-09-23T21:55:03+08:00",
   "status": "active",
-  "content_hash": "cbbd21b27c47ff02bf130c42c97a0b739ed4dbf1b46c4a433c4229014976d7c7",
+  "content_hash": "29e8287f2877a210c8a18850aaed08d1a4bc77d32094e81b0bc705dc9170856b",
   "file_type": "yaml",
-  "bytes": 20902
+  "bytes": 22610
  },
  {
   "region": "municipalities/beijing",
@@ -4723,6 +4723,22 @@
   "region": "municipalities/beijing",
   "level": "municipality",
   "topic": "statistics",
+  "local_path": "regions/municipalities/beijing/statistics/sources/annual-publish-plan-2026.md",
+  "title": "北京市统计局、国家统计局北京调查总队年度统计资料发布计划（2026年度）",
+  "authority": "北京市统计局、国家统计局北京调查总队",
+  "published_at": "2026-01-05",
+  "source_url": "https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/t20260105_4400088.html",
+  "download_url": null,
+  "retrieved_at": "2026-09-23T21:55:03+08:00",
+  "status": "active",
+  "content_hash": "f1e17be67ce8ddc35c98ec2ef90b4c259e7fb886e6ca22e3c6bc29440be4c43b",
+  "file_type": "markdown",
+  "bytes": 476
+ },
+ {
+  "region": "municipalities/beijing",
+  "level": "municipality",
+  "topic": "statistics",
   "local_path": "regions/municipalities/beijing/statistics/sources/tjj-faq-cap-basis-2025.md",
   "title": "统计局答复：2025年法人单位从业人员平均工资（原页面归档）",
   "authority": "北京市统计局",
@@ -4734,6 +4750,38 @@
   "content_hash": "5755abd29fb4c5e54d8d280e2b4b097645865a2bcb8effbfd86272f0dfa419de",
   "file_type": "markdown",
   "bytes": 1379
+ },
+ {
+  "region": "municipalities/beijing",
+  "level": "municipality",
+  "topic": "statistics",
+  "local_path": "regions/municipalities/beijing/statistics/publish-plan/2026-06-population-employment.zip",
+  "title": "北京市统计局 2026 年度统计资料发布件（人口与就业，2026-06-25）",
+  "authority": "北京市统计局、国家统计局北京调查总队",
+  "published_at": "2026-06-25",
+  "source_url": "https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/t20260105_4400088.html",
+  "download_url": "https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/P020260625381701456879.zip",
+  "retrieved_at": "2026-09-23T21:55:03+08:00",
+  "status": "active",
+  "content_hash": "db03c2bcec654413e53fd78ab9414b0a0c055e3896797ba7e90007bd8241338e",
+  "file_type": "zip",
+  "bytes": 119147
+ },
+ {
+  "region": "municipalities/beijing",
+  "level": "municipality",
+  "topic": "statistics",
+  "local_path": "regions/municipalities/beijing/statistics/publish-plan/2025-table-population-employment.xlsx",
+  "title": "城镇非私营、私营单位就业人员年末人数及工资情况（2025年）",
+  "authority": "北京市统计局、国家统计局北京调查总队",
+  "published_at": "2026-06-25",
+  "source_url": "https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/t20260105_4400088.html",
+  "download_url": "https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/P020260625381701456879.zip",
+  "retrieved_at": "2026-09-23T21:55:03+08:00",
+  "status": "active",
+  "content_hash": "3718eb5af5de5f792663bb985b385796d9780773830b9800ff8f344bda70e009",
+  "file_type": "xlsx",
+  "bytes": 10346
  },
  {
   "region": "municipalities/beijing",

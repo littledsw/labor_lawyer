@@ -32,20 +32,39 @@ from common import (  # noqa: E402
 META = REPO / "indexes" / "derived" / "cases-meta.json"
 REGION_ROOT = REPO / "regions" / REGION
 MARK = "正文缺失"
+# 官方替代来源：同域名（rsj.beijing.gov.cn）2024-12-17 发布的年度十大案例合集页，
+# 含这 4 个单篇专题页对应案例的完整正文（案情简介 / 仲裁请求 / 处理结果 / 案例评析 / 仲裁委员会提示）。
+ALT_URL = "https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241217_3968004.html"
 BANNER = """> ⚠️ **正文缺失（已复核）**：本页正文由站点 JS 动态加载，纯 HTTP 抓取与 headless Chrome 渲染抓取
 > （`tools/crawl/browser_fetch.py`）都只得到约 {chars} 字符的站内搜索控件文案，页面自身不含案例正文。
-> 同案完整正文见同目录 `2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md`（2024 年度十大案例合集，含完整评析）。
+> 同案完整正文见同目录 `2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md`
+> （2024 年度十大案例合集，含完整评析），**该合集的来源页即官方替代来源**：
+> {alt}
 > **补齐正文前请勿引用本文件作为依据。**
 """
 NOTES = ("北京市人社局专题页；正文由站点 JS 动态加载，静态抓取与 headless 渲染抓取"
-         "（browser_fetch.py）均只得到站内搜索控件、页面无可取正文；"
-         "同案完整正文见同目录《2024年北京市劳动人事争议仲裁十大典型案例》合集")
+         "（browser_fetch.py）均只得到站内搜索控件、页面无可取正文。"
+         "官方替代来源（同域名、同一机构，含同案完整正文）："
+         f"{ALT_URL}，已归档为同目录《2024年北京市劳动人事争议仲裁十大典型案例》合集。")
 
 
 def empty_case_pages() -> list[dict]:
     if not META.exists():
         raise SystemExit(f"缺少 {META.relative_to(REPO)}；先跑 extract_cases.py")
     return [r for r in json.loads(META.read_text(encoding="utf-8")) if r.get("kind") == "空壳页"]
+
+
+BANNER_END = "**补齐正文前请勿引用本文件作为依据。**"
+
+
+def strip_banners(body: str) -> str:
+    """剥离已写入的提示块，使提示文案升级后仍能幂等重写（不留重复块）。
+
+    提示块以 `> ` 引用行开头，正文（站点控件文案）不以 `>` 开头，故可据此循环剥离。
+    """
+    while body.lstrip().startswith(">") and BANNER_END in body[:1200]:
+        body = body[body.find(BANNER_END) + len(BANNER_END):].lstrip("\n")
+    return body
 
 
 def render_chars(url: str) -> int | None:
@@ -74,14 +93,15 @@ def main() -> int:
         path = REPO / rec["local_path"]
         rel = path.relative_to(REGION_ROOT)
         meta, body = split_frontmatter(path.read_text(encoding="utf-8"))
-        if MARK in body[:400]:
-            print(f"  跳过（已标注）：{rel}")
+        if body.count(MARK) == 1 and ALT_URL in body[:900]:
+            print(f"  跳过（已标注且替代来源已写入）：{rel}")
             continue
         chars = render_chars(rec["source_url"]) if args.render_check else 228
         if args.render_check and not chars:
             print(f"  ! {rel} 渲染失败，本次跳过（不写入未核实的结论）")
             continue
-        save_md(str(rel), meta.get("title") or path.stem, BANNER.format(chars=chars) + "\n" + body,
+        save_md(str(rel), meta.get("title") or path.stem,
+                BANNER.format(chars=chars, alt=ALT_URL) + "\n" + strip_banners(body),
                 topic="cases", source_url=rec["source_url"], published_at=rec.get("published_at"),
                 notes=NOTES, authority=meta.get("authority") or AUTHORITY,
                 region=REGION, level=LEVEL)

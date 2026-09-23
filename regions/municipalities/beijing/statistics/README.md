@@ -1,7 +1,7 @@
 # 计算参数（日历与工资口径）
 
 <!-- inventory:start -->
-## 已归档资料（19 项，抓取时间 2026-09-23T21:35:20+08:00）
+## 已归档资料（22 项，抓取时间 2026-09-23T21:58:02+08:00）
 
 | 标题 | 发布日期 | 类型 | 文件名 |
 | --- | --- | --- | --- |
@@ -22,7 +22,10 @@
 | 关于调整北京市2025年最低工资标准的通知 | 2025-07-25 | markdown | `sources/min-wage-2025.md` |
 | 北京市人力资源和社会保障局关于调整失业保险金发放标准的通告 | 2025-07-28 | markdown | `sources/unemployment-benefit-2025.md` |
 | 北京统计年鉴2025 · 3-13 城镇非私营、私营单位就业人员年末人数及工资情况(2024年) | 2025年 | xls | `yearbook/2025-C0313.xls` |
+| 北京市统计局、国家统计局北京调查总队年度统计资料发布计划（2026年度） | 2026-01-05 | markdown | `sources/annual-publish-plan-2026.md` |
 | 统计局答复：2025年法人单位从业人员平均工资（原页面归档） | 2026-01-28 | markdown | `sources/tjj-faq-cap-basis-2025.md` |
+| 北京市统计局 2026 年度统计资料发布件（人口与就业，2026-06-25） | 2026-06-25 | zip | `publish-plan/2026-06-population-employment.zip` |
+| 城镇非私营、私营单位就业人员年末人数及工资情况（2025年） | 2026-06-25 | xlsx | `publish-plan/2025-table-population-employment.xlsx` |
 | 历年北京市全口径城镇单位就业人员平均工资 | 2026-08-21 | markdown | `sources/full-caliber-avg-wage.md` |
 
 <!-- inventory:end -->

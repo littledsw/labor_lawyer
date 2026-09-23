@@ -4,12 +4,12 @@ level: municipality
 topic: statistics
 authority: 北京市人力资源和社会保障局 / 北京市统计局 / 国务院（按条目）
 published_at: null
-source_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html
-download_url: https://rsj.beijing.gov.cn/xxgk/tzgg/202007/t20200702_1937157.html
-retrieved_at: '2026-09-22T00:37:01+08:00'
+source_url: https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/t20260105_4400088.html
+download_url: https://tjj.beijing.gov.cn/tjsj_31433/tjbmfbjh/ndtjzl_31437/2026ndtjzl/202601/t20260105_4400088.html
+retrieved_at: '2026-09-23T21:55:03+08:00'
 status: active
-content_hash: cbbd21b27c47ff02bf130c42c97a0b739ed4dbf1b46c4a433c4229014976d7c7
+content_hash: 29e8287f2877a210c8a18850aaed08d1a4bc77d32094e81b0bc705dc9170856b
 local_path: regions/municipalities/beijing/statistics/parameters.yaml
 file: parameters.yaml
 original_filename: parameters.yaml
-notes: 更新：封顶基数的口径链条证据与取数路径（阶段 14）
+notes: 阶段 22：新增 2025 年度估算 196289 元/年（estimate-not-official）
