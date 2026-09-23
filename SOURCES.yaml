@@ -1,5 +1,5 @@
 # 来源站点索引（由抓取流程生成，保留原始 URL 与 SHA-256 追溯信息）
-updated_at: '2026-09-23T00:59:06+08:00'
+updated_at: '2026-09-23T21:35:20+08:00'
 region: municipalities/beijing
 authority: 北京市人力资源和社会保障局
 sources:
@@ -302,9 +302,9 @@ documents:
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977632.html
   download_url: null
   published_at: '2024-05-30'
-  retrieved_at: '2026-09-20T22:56:21+08:00'
+  retrieved_at: '2026-09-23T21:34:05+08:00'
   status: active
-  content_hash: 3c0134b622888f034a10bc9b7a9dd5227b6cfdb57830a678cce897a6804ab668
+  content_hash: 9ccc5bb7b97ac8a578d63a9eb7f241475ae3336b6d19072547a263d14e3dc96e
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/cases/2022-06-02-入职培训应计入劳动关系存续期间.md
   title: 入职培训应计入劳动关系存续期间
@@ -512,9 +512,9 @@ documents:
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977502.html
   download_url: null
   published_at: '2024-03-29'
-  retrieved_at: '2026-09-20T22:56:21+08:00'
+  retrieved_at: '2026-09-23T21:34:05+08:00'
   status: active
-  content_hash: 932b14608d07daa0eb23cc34c7001ae6a4abf34d4330300251f95fe6d5d3115c
+  content_hash: b8aba58fd49c2a1f4efc26da6b9694a0af44a7a2b0e47398b88b7f4bf7e3dc33
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/cases/2021-07-02-工伤职工停工留薪期未满返岗上班，-工资如何支付？.md
   title: 工伤职工停工留薪期未满返岗上班， 工资如何支付？
@@ -582,9 +582,9 @@ documents:
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977650.html
   download_url: null
   published_at: '2024-11-29'
-  retrieved_at: '2026-09-20T22:56:21+08:00'
+  retrieved_at: '2026-09-23T21:34:05+08:00'
   status: active
-  content_hash: 28d59d911dfd7d819d8ca625df56fa9e64ef266f8e63dfabf0d643cf795081a7
+  content_hash: f2493645117ed910183999924839f9d9ea5d4f6e5c2e312b99b4f9e57fd7d9f4
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/cases/2024-09-27-故意不签合同-索要双倍工资-“劳动碰瓷”要不得.md
   title: 故意不签合同 索要双倍工资 “劳动碰瓷”要不得
@@ -592,9 +592,9 @@ documents:
   source_url: https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977640.html
   download_url: null
   published_at: '2024-09-27'
-  retrieved_at: '2026-09-20T22:56:21+08:00'
+  retrieved_at: '2026-09-23T21:34:05+08:00'
   status: active
-  content_hash: ade3ef2b16b385bd883077c3915c3d15835b76e7e36b38e9c349c9bc8c724d42
+  content_hash: 8cc5ba8af55d64630f09e8d05750fecb1efcd7082de93335f29a672fb0b5b6a8
 - region: municipalities/beijing
   local_path: regions/municipalities/beijing/cases/2018-07-03-服务期及相关违约金不得随意约定.md
   title: 服务期及相关违约金不得随意约定

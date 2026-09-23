@@ -874,7 +874,7 @@
    "工资支付与欠薪",
    "规章制度与违纪"
   ],
-  "chunks": 0
+  "chunks": 10
  },
  {
   "id": "2017-09-29-不同意用人单位调岗，个人应及时表达意见",
@@ -2027,7 +2027,7 @@
   "published_at": "2023-12-29",
   "source_url": "https://www.beijing.gov.cn/ywdt/gzdt/202312/t20231229_3521081.html",
   "local_path": "regions/municipalities/beijing/cases/2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例.md",
-  "kind": "单篇案例",
+  "kind": "发布动态",
   "chars": 871,
   "sections": [],
   "citations": {},
@@ -2047,9 +2047,11 @@
   "published_at": "2024-03-29",
   "source_url": "https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977502.html",
   "local_path": "regions/municipalities/beijing/cases/2024-03-29-对工资有异议必须3天内提出？约定无效！.md",
-  "kind": "单篇案例",
-  "chars": 541,
-  "sections": [],
+  "kind": "空壳页",
+  "chars": 775,
+  "sections": [
+   "案例评析"
+  ],
   "citations": {},
   "topics": []
  },
@@ -2059,9 +2061,11 @@
   "published_at": "2024-05-30",
   "source_url": "https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977632.html",
   "local_path": "regions/municipalities/beijing/cases/2024-05-30-入职不满2个月迟到15次-辞退合情合理！.md",
-  "kind": "单篇案例",
-  "chars": 541,
-  "sections": [],
+  "kind": "空壳页",
+  "chars": 775,
+  "sections": [
+   "案例评析"
+  ],
   "citations": {},
   "topics": []
  },
@@ -2116,9 +2120,11 @@
   "published_at": "2024-09-27",
   "source_url": "https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977640.html",
   "local_path": "regions/municipalities/beijing/cases/2024-09-27-故意不签合同-索要双倍工资-“劳动碰瓷”要不得.md",
-  "kind": "单篇案例",
-  "chars": 541,
-  "sections": [],
+  "kind": "空壳页",
+  "chars": 775,
+  "sections": [
+   "案例评析"
+  ],
   "citations": {},
   "topics": []
  },
@@ -2128,9 +2134,11 @@
   "published_at": "2024-11-29",
   "source_url": "https://rsj.beijing.gov.cn/bm/ztzl/dxal/202412/t20241231_3977650.html",
   "local_path": "regions/municipalities/beijing/cases/2024-11-29-把怀孕女职工调岗到外地？不合法！.md",
-  "kind": "单篇案例",
-  "chars": 541,
-  "sections": [],
+  "kind": "空壳页",
+  "chars": 775,
+  "sections": [
+   "案例评析"
+  ],
   "citations": {},
   "topics": []
  },
@@ -2201,7 +2209,7 @@
   "published_at": "2024-12-17",
   "source_url": "https://www.beijing.gov.cn/ywdt/gzdt/202412/t20241217_3967825.html",
   "local_path": "regions/municipalities/beijing/cases/2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例.md",
-  "kind": "单篇案例",
+  "kind": "发布动态",
   "chars": 1243,
   "sections": [
    "争议焦点"
@@ -2271,37 +2279,5 @@
    "养老保险与退休"
   ],
   "chunks": 10
- },
- {
-  "id": "README",
-  "title": "README",
-  "published_at": null,
-  "source_url": null,
-  "local_path": "regions/municipalities/beijing/cases/README.md",
-  "kind": "年度合集",
-  "chars": 8945,
-  "sections": [],
-  "citations": {
-   "离职申请": 2
-  },
-  "topics": [
-   "经济补偿与违法解除",
-   "加班费与工时",
-   "带薪年休假",
-   "工伤与职业病",
-   "社会保险",
-   "竞业限制与保密",
-   "劳务派遣与外包",
-   "试用期",
-   "医疗期与病假",
-   "女职工与生育",
-   "调岗与工作地点",
-   "离职手续与证明",
-   "劳动关系确认",
-   "事业单位人事争议",
-   "仲裁时效与程序",
-   "规章制度与违纪"
-  ],
-  "chunks": 0
  }
 ]

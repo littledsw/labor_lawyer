@@ -23,5 +23,8 @@ python stage14_cap_basis_evidence.py
 python stage17_working_hours_regs.py
 python stage18_beijing_social_insurance.py
 python stage19_shanxi_social_insurance.py
+python extract_cases.py
+python merge_llm_extract.py
+python stage21_flag_empty_cases.py
 python stage6_indexes.py
 python verify.py

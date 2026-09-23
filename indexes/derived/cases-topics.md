@@ -1,33 +1,33 @@
 # 典型案例主题索引（脚本抽取）
 
-来源：`regions/municipalities/beijing/cases/` 共 94 篇；标签按关键词命中，可能多标签。
+来源：`regions/municipalities/beijing/cases/` 共 87 篇（年度合集 + 单篇案例；不含主题 `README.md`、「发布动态」页与「空壳页」）；标签按关键词命中，可能多标签。
 
 | 主题 | 案例数 |
 | --- | --- |
-| 经济补偿与违法解除 | 57 |
-| 规章制度与违纪 | 28 |
-| 社会保险 | 26 |
-| 医疗期与病假 | 23 |
-| 离职手续与证明 | 20 |
-| 工资支付与欠薪 | 19 |
-| 调岗与工作地点 | 19 |
-| 女职工与生育 | 19 |
+| 经济补偿与违法解除 | 55 |
+| 规章制度与违纪 | 26 |
+| 社会保险 | 25 |
+| 医疗期与病假 | 21 |
+| 离职手续与证明 | 18 |
+| 工资支付与欠薪 | 18 |
 | 二倍工资与合同订立 | 17 |
-| 试用期 | 17 |
-| 带薪年休假 | 17 |
-| 加班费与工时 | 16 |
-| 工伤与职业病 | 15 |
-| 事业单位人事争议 | 15 |
-| 竞业限制与保密 | 12 |
-| 仲裁时效与程序 | 7 |
-| 新就业形态 | 6 |
+| 调岗与工作地点 | 17 |
+| 女职工与生育 | 16 |
+| 加班费与工时 | 15 |
+| 试用期 | 15 |
+| 带薪年休假 | 15 |
+| 工伤与职业病 | 13 |
+| 事业单位人事争议 | 13 |
+| 竞业限制与保密 | 9 |
+| 仲裁时效与程序 | 6 |
 | 养老保险与退休 | 5 |
-| 劳动关系确认 | 5 |
-| 劳务派遣与外包 | 4 |
+| 劳动关系确认 | 4 |
+| 新就业形态 | 4 |
+| 劳务派遣与外包 | 3 |
 
 ## 按主题查看案例
 
-- **经济补偿与违法解除**（57 篇）：
+- **经济补偿与违法解除**（55 篇）：
   - [2015-07-10-案例一-离职手续未办完，劳动者工资应照发](../regions/municipalities/beijing/cases/2015-07-10-案例一-离职手续未办完，劳动者工资应照发.md)
   - [2015-07-10-案例七-因劳动者违纪而解除劳动合同，用人单位五项证据缺一不可](../regions/municipalities/beijing/cases/2015-07-10-案例七-因劳动者违纪而解除劳动合同，用人单位五项证据缺一不可.md)
   - [2015-07-10-案例三-客观情况发生重大改变，双方协商不一致的，企业可解除劳动合同](../regions/municipalities/beijing/cases/2015-07-10-案例三-客观情况发生重大改变，双方协商不一致的，企业可解除劳动合同.md)
@@ -82,10 +82,8 @@
   - [2023-09-22-劳动者医疗期满无法从事原岗位工作，用人单位可否直接解除劳动合同？](../regions/municipalities/beijing/cases/2023-09-22-劳动者医疗期满无法从事原岗位工作，用人单位可否直接解除劳动合同？.md)
   - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
   - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例.md)
   - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **规章制度与违纪**（28 篇）：
+- **规章制度与违纪**（26 篇）：
   - [2015-07-10-案例七-因劳动者违纪而解除劳动合同，用人单位五项证据缺一不可](../regions/municipalities/beijing/cases/2015-07-10-案例七-因劳动者违纪而解除劳动合同，用人单位五项证据缺一不可.md)
   - [2015-07-10-案例九-女职工产检、产假期间的工资应照发](../regions/municipalities/beijing/cases/2015-07-10-案例九-女职工产检、产假期间的工资应照发.md)
   - [2015-10-28-医疗期内严重违规可解除劳动合同](../regions/municipalities/beijing/cases/2015-10-28-医疗期内严重违规可解除劳动合同.md)
@@ -111,10 +109,8 @@
   - [2023-08-30-临时培训是否等同于变更工作地点？](../regions/municipalities/beijing/cases/2023-08-30-临时培训是否等同于变更工作地点？.md)
   - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
   - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例.md)
   - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **社会保险**（26 篇）：
+- **社会保险**（25 篇）：
   - [2015-07-10-案例九-女职工产检、产假期间的工资应照发](../regions/municipalities/beijing/cases/2015-07-10-案例九-女职工产检、产假期间的工资应照发.md)
   - [2015-07-10-案例二-不缴社保，劳动者虽自愿企业仍违法](../regions/municipalities/beijing/cases/2015-07-10-案例二-不缴社保，劳动者虽自愿企业仍违法.md)
   - [2015-07-10-案例八-劳务派遣职工遭遇工伤，用人单位和用工单位都有赔偿责任](../regions/municipalities/beijing/cases/2015-07-10-案例八-劳务派遣职工遭遇工伤，用人单位和用工单位都有赔偿责任.md)
@@ -140,8 +136,7 @@
   - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
   - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
   - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **医疗期与病假**（23 篇）：
+- **医疗期与病假**（21 篇）：
   - [2015-07-10-案例三-客观情况发生重大改变，双方协商不一致的，企业可解除劳动合同](../regions/municipalities/beijing/cases/2015-07-10-案例三-客观情况发生重大改变，双方协商不一致的，企业可解除劳动合同.md)
   - [2015-07-10-案例九-女职工产检、产假期间的工资应照发](../regions/municipalities/beijing/cases/2015-07-10-案例九-女职工产检、产假期间的工资应照发.md)
   - [2015-10-28-医疗期内严重违规可解除劳动合同](../regions/municipalities/beijing/cases/2015-10-28-医疗期内严重违规可解除劳动合同.md)
@@ -163,9 +158,7 @@
   - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
   - [2024-07-08-年休假休完后，出现当年不享受年休假的情形应如何处理？](../regions/municipalities/beijing/cases/2024-07-08-年休假休完后，出现当年不享受年休假的情形应如何处理？.md)
   - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **离职手续与证明**（20 篇）：
+- **离职手续与证明**（18 篇）：
   - [2015-07-10-案例一-离职手续未办完，劳动者工资应照发](../regions/municipalities/beijing/cases/2015-07-10-案例一-离职手续未办完，劳动者工资应照发.md)
   - [2016-06-28-合同已签,为何劳动关系未建立？](../regions/municipalities/beijing/cases/2016-06-28-合同已签,为何劳动关系未建立？.md)
   - [2016-07-21-约定劳动合同解除条件是否有效？](../regions/municipalities/beijing/cases/2016-07-21-约定劳动合同解除条件是否有效？.md)
@@ -183,10 +176,8 @@
   - [2022-08-24-劳动者应如实提供与工作相关的个人信息](../regions/municipalities/beijing/cases/2022-08-24-劳动者应如实提供与工作相关的个人信息.md)
   - [2022-12-22-2022年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md)
   - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
-  - [2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例.md)
   - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **工资支付与欠薪**（19 篇）：
+- **工资支付与欠薪**（18 篇）：
   - [2015-07-10-案例一-离职手续未办完，劳动者工资应照发](../regions/municipalities/beijing/cases/2015-07-10-案例一-离职手续未办完，劳动者工资应照发.md)
   - [2016-09-18-约定加班工资基数需合规](../regions/municipalities/beijing/cases/2016-09-18-约定加班工资基数需合规.md)
   - [2016-10-25-非全日制用工需严格界定](../regions/municipalities/beijing/cases/2016-10-25-非全日制用工需严格界定.md)
@@ -203,49 +194,8 @@
   - [2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例.md)
   - [2022-01-21-用人单位不得任意降低劳动者的加班费计算基数](../regions/municipalities/beijing/cases/2022-01-21-用人单位不得任意降低劳动者的加班费计算基数.md)
   - [2022-12-22-2022年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md)
-  - [2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例.md)
   - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
   - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
-- **调岗与工作地点**（19 篇）：
-  - [2015-07-10-案例三-客观情况发生重大改变，双方协商不一致的，企业可解除劳动合同](../regions/municipalities/beijing/cases/2015-07-10-案例三-客观情况发生重大改变，双方协商不一致的，企业可解除劳动合同.md)
-  - [2017-07-19-2017年北京市十大劳动争议仲裁典型案例](../regions/municipalities/beijing/cases/2017-07-19-2017年北京市十大劳动争议仲裁典型案例.md)
-  - [2017-09-29-不同意用人单位调岗，个人应及时表达意见](../regions/municipalities/beijing/cases/2017-09-29-不同意用人单位调岗，个人应及时表达意见.md)
-  - [2018-03-01-用人单位能否单方面变更劳动者工作地点？](../regions/municipalities/beijing/cases/2018-03-01-用人单位能否单方面变更劳动者工作地点？.md)
-  - [2018-07-30-试用期内解除聘用合同需谨慎](../regions/municipalities/beijing/cases/2018-07-30-试用期内解除聘用合同需谨慎.md)
-  - [2018-08-13-女工“三期”内，用人单位不得擅自调岗降薪](../regions/municipalities/beijing/cases/2018-08-13-女工“三期”内，用人单位不得擅自调岗降薪.md)
-  - [2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2019-11-05-2019年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2019-11-05-2019年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2022-03-18-应聘登记表是否能视为劳动合同](../regions/municipalities/beijing/cases/2022-03-18-应聘登记表是否能视为劳动合同.md)
-  - [2022-04-19-调整工作地点需在合理范围之内](../regions/municipalities/beijing/cases/2022-04-19-调整工作地点需在合理范围之内.md)
-  - [2022-06-02-入职培训应计入劳动关系存续期间](../regions/municipalities/beijing/cases/2022-06-02-入职培训应计入劳动关系存续期间.md)
-  - [2022-09-09-劳动者需服从用人单位的合理调岗安排](../regions/municipalities/beijing/cases/2022-09-09-劳动者需服从用人单位的合理调岗安排.md)
-  - [2022-12-22-2022年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md)
-  - [2023-02-27-用人单位以员工拒绝调岗终止劳动合同，需要支付经济补偿吗？](../regions/municipalities/beijing/cases/2023-02-27-用人单位以员工拒绝调岗终止劳动合同，需要支付经济补偿吗？.md)
-  - [2023-08-30-临时培训是否等同于变更工作地点？](../regions/municipalities/beijing/cases/2023-08-30-临时培训是否等同于变更工作地点？.md)
-  - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例.md)
-  - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **女职工与生育**（19 篇）：
-  - [2015-07-10-案例九-女职工产检、产假期间的工资应照发](../regions/municipalities/beijing/cases/2015-07-10-案例九-女职工产检、产假期间的工资应照发.md)
-  - [2015-07-10-案例二-不缴社保，劳动者虽自愿企业仍违法](../regions/municipalities/beijing/cases/2015-07-10-案例二-不缴社保，劳动者虽自愿企业仍违法.md)
-  - [2016-09-18-约定加班工资基数需合规](../regions/municipalities/beijing/cases/2016-09-18-约定加班工资基数需合规.md)
-  - [2017-05-15-签署《离职申请》需谨慎](../regions/municipalities/beijing/cases/2017-05-15-签署《离职申请》需谨慎.md)
-  - [2017-07-07-女职工的生育津贴应作为月工资计入补偿金计算基数](../regions/municipalities/beijing/cases/2017-07-07-女职工的生育津贴应作为月工资计入补偿金计算基数.md)
-  - [2017-07-19-2017年北京市十大劳动争议仲裁典型案例](../regions/municipalities/beijing/cases/2017-07-19-2017年北京市十大劳动争议仲裁典型案例.md)
-  - [2018-08-13-女工“三期”内，用人单位不得擅自调岗降薪](../regions/municipalities/beijing/cases/2018-08-13-女工“三期”内，用人单位不得擅自调岗降薪.md)
-  - [2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2019-05-22-规章制度不严谨-解除劳动关系系违法](../regions/municipalities/beijing/cases/2019-05-22-规章制度不严谨-解除劳动关系系违法.md)
-  - [2021-07-05-劳动者提出，后与用人单位协商一致，劳动合同可以解除](../regions/municipalities/beijing/cases/2021-07-05-劳动者提出，后与用人单位协商一致，劳动合同可以解除.md)
-  - [2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2022-01-21-用人单位不得任意降低劳动者的加班费计算基数](../regions/municipalities/beijing/cases/2022-01-21-用人单位不得任意降低劳动者的加班费计算基数.md)
-  - [2022-04-19-调整工作地点需在合理范围之内](../regions/municipalities/beijing/cases/2022-04-19-调整工作地点需在合理范围之内.md)
-  - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
-  - [2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例.md)
-  - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例.md)
-  - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
 - **二倍工资与合同订立**（17 篇）：
   - [2015-07-10-案例三-客观情况发生重大改变，双方协商不一致的，企业可解除劳动合同](../regions/municipalities/beijing/cases/2015-07-10-案例三-客观情况发生重大改变，双方协商不一致的，企业可解除劳动合同.md)
   - [2016-02-01-违法解除劳动合同的赔偿金与代通知金不能同时适用](../regions/municipalities/beijing/cases/2016-02-01-违法解除劳动合同的赔偿金与代通知金不能同时适用.md)
@@ -264,43 +214,42 @@
   - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
   - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
   - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
-- **试用期**（17 篇）：
-  - [2015-07-10-案例四-试用期内用人单位也不能让劳动者随便走人](../regions/municipalities/beijing/cases/2015-07-10-案例四-试用期内用人单位也不能让劳动者随便走人.md)
-  - [2016-09-18-用人单位与劳动者不能约定解除条件](../regions/municipalities/beijing/cases/2016-09-18-用人单位与劳动者不能约定解除条件.md)
+- **调岗与工作地点**（17 篇）：
+  - [2015-07-10-案例三-客观情况发生重大改变，双方协商不一致的，企业可解除劳动合同](../regions/municipalities/beijing/cases/2015-07-10-案例三-客观情况发生重大改变，双方协商不一致的，企业可解除劳动合同.md)
   - [2017-07-19-2017年北京市十大劳动争议仲裁典型案例](../regions/municipalities/beijing/cases/2017-07-19-2017年北京市十大劳动争议仲裁典型案例.md)
-  - [2018-05-31-用人单位违法约定试用期需担责](../regions/municipalities/beijing/cases/2018-05-31-用人单位违法约定试用期需担责.md)
+  - [2017-09-29-不同意用人单位调岗，个人应及时表达意见](../regions/municipalities/beijing/cases/2017-09-29-不同意用人单位调岗，个人应及时表达意见.md)
+  - [2018-03-01-用人单位能否单方面变更劳动者工作地点？](../regions/municipalities/beijing/cases/2018-03-01-用人单位能否单方面变更劳动者工作地点？.md)
   - [2018-07-30-试用期内解除聘用合同需谨慎](../regions/municipalities/beijing/cases/2018-07-30-试用期内解除聘用合同需谨慎.md)
+  - [2018-08-13-女工“三期”内，用人单位不得擅自调岗降薪](../regions/municipalities/beijing/cases/2018-08-13-女工“三期”内，用人单位不得擅自调岗降薪.md)
   - [2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例.md)
   - [2019-11-05-2019年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2019-11-05-2019年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2020-08-12-不属于受案范围-仲裁申请未受理](../regions/municipalities/beijing/cases/2020-08-12-不属于受案范围-仲裁申请未受理.md)
-  - [2020-11-20-北京市涉新冠肺炎疫情劳动争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2020-11-20-北京市涉新冠肺炎疫情劳动争议仲裁十大典型案例.md)
-  - [2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例.md)
   - [2022-03-18-应聘登记表是否能视为劳动合同](../regions/municipalities/beijing/cases/2022-03-18-应聘登记表是否能视为劳动合同.md)
-  - [2022-08-24-劳动者应如实提供与工作相关的个人信息](../regions/municipalities/beijing/cases/2022-08-24-劳动者应如实提供与工作相关的个人信息.md)
+  - [2022-04-19-调整工作地点需在合理范围之内](../regions/municipalities/beijing/cases/2022-04-19-调整工作地点需在合理范围之内.md)
+  - [2022-06-02-入职培训应计入劳动关系存续期间](../regions/municipalities/beijing/cases/2022-06-02-入职培训应计入劳动关系存续期间.md)
+  - [2022-09-09-劳动者需服从用人单位的合理调岗安排](../regions/municipalities/beijing/cases/2022-09-09-劳动者需服从用人单位的合理调岗安排.md)
   - [2022-12-22-2022年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md)
+  - [2023-02-27-用人单位以员工拒绝调岗终止劳动合同，需要支付经济补偿吗？](../regions/municipalities/beijing/cases/2023-02-27-用人单位以员工拒绝调岗终止劳动合同，需要支付经济补偿吗？.md)
+  - [2023-08-30-临时培训是否等同于变更工作地点？](../regions/municipalities/beijing/cases/2023-08-30-临时培训是否等同于变更工作地点？.md)
   - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例.md)
   - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **带薪年休假**（17 篇）：
-  - [2016-05-27-未休年假工资时效适用](../regions/municipalities/beijing/cases/2016-05-27-未休年假工资时效适用.md)
-  - [2016-09-18-带薪年休假应由用人单位统筹安排](../regions/municipalities/beijing/cases/2016-09-18-带薪年休假应由用人单位统筹安排.md)
-  - [2016-09-18-签署解除劳动合同协议书后，劳动者另行主张权利未获支持](../regions/municipalities/beijing/cases/2016-09-18-签署解除劳动合同协议书后，劳动者另行主张权利未获支持.md)
+- **女职工与生育**（16 篇）：
+  - [2015-07-10-案例九-女职工产检、产假期间的工资应照发](../regions/municipalities/beijing/cases/2015-07-10-案例九-女职工产检、产假期间的工资应照发.md)
+  - [2015-07-10-案例二-不缴社保，劳动者虽自愿企业仍违法](../regions/municipalities/beijing/cases/2015-07-10-案例二-不缴社保，劳动者虽自愿企业仍违法.md)
+  - [2016-09-18-约定加班工资基数需合规](../regions/municipalities/beijing/cases/2016-09-18-约定加班工资基数需合规.md)
+  - [2017-05-15-签署《离职申请》需谨慎](../regions/municipalities/beijing/cases/2017-05-15-签署《离职申请》需谨慎.md)
+  - [2017-07-07-女职工的生育津贴应作为月工资计入补偿金计算基数](../regions/municipalities/beijing/cases/2017-07-07-女职工的生育津贴应作为月工资计入补偿金计算基数.md)
   - [2017-07-19-2017年北京市十大劳动争议仲裁典型案例](../regions/municipalities/beijing/cases/2017-07-19-2017年北京市十大劳动争议仲裁典型案例.md)
-  - [2017-11-27-经济补偿金低于我市上年度职工平均工资三倍的，无需缴税](../regions/municipalities/beijing/cases/2017-11-27-经济补偿金低于我市上年度职工平均工资三倍的，无需缴税.md)
-  - [2018-01-31-职工未申请年休假，用人单位亦应支付未休年休假工资](../regions/municipalities/beijing/cases/2018-01-31-职工未申请年休假，用人单位亦应支付未休年休假工资.md)
+  - [2018-08-13-女工“三期”内，用人单位不得擅自调岗降薪](../regions/municipalities/beijing/cases/2018-08-13-女工“三期”内，用人单位不得擅自调岗降薪.md)
   - [2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2019-11-05-2019年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2019-11-05-2019年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2020-08-27-休带薪年休假是否需获得批准](../regions/municipalities/beijing/cases/2020-08-27-休带薪年休假是否需获得批准.md)
-  - [2020-11-20-北京市涉新冠肺炎疫情劳动争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2020-11-20-北京市涉新冠肺炎疫情劳动争议仲裁十大典型案例.md)
+  - [2019-05-22-规章制度不严谨-解除劳动关系系违法](../regions/municipalities/beijing/cases/2019-05-22-规章制度不严谨-解除劳动关系系违法.md)
+  - [2021-07-05-劳动者提出，后与用人单位协商一致，劳动合同可以解除](../regions/municipalities/beijing/cases/2021-07-05-劳动者提出，后与用人单位协商一致，劳动合同可以解除.md)
   - [2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2022-12-22-2022年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md)
+  - [2022-01-21-用人单位不得任意降低劳动者的加班费计算基数](../regions/municipalities/beijing/cases/2022-01-21-用人单位不得任意降低劳动者的加班费计算基数.md)
+  - [2022-04-19-调整工作地点需在合理范围之内](../regions/municipalities/beijing/cases/2022-04-19-调整工作地点需在合理范围之内.md)
   - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
-  - [2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例.md)
-  - [2024-07-05-非全日制用工时间可否计入累计工作年限？](../regions/municipalities/beijing/cases/2024-07-05-非全日制用工时间可否计入累计工作年限？.md)
-  - [2024-07-08-年休假休完后，出现当年不享受年休假的情形应如何处理？](../regions/municipalities/beijing/cases/2024-07-08-年休假休完后，出现当年不享受年休假的情形应如何处理？.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **加班费与工时**（16 篇）：
+  - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
+  - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
+- **加班费与工时**（15 篇）：
   - [2015-07-10-案例八-劳务派遣职工遭遇工伤，用人单位和用工单位都有赔偿责任](../regions/municipalities/beijing/cases/2015-07-10-案例八-劳务派遣职工遭遇工伤，用人单位和用工单位都有赔偿责任.md)
   - [2015-07-10-案例十-劳动者加班应注意保留证据](../regions/municipalities/beijing/cases/2015-07-10-案例十-劳动者加班应注意保留证据.md)
   - [2016-09-18-一裁终局审结快，劳动者维权周期短](../regions/municipalities/beijing/cases/2016-09-18-一裁终局审结快，劳动者维权周期短.md)
@@ -316,8 +265,39 @@
   - [2022-12-22-2022年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md)
   - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
   - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **工伤与职业病**（15 篇）：
+- **试用期**（15 篇）：
+  - [2015-07-10-案例四-试用期内用人单位也不能让劳动者随便走人](../regions/municipalities/beijing/cases/2015-07-10-案例四-试用期内用人单位也不能让劳动者随便走人.md)
+  - [2016-09-18-用人单位与劳动者不能约定解除条件](../regions/municipalities/beijing/cases/2016-09-18-用人单位与劳动者不能约定解除条件.md)
+  - [2017-07-19-2017年北京市十大劳动争议仲裁典型案例](../regions/municipalities/beijing/cases/2017-07-19-2017年北京市十大劳动争议仲裁典型案例.md)
+  - [2018-05-31-用人单位违法约定试用期需担责](../regions/municipalities/beijing/cases/2018-05-31-用人单位违法约定试用期需担责.md)
+  - [2018-07-30-试用期内解除聘用合同需谨慎](../regions/municipalities/beijing/cases/2018-07-30-试用期内解除聘用合同需谨慎.md)
+  - [2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例.md)
+  - [2019-11-05-2019年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2019-11-05-2019年北京市劳动人事争议仲裁十大典型案例.md)
+  - [2020-08-12-不属于受案范围-仲裁申请未受理](../regions/municipalities/beijing/cases/2020-08-12-不属于受案范围-仲裁申请未受理.md)
+  - [2020-11-20-北京市涉新冠肺炎疫情劳动争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2020-11-20-北京市涉新冠肺炎疫情劳动争议仲裁十大典型案例.md)
+  - [2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例.md)
+  - [2022-03-18-应聘登记表是否能视为劳动合同](../regions/municipalities/beijing/cases/2022-03-18-应聘登记表是否能视为劳动合同.md)
+  - [2022-08-24-劳动者应如实提供与工作相关的个人信息](../regions/municipalities/beijing/cases/2022-08-24-劳动者应如实提供与工作相关的个人信息.md)
+  - [2022-12-22-2022年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md)
+  - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
+  - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
+- **带薪年休假**（15 篇）：
+  - [2016-05-27-未休年假工资时效适用](../regions/municipalities/beijing/cases/2016-05-27-未休年假工资时效适用.md)
+  - [2016-09-18-带薪年休假应由用人单位统筹安排](../regions/municipalities/beijing/cases/2016-09-18-带薪年休假应由用人单位统筹安排.md)
+  - [2016-09-18-签署解除劳动合同协议书后，劳动者另行主张权利未获支持](../regions/municipalities/beijing/cases/2016-09-18-签署解除劳动合同协议书后，劳动者另行主张权利未获支持.md)
+  - [2017-07-19-2017年北京市十大劳动争议仲裁典型案例](../regions/municipalities/beijing/cases/2017-07-19-2017年北京市十大劳动争议仲裁典型案例.md)
+  - [2017-11-27-经济补偿金低于我市上年度职工平均工资三倍的，无需缴税](../regions/municipalities/beijing/cases/2017-11-27-经济补偿金低于我市上年度职工平均工资三倍的，无需缴税.md)
+  - [2018-01-31-职工未申请年休假，用人单位亦应支付未休年休假工资](../regions/municipalities/beijing/cases/2018-01-31-职工未申请年休假，用人单位亦应支付未休年休假工资.md)
+  - [2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例.md)
+  - [2019-11-05-2019年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2019-11-05-2019年北京市劳动人事争议仲裁十大典型案例.md)
+  - [2020-08-27-休带薪年休假是否需获得批准](../regions/municipalities/beijing/cases/2020-08-27-休带薪年休假是否需获得批准.md)
+  - [2020-11-20-北京市涉新冠肺炎疫情劳动争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2020-11-20-北京市涉新冠肺炎疫情劳动争议仲裁十大典型案例.md)
+  - [2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例.md)
+  - [2022-12-22-2022年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md)
+  - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
+  - [2024-07-05-非全日制用工时间可否计入累计工作年限？](../regions/municipalities/beijing/cases/2024-07-05-非全日制用工时间可否计入累计工作年限？.md)
+  - [2024-07-08-年休假休完后，出现当年不享受年休假的情形应如何处理？](../regions/municipalities/beijing/cases/2024-07-08-年休假休完后，出现当年不享受年休假的情形应如何处理？.md)
+- **工伤与职业病**（13 篇）：
   - [2015-07-10-案例二-不缴社保，劳动者虽自愿企业仍违法](../regions/municipalities/beijing/cases/2015-07-10-案例二-不缴社保，劳动者虽自愿企业仍违法.md)
   - [2015-07-10-案例八-劳务派遣职工遭遇工伤，用人单位和用工单位都有赔偿责任](../regions/municipalities/beijing/cases/2015-07-10-案例八-劳务派遣职工遭遇工伤，用人单位和用工单位都有赔偿责任.md)
   - [2016-09-18-一裁终局审结快，劳动者维权周期短](../regions/municipalities/beijing/cases/2016-09-18-一裁终局审结快，劳动者维权周期短.md)
@@ -330,10 +310,8 @@
   - [2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例.md)
   - [2022-12-22-2022年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md)
   - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
-  - [2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例.md)
   - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **事业单位人事争议**（15 篇）：
+- **事业单位人事争议**（13 篇）：
   - [2017-07-07-人事争议当事人应当在仲裁时效内维权](../regions/municipalities/beijing/cases/2017-07-07-人事争议当事人应当在仲裁时效内维权.md)
   - [2017-07-19-2017年北京市十大劳动争议仲裁典型案例](../regions/municipalities/beijing/cases/2017-07-19-2017年北京市十大劳动争议仲裁典型案例.md)
   - [2018-04-28-聘用合同到期终止能否获得经济补偿金](../regions/municipalities/beijing/cases/2018-04-28-聘用合同到期终止能否获得经济补偿金.md)
@@ -346,10 +324,8 @@
   - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
   - [2024-07-05-非全日制用工时间可否计入累计工作年限？](../regions/municipalities/beijing/cases/2024-07-05-非全日制用工时间可否计入累计工作年限？.md)
   - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例.md)
   - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **竞业限制与保密**（12 篇）：
+- **竞业限制与保密**（9 篇）：
   - [2016-09-18-劳动者离职后即设立同类业务公司，违反竞业限制义务](../regions/municipalities/beijing/cases/2016-09-18-劳动者离职后即设立同类业务公司，违反竞业限制义务.md)
   - [2017-07-19-2017年北京市十大劳动争议仲裁典型案例](../regions/municipalities/beijing/cases/2017-07-19-2017年北京市十大劳动争议仲裁典型案例.md)
   - [2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例.md)
@@ -357,40 +333,32 @@
   - [2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例.md)
   - [2022-12-22-2022年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md)
   - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
-  - [2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例.md)
   - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例.md)
   - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **仲裁时效与程序**（7 篇）：
+- **仲裁时效与程序**（6 篇）：
   - [2016-05-27-未休年假工资时效适用](../regions/municipalities/beijing/cases/2016-05-27-未休年假工资时效适用.md)
   - [2016-09-18-一裁终局审结快，劳动者维权周期短](../regions/municipalities/beijing/cases/2016-09-18-一裁终局审结快，劳动者维权周期短.md)
   - [2016-09-18-带薪年休假应由用人单位统筹安排](../regions/municipalities/beijing/cases/2016-09-18-带薪年休假应由用人单位统筹安排.md)
   - [2017-07-07-人事争议当事人应当在仲裁时效内维权](../regions/municipalities/beijing/cases/2017-07-07-人事争议当事人应当在仲裁时效内维权.md)
   - [2020-08-12-不属于受案范围-仲裁申请未受理](../regions/municipalities/beijing/cases/2020-08-12-不属于受案范围-仲裁申请未受理.md)
   - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **新就业形态**（6 篇）：
-  - [2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2022-12-22-2022年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md)
-  - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
-  - [2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-北京市发布2023年度十大劳动人事争议仲裁典型案例.md)
-  - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
-  - [2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2024-12-17-北京市发布2024年度十大劳动人事争议仲裁典型案例.md)
 - **养老保险与退休**（5 篇）：
   - [2017-05-27-连续工作满十年，单位无权选择终止劳动合同](../regions/municipalities/beijing/cases/2017-05-27-连续工作满十年，单位无权选择终止劳动合同.md)
   - [2017-07-07-人事争议当事人应当在仲裁时效内维权](../regions/municipalities/beijing/cases/2017-07-07-人事争议当事人应当在仲裁时效内维权.md)
   - [2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2018-10-19-2018年北京市劳动人事争议仲裁十大典型案例.md)
   - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
   - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
-- **劳动关系确认**（5 篇）：
+- **劳动关系确认**（4 篇）：
   - [2020-08-12-不属于受案范围-仲裁申请未受理](../regions/municipalities/beijing/cases/2020-08-12-不属于受案范围-仲裁申请未受理.md)
   - [2021-07-02-确认劳动关系，用人单位与劳动者均负有举证责任](../regions/municipalities/beijing/cases/2021-07-02-确认劳动关系，用人单位与劳动者均负有举证责任.md)
   - [2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例.md)
   - [2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2025-12-26-2025年北京市劳动人事争议仲裁十大典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)
-- **劳务派遣与外包**（4 篇）：
+- **新就业形态**（4 篇）：
+  - [2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2021-11-05-2021年北京市劳动人事争议仲裁十大典型案例.md)
+  - [2022-12-22-2022年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2022-12-22-2022年北京市劳动人事争议仲裁典型案例.md)
+  - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
+  - [2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2024-12-17-2024年北京市劳动人事争议仲裁十大典型案例.md)
+- **劳务派遣与外包**（3 篇）：
   - [2015-07-10-案例八-劳务派遣职工遭遇工伤，用人单位和用工单位都有赔偿责任](../regions/municipalities/beijing/cases/2015-07-10-案例八-劳务派遣职工遭遇工伤，用人单位和用工单位都有赔偿责任.md)
   - [2020-11-20-北京市涉新冠肺炎疫情劳动争议仲裁十大典型案例](../regions/municipalities/beijing/cases/2020-11-20-北京市涉新冠肺炎疫情劳动争议仲裁十大典型案例.md)
   - [2023-12-29-2023年北京市劳动人事争议仲裁典型案例](../regions/municipalities/beijing/cases/2023-12-29-2023年北京市劳动人事争议仲裁典型案例.md)
-  - [README](../regions/municipalities/beijing/cases/README.md)

@@ -15,14 +15,18 @@
 
 ## 归档进度
 
-- 计算参数：2016—2026 年节假日日历参数（法定节假日/休息日/调休上班日）与北京工资口径参数（`regions/national/statistics/`、`regions/municipalities/beijing/statistics/`）。
-- 国家层面：已归档法律 7 部、行政法规 12 部、司法解释 2 部、部门规章与配套规范性文件 19 部（含官方原件 40 份）。
+> 数字基线见 [`reports/PROGRESS-2026-09-23.md`](./reports/PROGRESS-2026-09-23.md)（882 条记录 / 67 个地区 / 168 条案例切片）。
+
+- 计算参数：2016—2026 年节假日日历参数（法定节假日/休息日/调休上班日）与工资口径参数（`regions/national/statistics/`、`regions/municipalities/beijing/statistics/`、`regions/municipalities/shanxi/statistics/`）。
+- 法律法规：以国家法律法规数据库（flk.npc.gov.cn）为唯一信源全量更新，累计 **689 件**（法律、行政法规、司法解释、地方性法规、地方政府规章），只收「有效 / 尚未生效」，覆盖 67 个地区。
+- 国家层面：法律、行政法规、司法解释、部门规章与配套规范性文件（含官方原件）。
   - 目录：`regions/national/`，来源与清单：`regions/national/official-index.md`
-- 北京市：已完成第一轮批量抓取（文书模板、操作手册、办事指南、典型案例、管辖规定、机构名录、地方规范性文件）。
+- 北京市：文书模板、操作手册、办事指南、典型案例（94 条记录：年度十大案例合集 9 个 + 单篇 78 篇）、管辖规定、机构名录、地方规范性文件。
   - 抓取与核验结论：`regions/municipalities/beijing/official-index.md`
+- 案例语料（供检索）：`indexes/derived/` —— 切片 **168 条**、结构化记录 **168 条**（争议焦点、仲裁请求、处理结果、裁决要旨、法条依据、金额口径、关键词）。
 - 全量清单：`indexes/documents.csv` / `indexes/documents.json`（含 `region` 列），主题视图：`indexes/by-topic/`
 - 抓取流程（可复现）：`tools/crawl/README.md`
-- 其他省市区县：目录已就位，尚未开始归档。
+- 其他省市区县：法规已批量归档（见上），**计算参数表尚无**（仅北京 / 山西 / 国家三张）。
 
 ## 北京资料入口
 
@@ -49,7 +53,8 @@
 
 ## 项目进度
 
-- [`reports/PROGRESS-2026-09-21.md`](./reports/PROGRESS-2026-09-21.md)：阶段总览（归档规模、参数层与口径决策、计算模块、数据质量纪律、工具链、缺口与下一步）
+- [`reports/PROGRESS-2026-09-23.md`](./reports/PROGRESS-2026-09-23.md)：**基线重算 + 本轮新增**（案例语料结构化：切片 168 条；索引现状与缺口清单以本报告为准）
+- [`reports/PROGRESS-2026-09-21.md`](./reports/PROGRESS-2026-09-21.md)：阶段总览（首版，架构 / 参数层 / 口径决策 / 数据质量纪律 / 复现命令）
 
 ## 目录结构
 
